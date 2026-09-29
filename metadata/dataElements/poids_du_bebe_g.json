@@ -1,0 +1,18 @@
+{
+  "id": "2eb52d05-5c0e-4558-ab3f-6067598c6eaf",
+  "dataType": "integer",
+  "organisation": "",
+  "name": "poids_du_bebe_g",
+  "label": "Poids du bébé (g)",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "691dba3a-bfd0-43c6-a26e-20621b123c48",
+  "name": "pays",
+  "label": "Pays",
+  "icon": "layout-group",
+  "level": 1,
+  "attributes": [
+    {
+      "key": "68993812-8c0b-49f9-9a3e-6e4a7a23c5ff",
+      "title": "Identification details",
+      "fields": [
+        {
+          "key": "ou_name",
+          "label": "Organisation Unit Name",
+          "dataType": "string",
+          "dataElementId": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "dashboard": []
+}

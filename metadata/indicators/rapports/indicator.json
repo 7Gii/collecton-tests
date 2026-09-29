@@ -1,0 +1,15 @@
+{
+  "id": "3992776a-3478-4627-959c-1c78538e8751",
+  "name": "rapports",
+  "title": "Rapports",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "person",
+  "description": [
+    "Nombre de rapports de la personne."
+  ],
+  "type": "number",
+  "displayExpression": "showIndicator",
+  "valueExpression": "calculateValue",
+  "priority": 2
+}

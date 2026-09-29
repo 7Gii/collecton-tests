@@ -1,0 +1,28 @@
+{
+  "id": "0a88558b-dbd6-4ad2-bab5-972fa076c527",
+  "name": "etat_du_nouveaune",
+  "label": "État du nouveau-né",
+  "options": [
+    {
+      "id": "17e32595-bb0f-49e7-b32d-dd0d94063d7b",
+      "name": "Bon",
+      "value": "bon",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "6f4be6a1-ef6a-477e-9afc-2030738de7ff",
+      "name": "Signes de danger",
+      "value": "signes_danger",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "8932f8f8-02d7-48dd-b935-88ed9f3f68e7",
+      "name": "Décédé",
+      "value": "decede",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

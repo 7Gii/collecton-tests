@@ -1,0 +1,18 @@
+{
+  "id": "f693a9a2-4de6-4e01-bc4c-f29ffcf50626",
+  "dataType": "select_one",
+  "organisation": "",
+  "name": "etat_de_la_mere",
+  "label": "État de la mère",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "39979270-2a50-4681-ad94-c6e7fc89dbef",
+  "tags": []
+}

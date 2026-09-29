@@ -1,0 +1,18 @@
+{
+  "id": "611c441a-c5f2-49e2-8efe-3842f2c7f134",
+  "dataType": "integer",
+  "organisation": "",
+  "name": "gestite",
+  "label": "Gestité",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Nombre total de grossesses, y compris l'actuelle",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

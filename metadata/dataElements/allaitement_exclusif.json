@@ -1,0 +1,18 @@
+{
+  "id": "564bb680-5de9-4077-82d4-5980f37c81e5",
+  "dataType": "boolean",
+  "organisation": "",
+  "name": "allaitement_exclusif",
+  "label": "Allaitement exclusif",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

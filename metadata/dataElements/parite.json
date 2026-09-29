@@ -1,0 +1,18 @@
+{
+  "id": "73114d3f-afb8-4e3d-ae69-f1e85be6cfe8",
+  "dataType": "integer",
+  "organisation": "",
+  "name": "parite",
+  "label": "Parité",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Nombre d'accouchements antérieurs",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

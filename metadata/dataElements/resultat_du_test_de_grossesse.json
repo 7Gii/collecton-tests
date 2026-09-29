@@ -1,0 +1,18 @@
+{
+  "id": "5e35a5d9-5e77-4a47-8f82-4cba8a36b63b",
+  "dataType": "select_one",
+  "organisation": "",
+  "name": "resultat_du_test_de_grossesse",
+  "label": "Résultat du test de grossesse",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "a0ad5521-5a69-4e3e-8703-db68f86772c9",
+  "tags": []
+}

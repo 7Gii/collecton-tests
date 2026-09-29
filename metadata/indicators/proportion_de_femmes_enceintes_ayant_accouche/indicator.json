@@ -1,0 +1,14 @@
+{
+  "id": "9f104570-c1bf-4459-899c-fd073c9a5108",
+  "name": "proportion_de_femmes_enceintes_ayant_accouche",
+  "title": "Proportion de femmes enceintes ayant accouché",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "Femmes ayant accouché / femmes avec un diagnostic de grossesse positif."
+  ],
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "calculateValue"
+}

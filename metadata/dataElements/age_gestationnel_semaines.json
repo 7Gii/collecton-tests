@@ -1,0 +1,18 @@
+{
+  "id": "0c53d529-ff8d-4a0d-97c7-54443e903ef4",
+  "dataType": "integer",
+  "organisation": "",
+  "name": "age_gestationnel_semaines",
+  "label": "Âge gestationnel (semaines)",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

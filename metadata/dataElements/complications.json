@@ -1,0 +1,18 @@
+{
+  "id": "497f7f6a-7b20-433f-ae9a-f9383592c3ba",
+  "dataType": "select_multiple",
+  "organisation": "",
+  "name": "complications",
+  "label": "Complications",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "f5f1dcaf-62cd-4ea3-99c7-044b8032f788",
+  "tags": []
+}

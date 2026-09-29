@@ -1,0 +1,42 @@
+{
+  "id": "f502ca6a-abcf-466a-a8ef-364832761f71",
+  "name": "numero_cpn",
+  "label": "Numéro CPN",
+  "options": [
+    {
+      "id": "1f28275f-9818-4532-a573-38c1914a4fb7",
+      "name": "CPN1",
+      "value": "cpn1",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "fa7aa506-a9c6-4904-8046-a35758a81019",
+      "name": "CPN2",
+      "value": "cpn2",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f7819ad7-280f-44b0-a2ed-949ebd4ba706",
+      "name": "CPN3",
+      "value": "cpn3",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "21508469-5795-4b70-9f12-620d22e60b48",
+      "name": "CPN4",
+      "value": "cpn4",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "37a78cfb-80ab-4fa3-b958-d2939f055528",
+      "name": "CPN5+",
+      "value": "cpn5_plus",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

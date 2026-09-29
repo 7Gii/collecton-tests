@@ -1,0 +1,102 @@
+[
+  {
+    "id": "abb51cfa-d57b-4bee-af38-4ed22e2729fd",
+    "dataType": "string",
+    "organisation": "CollectOn",
+    "name": "person_name",
+    "label": "Person Full Name",
+    "icon": "symbol-person",
+    "description": "Full name of the individual receiving care.",
+    "placeholder": "e.g. John Doe",
+    "hint": "Enter the person's first and last name.",
+    "requiredMessage": "The person's name is required.",
+    "validationMessage": "Please enter a valid name.",
+    "defaultValue": "(app) => ''",
+    "calculationExpression": null,
+    "isConfidential": false,
+    "optionSetId": null,
+    "tags": [
+      "person"
+    ]
+  },
+  {
+    "id": "17fea262-eed0-4a51-a00b-7d98cfbac120",
+    "dataType": "select_one",
+    "organisation": "CollectOn",
+    "name": "person_gender",
+    "label": "Gender",
+    "icon": "symbol-gender",
+    "description": "Select the person's gender from the available options.",
+    "placeholder": "Choose gender...",
+    "hint": "Gender helps personalize care and reporting.",
+    "requiredMessage": "Gender is required for medical records.",
+    "validationMessage": "Please select a valid gender option.",
+    "defaultValue": "(app) => ''",
+    "calculationExpression": null,
+    "isConfidential": false,
+    "optionSetId": "dba5b662-3ff2-4ba0-9070-73676a90867c",
+    "tags": [
+      "person"
+    ]
+  },
+  {
+    "id": "6198a2c5-6eea-408b-a8e2-a2198cdd4dca",
+    "dataType": "date",
+    "organisation": "CollectOn",
+    "name": "birthdate",
+    "label": "Date of Birth",
+    "icon": "symbol-calendar",
+    "description": "Enter the person's birthdate.",
+    "placeholder": "DD/MM/YYYY",
+    "hint": "This helps calculate age and eligibility.",
+    "requiredMessage": "Date of birth is mandatory.",
+    "validationMessage": "Enter a valid date in DD/MM/YYYY format.",
+    "defaultValue": "(app) => ''",
+    "calculationExpression": null,
+    "isConfidential": false,
+    "optionSetId": null,
+    "tags": [
+      "person"
+    ]
+  },
+  {
+    "id": "b62d0731-213b-4924-a067-fc6976a78b78",
+    "dataType": "boolean",
+    "organisation": "CollectOn",
+    "name": "person_is_deceased",
+    "label": "Is Deceased",
+    "icon": "symbol-string",
+    "description": "Default description from the DataElement.",
+    "placeholder": "Default placeholder...",
+    "hint": "Default hint from the DataElement.",
+    "requiredMessage": "This value is required",
+    "validationMessage": "The value is invalid",
+    "defaultValue": "(app) => false",
+    "calculationExpression": null,
+    "isConfidential": false,
+    "optionSetId": null,
+    "tags": [
+      "person"
+    ]
+  },
+  {
+    "id": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+    "dataType": "string",
+    "organisation": "CollectOn",
+    "name": "ou_name",
+    "label": "Organisation Unit Name",
+    "icon": "symbol-building",
+    "description": "Name of the organisational unit (e.g. clinic, department, center).",
+    "placeholder": "e.g. Bamako Health Center",
+    "hint": "Enter the official name of the organisation unit.",
+    "requiredMessage": "Organisation unit name is required.",
+    "validationMessage": "Please enter a valid name for the organisation unit.",
+    "defaultValue": "(app) => ''",
+    "calculationExpression": null,
+    "isConfidential": false,
+    "optionSetId": null,
+    "tags": [
+      "ou"
+    ]
+  }
+]

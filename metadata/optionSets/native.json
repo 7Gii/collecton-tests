@@ -1,0 +1,44 @@
+[
+  {
+    "id": "dba5b662-3ff2-4ba0-9070-73676a90867c",
+    "name": "gender",
+    "label": "Gender",
+    "options": [
+      {
+        "id": "6b05054d-f933-41c9-9e64-dc41eafcec83",
+        "name": "Male",
+        "value": "M",
+        "nameAudio": null,
+        "icon": "symbol-male"
+      },
+      {
+        "id": "d362710d-2256-4fe6-bb7f-234d735f2fc6",
+        "name": "Female",
+        "value": "F",
+        "nameAudio": null,
+        "icon": "symbol-female"
+      }
+    ]
+  },
+  {
+    "id": "0df847b4-39f8-4ca6-9bfc-a9fb36de503e",
+    "name": "yes_no",
+    "label": "Yes or No Options",
+    "options": [
+      {
+        "id": "49015fea-89eb-4c60-8d66-6361d2c689d3",
+        "name": "Yes",
+        "value": "yes",
+        "nameAudio": null,
+        "icon": null
+      },
+      {
+        "id": "f6e8ad1f-7b28-4afe-b180-56b122903551",
+        "name": "No",
+        "value": "no",
+        "nameAudio": null,
+        "icon": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "88ece738-e1e9-45ac-a386-40898d8e701a",
+  "name": "grossesse_en_cours",
+  "title": "Grossesse en cours",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "person",
+  "description": [
+    "Badge rouge sur la ligne des femmes enceintes."
+  ],
+  "type": "icon",
+  "displayExpression": "showIndicator",
+  "valueExpression": "calculateValue",
+  "priority": 1
+}

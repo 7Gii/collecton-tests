@@ -1,0 +1,18 @@
+{
+  "id": "752d72e7-27f1-477a-bf46-aee01b11b01d",
+  "dataType": "select_one",
+  "organisation": "",
+  "name": "issue_de_laccouchement",
+  "label": "Issue de l'accouchement",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "e4616957-5d4f-4d12-bf26-e556cc88a3fc",
+  "tags": []
+}

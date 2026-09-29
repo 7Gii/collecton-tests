@@ -1,0 +1,18 @@
+{
+  "id": "8d06b877-59de-4501-8548-ac4123eb868a",
+  "dataType": "boolean",
+  "organisation": "",
+  "name": "vat_recu",
+  "label": "VAT reçu",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Vaccin antitétanique",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "72a15389-6337-4fbf-9f31-092a2773cbeb",
+  "dataType": "select_one",
+  "organisation": "",
+  "name": "mode_daccouchement",
+  "label": "Mode d'accouchement",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "07b2c486-47b1-4391-860a-54f92be1a294",
+  "tags": []
+}

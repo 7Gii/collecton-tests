@@ -1,0 +1,18 @@
+{
+  "id": "c6b5f716-1095-4e88-ad3b-21b9a7d143e6",
+  "dataType": "date",
+  "organisation": "",
+  "name": "date_prevue_daccouchement",
+  "label": "Date prévue d'accouchement",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Calculée automatiquement : DDR + 280 jours",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

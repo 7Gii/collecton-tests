@@ -1,0 +1,21 @@
+{
+  "id": "fb580095-b60b-4966-b826-d44beebeb4b1",
+  "name": "oui_non",
+  "label": "Oui Non",
+  "options": [
+    {
+      "id": "94077ebd-c3dc-4f83-936c-681dbb55642f",
+      "name": "Oui",
+      "value": "oui",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "75987f13-33a2-4813-af44-7f2c9822b255",
+      "name": "Non",
+      "value": "non",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

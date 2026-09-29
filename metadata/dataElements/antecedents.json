@@ -1,0 +1,18 @@
+{
+  "id": "05d6871a-8e70-460d-a0cc-3abbfba4062c",
+  "dataType": "select_multiple",
+  "organisation": "",
+  "name": "antecedents",
+  "label": "Antécédents",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "826dab46-52c9-4e5e-b56f-406019321e24",
+  "tags": []
+}

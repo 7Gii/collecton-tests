@@ -1,0 +1,21 @@
+{
+  "id": "e4616957-5d4f-4d12-bf26-e556cc88a3fc",
+  "name": "issue_accouchement",
+  "label": "Issue accouchement",
+  "options": [
+    {
+      "id": "56a7b118-d69c-4d9c-91d3-6b5e2a9c7851",
+      "name": "Naissance vivante",
+      "value": "naissance_vivante",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "ede50c28-dbef-4c64-9f48-4b6cbcc00ee4",
+      "name": "Mort-né",
+      "value": "mort_ne",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

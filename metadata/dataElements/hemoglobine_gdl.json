@@ -1,0 +1,18 @@
+{
+  "id": "cc259702-bd6b-4f8b-a66b-7ae10b1afd3d",
+  "dataType": "decimal",
+  "organisation": "",
+  "name": "hemoglobine_gdl",
+  "label": "Hémoglobine (g/dL)",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

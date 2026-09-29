@@ -1,0 +1,18 @@
+{
+  "id": "1f9f2336-8ccf-46c8-b398-c5d1728d72c1",
+  "dataType": "integer",
+  "organisation": "",
+  "name": "tension_systolique",
+  "label": "Tension systolique",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "En mmHg",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "sante_maternelle",
+  "title": "Santé maternelle",
+  "theme": "default",
+  "description": "Default project description.",
+  "organisation": "",
+  "version": "1.0.0",
+  "partners": [],
+  "branding": [],
+  "attributes": {},
+  "deploymentType": "staging",
+  "icon": "project.svg",
+  "mobileMaxQueryRows": 100,
+  "consoleMaxQueryRows": 500,
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "defaultLanguage": "fr",
+  "utilsFolder": "utils",
+  "styling": {
+    "globalCss": "assets/css/global.css"
+  },
+  "automations": [],
+  "metadataFiles": {
+    "permissions": "metadata/permissions.json",
+    "tags": "metadata/tags.json"
+  },
+  "metadataFolders": {
+    "assets": "assets/",
+    "i18n": "i18n/",
+    "scripts": "scripts/",
+    "metadata": "metadata/",
+    "org_unit_levels": "metadata/org_unit_levels/",
+    "person_types": "metadata/person_types/",
+    "roles": "metadata/roles/",
+    "forms": "metadata/forms/",
+    "workflows": "metadata/workflows/",
+    "indicators": "metadata/indicators/",
+    "automations": "metadata/automations/",
+    "optionSets": "metadata/optionSets/",
+    "dataElements": "metadata/dataElements/"
+  }
+}

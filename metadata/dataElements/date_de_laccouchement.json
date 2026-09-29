@@ -1,0 +1,18 @@
+{
+  "id": "f4e7c820-de07-4f86-9e4c-3b933ee3c69a",
+  "dataType": "date",
+  "organisation": "",
+  "name": "date_de_laccouchement",
+  "label": "Date de l'accouchement",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

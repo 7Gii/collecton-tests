@@ -1,0 +1,122 @@
+[
+  {
+    "id": "09c24aef-9778-46af-88aa-2058367dd69f",
+    "name": "permission_view_tasks",
+    "label": "View Tasks Tab",
+    "description": "Allows the user to view the Tasks tab."
+  },
+  {
+    "id": "4223b0c7-10f2-438c-8474-c5c0ff07c9ff",
+    "name": "permission_view_people",
+    "label": "View People Tab",
+    "description": "Allows the user to view the People tab."
+  },
+  {
+    "id": "f8a0cf32-19fa-4e02-b30a-69cedf657f13",
+    "name": "permission_view_reports",
+    "label": "View Reports Tab",
+    "description": "Allows the user to view the Reports tab."
+  },
+  {
+    "id": "e19364be-7221-4e27-8dc1-9d413bb2d6b2",
+    "name": "permission_view_indicators",
+    "label": "View Indicators Tab",
+    "description": "Allows the user to view the Indicators tab."
+  },
+  {
+    "id": "a5dcd1e1-429f-4465-838c-804e48193e97",
+    "name": "permission_edit_report",
+    "label": "Edit Submitted Report",
+    "description": "Allows the user to edit submitted reports."
+  },
+  {
+    "id": "7c38d5c9-1036-4afc-9bf3-9224144c0c0e",
+    "name": "permission_delete_report",
+    "label": "Delete Submitted Report",
+    "description": "Allows the user to delete submitted reports."
+  },
+  {
+    "id": "b6b013c8-7318-49f5-9ccd-afcdd7d8fde7",
+    "name": "permission_automatic_sync",
+    "label": "Automatic Sync",
+    "description": "Allows the user to perform automatic synchronization."
+  },
+  {
+    "id": "05334465-dcef-4cb8-903e-07a76929ebab",
+    "name": "permission_manual_sync",
+    "label": "Manual Sync",
+    "description": "Allows the user to perform manual synchronization."
+  },
+  {
+    "id": "27d19c9a-cb80-415f-88ce-43a0c194781f",
+    "name": "permission_create_pays",
+    "label": "Create Pays",
+    "description": "Allows creating a new 'Pays'."
+  },
+  {
+    "id": "74ecfd24-de52-45a9-993a-efe8bd6b5476",
+    "name": "permission_edit_pays",
+    "label": "Edit Pays",
+    "description": "Allows editing an existing 'Pays'."
+  },
+  {
+    "id": "bb8e4b0b-230f-4001-8240-4e49d4ede2ea",
+    "name": "permission_delete_pays",
+    "label": "Delete Pays",
+    "description": "Allows deleting a 'Pays'."
+  },
+  {
+    "id": "9b2ec595-983e-48b5-9f86-edc7521affde",
+    "name": "permission_create_ville",
+    "label": "Create Ville",
+    "description": "Allows creating a new 'Ville'."
+  },
+  {
+    "id": "3b54702c-0a9b-4ff6-ad9c-3063ce42eb4d",
+    "name": "permission_edit_ville",
+    "label": "Edit Ville",
+    "description": "Allows editing an existing 'Ville'."
+  },
+  {
+    "id": "90438639-c49c-418e-9ff9-33e841cf8a60",
+    "name": "permission_delete_ville",
+    "label": "Delete Ville",
+    "description": "Allows deleting a 'Ville'."
+  },
+  {
+    "id": "1fce7c55-1efb-4276-90bc-578c93d73a9f",
+    "name": "permission_create_menage",
+    "label": "Create Ménage",
+    "description": "Allows creating a new 'Ménage'."
+  },
+  {
+    "id": "d75e242e-5376-40d9-98cc-2baba21b8059",
+    "name": "permission_edit_menage",
+    "label": "Edit Ménage",
+    "description": "Allows editing an existing 'Ménage'."
+  },
+  {
+    "id": "4d8e6f60-eda9-4d97-9f4e-802d5f86188c",
+    "name": "permission_delete_menage",
+    "label": "Delete Ménage",
+    "description": "Allows deleting a 'Ménage'."
+  },
+  {
+    "id": "a4b51775-1ae4-4ed8-a9a1-471ffab698b5",
+    "name": "permission_create_femme",
+    "label": "Create Femme",
+    "description": "Allows creating a new 'Femme'."
+  },
+  {
+    "id": "dfaab8fd-8bba-46ca-9348-e5bf3174575b",
+    "name": "permission_edit_femme",
+    "label": "Edit Femme",
+    "description": "Allows editing an existing 'Femme'."
+  },
+  {
+    "id": "5f585f1a-5a90-4b36-bd81-fbded64f5be9",
+    "name": "permission_delete_femme",
+    "label": "Delete Femme",
+    "description": "Allows deleting a 'Femme'."
+  }
+]

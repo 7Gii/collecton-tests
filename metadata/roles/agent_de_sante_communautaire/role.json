@@ -1,0 +1,22 @@
+{
+  "id": "dee6c779-0c70-49b0-8dc8-dd74bbe6a4e9",
+  "name": "agent_de_sante_communautaire",
+  "label": "Agent de santé communautaire",
+  "orgUnitLevelId": "26f82ea9-3463-49fe-bd99-40554f6675c2",
+  "permissions": [
+    "permission_view_tasks",
+    "permission_view_people",
+    "permission_view_reports",
+    "permission_view_indicators",
+    "permission_edit_report",
+    "permission_automatic_sync",
+    "permission_manual_sync",
+    "permission_create_menage",
+    "permission_edit_menage",
+    "permission_create_femme",
+    "permission_edit_femme"
+  ],
+  "orgUnitsSync": "getOrgUnitsForSync",
+  "personsSync": "getPersonsForSync",
+  "reportsSync": "getReportsForSync"
+}

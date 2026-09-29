@@ -1,0 +1,28 @@
+{
+  "id": "bcb0c737-fac9-4690-a4d0-b0589ab362fa",
+  "name": "lieu_accouchement",
+  "label": "Lieu accouchement",
+  "options": [
+    {
+      "id": "10c91938-75bd-465d-9936-40dc2dfd3a2e",
+      "name": "Structure de santé",
+      "value": "structure_sante",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "7e3404cb-7ab1-453c-aa3c-f63b0fc5f80e",
+      "name": "Domicile",
+      "value": "domicile",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "0f0d0de3-d945-4942-8397-1374fce195cd",
+      "name": "Autre",
+      "value": "autre",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

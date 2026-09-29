@@ -1,0 +1,12 @@
+[
+  {
+    "id": "858c6e24-56ee-425b-a948-93c7d773fc85",
+    "name": "person",
+    "label": "Person"
+  },
+  {
+    "id": "2fd29f94-86c2-4761-ad75-307e7a8194e6",
+    "name": "ou",
+    "label": "Organization unit"
+  }
+]

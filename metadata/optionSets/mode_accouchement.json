@@ -1,0 +1,21 @@
+{
+  "id": "07b2c486-47b1-4391-860a-54f92be1a294",
+  "name": "mode_accouchement",
+  "label": "Mode accouchement",
+  "options": [
+    {
+      "id": "359e530e-4264-43cb-bd30-82a0d060975b",
+      "name": "Voie basse",
+      "value": "voie_basse",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "07b871bf-8d2a-4ca1-93d0-bf2693968aaf",
+      "name": "Césarienne",
+      "value": "cesarienne",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

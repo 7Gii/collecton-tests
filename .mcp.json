@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "collecton": {
+      "command": "node",
+      "args": ["/Users/gilbertagbodamakou/Documents/shellit/Dev/collecton/collecton-mcp/dist/collecton-mcp.bundle.mjs"],
+      "env": {
+        "COLLECTON_MCP_MODE": "dev",
+        "COLLECTON_DEPLOY_PASSWORD": "Password@123"
+      }
+    }
+  }
+}

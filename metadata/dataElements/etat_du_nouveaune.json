@@ -1,0 +1,18 @@
+{
+  "id": "ed8b482f-27aa-4d35-8936-f444bf59000b",
+  "dataType": "select_one",
+  "organisation": "",
+  "name": "etat_du_nouveaune",
+  "label": "État du nouveau-né",
+  "icon": "symbol-string",
+  "description": "Default description from the DataElement.",
+  "placeholder": "Default placeholder...",
+  "hint": "Default hint from the DataElement.",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "0a88558b-dbd6-4ad2-bab5-972fa076c527",
+  "tags": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "826dab46-52c9-4e5e-b56f-406019321e24",
+  "name": "antecedents_obstetricaux",
+  "label": "Antécédents obstétricaux",
+  "options": [
+    {
+      "id": "99dd955d-98bd-4243-bb0f-4880d7532b6f",
+      "name": "Aucun",
+      "value": "aucun",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "4876914c-f8b8-4387-aecc-928e65b754d3",
+      "name": "Césarienne",
+      "value": "cesarienne",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "d2cb874b-093e-453f-baef-6c45da5f83a5",
+      "name": "Avortement",
+      "value": "avortement",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "ddcdd2d9-f3b5-4731-bb24-96fc70b7c832",
+      "name": "Mort-né",
+      "value": "mort_ne",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "6db0f82a-5443-4794-bc11-9c5825f46088",
+      "name": "Hypertension",
+      "value": "hypertension",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "9c4f6d68-4dac-494f-ad1f-a912cc9ebf57",
+      "name": "Diabète",
+      "value": "diabete",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f62b2862-d336-4ab0-8a48-acfd758a9659",
+      "name": "Autre",
+      "value": "autre",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}
