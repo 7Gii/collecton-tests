@@ -2,7 +2,7 @@
   "id": "0f878470-9a6d-42b0-aff2-c7eb6f1d56c6",
   "name": "suivi_postnatal_cpon",
   "title": "Suivi postnatal (CPoN)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "form_default",
   "className": "",
   "displayExpression": "showForm",

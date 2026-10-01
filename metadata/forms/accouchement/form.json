@@ -2,7 +2,7 @@
   "id": "13c64490-9d0b-495d-965f-35eb0dae5fdc",
   "name": "accouchement",
   "title": "Accouchement",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "form_default",
   "className": "",
   "displayExpression": "showForm",

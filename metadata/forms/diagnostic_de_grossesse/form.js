@@ -9,8 +9,6 @@
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const PREGNANCY_DAYS = 280;
-const AGE_MIN_YEARS = 15;
-const AGE_MAX_YEARS = 40;
 
 function parseDate(value) {
   if (!value) return null;
@@ -23,19 +21,52 @@ function lmpDate(app) {
   return parseDate(app.currentForm?.date_des_dernieres_regles_ddr);
 }
 
-function ageInYears(birthdate) {
-  const birth = parseDate(birthdate);
-  if (!birth) return null;
-  return (Date.now() - birth.getTime()) / (365.25 * DAY_MS);
+const PERSON_TYPE = 'femme';
+const AGE_MIN_YEARS = 15;
+const AGE_MAX_YEARS = 40;
+const POSTPARTUM_DAYS = 42;
+const YEAR_MS = 365.25 * 24 * 60 * 60 * 1000;
+
+// Living woman person; never an org unit.
+function livingWoman(app) {
+  const person = app.person;
+  if (!person || person.personType !== PERSON_TYPE) return false;
+  return person.attributes?.person_is_deceased !== true;
 }
 
-// Add menu entry: living women aged 15 to 40.
+function latestReport(app, form) {
+  const reports = app.getReports({ form, targetId: app.person.id }) || [];
+  return reports.reduce((latest, report) => (!latest || report.created_at > latest.created_at ? report : latest), null);
+}
+
+// Pregnancy state from the reports of the woman: 'pregnant' (positive diagnosis not
+// followed by a delivery), 'postpartum' (delivery less than 42 days ago) or 'none'.
+function pregnancyState(app) {
+  const diagnosis = latestReport(app, 'diagnostic_de_grossesse');
+  const delivery = latestReport(app, 'accouchement');
+  const positive = diagnosis && diagnosis.payload?.resultat_du_test_de_grossesse === 'positif';
+  if (positive && (!delivery || delivery.created_at < diagnosis.created_at)) return 'pregnant';
+  if (delivery && Date.now() - delivery.created_at <= POSTPARTUM_DAYS * 24 * 60 * 60 * 1000) {
+    const mother = latestReport(app, 'suivi_postnatal_cpon');
+    const deceased = mother && mother.created_at > delivery.created_at && mother.payload?.etat_de_la_mere === 'decedee';
+    return deceased ? 'none' : 'postpartum';
+  }
+  return 'none';
+}
+
+// Add menu entry: living woman aged 15 to 40 with no ongoing pregnancy or postpartum
+// follow-up (those continue with the CPN, delivery and CPoN forms).
 export function showForm(app) {
-  const person = app.person;
-  if (!person || person.personType !== 'femme') return false;
-  if (person.attributes?.person_is_deceased === true) return false;
-  const age = ageInYears(person.attributes?.birthdate);
-  return age !== null && age >= AGE_MIN_YEARS && age <= AGE_MAX_YEARS;
+  try {
+    if (!livingWoman(app)) return false;
+    const birth = parseDate(app.person.attributes?.birthdate);
+    if (!birth) return false;
+    const age = (Date.now() - birth.getTime()) / YEAR_MS;
+    if (age < AGE_MIN_YEARS || age > AGE_MAX_YEARS) return false;
+    return pregnancyState(app) === 'none';
+  } catch (error) {
+    return false;
+  }
 }
 
 export function today(app) {

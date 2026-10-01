@@ -2,7 +2,7 @@
   "id": "d16cb752-dc45-4364-891e-c186cebf0d65",
   "name": "consultation_prenatale_cpn",
   "title": "Consultation prénatale (CPN)",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "form_default",
   "className": "",
   "displayExpression": "showForm",

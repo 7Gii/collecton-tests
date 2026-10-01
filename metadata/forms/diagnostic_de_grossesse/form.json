@@ -2,7 +2,7 @@
   "id": "41977aa6-79cb-45f2-b196-d3b1705634a8",
   "name": "diagnostic_de_grossesse",
   "title": "Diagnostic de grossesse",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "form_default",
   "className": "",
   "displayExpression": "showForm",
