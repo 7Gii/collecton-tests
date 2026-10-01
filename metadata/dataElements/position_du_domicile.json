@@ -1,0 +1,18 @@
+{
+  "id": "46975387-25d7-4da3-ad1c-a131d57f5e56",
+  "dataType": "geopoint",
+  "organisation": "",
+  "name": "position_du_domicile",
+  "label": "Position du domicile (GPS)",
+  "icon": "symbol-string",
+  "description": "Position du domicile (GPS)",
+  "placeholder": "",
+  "hint": "Capturer la position GPS du domicile pour les visites de suivi",
+  "requiredMessage": "Cette valeur est obligatoire",
+  "validationMessage": "La valeur est invalide",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

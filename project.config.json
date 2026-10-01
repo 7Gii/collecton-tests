@@ -2,14 +2,14 @@
   "name": "sante_maternelle",
   "title": "Santé maternelle",
   "theme": "default",
-  "description": "Default project description.",
+  "description": "Suivi de santé maternelle des femmes de 15 à 40 ans : diagnostic de grossesse, consultations prénatales, accouchement et suivi postnatal.",
   "organisation": "",
   "version": "1.0.0",
   "partners": [],
   "branding": [],
   "attributes": {},
   "deploymentType": "staging",
-  "icon": "project.svg",
+  "icon": "",
   "mobileMaxQueryRows": 100,
   "consoleMaxQueryRows": 500,
   "languages": [
@@ -21,6 +21,7 @@
   "styling": {
     "globalCss": "assets/css/global.css"
   },
+  "devInstances": [],
   "automations": [],
   "metadataFiles": {
     "permissions": "metadata/permissions.json",
@@ -35,8 +36,8 @@
     "person_types": "metadata/person_types/",
     "roles": "metadata/roles/",
     "forms": "metadata/forms/",
-    "workflows": "metadata/workflows/",
     "indicators": "metadata/indicators/",
+    "tasks": "metadata/tasks/",
     "automations": "metadata/automations/",
     "optionSets": "metadata/optionSets/",
     "dataElements": "metadata/dataElements/"

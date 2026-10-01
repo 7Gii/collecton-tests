@@ -16,15 +16,16 @@ function parseDate(value) {
   return isNaN(date.getTime()) ? null : date;
 }
 
-// Reports of the selected woman for one form, newest first; empty outside the device.
+// Reports of the selected woman for one form, newest first.
 function reportsOf(app, form) {
-  const targetId = app.selectedItem?.id;
+  const targetId = app.person?.id;
   if (!targetId || typeof app.getReports !== 'function') return [];
   return app.getReports({ form, targetId });
 }
 
+// Opened by the 'premiere_cpn' and 'cpn_suivante' tasks only: never offered in the add menu.
 export function showForm(app) {
-  return true;
+  return false;
 }
 
 export function today(app) {

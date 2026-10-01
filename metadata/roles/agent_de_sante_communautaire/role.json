@@ -15,8 +15,5 @@
     "permission_edit_menage",
     "permission_create_femme",
     "permission_edit_femme"
-  ],
-  "orgUnitsSync": "getOrgUnitsForSync",
-  "personsSync": "getPersonsForSync",
-  "reportsSync": "getReportsForSync"
+  ]
 }

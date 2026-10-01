@@ -9,6 +9,8 @@
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const PREGNANCY_DAYS = 280;
+const AGE_MIN_YEARS = 15;
+const AGE_MAX_YEARS = 40;
 
 function parseDate(value) {
   if (!value) return null;
@@ -21,8 +23,19 @@ function lmpDate(app) {
   return parseDate(app.currentForm?.date_des_dernieres_regles_ddr);
 }
 
+function ageInYears(birthdate) {
+  const birth = parseDate(birthdate);
+  if (!birth) return null;
+  return (Date.now() - birth.getTime()) / (365.25 * DAY_MS);
+}
+
+// Add menu entry: living women aged 15 to 40.
 export function showForm(app) {
-  return true;
+  const person = app.person;
+  if (!person || person.personType !== 'femme') return false;
+  if (person.attributes?.person_is_deceased === true) return false;
+  const age = ageInYears(person.attributes?.birthdate);
+  return age !== null && age >= AGE_MIN_YEARS && age <= AGE_MAX_YEARS;
 }
 
 export function today(app) {

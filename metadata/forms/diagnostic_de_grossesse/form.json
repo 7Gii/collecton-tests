@@ -6,7 +6,7 @@
   "icon": "form_default",
   "className": "",
   "displayExpression": "showForm",
-  "duration": 30,
+  "duration": 365,
   "sections": [
     {
       "key": "c75085f8-a885-459e-a47b-8bb12b956628",
@@ -167,6 +167,21 @@
           "tags": [],
           "className": "",
           "displayExpression": "(app) => app.currentForm.resultat_du_test_de_grossesse === 'positif' && ((app.currentForm.antecedents || []).filter(v => v !== 'aucun').length > 0 || Number(app.currentForm.gestite) >= 5)"
+        },
+        {
+          "key": "position_du_domicile",
+          "label": "Position du domicile (GPS)",
+          "dataType": "geopoint",
+          "dataElementId": "46975387-25d7-4da3-ad1c-a131d57f5e56",
+          "tags": [],
+          "className": "",
+          "required": "(app) => false",
+          "displayExpression": "(app) => true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "Capturer la position GPS du domicile pour les visites de suivi",
+          "requiredMessage": "Cette valeur est obligatoire",
+          "validationMessage": "La valeur est invalide"
         }
       ]
     }

@@ -6,7 +6,7 @@
   "icon": "form_default",
   "className": "",
   "displayExpression": "showForm",
-  "duration": 30,
+  "duration": 365,
   "sections": [
     {
       "key": "6c927c44-1e3d-4716-a9df-fec2495c253e",
@@ -254,6 +254,21 @@
           "tags": [],
           "className": "",
           "displayExpression": "(app) => app.currentForm.accouchement_survenu === 'oui'"
+        },
+        {
+          "key": "photo_carnet_cpn",
+          "label": "Photo du carnet de CPN",
+          "dataType": "image",
+          "dataElementId": "fc257b36-0801-433c-8d3a-8284cdd5347e",
+          "tags": [],
+          "className": "",
+          "required": "(app) => false",
+          "displayExpression": "(app) => true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "Photographier la page du carnet mise à jour",
+          "requiredMessage": "Cette valeur est obligatoire",
+          "validationMessage": "La valeur est invalide"
         }
       ]
     }

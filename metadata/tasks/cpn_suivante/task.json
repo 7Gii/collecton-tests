@@ -1,0 +1,26 @@
+{
+  "id": "dff9e38e-c58e-4f13-bca7-02dff53a28a3",
+  "name": "cpn_suivante",
+  "title": "CPN suivante",
+  "icon": "task_icon_default",
+  "description": [
+    "Grossesse en cours : consultation prénatale mensuelle jusqu'à l'accouchement."
+  ],
+  "appliesTo": "report",
+  "forms": [
+    "consultation_prenatale_cpn"
+  ],
+  "appliesIf": "appliesIf",
+  "resolvedIf": "resolvedIf",
+  "actionFormId": "d16cb752-dc45-4364-891e-c186cebf0d65",
+  "priority": 3,
+  "events": [
+    {
+      "id": "cpn_mensuelle",
+      "title": "CPN mensuelle",
+      "dueDays": 30,
+      "startDays": 23,
+      "endDays": 60
+    }
+  ]
+}

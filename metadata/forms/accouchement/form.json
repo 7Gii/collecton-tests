@@ -6,7 +6,7 @@
   "icon": "form_default",
   "className": "",
   "displayExpression": "showForm",
-  "duration": 30,
+  "duration": 365,
   "sections": [
     {
       "key": "2919a88d-93fc-4e09-8894-67a5f314768c",

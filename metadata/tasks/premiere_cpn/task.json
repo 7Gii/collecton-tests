@@ -1,0 +1,26 @@
+{
+  "id": "48f237d8-205e-4d47-8749-4c2301680899",
+  "name": "premiere_cpn",
+  "title": "Première CPN",
+  "icon": "task_icon_default",
+  "description": [
+    "Grossesse confirmée : première consultation prénatale un mois après le diagnostic."
+  ],
+  "appliesTo": "report",
+  "forms": [
+    "diagnostic_de_grossesse"
+  ],
+  "appliesIf": "appliesIf",
+  "resolvedIf": "resolvedIf",
+  "actionFormId": "d16cb752-dc45-4364-891e-c186cebf0d65",
+  "priority": 3,
+  "events": [
+    {
+      "id": "cpn_1",
+      "title": "Première CPN",
+      "dueDays": 30,
+      "startDays": 23,
+      "endDays": 60
+    }
+  ]
+}

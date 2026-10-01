@@ -15,8 +15,9 @@ function parseDate(value) {
   return isNaN(date.getTime()) ? null : date;
 }
 
+// Opened by the 'suivi_postnatal' task only: never offered in the add menu.
 export function showForm(app) {
-  return true;
+  return false;
 }
 
 export function today(app) {
@@ -25,7 +26,7 @@ export function today(app) {
 
 // Days between the latest recorded delivery of the selected woman and the visit date.
 export function daysSinceDelivery(app) {
-  const targetId = app.selectedItem?.id;
+  const targetId = app.person?.id;
   if (!targetId || typeof app.getReports !== 'function') return null;
   const delivery = app.getReports({ form: 'accouchement', targetId })
     .find(report => report.payload?.date_de_laccouchement);

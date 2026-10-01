@@ -10,8 +10,9 @@
 const LOW_BIRTH_WEIGHT_G = 2500;
 const VERY_LOW_BIRTH_WEIGHT_G = 1500;
 
+// Opened by the 'enregistrer_accouchement' task only: never offered in the add menu.
 export function showForm(app) {
-  return true;
+  return false;
 }
 
 export function today(app) {
