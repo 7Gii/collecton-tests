@@ -1,0 +1,49 @@
+{
+  "id": "2dc4a1ef-cc27-4d5a-890d-7c099344d8c1",
+  "name": "c_first_malnutrition_screening",
+  "label": "c_first_malnutrition_screening",
+  "options": [
+    {
+      "id": "97afd7e6-5d3f-4800-8a65-307311e4b8a4",
+      "name": "ASC lors de l'évaluation du malade",
+      "value": "chw_during_assessment",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "e26944a8-e2b3-4203-8f35-6870ee5e116e",
+      "name": "ASC lors du dépistage systématique",
+      "value": "chw_during_screening",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "3d9f8a7e-690a-4dca-a49d-92f1f7ea097e",
+      "name": "Maman ou autre membre de la famille",
+      "value": "mother_other_member",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "78304548-6437-4ffa-8c6b-29f783651853",
+      "name": "Dépistage de masse dans la communauté",
+      "value": "mass_screening_community",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "9adf0c7c-8495-456a-8838-8390181c0643",
+      "name": "CSCOM",
+      "value": "cscom",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "933537dc-62fd-4394-bacd-4c2a458a670e",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

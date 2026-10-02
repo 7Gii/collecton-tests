@@ -1,0 +1,26 @@
+{
+  "id": "plan-237183ea",
+  "kind": "task",
+  "description": "Tâche patient_assessment_yields_treatment_followup_diarrhea (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Suivi traitement",
+    "after": "patient_assessment",
+    "opens": "treatment_followup",
+    "delayDays": 5,
+    "condition": "seul traitement : diarrhée ; J+5"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.442Z",
+  "updatedAt": "2026-10-02T01:28:59.420Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Suivi traitement"
+    }
+  ],
+  "generated": [
+    "task: Suivi traitement"
+  ]
+}

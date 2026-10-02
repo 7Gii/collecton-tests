@@ -1,0 +1,18 @@
+{
+  "id": "b6b268d1-3f64-446b-9a4e-f9df6ea7b412",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_did_place_antimalarial_suppository",
+  "label": "Avez-vous un antipaludique suppositoire?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

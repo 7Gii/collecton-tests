@@ -1,0 +1,80 @@
+{
+  "id": "b49256cd-60fe-4fb2-9344-686e482c3669",
+  "name": "patient_assessment_yields_severe_malnutrition_followup",
+  "title": "Suivi MAS Sans Complication",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "person",
+  "actionFormId": "ef9599d8-95dc-49b2-bb42-33e26eca0fef",
+  "events": [
+    {
+      "id": "reported_date+7",
+      "dueDate": "due_reported_date_7",
+      "startDays": 2,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+14",
+      "dueDate": "due_reported_date_14",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+21",
+      "dueDate": "due_reported_date_21",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+28",
+      "dueDate": "due_reported_date_28",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+35",
+      "dueDate": "due_reported_date_35",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+42",
+      "dueDate": "due_reported_date_42",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+49",
+      "dueDate": "due_reported_date_49",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+56",
+      "dueDate": "due_reported_date_56",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+63",
+      "dueDate": "due_reported_date_63",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+70",
+      "dueDate": "due_reported_date_70",
+      "startDays": 0,
+      "endDays": 14
+    }
+  ],
+  "personTypes": [
+    "patient"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 2,
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

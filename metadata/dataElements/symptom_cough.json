@@ -1,0 +1,18 @@
+{
+  "id": "2a7d49be-542c-46aa-b46a-a9d90e61bd65",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "symptom_cough",
+  "label": "Symptômes de la toux",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

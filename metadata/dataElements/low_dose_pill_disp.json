@@ -1,0 +1,18 @@
+{
+  "id": "17fa8188-2779-4157-99e2-8e2487e8bd89",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "low_dose_pill_disp",
+  "label": "low_dose_pill_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

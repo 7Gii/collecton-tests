@@ -1,0 +1,18 @@
+{
+  "id": "b4b3cda9-7642-4a60-b53c-a0a81229a16c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "malaria_rdt_disp",
+  "label": "malaria_rdt_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "431badc4-67ee-471c-8338-9818dd9b1ab7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_no_treatment_reason_other",
+  "label": "Préciser",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

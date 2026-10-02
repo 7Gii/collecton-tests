@@ -1,0 +1,18 @@
+{
+  "id": "072af501-832d-41b4-99d8-7e8612c3b895",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_hiv_test_not_requested_reason_other",
+  "label": "Précisez",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

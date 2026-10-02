@@ -1,0 +1,18 @@
+{
+  "id": "e9f39dec-9e03-4664-820a-5b8a64ef89f4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "next_visit_ari",
+  "label": "next_visit_ari",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

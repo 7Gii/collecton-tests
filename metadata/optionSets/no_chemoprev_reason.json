@@ -1,0 +1,28 @@
+{
+  "id": "e628196b-883a-4922-b289-a5b42336d52d",
+  "name": "no_chemoprev_reason",
+  "label": "no_chemoprev_reason",
+  "options": [
+    {
+      "id": "cfc3a217-6dc6-4589-b857-5cc98c647fa9",
+      "name": "Rupture",
+      "value": "stock_out",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "c894ed75-02d1-4752-aa58-283be9a8cd3c",
+      "name": "Un autre rendez vous à été donné au cas contact",
+      "value": "another_appointment_made",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "bd8b35aa-f6e6-4ad3-9537-c95b26fd0978",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

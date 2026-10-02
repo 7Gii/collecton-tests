@@ -1,0 +1,18 @@
+{
+  "id": "14b3608f-a2bc-4e86-8fda-fe13be3bfb60",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_is_pregnant",
+  "label": "La patiente est-elle enceinte ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

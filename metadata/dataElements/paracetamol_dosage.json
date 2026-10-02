@@ -1,0 +1,18 @@
+{
+  "id": "7ecac7a0-ada9-4b9a-8593-9fc3f7b8bb11",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "paracetamol_dosage",
+  "label": "paracetamol_dosage",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

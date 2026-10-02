@@ -1,0 +1,18 @@
+{
+  "id": "92e698a9-0274-49ba-b5fc-0767935eb48f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_diarrhea",
+  "label": "Traiter pour la Diarrhée",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

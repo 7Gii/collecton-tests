@@ -1,0 +1,18 @@
+{
+  "id": "ca49cb1b-c2e6-427d-aa32-84cae638c77e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_accompany_refer_over5",
+  "label": "Avez-vous accompagné / référé le patient au CSCOM ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

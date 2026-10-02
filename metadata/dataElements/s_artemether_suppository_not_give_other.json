@@ -1,0 +1,18 @@
+{
+  "id": "5aca9003-a683-4d8b-a0ed-7559d3896fc3",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_artemether_suppository_not_give_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

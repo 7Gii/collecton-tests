@@ -1,0 +1,26 @@
+{
+  "id": "plan-8b72169d",
+  "kind": "indicator",
+  "description": "Indicateur 2-home-visits-per-fam (README étape 8, targets.js)",
+  "spec": {
+    "title": "% de ménages ayant reçu au moins 2 VAD",
+    "measure": "Familles avec au moins 2 jours de visite dans le mois / toutes les familles",
+    "type": "percentage",
+    "view": "default",
+    "goal": "100"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.267Z",
+  "updatedAt": "2026-10-02T01:46:05.652Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "% de ménages ayant reçu au moins 2 VAD"
+    }
+  ],
+  "generated": [
+    "indicator: % de ménages ayant reçu au moins 2 VAD"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "01e97488-7a63-4b2c-920d-a2ad5a15c427",
+  "name": "c_vitaminA_dosage",
+  "label": "c_vitaminA_dosage",
+  "options": [
+    {
+      "id": "7df480cc-6008-49be-b879-3a7e2822fb49",
+      "name": "Capsule bleue",
+      "value": "blue_cap",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "86001097-dafd-4f4e-9b55-bc1a0d1c6714",
+      "name": "Capsule rouge",
+      "value": "red_cap",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

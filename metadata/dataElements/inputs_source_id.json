@@ -1,0 +1,18 @@
+{
+  "id": "a789a13b-9915-4877-81e3-e230f6a788f0",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_source_id",
+  "label": "inputs_source_id",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

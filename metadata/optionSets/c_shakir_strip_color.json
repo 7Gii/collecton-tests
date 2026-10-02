@@ -1,0 +1,28 @@
+{
+  "id": "476f01d1-f1e9-402f-a719-8c005315d32d",
+  "name": "c_shakir_strip_color",
+  "label": "c_shakir_strip_color",
+  "options": [
+    {
+      "id": "83a46ded-739a-4bf3-ad75-6164e3c6a5bf",
+      "name": "Vert",
+      "value": "green",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "84b740b4-4b5d-4d82-b6be-739ef6f51ae0",
+      "name": "Jaune",
+      "value": "yellow",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "d620392a-e322-4c92-a78e-8987aac8b933",
+      "name": "Rouge",
+      "value": "red",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b493d0fe-328c-4195-967b-4404ee82f406",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "num_no_edema",
+  "label": "Nombre de fois consécutives sans oedèmes",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

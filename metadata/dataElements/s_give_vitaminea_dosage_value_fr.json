@@ -1,0 +1,18 @@
+{
+  "id": "4a8820f4-3aea-4392-9094-b28a35eddca7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_give_vitaminea_dosage_value_fr",
+  "label": "s_give_vitaminea_dosage_value_fr",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

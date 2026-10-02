@@ -1,0 +1,18 @@
+{
+  "id": "81d741f4-fbfb-4f26-b6df-bf5bc0f36f77",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_not_give_iron_folic_other",
+  "label": "Spécifier:",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

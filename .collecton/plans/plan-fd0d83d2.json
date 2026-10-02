@@ -1,0 +1,24 @@
+{
+  "id": "plan-fd0d83d2",
+  "kind": "org_unit_level",
+  "description": "contruit le programme (README étape 2 : niveau c40_chw_area, Zone de l'ASC)",
+  "spec": {
+    "title": "Zone de l'ASC",
+    "name": "c40_chw_area",
+    "level": 4
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T22:56:19.946Z",
+  "updatedAt": "2026-10-01T23:12:09.580Z",
+  "confirmation": "Niveaux : \"Oui, je confirme\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "org_unit_level",
+      "name": "Zone de l'ASC"
+    }
+  ],
+  "generated": [
+    "org_unit_level: Zone de l'ASC"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a1a26d3f-0aaa-4e0b-9419-bf30ab51afb9",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_test_result_display",
+  "label": "tb_test_result_display",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

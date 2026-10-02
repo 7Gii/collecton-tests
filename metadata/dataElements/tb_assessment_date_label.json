@@ -1,0 +1,18 @@
+{
+  "id": "27586304-978f-4f45-a5f3-0602a85f8823",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_assessment_date_label",
+  "label": "tb_assessment_date_label",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

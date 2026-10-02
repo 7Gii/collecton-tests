@@ -1,0 +1,18 @@
+{
+  "id": "eeeb6bcb-1215-4ac9-a86e-bac9d03600f9",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_where_child_died_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2a295879-8281-47fb-959e-7024afcb1712",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "vitaminA_dosage_label",
+  "label": "vitaminA_dosage_label",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

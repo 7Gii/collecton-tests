@@ -1,0 +1,107 @@
+{
+  "id": "9bc79173-f28d-4333-9e6c-bb53b5f77a20",
+  "name": "cscom_area",
+  "label": "CSCOM",
+  "options": [
+    {
+      "id": "cf591966-2da5-43b0-a253-50f2ea4af870",
+      "name": "Dimbal",
+      "value": "Dimbal",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "DIMBAL"
+      }
+    },
+    {
+      "id": "9c26d5e8-71ac-465b-90a8-0d9c4f2bc910",
+      "name": "Dounde",
+      "value": "Dounde",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "DOUNDE"
+      }
+    },
+    {
+      "id": "03187aa0-6466-43e1-8bee-3d873f7c061b",
+      "name": "Ende",
+      "value": "Ende",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "KANI-ENDE"
+      }
+    },
+    {
+      "id": "b6559f5c-b0c3-466a-bd7c-421ace243834",
+      "name": "Kani-Bonzon",
+      "value": "Kani-Bonzon",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "KANI-ENDE"
+      }
+    },
+    {
+      "id": "b4f5c0d3-5365-4057-bb5a-40d5dfd6bedd",
+      "name": "Koulogon",
+      "value": "Koulogon",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "KOU-LE-SOU"
+      }
+    },
+    {
+      "id": "e20c9874-0f26-4258-aa92-5ec96d6ea74e",
+      "name": "Lessagou",
+      "value": "Lessagou",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "KOU-LE-SOU"
+      }
+    },
+    {
+      "id": "b5f4f003-007b-4d15-8d22-de6c08d2d3d0",
+      "name": "Soubala",
+      "value": "Soubala",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "KOU-LE-SOU"
+      }
+    },
+    {
+      "id": "7544a527-f286-4aff-a2c9-4893543f75a8",
+      "name": "Tori",
+      "value": "Tori",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "TORI"
+      }
+    },
+    {
+      "id": "ade63e73-a42c-45a6-a8d6-ee404a7d8de2",
+      "name": "Bakorobabougou",
+      "value": "Bakorobabougou",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "YIRI-BAKORO"
+      }
+    },
+    {
+      "id": "a48226d2-994e-414d-8687-f25c368943e1",
+      "name": "Yirimadio",
+      "value": "Yirimadio",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "ha": "YIRI-BAKORO"
+      }
+    }
+  ]
+}

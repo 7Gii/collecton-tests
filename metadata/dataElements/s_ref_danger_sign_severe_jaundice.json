@@ -1,0 +1,18 @@
+{
+  "id": "bab8570d-bfca-4658-aa15-c2998d24160f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ref_danger_sign_severe_jaundice",
+  "label": "Ictère sévère (jaunisse corps/ plantes des pieds)",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

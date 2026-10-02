@@ -1,0 +1,18 @@
+{
+  "id": "db784fcc-c370-4141-bc3a-0f7345ecc277",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "acc_danger_sign_chest_pain_bm",
+  "label": "acc_danger_sign_chest_pain_bm",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

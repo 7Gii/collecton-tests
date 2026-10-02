@@ -1,0 +1,18 @@
+{
+  "id": "a306de40-177e-4352-8584-a601bb94f1ae",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "zinc_not_given_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

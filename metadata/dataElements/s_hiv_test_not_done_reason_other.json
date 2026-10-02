@@ -1,0 +1,18 @@
+{
+  "id": "61b5715f-e6ea-43d8-a96c-ee882c214ce5",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_hiv_test_not_done_reason_other",
+  "label": "Précisez",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

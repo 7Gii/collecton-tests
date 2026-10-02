@@ -1,0 +1,97 @@
+{
+  "id": "59adf237-dfd6-48a3-b9a2-b06f9306966f",
+  "name": "c_give_artesunate_dosage",
+  "label": "c_give_artesunate_dosage",
+  "options": [
+    {
+      "id": "0aa9745a-510c-4895-ada9-4d51303c2ab8",
+      "name": "1 suppositoire de 50 mg",
+      "value": "1_artesunate_50mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_50mg"
+      }
+    },
+    {
+      "id": "c1a2bb86-5718-480b-83cf-ee8f255445f9",
+      "name": "2 suppositoires de 50 mg",
+      "value": "2_artesunate_50mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_50mg"
+      }
+    },
+    {
+      "id": "b67f5e84-2823-498e-9003-ea1f11822b56",
+      "name": "4 suppositoires de 50 mg",
+      "value": "4_artesunate_50mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_50mg"
+      }
+    },
+    {
+      "id": "35bebe6b-74e2-4571-8a56-b2af82736ca8",
+      "name": "1 suppositoire de 100 mg",
+      "value": "1_artesunate_100mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_100mg"
+      }
+    },
+    {
+      "id": "1bdeeba6-fb6e-4232-ac43-8fd7e64d79b1",
+      "name": "2 suppositoires de 100 mg",
+      "value": "2_artesunate_100mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_100mg"
+      }
+    },
+    {
+      "id": "2fbbbee3-3dd3-4c54-8e93-b5495d0159d2",
+      "name": "4 suppositoires de 100 mg",
+      "value": "4_artesunate_100mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_100mg"
+      }
+    },
+    {
+      "id": "2f81fb57-9678-4cfa-a73c-649358518412",
+      "name": "1 suppositoire de 200 mg",
+      "value": "1_artesunate_200mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_200mg"
+      }
+    },
+    {
+      "id": "385914c2-bd22-47e4-b725-3145d336d913",
+      "name": "2 suppositoires de 200 mg",
+      "value": "2_artesunate_200mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_200mg"
+      }
+    },
+    {
+      "id": "59d36248-e4ee-4286-8b96-f8dc81c87dc0",
+      "name": "4 suppositoires de 200 mg",
+      "value": "4_artesunate_200mg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "artesunate_suppository_200mg"
+      }
+    }
+  ]
+}

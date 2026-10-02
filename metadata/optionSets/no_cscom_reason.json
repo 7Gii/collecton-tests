@@ -1,0 +1,28 @@
+{
+  "id": "9dbdb66f-9362-4144-9005-095cbeda2240",
+  "name": "no_cscom_reason",
+  "label": "no_cscom_reason",
+  "options": [
+    {
+      "id": "b5365d1e-4651-402f-9e03-088d9492b116",
+      "name": "Refus d'un parent",
+      "value": "parent_refusal",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "1c499039-818c-46e8-ac46-84e5b23006b0",
+      "name": "Manque de temps",
+      "value": "lack_time",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "64d6fe23-8841-4bae-8727-843756036f7e",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

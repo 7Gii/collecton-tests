@@ -1,0 +1,18 @@
+{
+  "id": "5250055a-ada4-40ae-abd5-6f04b3c4cd59",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "excessive_fatigue",
+  "label": "Fatigue exagérée",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a88bedd0-8846-4eea-8992-862a681cf154",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_artesunate_suppository_dosage",
+  "label": "Quelle quantité ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "59adf237-dfd6-48a3-b9a2-b06f9306966f",
+  "tags": []
+}

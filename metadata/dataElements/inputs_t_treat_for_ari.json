@@ -1,0 +1,18 @@
+{
+  "id": "ea60bbed-aa09-4384-bbaf-00c1ccef9ab8",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_treat_for_ari",
+  "label": "inputs_t_treat_for_ari",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

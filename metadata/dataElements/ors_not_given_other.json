@@ -1,0 +1,18 @@
+{
+  "id": "b260782e-3b7d-45b4-ab2b-d9211665bfb9",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "ors_not_given_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

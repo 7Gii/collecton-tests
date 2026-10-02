@@ -1,0 +1,18 @@
+{
+  "id": "dbe834fe-ea4e-4003-aa67-76d8b6c01b9b",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_artesunate_suppository_type",
+  "label": "Quel dosage?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "37aaee44-ab6f-4483-88fd-c30c5f51b546",
+  "tags": []
+}

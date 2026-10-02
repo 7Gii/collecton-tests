@@ -1,0 +1,18 @@
+{
+  "id": "a4a6416b-264c-41b4-8c37-81c639ef3551",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_fever",
+  "label": "s_fever",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

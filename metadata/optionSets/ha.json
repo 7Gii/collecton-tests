@@ -1,0 +1,67 @@
+{
+  "id": "191dfd04-835d-46b4-a3c8-653424615fe5",
+  "name": "ha",
+  "label": "Zone de Santé",
+  "options": [
+    {
+      "id": "922da702-7dc0-4a29-8056-4a1b2906eac3",
+      "name": "DIMBAL",
+      "value": "DIMBAL",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "site": "Bankass"
+      }
+    },
+    {
+      "id": "f570a37a-a53f-4e67-8bfb-c695d1c4c733",
+      "name": "DOUNDE",
+      "value": "DOUNDE",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "site": "Bankass"
+      }
+    },
+    {
+      "id": "7ce10601-5d42-46eb-96f8-b21af243e49d",
+      "name": "KANI-ENDE",
+      "value": "KANI-ENDE",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "site": "Bankass"
+      }
+    },
+    {
+      "id": "31c8a94c-a29b-4042-9770-527638a3d431",
+      "name": "KOU-LE-SOU",
+      "value": "KOU-LE-SOU",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "site": "Bankass"
+      }
+    },
+    {
+      "id": "b3d86234-6ad9-4263-98e6-0729a4deab54",
+      "name": "TORI",
+      "value": "TORI",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "site": "Bankass"
+      }
+    },
+    {
+      "id": "fc3ab89d-cf2b-464f-a7ac-414ee8599d0b",
+      "name": "YIRI-BAKORO",
+      "value": "YIRI-BAKORO",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "site": "Yirimadio"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "f73c922a-09b3-4b62-be5a-80d0621cb7db",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "folic_acid_srp_given_once",
+  "label": "folic_acid_srp_given_once",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

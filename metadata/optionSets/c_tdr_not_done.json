@@ -1,0 +1,21 @@
+{
+  "id": "c75ae618-3282-4630-a09f-d903b80bb93f",
+  "name": "c_tdr_not_done",
+  "label": "c_tdr_not_done",
+  "options": [
+    {
+      "id": "a45cf72a-a838-4ae5-af69-4086a43fed96",
+      "name": "TDR non disponible",
+      "value": "tdr_unavailable",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "5278227e-a3d2-44ab-9087-cc8d12e372d1",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

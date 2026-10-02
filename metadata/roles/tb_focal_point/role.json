@@ -1,0 +1,33 @@
+{
+  "id": "c9184a1d-d2a1-4017-afbf-9be28a93d0b4",
+  "name": "tb_focal_point",
+  "label": "Point Focal TB",
+  "orgUnitLevelId": "e7e1078e-f74e-493a-8457-77b96b40b9d7",
+  "permissions": [
+    "permission_deferred_collection",
+    "permission_view_tasks",
+    "permission_view_people",
+    "permission_view_reports",
+    "permission_edit_report",
+    "permission_create_c30_supervisor_area",
+    "permission_edit_c30_supervisor_area",
+    "permission_create_c40_chw_area",
+    "permission_edit_c40_chw_area",
+    "permission_create_c50_family",
+    "permission_edit_c50_family",
+    "permission_create_health_area_supervisor",
+    "permission_edit_health_area_supervisor",
+    "permission_create_tb_focal_point",
+    "permission_edit_tb_focal_point",
+    "permission_create_stock_manager",
+    "permission_edit_stock_manager",
+    "permission_create_chw_supervisor",
+    "permission_edit_chw_supervisor",
+    "permission_create_chw",
+    "permission_edit_chw",
+    "permission_create_patient",
+    "permission_edit_patient",
+    "permission_automatic_sync",
+    "permission_manual_sync"
+  ]
+}

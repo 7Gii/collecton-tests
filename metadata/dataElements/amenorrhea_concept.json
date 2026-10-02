@@ -1,0 +1,18 @@
+{
+  "id": "d5225c30-4d72-44e9-b84b-38da9d422436",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "amenorrhea_concept",
+  "label": "amenorrhea_concept",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "0aa36782-dd8d-4253-b1f7-485c3f1eaef9",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_given_albendazole_dosage",
+  "label": "Quelle dose?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "7cff8cc9-56ed-44ad-a1be-5de7f7385a0e",
+  "tags": []
+}

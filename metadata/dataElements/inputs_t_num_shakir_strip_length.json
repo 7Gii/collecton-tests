@@ -1,0 +1,18 @@
+{
+  "id": "f0488bbb-69b8-47ef-9451-82cb06e1f4a7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_num_shakir_strip_length",
+  "label": "inputs_t_num_shakir_strip_length",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

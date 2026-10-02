@@ -1,0 +1,18 @@
+{
+  "id": "fb621951-1701-421e-8fe1-cb26d71a96ed",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_assess_today",
+  "label": "L'évaluation du patient a t-elle été faite aujourd'hui?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

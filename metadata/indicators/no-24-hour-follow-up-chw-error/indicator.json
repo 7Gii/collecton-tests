@@ -1,0 +1,15 @@
+{
+  "id": "443bfb83-339b-413a-b808-8d5d5b822bd9",
+  "name": "no-24-hour-follow-up-chw-error",
+  "title": "Pas de suivi de 24H - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target no-24-hour-follow-up-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

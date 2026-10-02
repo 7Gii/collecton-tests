@@ -1,0 +1,18 @@
+{
+  "id": "851da6cf-1103-44e1-a4d4-704840d1a11f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_paracetamol",
+  "label": "Avez-vous donné du Paracétamol?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

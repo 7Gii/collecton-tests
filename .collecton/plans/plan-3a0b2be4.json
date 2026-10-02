@@ -1,0 +1,26 @@
+{
+  "id": "plan-3a0b2be4",
+  "kind": "indicator",
+  "description": "Indicateur percent-assessments-without-protocol-errors (README étape 8, targets.js)",
+  "spec": {
+    "title": "% des évaluations sans erreur de protocole",
+    "measure": "Evaluations du mois avec l erreur (target CHT percent-assessments-without-protocol-errors) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.277Z",
+  "updatedAt": "2026-10-02T01:46:05.653Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "% des évaluations sans erreur de protocole"
+    }
+  ],
+  "generated": [
+    "indicator: % des évaluations sans erreur de protocole"
+  ]
+}

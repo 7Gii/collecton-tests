@@ -1,0 +1,18 @@
+{
+  "id": "e7e84433-33d8-4854-97fa-d75d76d06174",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_age_display",
+  "label": "patient_age_display",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "7acd6735-36a1-44c5-83dc-9753375781ea",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "arthemeter_40",
+  "label": "arthemeter_40",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

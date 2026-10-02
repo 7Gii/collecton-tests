@@ -1,0 +1,18 @@
+{
+  "id": "afb20dfb-7b69-459d-9d00-6b08b709bee4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_dob",
+  "label": "Date de naissance",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

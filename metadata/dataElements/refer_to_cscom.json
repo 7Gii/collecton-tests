@@ -1,0 +1,18 @@
+{
+  "id": "c6583eb0-fbbf-4a4f-94a2-3f9c6f8af843",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "refer_to_cscom",
+  "label": "Référer au CSCOM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

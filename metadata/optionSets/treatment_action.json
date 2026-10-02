@@ -1,0 +1,21 @@
+{
+  "id": "d2f0f67f-7474-4da9-ad0f-95e0860ac10e",
+  "name": "treatment_action",
+  "label": "treatment_action",
+  "options": [
+    {
+      "id": "d445058b-f4fb-4d5f-8357-117118f9fa4f",
+      "name": "Chimio-prévention",
+      "value": "chemoprevention",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "6713df30-24b3-46f8-86ef-d5a9ac6eb73c",
+      "name": "Tester le patient",
+      "value": "test_tb",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

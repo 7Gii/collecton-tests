@@ -1,0 +1,18 @@
+{
+  "id": "0669df1c-18ba-4050-8a6d-1ce6073d1d7d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_hiv_test_result",
+  "label": "Quel est le résultat?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "f1ddc863-43c4-49dd-8fd9-c9b582b3c456",
+  "tags": []
+}

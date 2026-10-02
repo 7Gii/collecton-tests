@@ -1,0 +1,18 @@
+{
+  "id": "3b1bd1cc-68ff-4fae-b98f-3e6bdea495c6",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_MAM",
+  "label": "has_MAM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "1ab7564e-dbdc-49b9-a9d9-f26626d97d53",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c30_supervisor_area_uuid",
+  "label": "c30_supervisor_area_uuid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

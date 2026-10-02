@@ -1,0 +1,18 @@
+{
+  "id": "2d9e4cc3-0968-48da-b64e-3a174f80d779",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_follow_up_type",
+  "label": "inputs_t_follow_up_type",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

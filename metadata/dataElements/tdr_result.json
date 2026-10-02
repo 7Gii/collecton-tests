@@ -1,0 +1,18 @@
+{
+  "id": "563e7925-5581-4089-847b-6d9f3e7c7b3f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tdr_result",
+  "label": "Résultat TDR",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

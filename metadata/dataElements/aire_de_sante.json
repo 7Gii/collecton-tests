@@ -1,0 +1,18 @@
+{
+  "id": "b4b11d05-d611-4cb4-9bfa-fc69ef562e2a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "aire_de_sante",
+  "label": "Aire du Sante du CSCOM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

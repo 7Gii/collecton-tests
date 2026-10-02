@@ -1,0 +1,18 @@
+{
+  "id": "ede505fb-d265-415d-84c9-e05b25941bfb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_fast_breathing",
+  "label": "inputs_t_fast_breathing",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "30f24806-75f4-4e54-b8d5-774e74e3332d",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_give_ors_dosage",
+  "label": "Combien de sachets ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

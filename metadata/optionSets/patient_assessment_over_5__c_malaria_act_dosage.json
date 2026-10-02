@@ -1,0 +1,28 @@
+{
+  "id": "29fcdfb2-5c01-46da-b238-184f6180171a",
+  "name": "patient_assessment_over_5__c_malaria_act_dosage",
+  "label": "patient_assessment_over_5__c_malaria_act_dosage",
+  "options": [
+    {
+      "id": "4f268d44-f219-4eb1-a298-30d8d6aac51a",
+      "name": "2 comprimés 2 fois par jour",
+      "value": "4_tablets_act",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "9cda8d70-9de7-4899-90a3-9897d3c02ef0",
+      "name": "3 Comprimés 2 fois par jour",
+      "value": "6_tablets_act",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "11c1ae99-f537-4de9-852d-b8528ed44e16",
+      "name": "4 comprimés 2 fois par jour",
+      "value": "8_tablets_act",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

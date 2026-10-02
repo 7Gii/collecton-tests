@@ -1,0 +1,315 @@
+{
+ "survey": [
+  {
+   "type": "begin group",
+   "name": "inputs",
+   "label::en": "Patient",
+   "label::bm": "Banabagatɔ ",
+   "relevant": "./source = 'user'",
+   "appearance": "field-list"
+  },
+  {
+   "type": "string",
+   "name": "source",
+   "label::en": "Source",
+   "label::bm": "Sababu",
+   "appearance": "hidden",
+   "default": "user"
+  },
+  {
+   "type": "string",
+   "name": "source_id",
+   "label::en": "Source ID",
+   "label::bm": "Lakodonni sababu(ID)",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "patient_name",
+   "label::en": "Patient Name"
+  },
+  {
+   "type": "string",
+   "name": "patient_id",
+   "label::en": "Patient ID"
+  },
+  {
+   "type": "string",
+   "name": "chw_id",
+   "label::en": "CHW ID",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "chw_name",
+   "label::en": "CHW Name",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "db:health_center",
+   "name": "_id",
+   "label::en": "Health center",
+   "label::bm": "Banabagatɔ tɔgɔ ?",
+   "required": "yes",
+   "appearance": "db-object",
+   "hint::en": "Select a person from list"
+  },
+  {
+   "type": "string",
+   "name": "patient_id",
+   "label::en": "Patient ID",
+   "label::bm": "Banabagatɔ ka nimɔrɔ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "name",
+   "label::en": "Name",
+   "label::bm": "Jamu",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "db:person",
+   "name": "_id",
+   "label::en": "What is the patient's name?",
+   "label::bm": "Banabagatɔ tɔgɔ ?",
+   "required": "yes",
+   "appearance": "db-object",
+   "hint::en": "Select a person from list"
+  },
+  {
+   "type": "string",
+   "name": "phone",
+   "label::en": "What is the patient's phone number?"
+  },
+  {
+   "type": "string",
+   "name": "name",
+   "label::en": "Name",
+   "appearance": "hidden"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "supervisor_area_uuid",
+   "label::fr": "supervisor_area_uuid",
+   "label::bm": "supervisor_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "health_area_uuid",
+   "label::fr": "health_area_uuid",
+   "label::bm": "health_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "site_uuid",
+   "label::fr": "site_uuid",
+   "label::bm": "site_uuid"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "lineage",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "hidden",
+   "name": "c50_patient_uuid",
+   "label::en": "c50_patient_uuid",
+   "label::fr": "c50_patient_uuid",
+   "label::bm": "c50_patient_uuid"
+  },
+  {
+   "type": "hidden",
+   "name": "c50_family_uuid",
+   "label::en": "c50_family_uuid",
+   "label::fr": "c50_family_uuid",
+   "label::bm": "c50_family_uuid"
+  },
+  {
+   "type": "calculate",
+   "name": "c40_chw_area_uuid",
+   "label::en": "c40_chw_area_uuid",
+   "label::fr": "c40_chw_area_uuid",
+   "label::bm": "c40_chw_area_uuid",
+   "calculation": "../../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c30_supervisor_area_uuid",
+   "label::en": "c30_supervisor_area_uuid",
+   "label::fr": "c30_supervisor_area_uuid",
+   "label::bm": "c30_supervisor_area_uuid",
+   "calculation": "../../inputs/contact/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c20_health_area_uuid",
+   "label::en": "c20_health_area_uuid",
+   "label::fr": "c20_health_area_uuid",
+   "label::bm": "c20_health_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c10_site_uuid",
+   "label::en": "c10_site_uuid",
+   "label::fr": "c10_site_uuid",
+   "label::bm": "c10_site_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/_id"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_name",
+   "label::en": "Patient Name",
+   "label::bm": "Banabagatɔ ka Jamu",
+   "calculation": "../inputs/patient_name"
+  },
+  {
+   "type": "calculate",
+   "name": "patient",
+   "label::en": "Patient Name",
+   "label::bm": "Banabagatɔ ka Jamu",
+   "calculation": "../inputs/patient_name"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_id",
+   "label::en": "Patient UUID",
+   "label::bm": "Banabagatɔ ka nimɔrɔ",
+   "calculation": "../inputs/patient_id"
+  },
+  {
+   "type": "calculate",
+   "name": "chw_id",
+   "label::en": "Chw ID",
+   "label::bm": "Banabagatɔ ka nimɔrɔ",
+   "calculation": "../inputs/chw_id"
+  },
+  {
+   "type": "calculate",
+   "name": "chw_name",
+   "label::en": "Chw Name",
+   "label::bm": "Banabagatɔ",
+   "calculation": "../inputs/chw_name"
+  },
+  {
+   "type": "calculate",
+   "name": "needs_signoff",
+   "calculation": "=TRUE()"
+  },
+  {
+   "type": "begin group",
+   "name": "tdr_error_alert",
+   "label::en": "Alerte erreur TDR",
+   "label::fr": "Alerte erreur TDR",
+   "label::bm": "Fili TDR jaabi kan",
+   "appearance": "field-list"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "chw_call_check",
+   "label::en": "Did you call the CHW to notify him of the error in interpreting RDT result for the patient ${patient} ? ",
+   "label::fr": "Avez-vous appelé l'ASC pour lui notifier l'erreur de l'interprétation du TDR paludisme pour le patient  ${patient} ?   ",
+   "label::bm": "I ye ASC wele wa k'a a ka fili fɔ a ye TDR jaabi kan?",
+   "required": "yes"
+  },
+  {
+   "type": "note",
+   "name": "call_chw_note",
+   "label::en": "It is imperative to call the CHW to notify him of the misinterpretation of the TDR Malaria",
+   "label::fr": "Veuillez impérativement appeler l'ASC pour lui notifier l'erreur de l'interprétation du TDR paludisme ",
+   "label::bm": "A ɲinnilen do i fɛ ika ASC wele jona k'a a ka fili fɔ a ye",
+   "relevant": "${chw_call_check} = 'no'"
+  },
+  {
+   "type": "end group"
+  }
+ ],
+ "choices": [
+  {
+   "list_name": "yes_no",
+   "name": "yes",
+   "label::en": "Yes",
+   "label::fr": "Oui",
+   "label::bm": "Awɔ"
+  },
+  {
+   "list_name": "yes_no",
+   "name": "no",
+   "label::en": "No",
+   "label::fr": "Non",
+   "label::bm": "Ayi"
+  }
+ ],
+ "settings": [
+  {
+   "form_title": "Alerte erreur TDR",
+   "form_id": "notification_to_chw",
+   "version": "2018-03-06 00:00:00",
+   "style": "pages",
+   "path": "data",
+   "default_language": "fr"
+  }
+ ]
+}

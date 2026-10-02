@@ -1,0 +1,18 @@
+{
+  "id": "c46733cb-e99f-4b35-8852-1abc5369d234",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_malnutrition_edema",
+  "label": "Est-ce que l’enfant présente des œdèmes bilateraux?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

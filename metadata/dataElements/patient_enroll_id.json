@@ -1,0 +1,18 @@
+{
+  "id": "bb0fb50b-5683-4fe7-a55e-a380b1b0f994",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_enroll_id",
+  "label": "Numéro d'identification du recensement de patient de Muso",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

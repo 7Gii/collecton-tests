@@ -1,0 +1,18 @@
+{
+  "id": "13aafd15-875c-4f37-b445-a6299b5b6697",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_why_close_out",
+  "label": "Pourquoi vous voulez clôre ce suivi?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2d9dc987-52cc-40a0-9fbf-e4d2ccec7777",
+  "tags": []
+}

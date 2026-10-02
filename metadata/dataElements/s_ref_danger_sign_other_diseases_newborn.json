@@ -1,0 +1,18 @@
+{
+  "id": "aeaf6bca-fec7-452e-97a1-29521c70c4a1",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ref_danger_sign_other_diseases_newborn",
+  "label": "L'enfant presente t-il une autre maladie en dehors des maladies du paquet SEC?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

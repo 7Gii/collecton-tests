@@ -1,0 +1,18 @@
+{
+  "id": "f2ac1f8c-7fd9-4e05-b76a-6c0d1fd1ae8c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c_selected_task_number",
+  "label": "nombre de suivi basé sur le choix du suivi",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

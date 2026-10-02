@@ -1,0 +1,18 @@
+{
+  "id": "d8355e93-d605-49c0-aa6b-5cd36b02c35a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_observation",
+  "label": "inputs_t_observation",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

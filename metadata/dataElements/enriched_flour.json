@@ -1,0 +1,18 @@
+{
+  "id": "114c9b84-2cd8-4b8e-839e-1b537869bb13",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "enriched_flour",
+  "label": "enriched_flour",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

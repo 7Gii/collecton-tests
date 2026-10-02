@@ -1,0 +1,18 @@
+{
+  "id": "558c94c3-ae56-4118-90f9-8e01f53f1615",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "type",
+  "label": "type",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

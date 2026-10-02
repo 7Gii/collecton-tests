@@ -1,0 +1,18 @@
+{
+  "id": "f8c4de6e-ea94-4105-a87b-194829f25694",
+  "dataType": "select_multiple",
+  "organisation": "Muso",
+  "name": "s_cscom_areas",
+  "label": "Centre de santé",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "9bc79173-f28d-4333-9e6c-bb53b5f77a20",
+  "tags": []
+}

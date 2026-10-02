@@ -1,0 +1,18 @@
+{
+  "id": "7aba321d-81c3-4e40-a334-edd44ce24734",
+  "dataType": "date",
+  "organisation": "Muso",
+  "name": "s_first_test_date",
+  "label": "A Quelle date le premier examen a été fait?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

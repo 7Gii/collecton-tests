@@ -1,0 +1,18 @@
+{
+  "id": "a8a433fc-31d4-4dbf-97a9-06a0003633a8",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_hiv_test_not_requested_reason",
+  "label": "Pourquoi le test de dépistage VIH n'a pas été demandé?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "924f3492-0c9a-4bbd-9db8-286390ad190a",
+  "tags": []
+}

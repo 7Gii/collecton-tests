@@ -1,0 +1,18 @@
+{
+  "id": "fffdfa7d-4b4b-45c8-8b18-a56b47ac1627",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_genexpert_result",
+  "label": "tb_genexpert_result",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

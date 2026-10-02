@@ -1,0 +1,18 @@
+{
+  "id": "5f31b115-fa8a-4996-9c4e-601663974bc5",
+  "dataType": "date",
+  "organisation": "Muso",
+  "name": "s_followup_date",
+  "label": "Entrez la date de suivi du patient",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

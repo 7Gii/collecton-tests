@@ -1,0 +1,18 @@
+{
+  "id": "9200a8c2-d927-47e9-b9f7-1e7233cc503e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_artemether_suppository_dosage",
+  "label": "Quelle quantité ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "3b95389e-e149-4ef4-9729-e378bb466950",
+  "tags": []
+}

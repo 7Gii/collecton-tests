@@ -1,0 +1,18 @@
+{
+  "id": "81201f36-d066-4cdc-a047-817e3a5a125b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treatment_duration_in_days",
+  "label": "treatment_duration_in_days",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

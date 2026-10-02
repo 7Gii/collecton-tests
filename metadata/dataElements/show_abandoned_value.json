@@ -1,0 +1,18 @@
+{
+  "id": "10f713a1-b157-4e47-9c1f-b478d11875ef",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "show_abandoned_value",
+  "label": "Contrôle l'affichage du CAT abandoned",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

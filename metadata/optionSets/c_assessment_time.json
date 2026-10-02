@@ -1,0 +1,35 @@
+{
+  "id": "d327cd3f-219c-4d5b-9df5-f4ab1c04ccf3",
+  "name": "c_assessment_time",
+  "label": "c_assessment_time",
+  "options": [
+    {
+      "id": "d739eaec-0fe3-4af7-a1c6-1d9e635c927f",
+      "name": "Matin",
+      "value": "c_assessment_time_1",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "78dc0be5-13ae-4bf3-a878-67854f98e0bd",
+      "name": "Midi",
+      "value": "c_assessment_time_2",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "5a2cc9f1-42de-40a5-af1c-c42b99061acb",
+      "name": "Après-midi",
+      "value": "c_assessment_time_3",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "5f3324a2-d3bf-46c8-8094-af7e411b6a59",
+      "name": "Soir",
+      "value": "c_assessment_time_4",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

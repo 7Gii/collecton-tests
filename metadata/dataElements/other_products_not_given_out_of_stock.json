@@ -1,0 +1,18 @@
+{
+  "id": "b76b2de6-5dc4-477d-8c61-11c57bf792fe",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "other_products_not_given_out_of_stock",
+  "label": "other_products_not_given_out_of_stock",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

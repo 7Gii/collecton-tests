@@ -1,0 +1,18 @@
+{
+  "id": "ca6cf285-2f1a-458e-bce4-6d669af03531",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_MAM",
+  "label": "Traiter la Malnutrition Aigue Moderée",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

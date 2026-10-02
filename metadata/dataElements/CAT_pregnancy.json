@@ -1,0 +1,18 @@
+{
+  "id": "026302da-beaf-406d-9b1c-b2db2689df4d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "CAT_pregnancy",
+  "label": "Quel est votre CAT?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "bf45e946-10f3-41bd-b301-a4cc566f3998",
+  "tags": []
+}

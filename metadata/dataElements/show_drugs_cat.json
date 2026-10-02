@@ -1,0 +1,18 @@
+{
+  "id": "3dfce949-1d57-4dc0-b286-2db638c71f23",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "show_drugs_cat",
+  "label": "show_drugs_cat",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

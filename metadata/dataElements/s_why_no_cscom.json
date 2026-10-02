@@ -1,0 +1,18 @@
+{
+  "id": "47ac0121-56cf-4b57-91ef-1095e3a8bf9f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_why_no_cscom",
+  "label": "Pourquoi le patient ne s'est-il pas rendu au CSCOM?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "9dbdb66f-9362-4144-9005-095cbeda2240",
+  "tags": []
+}

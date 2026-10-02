@@ -1,0 +1,18 @@
+{
+  "id": "3c006e60-6ca8-4c3c-89c6-c1c0bee1cdb8",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "next_visit",
+  "label": "next_visit",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

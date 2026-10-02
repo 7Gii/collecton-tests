@@ -1,0 +1,26 @@
+{
+  "id": "a226c953-4324-45bb-9186-cae43a3d8edf",
+  "name": "patient_assessment_over_5_yields_tb_test_result_fp",
+  "title": "Résultat TB (Point Focal)",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "f94f8ba7-ce2c-4594-b605-df9b0c28b9af",
+  "events": [
+    {
+      "id": "event_1",
+      "dueDate": "due_event_1",
+      "startDays": 0,
+      "endDays": 30
+    }
+  ],
+  "forms": [
+    "patient_assessment_over_5"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 1,
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

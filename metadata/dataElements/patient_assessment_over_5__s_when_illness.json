@@ -1,0 +1,18 @@
+{
+  "id": "cdd3034a-fbd5-4284-b723-0039a40b9433",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_assessment_over_5__s_when_illness",
+  "label": "Quand est-ce que la maladie a débuté?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "c8d347b6-3c53-48a0-9360-9e9122ede805",
+  "tags": []
+}

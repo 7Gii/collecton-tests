@@ -1,0 +1,28 @@
+{
+  "id": "37aaee44-ab6f-4483-88fd-c30c5f51b546",
+  "name": "c_artesunate_suppository_type",
+  "label": "c_artesunate_suppository_type",
+  "options": [
+    {
+      "id": "c3f936ef-b09e-431f-99ae-85ed450fc9f0",
+      "name": "Artésunate suppo 50 mg",
+      "value": "artesunate_suppository_50mg",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "2c09be31-c4e5-4917-9aa1-861929aa734f",
+      "name": "Artésunate suppo 100 mg",
+      "value": "artesunate_suppository_100mg",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "128bd77d-9810-4bb8-995a-2aaca87e7df9",
+      "name": "Artésunate suppo 200 mg",
+      "value": "artesunate_suppository_200mg",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

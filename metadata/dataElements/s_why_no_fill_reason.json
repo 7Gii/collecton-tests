@@ -1,0 +1,18 @@
+{
+  "id": "740ec17f-9531-4c70-8a03-14e2d61d2f65",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_why_no_fill_reason",
+  "label": "s_why_no_fill_reason",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

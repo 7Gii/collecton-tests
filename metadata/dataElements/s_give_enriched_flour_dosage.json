@@ -1,0 +1,18 @@
+{
+  "id": "94af9b78-ffd9-4c7d-9c1f-a8426a8ca251",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_give_enriched_flour_dosage",
+  "label": "Combien de sachets?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

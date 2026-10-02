@@ -1,0 +1,18 @@
+{
+  "id": "f2293484-e1e1-4166-90ed-b4feaf9fa536",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "symptom_fever",
+  "label": "Symptômes de la fièvre",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

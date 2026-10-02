@@ -1,0 +1,18 @@
+{
+  "id": "8621d661-022a-464f-8cc8-f8c8a9568f0c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "depo_provera_disp",
+  "label": "depo_provera_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

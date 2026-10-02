@@ -1,0 +1,18 @@
+{
+  "id": "4bb8bcf8-3c09-4384-8049-e91b5f42a13a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "record_number",
+  "label": "record_number",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

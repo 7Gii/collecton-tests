@@ -1,0 +1,18 @@
+{
+  "id": "ed2e850a-0521-4ddf-8265-62ad48773f9b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "iron_folic_acid_srp",
+  "label": "iron_folic_acid_srp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "19e47552-a45c-405f-9d68-796b58ebc089",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "vitamin_a_blue_capsule_disp",
+  "label": "vitamin_a_blue_capsule_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

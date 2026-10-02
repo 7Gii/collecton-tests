@@ -1,0 +1,18 @@
+{
+  "id": "66e76e81-87fd-47ac-86ee-a0e251c4dbad",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_previous_vaccine_status",
+  "label": "inputs_t_previous_vaccine_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

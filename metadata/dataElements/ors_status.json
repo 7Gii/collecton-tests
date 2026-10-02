@@ -1,0 +1,18 @@
+{
+  "id": "65fccdfb-8cb4-4a46-b170-cdf1d3d39034",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "ors_status",
+  "label": "ors_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

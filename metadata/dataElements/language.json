@@ -1,0 +1,18 @@
+{
+  "id": "c5533c7d-19ec-4294-99a0-fca932de823d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "language",
+  "label": "Langue",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "4b8b4447-42e3-41a1-a0bf-ba9939b88382",
+  "tags": []
+}

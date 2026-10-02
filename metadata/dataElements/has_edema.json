@@ -1,0 +1,18 @@
+{
+  "id": "f419a3e3-4292-4a2f-a3ce-3abe51d3eec3",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_edema",
+  "label": "Si le patient a les oedèmes bilatéraux",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

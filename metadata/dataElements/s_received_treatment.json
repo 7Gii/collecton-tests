@@ -1,0 +1,18 @@
+{
+  "id": "2f2451ac-72a2-4c47-be37-fc7a67af9d1d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_received_treatment",
+  "label": "Le patient a t'il reçu son traitement ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

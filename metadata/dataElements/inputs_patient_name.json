@@ -1,0 +1,18 @@
+{
+  "id": "a0d997e1-e36b-4c7d-b5c7-fcfce6cf8659",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_patient_name",
+  "label": "inputs_patient_name",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

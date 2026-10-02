@@ -1,0 +1,14 @@
+{
+  "id": "7001b79b-89d7-471e-8af3-1345e82573dc",
+  "name": "select_dob_method",
+  "label": "Méthode de date de naissance",
+  "options": [
+    {
+      "id": "490117ef-83fa-4ad8-88f3-3ed09a4fcb7e",
+      "name": "Date de naissance indeterminée",
+      "value": "approx",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

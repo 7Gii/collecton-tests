@@ -1,0 +1,18 @@
+{
+  "id": "7a4a6872-b29b-4e48-9953-2655263f816c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "act_not_given_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

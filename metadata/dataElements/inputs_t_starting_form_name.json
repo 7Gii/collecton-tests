@@ -1,0 +1,18 @@
+{
+  "id": "69581cea-2021-46a7-8967-01861851323a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_starting_form_name",
+  "label": "inputs_t_starting_form_name",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "c89d0f34-8116-40f2-9354-a11ed0a2f324",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "CAT_out_of_stock",
+  "label": "Quelle est votre Conduite à Tenir?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b1749540-8e86-4782-a818-08254d06c659",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a6fc7d55-0e85-4449-9fba-3ddd565e2d51",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_ref_danger_sign",
+  "label": "has_ref_danger_sign",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "5ffdca32-004d-40b6-a0df-ec9ab7568a4b",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_antimalarial_suppository_type",
+  "label": "Quel type?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "f9b25ed4-d8f8-4651-a619-c5d0a087d14f",
+  "tags": []
+}

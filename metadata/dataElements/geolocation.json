@@ -1,0 +1,18 @@
+{
+  "id": "d343e1b7-40f2-40c6-84d1-642c16e364e2",
+  "dataType": "geopoint",
+  "organisation": "Muso",
+  "name": "geolocation",
+  "label": "Géolocalisation",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

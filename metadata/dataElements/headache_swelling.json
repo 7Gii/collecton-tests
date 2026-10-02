@@ -1,0 +1,18 @@
+{
+  "id": "ef0c9a3e-b02e-412a-a1cf-f6bc4664b55e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "headache_swelling",
+  "label": "Maux de tête et/ou gonflement du visage",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

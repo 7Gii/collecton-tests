@@ -1,0 +1,15 @@
+{
+  "id": "720b5458-197c-4992-8de0-82e562cf5edf",
+  "name": "no-5-day-follow-up-chw-error",
+  "title": "Pas de suivi de 5eme jour - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target no-5-day-follow-up-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

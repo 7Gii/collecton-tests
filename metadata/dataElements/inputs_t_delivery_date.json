@@ -1,0 +1,18 @@
+{
+  "id": "c915cd83-e739-45ef-92b2-43e855b73a14",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_delivery_date",
+  "label": "inputs_t_delivery_date",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

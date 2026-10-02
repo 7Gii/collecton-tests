@@ -1,0 +1,18 @@
+{
+  "id": "e83225fd-2d44-4668-bc97-0be7f4a1eafe",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "artesunate_200_disp",
+  "label": "artesunate_200_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

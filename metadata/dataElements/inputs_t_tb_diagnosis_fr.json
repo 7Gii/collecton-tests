@@ -1,0 +1,18 @@
+{
+  "id": "ad5c27ff-a28a-40d2-9f27-3affbd5eabc5",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_tb_diagnosis_fr",
+  "label": "inputs_t_tb_diagnosis_fr",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

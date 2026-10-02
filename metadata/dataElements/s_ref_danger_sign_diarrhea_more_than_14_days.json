@@ -1,0 +1,18 @@
+{
+  "id": "213ccc13-68d1-4467-b6aa-88b9d5798de0",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ref_danger_sign_diarrhea_more_than_14_days",
+  "label": "Diarrhée de plus de 14 jours et/ou déshydratation sévère",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

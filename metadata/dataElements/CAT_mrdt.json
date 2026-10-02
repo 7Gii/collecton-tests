@@ -1,0 +1,18 @@
+{
+  "id": "b0bd72db-cc4f-4fe8-8627-923aa022ffa7",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "CAT_mrdt",
+  "label": "Quel est votre CAT?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "bf45e946-10f3-41bd-b301-a4cc566f3998",
+  "tags": []
+}

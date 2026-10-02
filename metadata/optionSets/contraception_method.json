@@ -1,0 +1,98 @@
+{
+  "id": "4e5962e7-27cd-4431-bb04-cb75bc8afe3d",
+  "name": "contraception_method",
+  "label": "contraception_method",
+  "options": [
+    {
+      "id": "ceb520c5-d96c-44f6-9064-11c9967c0711",
+      "name": "DIU (Stérilet)",
+      "value": "iud",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "d79ae88d-1bee-4f94-bab6-755169e404df",
+      "name": "Implants",
+      "value": "implants",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "4be8c069-ca04-47e2-93e3-52f8906cf0fa",
+      "name": "Stérilisation féminine",
+      "value": "sterilization_f",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "9cf6374a-d0fd-45a0-8748-e6a2070e9e0d",
+      "name": "Pilule simple",
+      "value": "simple_pill",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "ba2afd44-19f9-48c9-9f2e-b752d6d5cd50",
+      "name": "Pilule minidosée",
+      "value": "mini_pill",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "37d44856-e1ee-41e7-9c2d-7bfc12d3334d",
+      "name": "DIU d'urgence",
+      "value": "e_iud",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "0c89c46c-3359-487d-a66f-019d0951ec8a",
+      "name": "Préservatif masculin",
+      "value": "condom_m",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "77a12187-b4e6-482e-b946-8b7323ca78c5",
+      "name": "Méthode MAMA",
+      "value": "lam",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f05b8168-b259-4557-ac73-49b9a164a897",
+      "name": "Préservatif Féminin",
+      "value": "condom_f",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "29009f20-049a-4d63-9037-3fb2f7a63c10",
+      "name": "Injectable",
+      "value": "injectable",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "e2d41c89-11f9-452d-ac40-8d814afbaa73",
+      "name": "Collier",
+      "value": "collier",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "4554b79c-3e9b-4d30-924e-7d0ae6b37de0",
+      "name": "Sayana Press",
+      "value": "sayana_press",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f962c6cf-3e75-4c7a-9fbc-662e5dabc0a9",
+      "name": "Pillule du lendemain",
+      "value": "morning_pill",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

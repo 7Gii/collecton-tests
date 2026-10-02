@@ -1,0 +1,18 @@
+{
+  "id": "0ee00437-6e07-4263-bd05-125ceb182397",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "follow_up_count",
+  "label": "Nombre de suivi",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

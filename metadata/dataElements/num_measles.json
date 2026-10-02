@@ -1,0 +1,18 @@
+{
+  "id": "2e030f35-cb1c-48d7-8aef-d5408a891cdb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "num_measles",
+  "label": "Nombre de fois declaré vaccinée contre la rougeole",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

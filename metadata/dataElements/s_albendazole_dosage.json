@@ -1,0 +1,18 @@
+{
+  "id": "82ed9d1c-56dd-49f6-9cd4-a8e269b6e065",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_albendazole_dosage",
+  "label": "s_albendazole_dosage",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

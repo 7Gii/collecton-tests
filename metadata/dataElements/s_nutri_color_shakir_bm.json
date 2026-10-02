@@ -1,0 +1,18 @@
+{
+  "id": "ce084b26-0cf6-4b26-9eb8-63c9fa605d3a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_nutri_color_shakir_bm",
+  "label": "s_nutri_color_shakir_bm",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b6fd4c8e-4ae8-4859-9714-150bd8619d2f",
+  "name": "sam-no-complete-treatment-first-day-chw-error",
+  "title": "MAS sans complication et pas de traitement complet et correct au premier jour du traitement - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target sam-no-complete-treatment-first-day-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

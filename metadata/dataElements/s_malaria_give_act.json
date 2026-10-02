@@ -1,0 +1,18 @@
+{
+  "id": "8557296b-2b33-4e84-bffe-e771901bdb1d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_malaria_give_act",
+  "label": "Avez-vous donné de l’ artéméther + luméfantrine ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ea8b46b7-9dad-4ccc-b2b5-bb1663419584",
+  "name": "condition-worsened-without-referral-chw-error",
+  "title": "Etat aggravé à 24H ou 48H ou 72H ou 5eme jour sans référence/accompagnement au centre de santé - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target condition-worsened-without-referral-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "f6e7864e-fd1e-439d-85b7-a0bf92334081",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_previous_strip",
+  "label": "inputs_t_previous_strip",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "80033e68-db67-4d1f-88a4-7c3a00f39f00",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "other_products_not_proposed",
+  "label": "other_products_not_proposed",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

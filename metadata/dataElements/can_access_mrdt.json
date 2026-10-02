@@ -1,0 +1,18 @@
+{
+  "id": "15830395-5702-4cb3-bf9b-165ca4af69ba",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "can_access_mrdt",
+  "label": "MRDT Flag",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

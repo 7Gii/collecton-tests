@@ -1,0 +1,18 @@
+{
+  "id": "d9f5348f-0857-4cd7-b6a9-915e50747fc0",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "marked_paleness",
+  "label": "Pâleur importante",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "43c3453a-6888-486e-b329-5460b78e3c2d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "next_visit_diarrhea",
+  "label": "next_visit_diarrhea",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "plan-0992b941",
+  "kind": "role",
+  "description": "Rôle tb_focal_point (README étape 4), validé le 02/10/2026",
+  "spec": {
+    "title": "Point Focal TB",
+    "orgUnitLevel": "c20_health_area",
+    "permissions": [
+      "permission_view_tasks",
+      "permission_view_people",
+      "permission_view_reports",
+      "permission_edit_report",
+      "permission_create_c30_supervisor_area",
+      "permission_edit_c30_supervisor_area",
+      "permission_create_c40_chw_area",
+      "permission_edit_c40_chw_area",
+      "permission_create_c50_family",
+      "permission_edit_c50_family",
+      "permission_create_health_area_supervisor",
+      "permission_edit_health_area_supervisor",
+      "permission_create_tb_focal_point",
+      "permission_edit_tb_focal_point",
+      "permission_create_stock_manager",
+      "permission_edit_stock_manager",
+      "permission_create_chw_supervisor",
+      "permission_edit_chw_supervisor",
+      "permission_create_chw",
+      "permission_edit_chw",
+      "permission_create_patient",
+      "permission_edit_patient",
+      "permission_automatic_sync",
+      "permission_manual_sync"
+    ],
+    "dataScope": "La branche de la zone de santé affectée."
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T00:03:20.621Z",
+  "updatedAt": "2026-10-02T00:03:42.186Z",
+  "confirmation": "\"Oui, je valide\" (5 rôles) ; modifier ce qui est créé : \"Oui (Recommended)\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "role",
+      "name": "Point Focal TB"
+    }
+  ],
+  "generated": [
+    "role: Point Focal TB"
+  ]
+}

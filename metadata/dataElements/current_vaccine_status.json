@@ -1,0 +1,18 @@
+{
+  "id": "76457777-97a4-4360-8a73-14bac0daa64e",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "current_vaccine_status",
+  "label": "Est-ce que l’enfant est vacciné contre la rougeole?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "9120c079-5eeb-469c-8ba8-7d2d2e81e08d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_SAM_without_complication",
+  "label": "has_SAM_without_complication",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

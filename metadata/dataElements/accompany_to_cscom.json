@@ -1,0 +1,18 @@
+{
+  "id": "61167b28-59c2-493a-8902-b26b5bf085cf",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "accompany_to_cscom",
+  "label": "Accompagner au CSCOM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

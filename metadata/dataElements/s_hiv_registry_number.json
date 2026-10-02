@@ -1,0 +1,18 @@
+{
+  "id": "810c71f9-f39a-4351-b6b5-b8b541d0912b",
+  "dataType": "integer",
+  "organisation": "Muso",
+  "name": "s_hiv_registry_number",
+  "label": "Numéro d'enregistrement",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

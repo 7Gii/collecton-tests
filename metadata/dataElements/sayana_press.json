@@ -1,0 +1,18 @@
+{
+  "id": "c0f37645-46ce-4d65-a251-ac8b29e515b8",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "sayana_press",
+  "label": "sayana_press",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

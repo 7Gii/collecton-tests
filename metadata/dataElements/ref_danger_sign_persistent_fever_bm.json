@@ -1,0 +1,18 @@
+{
+  "id": "898b2e82-6568-4bc0-ba34-fbf142ba9aeb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "ref_danger_sign_persistent_fever_bm",
+  "label": "ref_danger_sign_persistent_fever_bm",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "03e99de0-2dbf-498b-8b8d-e0dec8922c97",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "fast_breathing_label_fr",
+  "label": "fast_breathing_label_fr",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

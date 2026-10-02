@@ -1,0 +1,35 @@
+{
+  "id": "plan-967c86aa",
+  "kind": "project",
+  "description": "on souhaite ini le projet muso disponible ici /Users/gilbertagbodamakou/Desktop/collecton-muso - ajoute une periode collecte perpetuel - contruit le programme",
+  "spec": {
+    "title": "muso",
+    "organisation": "Muso",
+    "languages": [
+      "fr",
+      "en",
+      "bm"
+    ],
+    "defaultLanguage": "fr",
+    "collection": {
+      "type": "perpetual",
+      "startDay": 1,
+      "endDay": "LAST",
+      "marginDays": 5
+    }
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T22:39:25.691Z",
+  "updatedAt": "2026-10-01T22:40:13.351Z",
+  "confirmation": "Marge : \"5 jours (Recommended)\" ; Plan projet : \"Oui, je confirme\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "project",
+      "name": "muso"
+    }
+  ],
+  "generated": [
+    "project: muso"
+  ]
+}

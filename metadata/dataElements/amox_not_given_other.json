@@ -1,0 +1,18 @@
+{
+  "id": "281af301-1bda-40d5-bc59-7fa960304588",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "amox_not_given_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "453205ed-02a4-4aa0-adb8-f4aacb698c7f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "low_dose_pill",
+  "label": "low_dose_pill",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

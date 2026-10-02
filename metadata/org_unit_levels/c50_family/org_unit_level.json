@@ -1,0 +1,68 @@
+{
+  "id": "bd7e65c3-fe5e-47d3-b835-9414d905f429",
+  "name": "c50_family",
+  "label": "Famille",
+  "icon": "layout-group",
+  "level": 5,
+  "attributes": [
+    {
+      "key": "f1150281-0287-4943-9ae3-0f44282a0eb5",
+      "title": "Identification",
+      "fields": [
+        {
+          "key": "ou_name",
+          "label": "Nom",
+          "dataType": "string",
+          "dataElementId": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+          "required": true
+        },
+        {
+          "key": "family_id",
+          "label": "Numéro d'identification du ménage",
+          "dataType": "string",
+          "dataElementId": "d13dbf1d-de5f-49f6-bb1d-2cb2bca9ae78",
+          "required": true,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "4 chiffres",
+          "validationExpression": "(app) => /^[0-9]{4}$/.test(String(app.currentForm?.family_id ?? ''))"
+        },
+        {
+          "key": "geolocation",
+          "label": "Géolocalisation",
+          "dataType": "geopoint",
+          "dataElementId": "d343e1b7-40f2-40c6-84d1-642c16e364e2",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        }
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "key": "profile",
+      "title": "Profil",
+      "fields": [
+        {
+          "key": "parent",
+          "label": "Appartient à",
+          "value": "parentLineage"
+        },
+        {
+          "key": "last_visit",
+          "label": "Date de dernière visite",
+          "value": "lastVisitDate"
+        },
+        {
+          "key": "visits_this_month",
+          "label": "Nombre de visites de ce mois-ci",
+          "value": "visitsThisMonth"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "plan-c9bcd79f",
+  "kind": "indicator",
+  "description": "Indicateur danger-signs-without-referral-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "Signe(s) de danger sans référence ou accompagnement au centre de santé de premier contact - Erreur de l'ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT danger-signs-without-referral-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.286Z",
+  "updatedAt": "2026-10-02T01:46:05.655Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "Signe(s) de danger sans référence ou accompagnement au centre de santé de premier contact - Erreur de l'ASC"
+    }
+  ],
+  "generated": [
+    "indicator: Signe(s) de danger sans référence ou accompagnement au centre de santé de premier contact - Erreur de l'ASC"
+  ]
+}

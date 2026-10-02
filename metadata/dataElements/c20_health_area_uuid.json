@@ -1,0 +1,18 @@
+{
+  "id": "a094814c-0384-437d-801b-c967e418ef78",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c20_health_area_uuid",
+  "label": "c20_health_area_uuid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "plan-dda5b361",
+  "kind": "indicator",
+  "description": "Indicateur incorrect-alu-dose-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "Dose de ALU donnée par l'ASC incorrecte - Erreur de l'ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT incorrect-alu-dose-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.316Z",
+  "updatedAt": "2026-10-02T01:46:05.661Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "Dose de ALU donnée par l'ASC incorrecte - Erreur de l'ASC"
+    }
+  ],
+  "generated": [
+    "indicator: Dose de ALU donnée par l'ASC incorrecte - Erreur de l'ASC"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "10e24b29-fda9-49c1-9564-ad679cb045e0",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_date_of_birth",
+  "label": "inputs_t_date_of_birth",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

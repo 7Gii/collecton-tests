@@ -1,0 +1,18 @@
+{
+  "id": "2af11a14-9e3c-415c-9c66-0043d0cfdb65",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "assessment_date",
+  "label": "date réelle de prise en charge",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bf95773a-2d44-455c-9045-2799203f8ee7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "num_yellow_strips",
+  "label": "Nombre de bandes jaunes",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

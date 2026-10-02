@@ -1,0 +1,21 @@
+{
+  "id": "87ee1a12-5bfd-4a16-95b6-7120e0dc4c86",
+  "name": "tb_type",
+  "label": "tb_type",
+  "options": [
+    {
+      "id": "5bd72420-f054-408c-a722-e0e5b764aab2",
+      "name": "Pulmonaire",
+      "value": "pulmonary",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "a7b201a8-8914-4594-ad22-3cf0421f1582",
+      "name": "Extra-pulmonaire",
+      "value": "extra-pulmonary",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

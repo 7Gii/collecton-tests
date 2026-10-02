@@ -1,0 +1,18 @@
+{
+  "id": "67e91d17-3b4d-4c16-99c6-96abb34a22d3",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_num_child_presence_confirmation",
+  "label": "inputs_t_num_child_presence_confirmation",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

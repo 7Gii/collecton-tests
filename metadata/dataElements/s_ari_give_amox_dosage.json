@@ -1,0 +1,18 @@
+{
+  "id": "a6eb9cbc-b050-471f-94bb-8bdd6ec88bd3",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ari_give_amox_dosage",
+  "label": "Quelle est la posologie?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "ffd4a9b3-7164-4ff4-a8a0-960bddc3ed7b",
+  "tags": []
+}

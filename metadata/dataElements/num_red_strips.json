@@ -1,0 +1,18 @@
+{
+  "id": "49e71514-1e29-4d4b-af98-dee89a6ec397",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "num_red_strips",
+  "label": "Nombre de bandes rouges",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

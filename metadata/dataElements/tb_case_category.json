@@ -1,0 +1,18 @@
+{
+  "id": "b4875f37-546d-4639-bed5-dfaf86a30081",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_case_category",
+  "label": "tb_case_category",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

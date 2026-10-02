@@ -1,0 +1,21 @@
+{
+  "id": "abffa9f7-54f9-44b7-a5a5-6e9947aeb0a6",
+  "name": "c_task_to_perform",
+  "label": "c_task_to_perform",
+  "options": [
+    {
+      "id": "7c6df7fa-6f41-45a1-ae9a-0e04140d91a0",
+      "name": "Suivi",
+      "value": "follow_up",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "a372aebc-e2df-4214-8c1c-d5ee85839112",
+      "name": "Clôture",
+      "value": "close_out",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a03eaa82-0da8-45c1-9b75-f378eae10fdd",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "pregnancy_gard",
+  "label": "Observations",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

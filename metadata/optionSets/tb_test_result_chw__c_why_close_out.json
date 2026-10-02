@@ -1,0 +1,49 @@
+{
+  "id": "72e1a99c-505b-480c-b691-6bf974071a82",
+  "name": "tb_test_result_chw__c_why_close_out",
+  "label": "tb_test_result_chw__c_why_close_out",
+  "options": [
+    {
+      "id": "cf6045aa-99dc-4295-850f-1f7821618332",
+      "name": "Le patient est décédé",
+      "value": "patient_died",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "c5519e91-f3c6-4029-af35-3b8a287322d4",
+      "name": "Transfert du patient",
+      "value": "transfer",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "bb04c04e-0c70-4bf2-ae41-759ac3939ad3",
+      "name": "Refus des parents pour divers raisons",
+      "value": "refusal_of_parent",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "9ec17376-139d-4f69-a92b-1476cf6b1187",
+      "name": "Perte de vue",
+      "value": "loss_of_sight",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "3f95115e-c936-4c6f-bdc3-163c4aa66ac6",
+      "name": "Non évalué",
+      "value": "not_evaluated",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "0b801a9e-e903-423b-b0cb-06ce6f9328c8",
+      "name": "Patient hospitalisé",
+      "value": "hospital",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

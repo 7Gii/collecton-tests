@@ -1,0 +1,15 @@
+{
+  "id": "5c5ed1e2-9b19-46a6-86ae-c5b3457dc7f4",
+  "name": "2-home-visits-per-fam",
+  "title": "% de ménages ayant reçu au moins 2 VAD",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target 2-home-visits-per-fam"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

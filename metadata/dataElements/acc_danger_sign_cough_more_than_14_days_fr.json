@@ -1,0 +1,18 @@
+{
+  "id": "dc5cdacf-b78a-4918-92b1-8d8e190bbd87",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "acc_danger_sign_cough_more_than_14_days_fr",
+  "label": "acc_danger_sign_cough_more_than_14_days_fr",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

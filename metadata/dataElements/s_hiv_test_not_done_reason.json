@@ -1,0 +1,18 @@
+{
+  "id": "ea77bfaf-58fd-4869-a90c-bd9c7c6043c1",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_hiv_test_not_done_reason",
+  "label": "Pourquoi le test VIH n'a t-il pas été fait?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "f06f01df-05b8-4717-abd7-3aa61fea9186",
+  "tags": []
+}

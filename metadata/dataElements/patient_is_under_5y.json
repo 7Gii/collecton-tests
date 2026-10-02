@@ -1,0 +1,18 @@
+{
+  "id": "9ad7472c-6565-4fe5-aabd-567b5f59df59",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_is_under_5y",
+  "label": "patient_is_under_5y",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

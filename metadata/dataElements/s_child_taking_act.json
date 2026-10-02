@@ -1,0 +1,18 @@
+{
+  "id": "f3fd77b5-e321-4cfa-ad7c-bbe5c408a310",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_child_taking_act",
+  "label": "Le patient prend t-il de l'Artésunate + Lumefantrine (ALU)?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

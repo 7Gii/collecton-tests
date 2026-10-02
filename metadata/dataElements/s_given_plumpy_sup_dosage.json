@@ -1,0 +1,18 @@
+{
+  "id": "35017c1d-1eeb-456d-b24b-b7bba32b37d2",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_given_plumpy_sup_dosage",
+  "label": "Combien de sachets ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

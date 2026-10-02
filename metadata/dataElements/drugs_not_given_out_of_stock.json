@@ -1,0 +1,18 @@
+{
+  "id": "497155d0-08ce-4532-9017-b8a25ef3d4fa",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "drugs_not_given_out_of_stock",
+  "label": "drugs_not_given_out_of_stock",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

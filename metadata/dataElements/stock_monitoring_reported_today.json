@@ -1,0 +1,18 @@
+{
+  "id": "eefbb09f-1c2b-4fb2-954e-cde96ed1678c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "stock_monitoring_reported_today",
+  "label": "stock_monitoring_reported_today",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

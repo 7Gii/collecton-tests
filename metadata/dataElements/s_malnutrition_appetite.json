@@ -1,0 +1,18 @@
+{
+  "id": "c0939519-03b3-4365-aa33-43af0d78a670",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_malnutrition_appetite",
+  "label": "Comment évaluez vous l'appétit de l'enfant?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "4f84cb9e-e891-4f14-a6a4-c2f373fbf5f3",
+  "tags": []
+}

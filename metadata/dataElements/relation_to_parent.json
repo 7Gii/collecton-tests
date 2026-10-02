@@ -1,0 +1,18 @@
+{
+  "id": "cc958890-8ee5-405a-8a64-9fa147241b56",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "relation_to_parent",
+  "label": "Relation de la personne avec le chef du ménage",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "3e01ed1c-91ca-4665-a56f-b5d640dbe680",
+  "tags": []
+}

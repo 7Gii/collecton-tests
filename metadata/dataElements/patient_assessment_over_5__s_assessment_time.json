@@ -1,0 +1,18 @@
+{
+  "id": "89593b3e-4626-403c-b3db-06caaeee1464",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_assessment_over_5__s_assessment_time",
+  "label": "Quand est-ce que le patient a été évalué?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "82f03a80-6868-4ac8-8649-b719ee8c1e98",
+  "tags": []
+}

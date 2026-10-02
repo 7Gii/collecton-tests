@@ -1,0 +1,18 @@
+{
+  "id": "2863fa13-7944-4056-9db2-5ccbc495e4e3",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_first_malnutrition_screening_other",
+  "label": "Autre (Préciser):",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

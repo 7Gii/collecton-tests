@@ -1,0 +1,18 @@
+{
+  "id": "14546742-5e5c-4c57-9bd2-90afadb7475b",
+  "dataType": "integer",
+  "organisation": "Muso",
+  "name": "s_registry_number",
+  "label": "Numéro d'enregistrement",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

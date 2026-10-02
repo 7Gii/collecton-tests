@@ -1,0 +1,18 @@
+{
+  "id": "fc068f7f-51df-4e4a-b20c-38a3a8957602",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_albendazole",
+  "label": "Avez-vous donné du déparasitant?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

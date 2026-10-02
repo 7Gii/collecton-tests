@@ -1,0 +1,18 @@
+{
+  "id": "60bf7520-48cc-4167-8110-fe8994cb220e",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "moderate_malnutrition_followup__id",
+  "label": "_id",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

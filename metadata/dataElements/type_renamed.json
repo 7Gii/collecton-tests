@@ -1,0 +1,18 @@
+{
+  "id": "f7443cd8-3b50-429e-bf84-9fab1a1f97d0",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "type_renamed",
+  "label": "type_renamed",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

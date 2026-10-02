@@ -1,0 +1,18 @@
+{
+  "id": "119f84bc-7b01-4105-b0b6-f18851027d00",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "vitamina_status",
+  "label": "vitamina_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

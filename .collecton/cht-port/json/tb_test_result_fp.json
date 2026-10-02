@@ -1,0 +1,1517 @@
+{
+ "survey": [
+  {
+   "type": "begin group",
+   "name": "inputs",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "field-list",
+   "relevant": "./source = 'user'"
+  },
+  {
+   "type": "string",
+   "name": "source",
+   "label::en": "Source",
+   "label::fr": "Source",
+   "appearance": "hidden",
+   "default": "user"
+  },
+  {
+   "type": "string",
+   "name": "source_id",
+   "label::en": "Source ID",
+   "label::fr": "Source de l'ID",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_cscom_area",
+   "label::en": "CSCOM",
+   "label::fr": "CSCOM",
+   "label::bm": "CSCOM",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_diagnosis_en",
+   "label::en": "Diagnosis ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_diagnosis_fr",
+   "label::en": "Diagnosis ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_diagnosis_bm",
+   "label::en": "Diagnosis ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_case_category",
+   "label::en": "Is TB suspect or contact case",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_patient_name",
+   "label::en": "CHW fullname",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_date_of_birth",
+   "label::en": "DOB"
+  },
+  {
+   "type": "hidden",
+   "name": "t_patient_sex",
+   "label::en": "Sex"
+  },
+  {
+   "type": "hidden",
+   "name": "t_patient_phone",
+   "label::en": "Phone"
+  },
+  {
+   "type": "hidden",
+   "name": "t_muso_id",
+   "label::en": "Muso ID"
+  },
+  {
+   "type": "string",
+   "name": "t_starting_form_uuid",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_starting_form_name",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "Patient",
+   "label::fr": "Patient",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "db:person",
+   "name": "_id",
+   "label::en": "What is the patient name?",
+   "label::fr": "Quel est le nom du patient?",
+   "label::bm": "Banabagatɔ tɔgɔ n'a jamu",
+   "required": "yes",
+   "appearance": "db-object",
+   "hint::en": "select a person from the list",
+   "hint::fr": "Entrez les trois premières lettres du nom du patient pour le sélectionner.",
+   "hint::bm": "Mɔgɔ dɔ sugandi lisi kɔnɔ"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "family_uuid",
+   "label::fr": "family_uuid",
+   "label::bm": "family_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "chw_area_uuid",
+   "label::fr": "chw_area_uuid",
+   "label::bm": "chw_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "supervisor_area_uuid",
+   "label::fr": "supervisor_area_uuid",
+   "label::bm": "supervisor_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "health_area_uuid",
+   "label::fr": "health_area_uuid",
+   "label::bm": "health_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "site_uuid",
+   "label::fr": "site_uuid",
+   "label::bm": "site_uuid"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "lineage",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "calculate",
+   "name": "c50_patient_uuid",
+   "label::en": "c50_patient_uuid",
+   "label::fr": "c50_patient_uuid",
+   "label::bm": "c50_patient_uuid",
+   "calculation": "../../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c50_family_uuid",
+   "label::en": "c50_family_uuid",
+   "label::fr": "c50_family_uuid",
+   "label::bm": "c50_family_uuid",
+   "calculation": "../../inputs/contact/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c40_chw_area_uuid",
+   "label::en": "c40_chw_area_uuid",
+   "label::fr": "c40_chw_area_uuid",
+   "label::bm": "c40_chw_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c30_supervisor_area_uuid",
+   "label::en": "c30_supervisor_area_uuid",
+   "label::fr": "c30_supervisor_area_uuid",
+   "label::bm": "c30_supervisor_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c20_health_area_uuid",
+   "label::en": "c20_health_area_uuid",
+   "label::fr": "c20_health_area_uuid",
+   "label::bm": "c20_health_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c10_site_uuid",
+   "label::en": "c10_site_uuid",
+   "label::fr": "c10_site_uuid",
+   "label::bm": "c10_site_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/parent/parent/_id"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_years",
+   "label::en": "Years",
+   "label::fr": "Années",
+   "label::bm": "San",
+   "default": 0,
+   "calculation": "floor( difference-in-months( ${t_date_of_birth}, now() ) div 12 )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_months",
+   "label::en": "Months",
+   "label::fr": "Mois",
+   "label::bm": "Kalo",
+   "default": 0,
+   "calculation": "difference-in-months( ${t_date_of_birth}, now() )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_days",
+   "label::en": "Days old",
+   "label::fr": "Jours",
+   "label::bm": "Tile",
+   "calculation": "floor( decimal-date-time(now()) - decimal-date-time(${t_date_of_birth}) )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display",
+   "calculation": "concat(concat(${patient_age_in_years}, if(${patient_age_in_years}=1,' year and ',' years and ')),concat(${patient_age_in_months} mod 12, if((${patient_age_in_months} mod 12)=1,' month old',' months old')))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display_fr",
+   "calculation": "concat(concat(${patient_age_in_years}, if(${patient_age_in_years}=1,' an et ',' ans et ')),concat(${patient_age_in_months} mod 12, ' mois'))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display_bm",
+   "calculation": "concat(concat('San ', ${patient_age_in_years}, ' ani '), concat(' Kalo ', ${patient_age_in_months} mod 12))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex",
+   "calculation": "${t_patient_sex}"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_fr",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'Homme', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'Femme', ''))",
+   "instance::tag": "hidden"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_bm",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'Cɛ', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'Muso', ''))",
+   "instance::tag": "hidden"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_id",
+   "calculation": "../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "muso_id",
+   "calculation": "${t_muso_id}"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_case_category",
+   "calculation": "${t_tb_case_category}"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_name",
+   "calculation": "${t_patient_name}"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_phone",
+   "calculation": "${t_patient_phone}"
+  },
+  {
+   "type": "calculate",
+   "name": "record_number",
+   "calculation": "if(${tb_case_category} = 'suspect', ${s_registry_number}, ${s_contact_registry_number})"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_is_under_5y",
+   "calculation": "if(${patient_age_in_years} < 5, 'true', 'false')"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_1_result",
+   "calculation": "${s_tb_result}"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_genexpert_result",
+   "calculation": "${s_tb_genexpert_result}"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result",
+   "calculation": "if(\n    (${tb_test_method}='microscopy' or ${tb_test_method}='other'), ${tb_test_1_result},\n    if(${tb_test_method}='genexpert', if(${rif_resistant}='yes','pos','neg'),\n    if(${tb_test_method}='clinical_diagnosis', 'pos', '')\n    )\n)"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_method",
+   "calculation": "${test_1_method}"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result_display",
+   "calculation": "if(${tb_test_result}='pos','Positive',if(${tb_test_result}='neg','Négative','No result'))"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result_display_fr",
+   "calculation": "if(${tb_test_result}='pos','Positif',if(${tb_test_result}='neg','Négatif','Pas de résultat'))"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result_display_bm",
+   "calculation": "if(${tb_test_result}='pos','Positif',if(${tb_test_result}='neg','Négatif','Pas de résultat'))"
+  },
+  {
+   "type": "calculate",
+   "name": "s_tb_result_display",
+   "calculation": "jr:choice-name(${s_tb_result}, '${s_tb_result}')"
+  },
+  {
+   "type": "calculate",
+   "name": "needs_signoff",
+   "calculation": "\"true\""
+  },
+  {
+   "type": "calculate",
+   "name": "cscom_area",
+   "calculation": "${t_cscom_area}"
+  },
+  {
+   "type": "calculate",
+   "name": "rif_resistant_1",
+   "calculation": "if(${s_tb_genexpert_result}='yes_rif_sensitive','yes','no')"
+  },
+  {
+   "type": "calculate",
+   "name": "rif_resistant_2",
+   "calculation": "if(${s_tb_genexpert_result}='yes_not_rif_sensitive','yes','no')"
+  },
+  {
+   "type": "calculate",
+   "name": "rif_resistant",
+   "calculation": "if(${rif_resistant_1}='yes' or ${rif_resistant_2}='yes','yes','no')"
+  },
+  {
+   "type": "calculate",
+   "name": "starting_form_uuid",
+   "calculation": "../inputs/t_starting_form_uuid"
+  },
+  {
+   "type": "calculate",
+   "name": "starting_form_name",
+   "calculation": "../inputs/t_starting_form_name"
+  },
+  {
+   "type": "begin group",
+   "name": "s_patient_details",
+   "label::en": "Patient's details",
+   "label::fr": "Informations sur le patient",
+   "label::bm": "Informations sur le patient",
+   "appearance": "field-list"
+  },
+  {
+   "type": "note",
+   "name": "s_cscom_area",
+   "label::en": "<b>Refered from CSCOM:</b> ${cscom_area}",
+   "label::fr": "<b>Referé à partir du CSCOM:</b> ${cscom_area}",
+   "label::bm": "<b>Referé à partir du CSCOM:</b> ${cscom_area}"
+  },
+  {
+   "type": "note",
+   "name": "s_patient_name",
+   "label::en": "<b>First and last name:</b> ${patient_name} ",
+   "label::fr": "<b>Prénom et Nom:</b>  ${patient_name} ",
+   "label::bm": "<b>Prénom et Nom:</b>  ${patient_name} "
+  },
+  {
+   "type": "note",
+   "name": "s_patient_age",
+   "label::en": "<b>Age:</b> ${patient_age_display}",
+   "label::fr": "<b>Age: </b>  ${patient_age_display_fr}",
+   "label::bm": "<b>Age: </b>  ${patient_age_display_fr}"
+  },
+  {
+   "type": "note",
+   "name": "s_patient_sex",
+   "label::en": "<b>Gender:</b> ${patient_sex}",
+   "label::fr": "<b>Sexe:</b>  ${patient_sex_fr}",
+   "label::bm": "<b>Sexe:</b>  ${patient_sex_fr}"
+  },
+  {
+   "type": "note",
+   "name": "s_patient_phone",
+   "label::en": "<b>Pphone number:</b> ${patient_phone} ",
+   "label::fr": "<b>Numéro de téléphone:</b>   ${patient_phone} ",
+   "label::bm": "<b>Numéro de téléphone:</b>   ${patient_phone} "
+  },
+  {
+   "type": "note",
+   "name": "s_tb_diagnosis",
+   "label::en": "<b>Reference/accompanying signs:</b> ${t_tb_diagnosis_en}",
+   "label::fr": "<b>Signes de référence/accompagnement:</b>  ${t_tb_diagnosis_fr}",
+   "label::bm": "<b>Signes de référence/accompagnement:</b>  ${t_tb_diagnosis_fr}"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "s_patient_arrival",
+   "label::en": "Arrival of the patient at the CSCOM",
+   "label::fr": "Arrivée du patient au CSCOM",
+   "label::bm": "Arrivée du patient au CSCOM",
+   "appearance": "field-list"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_fill_info",
+   "label::en": "Do you want to fill in the information collected?",
+   "label::fr": "Voulez-vous renseigner des informations?",
+   "label::bm": "Voulez-vous renseigner des informations?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one no_fill_reason",
+   "name": "s_why_no_fill",
+   "label::en": "Why don't you want to fill in the information collected?",
+   "label::fr": "Pourquoi ne voulez-vous pas renseigner des informations?",
+   "label::bm": "Pourquoi ne voulez-vous pas renseigner des informations?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_fill_info} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_no_fill_other",
+   "label::en": "Specify other",
+   "label::fr": "Précisez autre",
+   "label::bm": "Précisez autre",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_why_no_fill} = 'other'"
+  },
+  {
+   "type": "calculate",
+   "name": "s_why_no_fill_reason",
+   "calculation": "jr:choice-name(${s_why_no_fill}, '${s_why_no_fill}')"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_contact_case_screening",
+   "label::en": "TB Screening for Contact Cases",
+   "label::fr": "Dépistage de la tuberculose chez l'enfant contact de TPBC",
+   "label::bm": "Dépistage de la tuberculose chez l'enfant contact de TPBC",
+   "appearance": "field-list",
+   "relevant": "${s_fill_info} = 'yes' and ${tb_case_category} = 'contact'"
+  },
+  {
+   "type": "text",
+   "name": "s_contact_registry_number",
+   "label::en": "Contact case registry number",
+   "label::fr": "Numéro d'enregistrement du cas contact",
+   "label::bm": "Numéro d'enregistrement du cas contact",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_has_family_relation",
+   "label::en": "Does the contact have a family relation with the TB patient?",
+   "label::fr": "Lien de parenté avec le patient TB?",
+   "label::bm": "Lien de parenté avec le patient TB?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "text",
+   "name": "s_family_relation_type",
+   "label::en": "What type of family relation?",
+   "label::fr": "Le type de lien de parenté?",
+   "label::bm": "Le type de lien de parenté?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_has_family_relation} = 'yes'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_has_other_relation",
+   "label::en": "Does the contact have another link with the TB patient?",
+   "label::fr": "Autres lien avec le patient TB?",
+   "label::bm": "Autres lien avec le patient TB?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_has_family_relation} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_other_relation_type",
+   "label::en": "What type of link?",
+   "label::fr": "Le type de lien?",
+   "label::bm": "Le type de lien?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_has_other_relation} = 'yes'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_contact_is_hiv_positive",
+   "label::en": "Is the contact case a person living with HIV?",
+   "label::fr": "Le cas contact est-il un PVVIH?",
+   "label::bm": "Le cas contact est-il un PVVIH?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "note",
+   "name": "n_child_screening_questions",
+   "label::en": "Please ask the following questions to the patient successively.",
+   "label::fr": "Veuillez poser successivement les questions ci-dessous au patient.",
+   "label::bm": "Veuillez poser successivement les questions ci-dessous au patient.",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_child_contact_with_tb_patient",
+   "label::en": "Is the child in contact with a known patient?",
+   "label::fr": "L'enfant est-il en contact avec un malade connu?",
+   "label::bm": "L'enfant est-il en contact avec un malade connu?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_child_anorexia",
+   "label::en": "Does the child suffer from anorexia (lack of appetite) and apathy?",
+   "label::fr": "L'enfant souffre-t-il d'une anorexie (manque d'appétit) et apathie?",
+   "label::bm": "L'enfant souffre-t-il d'une anorexie (manque d'appétit) et apathie?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_child_weight_loss",
+   "label::en": "Does the child have weight loss or weight stagnation?",
+   "label::fr": "L'enfant présente-t-il un amaigrissement : perte ou stagnation du poids?",
+   "label::bm": "L'enfant présente-t-il un amaigrissement : perte ou stagnation du poids?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_child_reduced_activity",
+   "label::en": "Reduced school performance and/or play activities?",
+   "label::fr": "Diminution du rendement scolaire et/ou des activités ludiques?",
+   "label::bm": "Diminution du rendement scolaire et/ou des activités ludiques?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_cough_over_14_days",
+   "label::en": "Cough for more than 14 days?",
+   "label::fr": "Toux de plus de 14 jours?",
+   "label::bm": "Toux de plus de 14 jours?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${patient_age_in_years} >= 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_fever_night_sweats",
+   "label::en": "Fever and night sweats?",
+   "label::fr": "Fièvre et sueurs nocturnes?",
+   "label::bm": "Fièvre et sueurs nocturnes?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_lymphadenopathy",
+   "label::en": "Presence of lymphadenopathy?",
+   "label::fr": "Présence d'adénopathies?",
+   "label::bm": "Présence d'adénopathies?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "note",
+   "name": "n_tb_suspicion_reminder",
+   "label::en": "Think about tuberculosis in children with the following signs: cough, fever, weight loss, night sweats. Also look for other signs such as: respiratory difficulties, pleural/pericardial/peritoneal effusion, lymphadenopathy especially cervical, neck stiffness, bone deformities in the spine or joints.",
+   "label::fr": "Penser à la tuberculose de l'enfant et faire une investigation diagnostique devant un des signes suivants : une toux, une fièvre, une perte de poids, des sueurs nocturnes. Mais rechercher éventuellement d'autres signes tels que : des difficultés respiratoires, épanchement des séreuses (plèvre, péricarde, péritoine), adénopathies surtout cervicales, une raideur de la nuque, déformations osseuses au niveau de la colonne vertébrale ou des articulations.",
+   "label::bm": "Penser à la tuberculose de l'enfant et faire une investigation diagnostique devant un des signes suivants : une toux, une fièvre, une perte de poids, des sueurs nocturnes. Mais rechercher éventuellement d'autres signes tels que : des difficultés respiratoires, épanchement des séreuses (plèvre, péricarde, péritoine), adénopathies surtout cervicales, une raideur de la nuque, déformations osseuses au niveau de la colonne vertébrale ou des articulations.",
+   "relevant": "${patient_age_in_years} < 5"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_tb_suspicion",
+   "label::en": "TB suspicion?",
+   "label::fr": "Conclusion : suspicion de tuberculose?",
+   "label::bm": "Conclusion : suspicion de tuberculose?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "select_one treatment_action",
+   "name": "s_treatment_action",
+   "label::en": "What is the course of action for the patient?",
+   "label::fr": "Quelle est la conduite à tenir pour le patient?",
+   "label::bm": "Quelle est la conduite à tenir pour le patient?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "s_tb_diagnosis",
+   "label::en": "Diagnosis ",
+   "label::fr": "Bilan diagnostic",
+   "label::bm": "Bilan diagnostic",
+   "appearance": "field-list",
+   "relevant": "${s_fill_info} = 'yes' and (${tb_case_category} = 'suspect' or ${s_treatment_action} = 'test_tb')"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_diagnosis_requested",
+   "label::en": "Were TB diagnostic tests requested/performed?",
+   "label::fr": "Est-ce que les bilans de diagnostic de la tuberculose ont été demandé/effectué?",
+   "label::bm": "Est-ce que les bilans de diagnostic de la tuberculose ont été demandé/effectué?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one diagnosis_not_done_reason",
+   "name": "s_diagnosis_not_done_reason",
+   "label::en": "Why has the diagnosis not been taken?",
+   "label::fr": "Pourquoi le bilan n'a pas été fait?",
+   "label::bm": "Pourquoi le bilan n'a pas été fait?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_diagnosis_requested} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_diagnosis_not_done_reason_other",
+   "label::en": "Specify",
+   "label::fr": "Précisez",
+   "label::bm": "Précisez",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_diagnosis_not_done_reason} = 'other'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_diagnosis_done",
+   "label::en": "Has the tuberculosis diagnostic workup been done?",
+   "label::fr": "Est-ce que le bilan de diagnostic de la tuberculose a été fait?",
+   "label::bm": "Est-ce que le bilan de diagnostic de la tuberculose a été fait?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_diagnosis_requested}='yes'"
+  },
+  {
+   "type": "select_one test_methods",
+   "name": "test_1_method",
+   "label::en": "Which?",
+   "label::fr": "Avec quelle méthode ?",
+   "label::bm": "Lequel?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_diagnosis_done} = 'yes'"
+  },
+  {
+   "type": "text",
+   "name": "test_1_method_other",
+   "label::en": "Specify",
+   "label::fr": "Précisez",
+   "label::bm": "Précisez",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${test_1_method} = 'other'"
+  },
+  {
+   "type": "integer",
+   "name": "s_registry_number",
+   "label::en": "Registry number",
+   "label::fr": "Numéro d'enregistrement",
+   "label::bm": "Numéro d'enregistrement",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_diagnosis_done} = 'yes'"
+  },
+  {
+   "type": "select_one tb_pos_neg",
+   "name": "s_tb_result",
+   "label::en": "What is the result of the tuberculosis test?",
+   "label::fr": "Quel est le résultat du test de tuberculose? ",
+   "label::bm": "Quel est le résultat du test de tuberculose? ",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${test_1_method} = 'microscopy' or ${test_1_method} = 'other'"
+  },
+  {
+   "type": "date",
+   "name": "s_date",
+   "label::en": "What is the registration date?",
+   "label::fr": "Quelle est la date d'enregistrement?",
+   "label::bm": "Quelle est la date d'enregistrement?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${tb_test_1_result}='pos' or ${test_1_method} = 'clinical_diagnosis'",
+   "constraint": "floor(decimal-date-time(.)) <= floor(decimal-date-time(now()))",
+   "constraint_message::en": "Date must be before today",
+   "constraint_message::fr": "Date doit être avant aujourd'hui",
+   "constraint_message::bm": "Don fɔlen  kan ka kɛ yani bi don cɛ"
+  },
+  {
+   "type": "decimal",
+   "name": "s_weight",
+   "label::en": "What is the weight (kg)",
+   "label::fr": "Quel est le poids (kg)?",
+   "label::bm": "Quel est le poids (kg)?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${tb_test_1_result}='pos' or ${test_1_method} = 'clinical_diagnosis'",
+   "constraint": ". > 0 and . <= 150",
+   "constraint_message::en": "Should be between 0 and 150",
+   "constraint_message::fr": "Doit être compris entre 0 et 150",
+   "constraint_message::bm": "> 0 ani <= 150"
+  },
+  {
+   "type": "select_one tb_genexpert_result",
+   "name": "s_tb_genexpert_result",
+   "label::en": "What is the result?",
+   "label::fr": "Quel est le résultat du test GeneXpert?",
+   "label::bm": "Quel est le résultat du test GeneXpert?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${test_1_method} = 'genexpert'"
+  },
+  {
+   "type": "date",
+   "name": "s_first_test_date",
+   "label::en": "When was the first examination conducted?",
+   "label::fr": "A Quelle date le premier examen a été fait?",
+   "label::bm": "A Quelle date le premier examen a été fait?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${tb_test_1_result}='pos' or ${test_1_method} = 'clinical_diagnosis' or ${rif_resistant} = 'yes'",
+   "constraint": "floor(decimal-date-time(.)) <= floor(decimal-date-time(now()))",
+   "constraint_message::en": "Date must be before today",
+   "constraint_message::fr": "Date doit être avant aujourd'hui",
+   "constraint_message::bm": "Don fɔlen  kan ka kɛ yani bi don cɛ"
+  },
+  {
+   "type": "select_one tb_type",
+   "name": "s_tb_type",
+   "label::en": "What is the form of the disease?",
+   "label::fr": "Quelle est la forme de la maladie?",
+   "label::bm": "Quelle est la forme de la maladie?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${tb_test_1_result}='pos' or ${test_1_method} = 'clinical_diagnosis' or ${rif_resistant} = 'yes'"
+  },
+  {
+   "type": "select_one tb_case_type",
+   "name": "s_tb_case_type",
+   "label::en": "What case type?",
+   "label::fr": "Quel type de cas?",
+   "label::bm": "Quel type de cas?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_tb_type} = 'pulmonary' or ${s_tb_type} = 'extra-pulmonary'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_hiv_test_requested",
+   "label::en": "Has the HIV test been ordered?",
+   "label::fr": "Est-ce que le test de dépistage du VIH a été demandé?",
+   "label::bm": "Est-ce que le test de dépistage du VIH a été demandé?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one hiv_not_requested_reason",
+   "name": "s_hiv_test_not_requested_reason",
+   "label::en": "Why was the HIV test not requested?",
+   "label::fr": "Pourquoi le test de dépistage VIH n'a pas été demandé?",
+   "label::bm": "Pourquoi le test de dépistage VIH n'a pas été demandé?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_hiv_test_requested} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_hiv_test_not_requested_reason_other",
+   "label::en": "Specify",
+   "label::fr": "Précisez",
+   "label::bm": "Précisez",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_hiv_test_not_requested_reason} = 'other'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_hiv_test_done",
+   "label::en": "Has the HIV test been done?",
+   "label::fr": "Est-ce que le test de dépistage du VIH a été fait?",
+   "label::bm": "Est-ce que le test de dépistage du VIH a été fait?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_hiv_test_requested} = 'yes' "
+  },
+  {
+   "type": "select_one hiv_not_done_reason",
+   "name": "s_hiv_test_not_done_reason",
+   "label::en": "Why was the HIV test not done?",
+   "label::fr": "Pourquoi le test VIH n'a t-il pas été fait?",
+   "label::bm": "Pourquoi le test VIH n'a t-il pas été fait?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_hiv_test_done} = 'no' "
+  },
+  {
+   "type": "text",
+   "name": "s_hiv_test_not_done_reason_other",
+   "label::en": "Specify",
+   "label::fr": "Précisez",
+   "label::bm": "Précisez",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_hiv_test_not_done_reason} = 'other'"
+  },
+  {
+   "type": "select_one pos_neg",
+   "name": "s_hiv_test_result",
+   "label::en": "What is the result?",
+   "label::fr": "Quel est le résultat?",
+   "label::bm": "Quel est le résultat?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_hiv_test_done} = 'yes'"
+  },
+  {
+   "type": "integer",
+   "name": "s_hiv_registry_number",
+   "label::en": "Registry number",
+   "label::fr": "Numéro d'enregistrement",
+   "label::bm": "Numéro d'enregistrement",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_hiv_test_result} = 'pos'"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_care_location",
+   "label::en": "Care Location",
+   "label::fr": "Lieu prise en charge",
+   "label::bm": "Lieu prise en charge",
+   "appearance": "field-list",
+   "relevant": "${s_fill_info} = 'yes' and ${tb_test_result} = 'pos' and ${tb_case_category} = 'contact'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_cdt_care",
+   "label::en": "Is the contact case treated at the facility's TB treatment center?",
+   "label::fr": "Le cas contact est-il pris en charge dans le CDT de la structure pour le traitement de la tuberculose?",
+   "label::bm": "Le cas contact est-il pris en charge dans le CDT de la structure pour le traitement de la tuberculose?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_cdt_referral",
+   "label::en": "Is the contact case referred to a TB treatment center for treatment?",
+   "label::fr": "Le cas contact est référé dans un CDT pour le traitement de la tuberculose?",
+   "label::bm": "Le cas contact est référé dans un CDT pour le traitement de la tuberculose?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_chemoprevention",
+   "label::en": "INH Chemoprevention",
+   "label::fr": "INH ",
+   "label::bm": "INH ",
+   "appearance": "field-list",
+   "relevant": "${s_fill_info} = 'yes' and ${tb_case_category} = 'contact' and ${s_treatment_action} = 'chemoprevention'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_inh_contraindication",
+   "label::en": "Does the contact case have any contraindications to HP, RH, or INH (e.g., allergy)?",
+   "label::fr": "Le cas contact a une contre-indication au HP, RH, à l'INH (exemple : allergie)?",
+   "label::bm": "Le cas contact a une contre-indication au HP, RH, à l'INH (exemple : allergie)?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_inh_prophylaxis",
+   "label::en": "Is the contact case receiving prophylaxis with HP, RH, or INH?",
+   "label::fr": "Le cas contact est sous prophylaxie au HP, RH, à l'INH?",
+   "label::bm": "Le cas contact est sous prophylaxie au HP, RH, à l'INH?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "group_summary",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "field-list summary",
+   "relevant": "${rif_resistant_1}='no' and ${rif_resistant_2}='no'"
+  },
+  {
+   "type": "note",
+   "name": "r_summary",
+   "label::en": "Patient Summary<i class=\"fa fa-user\"></i> ",
+   "label::fr": "Résumé du patient <i class=\"fa fa-user\"></i> ",
+   "label::bm": "Résumé du patient <i class=\"fa fa-user\"></i> ",
+   "appearance": "h1 yellow"
+  },
+  {
+   "type": "note",
+   "name": "r_patient_info",
+   "label::en": "<h4 style=\"text-align:center;\">${patient_name}</h4> <h5 style=\"text-align:center;\">${patient_age_display} years old</h5><h5 style=\"text-align:center;\">${patient_sex} </h5><h5 style=\"text-align:center;\">${muso_id}</h5>",
+   "label::fr": "<h4 style=\"text-align:center;\">${patient_name}</h4> <h5 style=\"text-align:center;\">${patient_age_display_fr}</h5><h5 style=\"text-align:center;\">${patient_sex_fr} </h5><h5 style=\"text-align:center;\">${muso_id}</h5>",
+   "label::bm": "<h4 style=\"text-align:center;\">${patient_name}</h4> <h5 style=\"text-align:center;\">${patient_age_display_fr}</h5><h5 style=\"text-align:center;\">${patient_sex_fr} </h5><h5 style=\"text-align:center;\">${muso_id}</h5>"
+  },
+  {
+   "type": "note",
+   "name": "n_tb_result_pos",
+   "label::en": "<b>TB result:</b> ${tb_test_result_display}",
+   "label::fr": "<b>Résultat du test:</b> ${tb_test_result_display_fr}",
+   "label::bm": "<b>Résultat du test:</b> ${tb_test_result_display_fr}",
+   "appearance": "h3 red",
+   "relevant": "${tb_test_result} = 'pos'"
+  },
+  {
+   "type": "note",
+   "name": "n_tb_result_neg",
+   "label::en": "<b>TB result:</b> ${tb_test_result_display}",
+   "label::fr": "<b>Résultat du test:</b> ${tb_test_result_display_fr}",
+   "label::bm": "<b>Résultat du test:</b> ${tb_test_result_display_fr}",
+   "appearance": "h3 green",
+   "relevant": "${tb_test_result} = 'neg'"
+  },
+  {
+   "type": "note",
+   "name": "summary_special_instructions",
+   "label::en": "Special Instructions<i class = \"fa fa-hand-o-right\"></i>",
+   "label::fr": "Instructions Spéciales<i class = \"fa fa-hand-o-right\"></i>",
+   "label::bm": "Instructions Spéciales<i class = \"fa fa-hand-o-right\"></i>",
+   "appearance": "h1 green"
+  },
+  {
+   "type": "note",
+   "name": "n_no_fill_reason",
+   "label::en": "The information collected is not filled in because: ${s_why_no_fill_reason} ${s_no_fill_other}",
+   "label::fr": "Les informations collectées ne sont pas renseignées parce que : ${s_why_no_fill_reason} ${s_no_fill_other}",
+   "label::bm": "Les informations collectées ne sont pas renseignées parce que :${s_why_no_fill_reason} ${s_no_fill_other}",
+   "relevant": "${s_fill_info} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "n_no_diagnosis_requested_reason",
+   "label::en": "TB diagnostic tests were not requested/performed for the patient due to: ${no_diagnosis_reason}",
+   "label::fr": "Les bilans de diagnostic de la tuberculose n'ont pas été demandés/effectués pour la patient en raison de : ${no_diagnosis_reason}",
+   "label::bm": "Les bilans de diagnostic de la tuberculose n'ont pas été demandés/effectués pour la patient en raison de : ${no_diagnosis_reason}",
+   "relevant": "${s_diagnosis_requested}='no'"
+  },
+  {
+   "type": "note",
+   "name": "n_si_1",
+   "label::en": "- Call the patient to inform them of the negative result of your tuberculosis test.\n- Invite the patient to go to the CSCOM to retrieve his result and be reconsulted by a provider.\n- Invite the patient to give the information to his CHW.\n- If possible, inform the ASC and their supervisor of the patient's result. ",
+   "label::fr": "Appeler le patient pour l'informer du résultat négatif de son test tuberculose.\n- Inviter le patient à passer au CSCOM pour récupérer son résultat et se faire reconsulter par un prestataire.\n- Inviter le patient à donner l'information à son ASC.\n- Si possible informer l'ASC et son superviseur du résultat du patient.",
+   "label::bm": "- Appeler le patient pour l'informer du résultat négatif de son test tuberculose.\n- Inviter le patient à passer au CSCOM pour récupérer son résultat et se faire reconsulter par un prestataire.\n- Inviter le patient à donner l'information à son ASC.\n- Si possible informer l'ASC et son superviseur du résultat du patient.",
+   "relevant": "${tb_test_result} = 'neg'"
+  },
+  {
+   "type": "note",
+   "name": "n_si_2",
+   "label::en": " - Call the patient to inform them of the positive result of their tuberculosis test.\n- Reassure the patient and invite them to come to the health center to begin treatment.\n- If possible, inform the CHW and their supervisor of the patient's result and invite them to take action for the rest of the activities (NB: Messages should be received by CHWs and CHW supervisors in the form of tasks).",
+   "label::fr": "- Appeler le patient pour l'informer du résultat positif de son test tuberculose.\n- Rassurer le patient et l'inviter à passer au centre de santé pour commencer le traitement.\n- Si possible informer l'ASC et son superviseur du résultat du patient et les inviter à prendre des actions pour le reste des activités",
+   "label::bm": " - Appeler le patient pour l'informer du résultat positif de son test tuberculose.\n- Rassurer le patient et l'inviter à passer au centre de santé pour commencer le traitement.\n- Si possible informer l'ASC et son superviseur du résultat du patient et les inviter à prendre des actions pour le reste des activités (NB: Des messages devraient être reçus par les ASC et les superviseurs des ASC sous forme de taches).",
+   "relevant": "${tb_test_result} = 'pos' or (${tb_test_result} = 'neg' and ${s_hiv_test_result} = 'pos')"
+  },
+  {
+   "type": "note",
+   "name": "n_tb_followup_note",
+   "label::en": "After this form is submitted, a TB treatment follow-up form from the case manager will be generated immediately.",
+   "label::fr": "<span style=\"color:red;\">Après la soumission de ce formulaire, un formulaire de suivi du traitement TB du chargé de traitement sera immediatement déclenché</span>",
+   "label::bm": "Après la soumission de ce formulaire, un formulaire de suivi du traitement TB du chargé de traitement.sera immediatement déclenché",
+   "relevant": "${tb_test_result} = 'pos' or (${tb_test_result} = 'neg' and ${s_hiv_test_result} = 'pos')"
+  },
+  {
+   "type": "note",
+   "name": "n_chemoprev_followup_note",
+   "label::en": "After this form is submitted, a CT chemoprophylaxis administration follow-up form will be generated immediately",
+   "label::fr": "<span style=\"color:red;\">Après la soumission de ce formulaire, un formulaire de suivi administration chimioprophylaxie du CT sera immediatement déclenché</span>",
+   "label::bm": "Après la soumission de ce formulaire, un formulaire de suivi administration chimioprophylaxie du CT sera immediatement déclenché",
+   "relevant": "${s_treatment_action} = 'chemoprevention'"
+  },
+  {
+   "type": "note",
+   "name": "n_no_followup_note",
+   "label::en": "There will be no further follow-up for this patient",
+   "label::fr": "Il n'y aura plus de suivi pour ce patient",
+   "label::bm": "Il n'y aura plus de suivi pour ce patient",
+   "relevant": "${tb_test_result} = 'neg' and ${s_hiv_test_result} = 'neg'"
+  },
+  {
+   "type": "calculate",
+   "name": "no_fill_reason",
+   "calculation": "coalesce(${s_no_fill_other}, jr:choice-name(${s_why_no_fill}, '${s_why_no_fill}'))"
+  },
+  {
+   "type": "calculate",
+   "name": "no_diagnosis_reason",
+   "calculation": "if(${s_diagnosis_not_done_reason}='other',  ${s_diagnosis_not_done_reason_other}, jr:choice-name(${s_diagnosis_not_done_reason}, '${s_diagnosis_not_done_reason}'))"
+  },
+  {
+   "type": "end group"
+  }
+ ],
+ "choices": [
+  {
+   "list_name": "pos_neg",
+   "name": "pos",
+   "label::en": "Positive",
+   "label::fr": "Positif",
+   "label::bm": "Positif"
+  },
+  {
+   "list_name": "pos_neg",
+   "name": "neg",
+   "label::en": "Negative",
+   "label::fr": "Négatif",
+   "label::bm": "Négatif"
+  },
+  {
+   "list_name": "test_methods",
+   "name": "microscopy",
+   "label::en": "Microscopy",
+   "label::fr": "Microscopie",
+   "label::bm": "Microscopie"
+  },
+  {
+   "list_name": "test_methods",
+   "name": "genexpert",
+   "label::en": "GeneXpert",
+   "label::fr": "GeneXpert",
+   "label::bm": "GeneXpert"
+  },
+  {
+   "list_name": "test_methods",
+   "name": "clinical_diagnosis",
+   "label::en": "Clinically diagnosed",
+   "label::fr": "Cliniquement diagnostiquées",
+   "label::bm": "Cliniquement diagnostiquées"
+  },
+  {
+   "list_name": "test_methods",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Autre"
+  },
+  {
+   "list_name": "tb_pos_neg",
+   "name": "pos",
+   "label::en": "Positive",
+   "label::fr": "Positif",
+   "label::bm": "Positif",
+   "test_methods_1": "microscopy",
+   "test_methods_2": "idr",
+   "test_methods_3": "clinical_diagnosis",
+   "test_methods_4": "other"
+  },
+  {
+   "list_name": "tb_pos_neg",
+   "name": "neg",
+   "label::en": "Negative",
+   "label::fr": "Négatif",
+   "label::bm": "Négatif",
+   "test_methods_1": "microscopy",
+   "test_methods_2": "idr",
+   "test_methods_3": "clinical_diagnosis",
+   "test_methods_4": "other"
+  },
+  {
+   "list_name": "tb_genexpert_result",
+   "name": "no",
+   "label::en": "MTB not detected",
+   "label::fr": "MTB non détecté",
+   "label::bm": "MTB non détecté"
+  },
+  {
+   "list_name": "tb_genexpert_result",
+   "name": "yes_rif_sensitive",
+   "label::en": "MTB detected; Sensitive to RIF",
+   "label::fr": "MTB détecté ; Sensible à la RIF",
+   "label::bm": "MTB détecté ; Sensible à la RIF"
+  },
+  {
+   "list_name": "tb_genexpert_result",
+   "name": "yes_not_rif_sensitive",
+   "label::en": "MTB detected; RIF resistant",
+   "label::fr": "MTB détecté ; Résistant à la RIF",
+   "label::bm": "MTB détecté ; Résistant à la RIF"
+  },
+  {
+   "list_name": "no_fill_reason",
+   "name": "no_patient",
+   "label::en": "The patient did not show up",
+   "label::fr": "Le patient ne s'est pas présenté",
+   "label::bm": "Le patient ne s'est pas présenté"
+  },
+  {
+   "list_name": "no_fill_reason",
+   "name": "no_signs",
+   "label::en": "The provider after an assessment did not confirm signs suggestive of TB",
+   "label::fr": "Le prestataire après une évaluation n’a pas confirmé de signes évocateurs de TB",
+   "label::bm": "Le prestataire après une évaluation n’a pas confirmé de signes évocateurs de TB"
+  },
+  {
+   "list_name": "no_fill_reason",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Autre"
+  },
+  {
+   "list_name": "no_exam_reason",
+   "name": "breakage",
+   "label::en": "Reagent breakage",
+   "label::fr": "Rupture de réactif",
+   "label::bm": "Rupture de réactif"
+  },
+  {
+   "list_name": "no_exam_reason",
+   "name": "refer",
+   "label::en": "Reference to CSRef",
+   "label::fr": "Référence au CSRef",
+   "label::bm": "Référence au CSRef"
+  },
+  {
+   "list_name": "no_exam_reason",
+   "name": "no_stock",
+   "label::en": "Impossible to take stock at CSCOM",
+   "label::fr": "Impossible de faire le bilan au CSCOM",
+   "label::bm": "Impossible de faire le bilan au CSCOM"
+  },
+  {
+   "list_name": "tb_type",
+   "name": "pulmonary",
+   "label::en": "Pulmonary",
+   "label::fr": "Pulmonaire",
+   "label::bm": "Pulmonaire"
+  },
+  {
+   "list_name": "tb_type",
+   "name": "extra-pulmonary",
+   "label::en": "Extra pulmonary",
+   "label::fr": "Extra-pulmonaire",
+   "label::bm": "Extra-pulmonaire"
+  },
+  {
+   "list_name": "yes_no",
+   "name": "yes",
+   "label::en": "Yes",
+   "label::fr": "Oui",
+   "label::bm": "Oui"
+  },
+  {
+   "list_name": "yes_no",
+   "name": "no",
+   "label::en": "No",
+   "label::fr": "Non",
+   "label::bm": "Non"
+  },
+  {
+   "list_name": "diagnosis_not_done_reason",
+   "name": "breakage",
+   "label::en": "Stock out",
+   "label::fr": "Rupture d'Intrant",
+   "label::bm": "Rupture d'Intrant"
+  },
+  {
+   "list_name": "diagnosis_not_done_reason",
+   "name": "not_requested",
+   "label::en": "Not requested at the Center",
+   "label::fr": "Non demandé au Centre",
+   "label::bm": "Non demandé au Centre"
+  },
+  {
+   "list_name": "diagnosis_not_done_reason",
+   "name": "refusal",
+   "label::en": "Refusal",
+   "label::fr": "Refus",
+   "label::bm": "Refus"
+  },
+  {
+   "list_name": "diagnosis_not_done_reason",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Autre"
+  },
+  {
+   "list_name": "hiv_not_requested_reason",
+   "name": "hiv_known",
+   "label::en": "Patient is already known to be HIV positive",
+   "label::fr": "Le Patient est déjà connu séropositif",
+   "label::bm": "Le Patient est déjà connu séropositif"
+  },
+  {
+   "list_name": "hiv_not_requested_reason",
+   "name": "unable",
+   "label::en": "Unable to perform the test at the health center",
+   "label::fr": "Impossible de faire le test au centre de santé",
+   "label::bm": "Impossible de faire le test au centre de santé"
+  },
+  {
+   "list_name": "hiv_not_requested_reason",
+   "name": "refusal",
+   "label::en": "Patient refusal to take the test",
+   "label::fr": "Refus du patient pour faire le test",
+   "label::bm": "Refus du patient pour faire le test"
+  },
+  {
+   "list_name": "hiv_not_requested_reason",
+   "name": "breakage",
+   "label::en": "Reagent breakage",
+   "label::fr": "Rupture de réactif",
+   "label::bm": "Rupture de réactif"
+  },
+  {
+   "list_name": "hiv_not_requested_reason",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Autre"
+  },
+  {
+   "list_name": "hiv_not_done_reason",
+   "name": "refusal",
+   "label::en": "Refusal",
+   "label::fr": "Refus",
+   "label::bm": "Refus"
+  },
+  {
+   "list_name": "hiv_not_done_reason",
+   "name": "not_requested",
+   "label::en": "Not requested at the health center",
+   "label::fr": "Non demandé au centre",
+   "label::bm": "Non demandé au centre"
+  },
+  {
+   "list_name": "hiv_not_done_reason",
+   "name": "no_cscom",
+   "label::en": "Patient didn’t go to the health center",
+   "label::fr": "Le patient ne s'est pas rendu au Centre de santé",
+   "label::bm": "Le patient ne s'est pas rendu au Centre de santé"
+  },
+  {
+   "list_name": "hiv_not_done_reason",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Autre"
+  },
+  {
+   "list_name": "tb_case_type",
+   "name": "new_case",
+   "label::en": "New case",
+   "label::fr": "Nouveau cas",
+   "label::bm": "Nouveau cas"
+  },
+  {
+   "list_name": "tb_case_type",
+   "name": "relapse",
+   "label::en": "Relapse",
+   "label::fr": "Rechute",
+   "label::bm": "Rechute"
+  },
+  {
+   "list_name": "tb_case_type",
+   "name": "failure",
+   "label::en": "Failure",
+   "label::fr": "Échec",
+   "label::bm": "Échec"
+  },
+  {
+   "list_name": "tb_case_type",
+   "name": "treatment_resumption",
+   "label::en": "Treatment resumption",
+   "label::fr": "Reprise de traitement",
+   "label::bm": "Reprise de traitement"
+  },
+  {
+   "list_name": "treatment_action",
+   "name": "chemoprevention",
+   "label::en": "Chemoprevention",
+   "label::fr": "Chimio-prévention",
+   "label::bm": "Chimio-prévention"
+  },
+  {
+   "list_name": "treatment_action",
+   "name": "test_tb",
+   "label::en": "Test the patient",
+   "label::fr": "Tester le patient",
+   "label::bm": "Tester le patient"
+  }
+ ],
+ "settings": [
+  {
+   "form_title": "Résultat TB (Point Focal)",
+   "form_id": "tb_test_result_fp",
+   "version": "=TEXT(NOW(),\"yyyy/mm/dd hh:mm:ss\")",
+   "style": "pages",
+   "path": "data"
+  }
+ ]
+}

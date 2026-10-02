@@ -1,0 +1,18 @@
+{
+  "id": "397aad7a-0fe6-4c73-855f-3d1f071140e5",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "before_previous_child_presence",
+  "label": "Confirmation de la presence de l'enfant passée(n-2)",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

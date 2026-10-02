@@ -1,0 +1,18 @@
+{
+  "id": "49af6074-e647-40e5-ba23-7f5e28358a02",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "r_paracetamol_once_filter",
+  "label": "r_paracetamol_once_filter",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

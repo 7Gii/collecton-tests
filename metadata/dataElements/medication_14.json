@@ -1,0 +1,18 @@
+{
+  "id": "1921b4a9-a6fb-423d-873e-130562521be4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "medication_14",
+  "label": "medication_14",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

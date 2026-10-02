@@ -1,0 +1,21 @@
+{
+  "id": "3d29998f-110f-4422-b988-253300294a01",
+  "name": "iron_folic_type",
+  "label": "iron_folic_type",
+  "options": [
+    {
+      "id": "0f99e1fa-a6f2-4102-b5f8-f95394b45dce",
+      "name": "fer + acide folique sirop",
+      "value": "iron_folic_acid_srp",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "cc1400c7-b7b4-4fdc-8a90-422401dae2f6",
+      "name": "fer + acide folique comprimé 200 mg",
+      "value": "iron_folic_acid",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

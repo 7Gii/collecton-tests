@@ -1,0 +1,18 @@
+{
+  "id": "97c10b52-eb91-451f-b349-e509b8a835b2",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "chw_call_check",
+  "label": "Avez-vous appelé l'ASC pour lui notifier l'erreur de l'interprétation du TDR paludisme pour le patient {app.currentForm[\"patient\"] ?? ''} ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

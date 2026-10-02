@@ -1,0 +1,21 @@
+{
+  "id": "c93bdd36-a4a1-48a7-a687-568bb9f4029b",
+  "name": "c_antimalarial_not_given",
+  "label": "c_antimalarial_not_given",
+  "options": [
+    {
+      "id": "17454651-9912-4ba1-9f93-232e81f1c22b",
+      "name": "L'enfant fait de la diarrhée",
+      "value": "child_has_diarrhea",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "d73f3e45-b3b0-4877-9a9e-02db12d9cd75",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

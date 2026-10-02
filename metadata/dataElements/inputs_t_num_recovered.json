@@ -1,0 +1,18 @@
+{
+  "id": "b6831605-a344-4b9b-9b28-8b4bc383a86b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_num_recovered",
+  "label": "inputs_t_num_recovered",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

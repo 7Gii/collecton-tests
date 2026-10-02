@@ -1,0 +1,18 @@
+{
+  "id": "cbaff6e3-9486-47df-9dff-83234948198d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "mother_phone",
+  "label": "Numéro de téléphone de la mère",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

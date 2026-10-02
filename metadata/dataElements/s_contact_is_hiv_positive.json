@@ -1,0 +1,18 @@
+{
+  "id": "bbc2005e-b2a7-4e4a-a7ec-fc9419c1dc19",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_contact_is_hiv_positive",
+  "label": "Le cas contact est-il un PVVIH?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

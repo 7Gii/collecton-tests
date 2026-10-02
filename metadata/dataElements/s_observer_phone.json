@@ -1,0 +1,18 @@
+{
+  "id": "b5b48ccf-8927-4e67-a315-fd8510a50d22",
+  "dataType": "integer",
+  "organisation": "Muso",
+  "name": "s_observer_phone",
+  "label": "Numéro de téléphone",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

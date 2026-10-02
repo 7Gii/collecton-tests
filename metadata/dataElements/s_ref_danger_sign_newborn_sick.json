@@ -1,0 +1,18 @@
+{
+  "id": "265230d6-9cba-4a0c-b6b2-1aeb0162f59f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ref_danger_sign_newborn_sick",
+  "label": "Nourrisson de 0 à 2 mois malade selon la maman",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

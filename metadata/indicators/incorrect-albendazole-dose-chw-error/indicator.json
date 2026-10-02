@@ -1,0 +1,15 @@
+{
+  "id": "e7da7856-959f-4320-a9b5-1b6b2832cb0e",
+  "name": "incorrect-albendazole-dose-chw-error",
+  "title": "Dose d'Albendazole donnée par l'ASC incorrecte - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target incorrect-albendazole-dose-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

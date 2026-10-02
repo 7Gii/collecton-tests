@@ -1,0 +1,18 @@
+{
+  "id": "64890759-5200-4aaa-9967-da9cb343e5c1",
+  "dataType": "date",
+  "organisation": "Muso",
+  "name": "s_when_child_died",
+  "label": "Quand est-ce que le patient est décédé?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

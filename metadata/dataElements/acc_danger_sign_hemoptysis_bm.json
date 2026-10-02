@@ -1,0 +1,18 @@
+{
+  "id": "d75b07b7-93d9-470c-8611-73fd93cc4820",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "acc_danger_sign_hemoptysis_bm",
+  "label": "acc_danger_sign_hemoptysis_bm",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

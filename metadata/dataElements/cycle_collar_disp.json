@@ -1,0 +1,18 @@
+{
+  "id": "5494b3b8-d4ba-4456-8500-f840f84a0fcb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "cycle_collar_disp",
+  "label": "cycle_collar_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

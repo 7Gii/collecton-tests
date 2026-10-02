@@ -1,0 +1,18 @@
+{
+  "id": "3707772c-9ca9-48ef-a4f1-90ee3a652019",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "acc_danger_sign_chest_indrawing_en",
+  "label": "acc_danger_sign_chest_indrawing_en",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

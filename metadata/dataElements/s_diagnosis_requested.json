@@ -1,0 +1,18 @@
+{
+  "id": "c33d3e86-433f-4667-8dec-6d310e570fc8",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_diagnosis_requested",
+  "label": "Est-ce que les bilans de diagnostic de la tuberculose ont été demandé/effectué?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

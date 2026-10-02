@@ -1,0 +1,18 @@
+{
+  "id": "fb00a57e-960e-4585-a448-11ba7e2d0e61",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_assessment_over_5__s_give_paracetamol_dosage",
+  "label": "Quelle est la posologie?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "e2d476b4-1f5f-4439-8549-88ce1e63e84d",
+  "tags": []
+}

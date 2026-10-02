@@ -1,0 +1,18 @@
+{
+  "id": "6a9be0ce-c099-4c5f-ac3e-31cd3727672e",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "shakir_strip_color",
+  "label": "Couleur de la bande",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

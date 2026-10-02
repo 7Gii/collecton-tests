@@ -1,0 +1,18 @@
+{
+  "id": "2b527675-cdf1-4a95-981f-d9d6179a0ff2",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_antimalarial_suppository_not_give",
+  "label": "Pourquoi pas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "tags": []
+}

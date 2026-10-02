@@ -1,0 +1,18 @@
+{
+  "id": "b11ebc71-4e23-4769-a6b2-5099ac814a7b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_should_continue_followup",
+  "label": "Le patient devrait continuer le suivi",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

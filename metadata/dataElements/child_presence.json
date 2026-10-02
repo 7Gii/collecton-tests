@@ -1,0 +1,18 @@
+{
+  "id": "4f478719-37b4-4720-bfb8-b745e9823829",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "child_presence",
+  "label": "child_presence",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

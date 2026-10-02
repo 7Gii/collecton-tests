@@ -1,0 +1,18 @@
+{
+  "id": "210479d4-c350-4286-a48f-04aa5eae509c",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_gave_birth_less_48_day",
+  "label": "La patiente a-t-elle accouché il y a moins de 48 jours ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

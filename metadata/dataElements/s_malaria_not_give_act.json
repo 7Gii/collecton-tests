@@ -1,0 +1,18 @@
+{
+  "id": "194b17db-331d-4f39-92ce-1f61268ca964",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_malaria_not_give_act",
+  "label": "Pourquoi pas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "tags": []
+}

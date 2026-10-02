@@ -1,0 +1,18 @@
+{
+  "id": "9a02fcec-0724-4f99-a0f1-55b919f40fec",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "iron_folic_acid_disp",
+  "label": "iron_folic_acid_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

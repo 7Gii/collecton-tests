@@ -1,0 +1,18 @@
+{
+  "id": "18afb644-9954-4389-8462-15969759bd04",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ref_danger_sign_dark_colored_urine",
+  "label": "Urines foncées (couleur Coca-cola)",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

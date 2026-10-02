@@ -1,0 +1,18 @@
+{
+  "id": "3a841dfc-ad2a-4c85-8693-46fbd7294fff",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_test_method",
+  "label": "tb_test_method",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "6843ff69-529f-403f-a7ed-739c9c53554c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c50_family_uuid",
+  "label": "c50_family_uuid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

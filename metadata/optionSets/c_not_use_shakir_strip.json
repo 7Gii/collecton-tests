@@ -1,0 +1,28 @@
+{
+  "id": "c8162ffb-1ff6-4c3a-836a-15504493f606",
+  "name": "c_not_use_shakir_strip",
+  "label": "c_not_use_shakir_strip",
+  "options": [
+    {
+      "id": "b37f8384-1059-4a36-af34-7f04f3e4269a",
+      "name": "Rupture de stock",
+      "value": "out_of_stock",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "fae277e9-f322-4144-97f0-d8da066e6cca",
+      "name": "Enfant est déjà pris en charge pour malnutrition",
+      "value": "already_taken_in_charge",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "715669dc-5a4f-43e3-b9d5-1ecc444a2544",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

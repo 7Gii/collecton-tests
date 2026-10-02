@@ -1,0 +1,18 @@
+{
+  "id": "6e3fbed4-fcf1-44b3-bfbe-622d93f355bd",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "referral_with_followup",
+  "label": "Référer au CSCOM sans arrêt de suivi.",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "plan-12a70960",
+  "kind": "indicator",
+  "description": "Indicateur fever-present-malaria-rdt-not-performed-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "Présence de fièvre (température mesurée supérieur ou égal à 37,5), TDR paludisme pas réalisé - Erreur de l'ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT fever-present-malaria-rdt-not-performed-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.295Z",
+  "updatedAt": "2026-10-02T01:46:05.657Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "Présence de fièvre (température mesurée supérieur ou égal à 37,5), TDR paludisme pas réalisé - Erreur de l'ASC"
+    }
+  ],
+  "generated": [
+    "indicator: Présence de fièvre (température mesurée supérieur ou égal à 37,5), TDR paludisme pas réalisé - Erreur de l'ASC"
+  ]
+}

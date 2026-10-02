@@ -1,0 +1,21 @@
+{
+  "id": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "name": "patient_assessment__yes_no",
+  "label": "patient_assessment__yes_no",
+  "options": [
+    {
+      "id": "7d4f9493-9ecf-4d2f-98d2-6e878f863d06",
+      "name": "Oui",
+      "value": "yes",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "b1f34dba-7d40-4cf9-a3d0-7e3c27cadedc",
+      "name": "Non",
+      "value": "no",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

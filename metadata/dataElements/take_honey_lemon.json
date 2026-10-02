@@ -1,0 +1,18 @@
+{
+  "id": "61264dcc-eb1c-4e22-ad8d-090fbc7239f2",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "take_honey_lemon",
+  "label": "Est ce que le patient prend du miel et/ou du citron et/ou du thé de feuille d'eucalyptus?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

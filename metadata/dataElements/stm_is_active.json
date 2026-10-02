@@ -1,0 +1,18 @@
+{
+  "id": "ab9edfaa-bc91-4c74-9f38-13adf3776dd9",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "stm_is_active",
+  "label": "Gestion des intrants",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "5970b0c1-f13a-4b70-a97c-a29e26ac602a",
+  "tags": []
+}

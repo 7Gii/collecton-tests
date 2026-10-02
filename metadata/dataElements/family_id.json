@@ -1,0 +1,18 @@
+{
+  "id": "d13dbf1d-de5f-49f6-bb1d-2cb2bca9ae78",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "family_id",
+  "label": "Numéro d'identification du ménage",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

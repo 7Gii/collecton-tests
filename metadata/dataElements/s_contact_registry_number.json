@@ -1,0 +1,18 @@
+{
+  "id": "f5e5680e-ce8f-4d21-967b-d006bd4e50d5",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_contact_registry_number",
+  "label": "Numéro d'enregistrement du cas contact",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

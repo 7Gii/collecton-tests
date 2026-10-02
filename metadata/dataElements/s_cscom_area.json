@@ -1,0 +1,18 @@
+{
+  "id": "609357ca-610c-4791-aab7-dedfb9b728d5",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_cscom_area",
+  "label": "CSCOM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "9bc79173-f28d-4333-9e6c-bb53b5f77a20",
+  "tags": []
+}

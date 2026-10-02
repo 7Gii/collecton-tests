@@ -1,0 +1,18 @@
+{
+  "id": "02b431ee-7d9f-4861-b36d-6f90a6c10e65",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "iron_folic_acid",
+  "label": "iron_folic_acid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

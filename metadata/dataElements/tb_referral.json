@@ -1,0 +1,18 @@
+{
+  "id": "e0d32435-b4ca-4a0e-9f39-e22e09e522e9",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_referral",
+  "label": "tb_referral",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

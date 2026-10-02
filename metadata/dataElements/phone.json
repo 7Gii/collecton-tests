@@ -1,0 +1,18 @@
+{
+  "id": "43218f5e-7467-4768-b03d-8c0d2c644423",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "phone",
+  "label": "Numéro mobile primaire",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

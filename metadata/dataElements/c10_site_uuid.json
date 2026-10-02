@@ -1,0 +1,18 @@
+{
+  "id": "b680b90e-aedd-4fe1-9656-44682c24496b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c10_site_uuid",
+  "label": "c10_site_uuid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

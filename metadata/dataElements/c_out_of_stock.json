@@ -1,0 +1,18 @@
+{
+  "id": "c8300d60-43fc-427d-a53d-b0042c3e2b0f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c_out_of_stock",
+  "label": "c_out_of_stock",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

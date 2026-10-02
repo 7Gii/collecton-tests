@@ -1,0 +1,18 @@
+{
+  "id": "2ba4a586-b239-436d-96d1-ccceeabd590d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_observer_name",
+  "label": "Nom et Prénom",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

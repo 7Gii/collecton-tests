@@ -1,0 +1,18 @@
+{
+  "id": "f8b0c7e0-00db-45eb-a287-3817b1f37b5d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_hiv_test_requested",
+  "label": "Est-ce que le test de dépistage du VIH a été demandé?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

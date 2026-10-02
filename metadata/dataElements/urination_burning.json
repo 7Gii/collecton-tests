@@ -1,0 +1,18 @@
+{
+  "id": "634a3e21-62de-4d6a-b94d-954dc1d9a7ce",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "urination_burning",
+  "label": "Brûlures mictionnelles ou difficulté à uriner",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "5bcfc2a1-a9c4-45e1-89ec-3038be257bdc",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "ors",
+  "label": "ors",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

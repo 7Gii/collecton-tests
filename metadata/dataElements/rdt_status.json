@@ -1,0 +1,18 @@
+{
+  "id": "8a119b6a-7d7b-47fa-80a5-c38d11ae4981",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "rdt_status",
+  "label": "rdt_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

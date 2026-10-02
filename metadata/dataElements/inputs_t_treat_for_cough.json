@@ -1,0 +1,18 @@
+{
+  "id": "95e8adc8-2730-4eed-9a78-0c3e8bc7cbf1",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_treat_for_cough",
+  "label": "inputs_t_treat_for_cough",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "8b52df59-20cf-421f-8e47-044d9cf4c887",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_not_give_iron_folic",
+  "label": "Pourquoi pas ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "tags": []
+}

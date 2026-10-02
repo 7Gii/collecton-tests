@@ -1,0 +1,33 @@
+{
+  "id": "plan-4a086877",
+  "kind": "role",
+  "description": "Rôle chw_manager (README étape 4), validé le 02/10/2026",
+  "spec": {
+    "title": "Responsable des ASCs",
+    "orgUnitLevel": "c10_site",
+    "permissions": [
+      "permission_view_tasks",
+      "permission_view_people",
+      "permission_view_reports",
+      "permission_view_indicators",
+      "permission_edit_report",
+      "permission_automatic_sync",
+      "permission_manual_sync"
+    ],
+    "dataScope": "La branche du site affecté."
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T00:03:20.656Z",
+  "updatedAt": "2026-10-02T00:03:42.214Z",
+  "confirmation": "\"Oui, je valide\" (5 rôles) ; modifier ce qui est créé : \"Oui (Recommended)\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "role",
+      "name": "Responsable des ASCs"
+    }
+  ],
+  "generated": [
+    "role: Responsable des ASCs"
+  ]
+}

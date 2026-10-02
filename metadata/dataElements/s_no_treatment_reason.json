@@ -1,0 +1,18 @@
+{
+  "id": "7cdb9a6a-dd27-4c8d-bd8c-8631a69d077d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_no_treatment_reason",
+  "label": "Pourquoi ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "fb6fd36a-e744-4023-af02-c89f80c6bf19",
+  "tags": []
+}

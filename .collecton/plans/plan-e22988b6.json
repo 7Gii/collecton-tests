@@ -1,0 +1,249 @@
+{
+  "id": "plan-e22988b6",
+  "kind": "program",
+  "description": "contruit le programme (README étape 6 : formulaires d'évaluation et de suivi, transcrits des XLSX CHT muso-mali)",
+  "spec": {
+    "title": "Evaluations et suivis des patients",
+    "goal": "Evaluer les patients (moins de 5 ans, 5 ans et plus) et suivre références, traitements, malnutrition, TDR et TB, à l'identique des formulaires CHT muso-mali ; tâches et indicateurs dans des plans séparés.",
+    "target": {
+      "kind": "person",
+      "type": "patient"
+    },
+    "roles": [],
+    "forms": [
+      {
+        "title": "Evaluation des enfants jusqu’à 5 ans",
+        "purpose": "patient_assessment.xlsx",
+        "entry": "menu",
+        "visibility": "patient vivant, utilisateur chw_uhc, âge < 5 ans ou date de naissance inconnue",
+        "fields": [
+          {
+            "label": "535 champs transcrits de forms/app/patient_assessment.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Evaluation des enfants à partir de 5 ans et des adultes",
+        "purpose": "patient_assessment_over_5.xlsx",
+        "entry": "menu",
+        "visibility": "patient vivant, utilisateur chw_uhc, âge >= 5 ans ou date de naissance inconnue",
+        "fields": [
+          {
+            "label": "353 champs transcrits de forms/app/patient_assessment_over_5.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Suivi Référence adulte",
+        "purpose": "referral_followup.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "147 champs transcrits de forms/app/referral_followup.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Suivi référence",
+        "purpose": "referral_followup_under_5.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "144 champs transcrits de forms/app/referral_followup_under_5.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Suivi Traitement à domicile",
+        "purpose": "treatment_followup.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "155 champs transcrits de forms/app/treatment_followup.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Suivi Traitement à domicile adulte",
+        "purpose": "treatment_followup_over_5.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "142 champs transcrits de forms/app/treatment_followup_over_5.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Suivi Malnutrition Aigue Modéré",
+        "purpose": "moderate_malnutrition_followup.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "242 champs transcrits de forms/app/moderate_malnutrition_followup.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Suivi MAS sans complication",
+        "purpose": "severe_malnutrition_followup.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "222 champs transcrits de forms/app/severe_malnutrition_followup.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Alerte erreur TDR",
+        "purpose": "notification_to_chw.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "14 champs transcrits de forms/app/notification_to_chw.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "TDR à refaire",
+        "purpose": "redo_tdr.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "9 champs transcrits de forms/app/redo_tdr.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Résultat TB (Point Focal)",
+        "purpose": "tb_test_result_fp.xlsx",
+        "entry": "menu",
+        "visibility": "toute personne vivante, utilisateur tb_focal_point",
+        "target": {
+          "kind": "person",
+          "type": "patient"
+        },
+        "fields": [
+          {
+            "label": "104 champs transcrits de forms/app/tb_test_result_fp.xlsx",
+            "dataType": "string"
+          }
+        ]
+      },
+      {
+        "title": "Résultat TB",
+        "purpose": "tb_test_result_chw.xlsx",
+        "entry": "task",
+        "fields": [
+          {
+            "label": "88 champs transcrits de forms/app/tb_test_result_chw.xlsx",
+            "dataType": "string"
+          }
+        ]
+      }
+    ],
+    "followUps": [],
+    "indicators": [],
+    "automations": [],
+    "languages": [
+      "fr",
+      "en",
+      "bm"
+    ],
+    "deployment": null
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T00:41:54.442Z",
+  "updatedAt": "2026-10-02T01:02:52.465Z",
+  "confirmation": "\"Oui, je confirme\" ; next_visit_fr : \"Corriger (Recommended)\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "person_type",
+      "name": "patient"
+    },
+    {
+      "kind": "person_type",
+      "name": "patient"
+    },
+    {
+      "kind": "form",
+      "name": "Evaluation des enfants jusqu’à 5 ans"
+    },
+    {
+      "kind": "form",
+      "name": "Evaluation des enfants à partir de 5 ans et des adultes"
+    },
+    {
+      "kind": "form",
+      "name": "Suivi Référence adulte"
+    },
+    {
+      "kind": "form",
+      "name": "Suivi référence"
+    },
+    {
+      "kind": "form",
+      "name": "Suivi Traitement à domicile"
+    },
+    {
+      "kind": "form",
+      "name": "Suivi Traitement à domicile adulte"
+    },
+    {
+      "kind": "form",
+      "name": "Suivi Malnutrition Aigue Modéré"
+    },
+    {
+      "kind": "form",
+      "name": "Suivi MAS sans complication"
+    },
+    {
+      "kind": "form",
+      "name": "Alerte erreur TDR"
+    },
+    {
+      "kind": "form",
+      "name": "TDR à refaire"
+    },
+    {
+      "kind": "form",
+      "name": "Résultat TB (Point Focal)"
+    },
+    {
+      "kind": "form",
+      "name": "Résultat TB"
+    },
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ],
+  "generated": [
+    "form: Evaluation des enfants jusqu’à 5 ans",
+    "form: Evaluation des enfants à partir de 5 ans et des adultes",
+    "form: Suivi Référence adulte",
+    "form: Suivi référence",
+    "form: Suivi Traitement à domicile",
+    "form: Suivi Traitement à domicile adulte",
+    "form: Suivi Malnutrition Aigue Modéré",
+    "form: Suivi MAS sans complication",
+    "form: Alerte erreur TDR",
+    "form: TDR à refaire",
+    "form: Résultat TB (Point Focal)",
+    "form: Résultat TB"
+  ]
+}

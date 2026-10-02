@@ -1,0 +1,18 @@
+{
+  "id": "ae2727ce-cc98-458c-b209-63d319adbc22",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_plumpyNut_dosage_last_week",
+  "label": "inputs_t_plumpyNut_dosage_last_week",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

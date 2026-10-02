@@ -1,0 +1,18 @@
+{
+  "id": "6cfad22d-68fd-4929-be61-222159de0ff1",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_child_presence_confirmation",
+  "label": "L’enfant est-il présent ou est-il venu chez l’ASC?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "aa50ebae-9241-41f8-973e-5735ad6fec9f",
+  "tags": []
+}

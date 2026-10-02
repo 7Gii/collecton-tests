@@ -1,0 +1,35 @@
+{
+  "id": "6221d53b-82e7-4e62-aa1e-d31739589485",
+  "name": "test_methods",
+  "label": "test_methods",
+  "options": [
+    {
+      "id": "cd563db7-9322-4bab-8d74-4c756520e700",
+      "name": "Microscopie",
+      "value": "microscopy",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "53b49741-f67c-412b-a04e-24a4a6fb89d6",
+      "name": "GeneXpert",
+      "value": "genexpert",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "574767ff-4fcb-4538-8023-ea1288858eb8",
+      "name": "Cliniquement diagnostiquées",
+      "value": "clinical_diagnosis",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "1b3bf74d-00a6-4af1-9417-ff5b7bb327d7",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

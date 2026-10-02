@@ -1,0 +1,18 @@
+{
+  "id": "e5f4adef-093f-4257-8f3e-b823e314d70b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_other",
+  "label": "Autre",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

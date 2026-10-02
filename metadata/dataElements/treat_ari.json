@@ -1,0 +1,18 @@
+{
+  "id": "0cc30249-6075-4495-90a9-5458dbf4a61a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_ari",
+  "label": "Traiter pour Infection Respiratoire Aigue",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

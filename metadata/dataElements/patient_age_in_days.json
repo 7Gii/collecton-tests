@@ -1,0 +1,18 @@
+{
+  "id": "52e3cb9b-0673-446a-8eb2-da83dc37bd3d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_age_in_days",
+  "label": "Jours",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

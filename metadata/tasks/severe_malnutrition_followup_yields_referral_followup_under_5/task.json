@@ -1,0 +1,38 @@
+{
+  "id": "2262ac9e-5448-49c5-b616-636b900fbb8e",
+  "name": "severe_malnutrition_followup_yields_referral_followup_under_5",
+  "title": "Suivi référence (moins de 5 ans)",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "064cdaf4-9668-46fa-a900-5541c4c79d65",
+  "events": [
+    {
+      "id": "+1",
+      "dueDate": "due__1",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+2",
+      "dueDate": "due__2",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+3",
+      "dueDate": "due__3",
+      "startDays": 0,
+      "endDays": 0
+    }
+  ],
+  "forms": [
+    "severe_malnutrition_followup"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 1,
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "0581090a-b66e-4da1-b483-0d8616f9a168",
+  "name": "patient_assessment_yields_treatment_followup_malaria",
+  "title": "Suivi traitement",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "8219fdee-27ca-4f75-9ef0-17a0335cd184",
+  "events": [
+    {
+      "id": "+1",
+      "dueDate": "due__1",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+2",
+      "dueDate": "due__2",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+3",
+      "dueDate": "due__3",
+      "startDays": 0,
+      "endDays": 0
+    }
+  ],
+  "forms": [
+    "patient_assessment"
+  ],
+  "resolvedIf": "resolvedIf",
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "473fb0c5-fc20-4f86-89be-1944afc87480",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "zinc_status",
+  "label": "zinc_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "6b3d71ea-a3de-4261-b06c-fb70b5bc5bc2",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "role",
+  "label": "Rôle",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

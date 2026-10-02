@@ -1,0 +1,18 @@
+{
+  "id": "89fa2618-8e38-4872-af79-e90b100b61ad",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "severe_malnutrition_followup__id",
+  "label": "_id",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

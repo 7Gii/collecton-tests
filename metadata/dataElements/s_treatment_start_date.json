@@ -1,0 +1,18 @@
+{
+  "id": "1932a571-e60a-403b-a765-2bc44b9c0cc3",
+  "dataType": "date",
+  "organisation": "Muso",
+  "name": "s_treatment_start_date",
+  "label": "Date du début du traitement",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "d7d62137-6b9a-4ae1-ae1c-ec1b13485fca",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_malaria_not_give_act_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

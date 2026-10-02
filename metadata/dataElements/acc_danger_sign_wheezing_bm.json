@@ -1,0 +1,18 @@
+{
+  "id": "0ec4a6a8-ec73-47cd-acf8-aee1990f9cf5",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "acc_danger_sign_wheezing_bm",
+  "label": "acc_danger_sign_wheezing_bm",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

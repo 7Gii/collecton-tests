@@ -1,0 +1,18 @@
+{
+  "id": "86ee8c91-a07c-4c80-bb4c-41bc4852a0c6",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_assessment_over_5__id",
+  "label": "_id",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "149090b3-ac78-4bd9-84b9-07e9c6cda1c6",
+  "name": "mam-no-complete-treatment-first-day-chw-error",
+  "title": "MAM et pas de traitement complet et correct au premier jour du traitement – Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target mam-no-complete-treatment-first-day-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

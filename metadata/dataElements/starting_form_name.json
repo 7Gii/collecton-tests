@@ -1,0 +1,18 @@
+{
+  "id": "07d4b332-8e48-40af-9472-a2e20773b2b2",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "starting_form_name",
+  "label": "starting_form_name",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

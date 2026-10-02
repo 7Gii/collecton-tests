@@ -1,0 +1,18 @@
+{
+  "id": "ebfd4e32-8326-4482-ad35-4b18364603e9",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_diagnosis_bm",
+  "label": "tb_diagnosis_bm",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

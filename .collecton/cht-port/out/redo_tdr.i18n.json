@@ -1,0 +1,32 @@
+{
+ "en": {
+  "supervisor_area_uuid": "supervisor_area_uuid",
+  "health_area_uuid": "health_area_uuid",
+  "site_uuid": "site_uuid",
+  "c50_patient_uuid": "c50_patient_uuid",
+  "c50_family_uuid": "c50_family_uuid",
+  "c40_chw_area_uuid": "c40_chw_area_uuid",
+  "c30_supervisor_area_uuid": "c30_supervisor_area_uuid",
+  "c20_health_area_uuid": "c20_health_area_uuid",
+  "c10_site_uuid": "c10_site_uuid",
+  "Erreur du TDR": "TDR mistake",
+  "Votre Superviseur vient de trouver une erreur du TDR fait pour ${patient_name}. Veuillez immédiatement refaire l'évaluation de ce patient.": "Your supervisor has just found a TDR error for ${patient_name} . Please immediately re-evaluate this patient.",
+  "Oui": "Yes",
+  "Non": "No"
+ },
+ "bm": {
+  "supervisor_area_uuid": "supervisor_area_uuid",
+  "health_area_uuid": "health_area_uuid",
+  "site_uuid": "site_uuid",
+  "c50_patient_uuid": "c50_patient_uuid",
+  "c50_family_uuid": "c50_family_uuid",
+  "c40_chw_area_uuid": "c40_chw_area_uuid",
+  "c30_supervisor_area_uuid": "c30_supervisor_area_uuid",
+  "c20_health_area_uuid": "c20_health_area_uuid",
+  "c10_site_uuid": "c10_site_uuid",
+  "Erreur du TDR": "TDR fili",
+  "Votre Superviseur vient de trouver une erreur du TDR fait pour ${patient_name}. Veuillez immédiatement refaire l'évaluation de ce patient.": "I ka supɛriwizɛri ye fili ye ${patient_name} ka TDR jaabi la. A ɲinninen do i fɛ i ka segin TDR sɛgɛsɛgɛli kan.",
+  "Oui": "Awɔ",
+  "Non": "Ayi"
+ }
+}

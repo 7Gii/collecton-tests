@@ -1,0 +1,18 @@
+{
+  "id": "87d179cc-a9ee-49cb-8260-d28ec57ff466",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_albendazole_type",
+  "label": "Quelle forme?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "62df199e-41d6-49fb-bd29-a60b04aeb31e",
+  "tags": []
+}

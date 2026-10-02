@@ -1,0 +1,18 @@
+{
+  "id": "94f2ade6-3ef5-417e-8f22-58752e4ccc04",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ref_danger_sign_other_diseases",
+  "label": "Le patient présente-t-il une autre maladie ou d’autres signes que ceux du paludisme ou de danger ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

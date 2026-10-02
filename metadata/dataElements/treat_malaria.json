@@ -1,0 +1,18 @@
+{
+  "id": "7178af62-a6e3-46a1-aeb4-9bc77387615f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_malaria",
+  "label": "Traiter pour le Paludisme",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

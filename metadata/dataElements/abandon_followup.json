@@ -1,0 +1,18 @@
+{
+  "id": "5e5083d6-4c6b-42a7-a148-eb05432366c4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "abandon_followup",
+  "label": "Abandonner le suivi de cet enfant.",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

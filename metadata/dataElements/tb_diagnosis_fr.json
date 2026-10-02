@@ -1,0 +1,18 @@
+{
+  "id": "1cfeac24-65cc-4fac-8e6b-24ef45079257",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tb_diagnosis_fr",
+  "label": "tb_diagnosis_fr",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,184 @@
+{
+  "id": "plan-4726ff57",
+  "kind": "person_type",
+  "description": "Type de personne patient (README étape 3), liste validée le 02/10/2026",
+  "spec": {
+    "title": "Patient",
+    "orgUnitLevel": "c50_family",
+    "fields": [
+      {
+        "label": "Qui voulez-vous enregistrer?",
+        "dataType": "select_one",
+        "required": true,
+        "options": [
+          "Nouveau-né",
+          "Autres membres du ménage"
+        ]
+      },
+      {
+        "label": "Type de personne",
+        "dataType": "select_one",
+        "options": [
+          "Adulte hors-aire",
+          "Nouveau-né",
+          "Nouveau-né hors protocole",
+          "Adulte hors protocole",
+          "Nouveau-né hors-aire"
+        ]
+      },
+      {
+        "label": "Relation de la personne avec le chef du ménage",
+        "dataType": "select_one",
+        "options": [
+          "Epoux",
+          "Frère/Soeur",
+          "Fils/Fille",
+          "Petit-fils/Petite-fille",
+          "Cousin/Cousine",
+          "Neveu/Nièce",
+          "Père/Mère",
+          "Autre",
+          "Aucun"
+        ],
+        "condition": "nouveau-né ou autre membre"
+      },
+      {
+        "label": "Spécifier :",
+        "dataType": "string",
+        "condition": "relation = Autre"
+      },
+      {
+        "label": "Date de naissance indeterminée",
+        "dataType": "select_multiple",
+        "options": [
+          "Date de naissance indeterminée"
+        ]
+      },
+      {
+        "label": "Age",
+        "dataType": "date",
+        "required": true,
+        "condition": "date connue"
+      },
+      {
+        "label": "Age en annees",
+        "dataType": "integer",
+        "required": true,
+        "condition": "date indeterminée"
+      },
+      {
+        "label": "Age en mois",
+        "dataType": "integer",
+        "required": true,
+        "condition": "date indeterminée"
+      },
+      {
+        "label": "Numéro mobile primaire",
+        "dataType": "string",
+        "condition": "pas nouveau-né"
+      },
+      {
+        "label": "Numéro mobile secondaire",
+        "dataType": "string",
+        "condition": "pas nouveau-né"
+      },
+      {
+        "label": "Numéro de téléphone de la mère",
+        "dataType": "string",
+        "condition": "nouveau-né"
+      },
+      {
+        "label": "Numéro d'identification du recensement de patient de Muso",
+        "dataType": "string"
+      },
+      {
+        "label": "Est-ce que le patient peut montrer la carte d'étude physique",
+        "dataType": "select_one",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ]
+      },
+      {
+        "label": "ID d'étude de patient Muso",
+        "dataType": "string",
+        "required": true,
+        "condition": "carte montrée"
+      },
+      {
+        "label": "concession",
+        "dataType": "string",
+        "condition": "calculé"
+      },
+      {
+        "label": "menage",
+        "dataType": "string",
+        "condition": "calculé"
+      },
+      {
+        "label": "is_active",
+        "dataType": "string",
+        "condition": "caché"
+      },
+      {
+        "label": "stm_is_active",
+        "dataType": "select_one",
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "condition": "caché"
+      },
+      {
+        "label": "role",
+        "dataType": "string",
+        "condition": "caché"
+      },
+      {
+        "label": "Géolocalisation",
+        "dataType": "geopoint"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T23:53:16.957Z",
+  "updatedAt": "2026-10-01T23:54:29.415Z",
+  "confirmation": "\"Oui, je valide\" (liste des 8 types de personnes et de leurs champs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "person_type",
+      "name": "Patient"
+    },
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ],
+  "generated": [
+    "person_type: Patient",
+    "option_set: Qui voulez-vous enregistrer?",
+    "option_set: Type de personne",
+    "option_set: Relation avec le chef du ménage",
+    "data_element: Qui voulez-vous enregistrer?",
+    "data_element: Type de personne",
+    "data_element: Relation de la personne avec le chef du ménage",
+    "data_element: Spécifier :",
+    "data_element: Date de naissance indeterminée",
+    "data_element: Age",
+    "data_element: Age en annees",
+    "data_element: Age en mois",
+    "data_element: Numéro mobile primaire",
+    "data_element: Numéro mobile secondaire",
+    "data_element: Numéro de téléphone de la mère",
+    "data_element: Numéro d'identification du recensement de patient de Muso",
+    "data_element: Est-ce que le patient peut montrer la carte d'étude physique",
+    "data_element: Concession",
+    "data_element: Ménage"
+  ]
+}

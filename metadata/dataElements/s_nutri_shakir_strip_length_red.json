@@ -1,0 +1,18 @@
+{
+  "id": "b89f2273-a7c2-4353-b399-522ef1c2e588",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_nutri_shakir_strip_length_red",
+  "label": "Quelle est la longueur de la bande de shakir (en cm) de l'enfant?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "f4a5084f-a732-402b-9893-3acecafa080e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_acc_danger_sign_lathargy",
+  "label": "Léthargie (bouge seulement quand il est stimulé)",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

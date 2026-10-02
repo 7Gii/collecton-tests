@@ -1,0 +1,18 @@
+{
+  "id": "1e8cb155-8213-45fc-ab8f-6e6441f154cd",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_cough",
+  "label": "treat_cough",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "6fa5dda6-c11c-4f9f-a2bd-b60734512944",
+  "name": "incorrect-iron-folic-acid-dose-chw-error",
+  "title": "Dose de Fer + Acide Folique donnée par l'ASC incorrecte - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target incorrect-iron-folic-acid-dose-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

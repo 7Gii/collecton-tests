@@ -1,0 +1,18 @@
+{
+  "id": "c947ae6e-dcd3-4daf-8ede-48ab09c80aa9",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_can_procreate",
+  "label": "patient_can_procreate",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

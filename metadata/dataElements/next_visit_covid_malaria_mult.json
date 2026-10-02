@@ -1,0 +1,18 @@
+{
+  "id": "053d6391-3925-48f0-ab95-53a1ec995dd6",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "next_visit_covid_malaria_mult",
+  "label": "next_visit_covid_malaria_mult",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

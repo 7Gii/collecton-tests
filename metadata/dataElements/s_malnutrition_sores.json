@@ -1,0 +1,18 @@
+{
+  "id": "a4b162e1-2176-4215-962f-d15d464bfaa7",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_malnutrition_sores",
+  "label": "L'enfant a-t-il des plaies sur la peau?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

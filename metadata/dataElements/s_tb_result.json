@@ -1,0 +1,18 @@
+{
+  "id": "90beccd6-326b-471b-912e-a9d0442dfde6",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_tb_result",
+  "label": "Quel est le résultat du test de tuberculose?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "8b07ae32-89a5-4f76-bb76-ffae61c5e777",
+  "tags": []
+}

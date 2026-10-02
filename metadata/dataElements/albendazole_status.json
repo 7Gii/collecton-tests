@@ -1,0 +1,18 @@
+{
+  "id": "b1e73b90-d1f3-4dc4-b4da-b6bacdc37d7b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "albendazole_status",
+  "label": "albendazole_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

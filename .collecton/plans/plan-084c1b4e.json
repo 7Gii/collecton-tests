@@ -1,0 +1,24 @@
+{
+  "id": "plan-084c1b4e",
+  "kind": "org_unit_level",
+  "description": "contruit le programme (README étape 2 : niveau c20_health_area, Zone de Santé)",
+  "spec": {
+    "title": "Zone de Santé",
+    "name": "c20_health_area",
+    "level": 2
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T22:56:19.852Z",
+  "updatedAt": "2026-10-01T23:12:09.546Z",
+  "confirmation": "Niveaux : \"Oui, je confirme\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "org_unit_level",
+      "name": "Zone de Santé"
+    }
+  ],
+  "generated": [
+    "org_unit_level: Zone de Santé"
+  ]
+}

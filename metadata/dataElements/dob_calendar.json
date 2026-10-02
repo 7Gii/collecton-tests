@@ -1,0 +1,18 @@
+{
+  "id": "48c29ccf-cce9-4efc-b84e-5513883e7ee0",
+  "dataType": "date",
+  "organisation": "Muso",
+  "name": "dob_calendar",
+  "label": "Age",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

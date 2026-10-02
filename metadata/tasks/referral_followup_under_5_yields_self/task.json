@@ -1,0 +1,37 @@
+{
+  "id": "1dd5720c-d792-42bf-881d-72e9dfe67dbe",
+  "name": "referral_followup_under_5_yields_self",
+  "title": "Suivi référence (moins de 5 ans)",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "064cdaf4-9668-46fa-a900-5541c4c79d65",
+  "events": [
+    {
+      "id": "+1",
+      "dueDate": "due__1",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+2",
+      "dueDate": "due__2",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+3",
+      "dueDate": "due__3",
+      "startDays": 0,
+      "endDays": 0
+    }
+  ],
+  "forms": [
+    "referral_followup_under_5"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 1,
+  "appliesIf": "appliesIf"
+}

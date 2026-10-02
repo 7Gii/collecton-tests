@@ -1,0 +1,26 @@
+{
+  "id": "plan-ef8d621d",
+  "kind": "task",
+  "description": "Tâche patient_assessment_yields_severe_malnutrition_followup (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Suivi MAS Sans Complication",
+    "after": "patient_assessment",
+    "opens": "severe_malnutrition_followup",
+    "delayDays": 7,
+    "condition": "dernière évaluation avec treat_SAM_without_complication = true de moins de 97 jours ; J+7 à J+70"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.481Z",
+  "updatedAt": "2026-10-02T01:28:59.486Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Suivi MAS Sans Complication"
+    }
+  ],
+  "generated": [
+    "task: Suivi MAS Sans Complication"
+  ]
+}

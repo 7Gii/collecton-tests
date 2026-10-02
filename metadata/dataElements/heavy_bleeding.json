@@ -1,0 +1,18 @@
+{
+  "id": "f2c38f5c-f931-441e-9343-9e73ba20af19",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "heavy_bleeding",
+  "label": "Saignements vaginaux lourds (plus que le volume normal pour une règle lourde)",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

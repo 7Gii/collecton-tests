@@ -1,0 +1,18 @@
+{
+  "id": "3c58e48b-99ab-40ae-9ef1-87e8fe4db6bc",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_child_taking_ors",
+  "label": "L'enfant prend-t-il de l'SRO",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

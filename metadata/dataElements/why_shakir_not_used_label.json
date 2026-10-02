@@ -1,0 +1,18 @@
+{
+  "id": "6a52e3d7-78f6-4672-9ab2-b57eaa496368",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "why_shakir_not_used_label",
+  "label": "Pourquoi la bande de Shakir n’a pas été utilisé",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

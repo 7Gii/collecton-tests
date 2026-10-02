@@ -1,0 +1,18 @@
+{
+  "id": "12a1ad42-aac7-4b57-93d0-f1e1520adca2",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_for_ari",
+  "label": "treat_for_ari",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

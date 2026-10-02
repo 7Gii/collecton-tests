@@ -1,0 +1,98 @@
+{
+  "id": "plan-ee11082c",
+  "kind": "person_type",
+  "description": "Type de personne health_area_supervisor (README étape 3), liste validée le 02/10/2026",
+  "spec": {
+    "title": "Superviseur zone de santé",
+    "orgUnitLevel": "c20_health_area",
+    "fields": [
+      {
+        "label": "Langue",
+        "dataType": "select_one",
+        "options": [
+          "Anglais",
+          "Français",
+          "Bambara"
+        ]
+      },
+      {
+        "label": "Date de naissance indeterminée",
+        "dataType": "select_multiple",
+        "options": [
+          "Date de naissance indeterminée"
+        ]
+      },
+      {
+        "label": "Age",
+        "dataType": "date",
+        "required": true,
+        "condition": "date connue"
+      },
+      {
+        "label": "Age en annees",
+        "dataType": "integer",
+        "required": true,
+        "condition": "date indeterminée"
+      },
+      {
+        "label": "Age en mois",
+        "dataType": "integer",
+        "required": true,
+        "condition": "date indeterminée"
+      },
+      {
+        "label": "Numéro mobile primaire",
+        "dataType": "string"
+      },
+      {
+        "label": "Numéro mobile secondaire",
+        "dataType": "string"
+      },
+      {
+        "label": "is_active",
+        "dataType": "string",
+        "condition": "caché"
+      },
+      {
+        "label": "stm_is_active",
+        "dataType": "select_one",
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "condition": "caché"
+      },
+      {
+        "label": "role",
+        "dataType": "string",
+        "condition": "caché"
+      },
+      {
+        "label": "Géolocalisation",
+        "dataType": "geopoint"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T23:53:16.994Z",
+  "updatedAt": "2026-10-01T23:53:44.995Z",
+  "confirmation": "\"Oui, je valide\" (liste des 8 types de personnes et de leurs champs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "person_type",
+      "name": "Superviseur zone de santé"
+    },
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ],
+  "generated": [
+    "person_type: Superviseur zone de santé"
+  ]
+}

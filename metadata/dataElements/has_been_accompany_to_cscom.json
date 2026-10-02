@@ -1,0 +1,18 @@
+{
+  "id": "10220069-a46a-477a-8615-c623584a2f0d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_been_accompany_to_cscom",
+  "label": "Le patient a été accompagné/reféré au CSCOM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

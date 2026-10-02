@@ -1,0 +1,199 @@
+{
+  "id": "4f9adbab-5f62-4f97-b887-ef59d2f999d3",
+  "name": "redo_tdr",
+  "title": "TDR à refaire",
+  "version": "1.0.0",
+  "icon": "form_default",
+  "className": "",
+  "displayExpression": "showForm",
+  "duration": 30,
+  "sections": [
+    {
+      "key": "lineage",
+      "title": "",
+      "icon": "layout-group",
+      "fullPage": "true",
+      "displayExpression": "(app) => true",
+      "fields": [
+        {
+          "key": "c50_patient_uuid",
+          "label": "c50_patient_uuid",
+          "dataType": "string",
+          "dataElementId": "a44f59cf-1222-4bca-9c1e-f5dd2d4c0ae3",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "false",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "c50_family_uuid",
+          "label": "c50_family_uuid",
+          "dataType": "string",
+          "dataElementId": "6843ff69-529f-403f-a7ed-739c9c53554c",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "false",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "c40_chw_area_uuid",
+          "label": "c40_chw_area_uuid",
+          "dataType": "string",
+          "dataElementId": "5ea5e5e8-402a-4018-a6d4-d70f188b9870",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "calc_c40_chw_area_uuid"
+        },
+        {
+          "key": "c30_supervisor_area_uuid",
+          "label": "c30_supervisor_area_uuid",
+          "dataType": "string",
+          "dataElementId": "1ab7564e-dbdc-49b9-a9d9-f26626d97d53",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "calc_c30_supervisor_area_uuid"
+        },
+        {
+          "key": "c20_health_area_uuid",
+          "label": "c20_health_area_uuid",
+          "dataType": "string",
+          "dataElementId": "a094814c-0384-437d-801b-c967e418ef78",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "calc_c20_health_area_uuid"
+        },
+        {
+          "key": "c10_site_uuid",
+          "label": "c10_site_uuid",
+          "dataType": "string",
+          "dataElementId": "b680b90e-aedd-4fe1-9656-44682c24496b",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "calc_c10_site_uuid"
+        }
+      ]
+    },
+    {
+      "key": "page_1",
+      "title": "",
+      "icon": "layout-group",
+      "fullPage": "true",
+      "displayExpression": "(app) => true",
+      "fields": [
+        {
+          "key": "patient_name",
+          "label": "patient_name",
+          "dataType": "string",
+          "dataElementId": "c0b5303b-c1a1-4697-9268-a1c5648f9176",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "calc_patient_name"
+        },
+        {
+          "key": "patient_id",
+          "label": "patient_id",
+          "dataType": "string",
+          "dataElementId": "d1eb7081-ba9e-4b57-bac2-7ed33e73e349",
+          "tags": [],
+          "className": "",
+          "required": false,
+          "displayExpression": "true",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "calc_patient_id"
+        }
+      ]
+    },
+    {
+      "key": "tdr_mistake",
+      "title": "Erreur du TDR",
+      "icon": "layout-group",
+      "fullPage": "true",
+      "displayExpression": "(app) => true",
+      "fields": [
+        {
+          "key": "redo_tdr",
+          "label": "Votre Superviseur vient de trouver une erreur du TDR fait pour {app.currentForm[\"patient_name\"] ?? ''}. Veuillez immédiatement refaire l'évaluation de ce patient.",
+          "dataType": "label",
+          "dataElementId": "",
+          "tags": [],
+          "className": "",
+          "displayExpression": "true"
+        }
+      ]
+    },
+    {
+      "key": "inputs",
+      "title": "",
+      "icon": "layout-group",
+      "fullPage": "false",
+      "displayExpression": "false",
+      "fields": [
+        {
+          "key": "inputs_source_id",
+          "label": "inputs_source_id",
+          "dataType": "string",
+          "dataElementId": "a789a13b-9915-4877-81e3-e230f6a788f0",
+          "tags": [],
+          "className": "",
+          "required": "(app) => false",
+          "displayExpression": "false",
+          "validationExpression": "(app) => true",
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "calc_inputs_source_id"
+        }
+      ]
+    }
+  ]
+}

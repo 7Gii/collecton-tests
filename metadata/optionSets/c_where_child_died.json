@@ -1,0 +1,42 @@
+{
+  "id": "67345eea-65b6-497d-8fc4-6198b225f0ee",
+  "name": "c_where_child_died",
+  "label": "c_where_child_died",
+  "options": [
+    {
+      "id": "b455de7e-89fe-4a0a-908c-a88d65b74e4d",
+      "name": "Domicile",
+      "value": "home",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "23622541-88dc-41f1-bfcf-bcd6e9d3f7eb",
+      "name": "CSCOM",
+      "value": "cscom",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "ac4416a9-b026-4daa-983d-e447a1e002ec",
+      "name": "CSREF",
+      "value": "csref",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "e24db5eb-8d7a-45ea-a1d7-5621a31e319c",
+      "name": "Hôpital",
+      "value": "hospital",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "68c1baf7-2d44-4ec5-a929-cf1fbf0d999a",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

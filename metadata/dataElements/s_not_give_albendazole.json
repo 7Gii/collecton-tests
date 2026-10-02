@@ -1,0 +1,18 @@
+{
+  "id": "533b4acc-fd63-4334-bbb7-418fb9ef6f96",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_not_give_albendazole",
+  "label": "Pourquoi pas ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "tags": []
+}

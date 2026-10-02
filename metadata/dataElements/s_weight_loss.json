@@ -1,0 +1,18 @@
+{
+  "id": "8d3e26f7-199f-4769-8379-e7c2ea39928b",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_weight_loss",
+  "label": "L'enfant présente-t-il une notion de perte de poids ou manque de prise de poids selon la maman?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

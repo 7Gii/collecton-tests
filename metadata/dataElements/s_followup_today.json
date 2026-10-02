@@ -1,0 +1,18 @@
+{
+  "id": "1545551a-821e-45a0-bd70-7d72124e85ff",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_followup_today",
+  "label": "Le suivi du patient a t-elle été faite aujourd'hui?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

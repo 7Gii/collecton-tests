@@ -1,0 +1,2708 @@
+{
+ "survey": [
+  {
+   "type": "begin group",
+   "name": "inputs",
+   "label::en": "Patient",
+   "label::fr": "Patient",
+   "label::bm": "Banabagatɔ",
+   "appearance": "field-list",
+   "relevant": "./source = 'user'"
+  },
+  {
+   "type": "string",
+   "name": "source",
+   "label::en": "Source",
+   "label::fr": "Source",
+   "appearance": "hidden",
+   "default": "user"
+  },
+  {
+   "type": "string",
+   "name": "source_id",
+   "label::en": "Source ID",
+   "label::fr": "Source de l’ID",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_follow_up_type",
+   "label::en": "Follow up type",
+   "label::fr": "Type de suivi",
+   "label::bm": "Kɔlɔsili suguya",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_follow_up_count",
+   "label::en": "Follow up count",
+   "label::fr": "Nombre de suivi",
+   "label::bm": "Kɔlɔsili hakɛ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_previous_strip",
+   "label::en": "Previous shakir strip",
+   "label::fr": "Bande de shakir passée",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_num_recovered",
+   "label::en": "Number of time patient decalred recovered",
+   "label::fr": "Nombre de fois le patient déclaré guéri",
+   "label::bm": "Nombre de fois le patient déclaré guéri",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_before_previous_child_presence",
+   "label::en": "Previous child presence confirmation(n-2)",
+   "label::fr": "Confirmation de la presence de l'enfant passée(n-2)",
+   "label::bm": "Confirmation de la presence de l'enfant passée(n-2)",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_num_successive_green_strips",
+   "label::en": "Number of successive green Shakir Strips",
+   "label::fr": "Nombre de bandes verte successives",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_num_successive_yellow_strips",
+   "label::en": "Number of successive yellow Shakir Strips",
+   "label::fr": "Nombre de bandes jaunes successives",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_num_successive_red_strips",
+   "label::en": "Number of successive yellow Shakir Strips",
+   "label::fr": "Nombre de bandes jaunes successives",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_num_yellow_strips",
+   "label::en": "Number of Yellow Shakir Strips",
+   "label::fr": "Nombre de bandes jaunes",
+   "label::bm": "Shakir ka bandi nɛrɛ sumali hakɛ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_num_child_presence_confirmation",
+   "label::en": "Number of child’s presence",
+   "label::fr": "Nombre de présence de l’enfant",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_num_no_edema",
+   "label::en": "Number of consecutive times without edema",
+   "label::fr": "Nombre de fois consécutives sans oedèmes",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_folic_acid_srp_given_once",
+   "label::en": "Number of consecutive times without edema",
+   "label::fr": "Nombre de fois consécutives sans oedèmes",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_assessment_date",
+   "label::en": "Original Assessment Date",
+   "label::fr": "Date d'évaluation initiale",
+   "label::bm": "kiimɛli daminɛ don",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "Contact",
+   "label::fr": "Contact",
+   "label::bm": "Contact"
+  },
+  {
+   "type": "db:person",
+   "name": "_id",
+   "label::en": "What is the patient name?",
+   "label::fr": "Quel est le nom du patient ?",
+   "label::bm": "Banabagatɔ  tɔgɔ n’a jamu",
+   "appearance": "db-object",
+   "constraint": "${patient_age_in_years} < 5",
+   "constraint_message::en": "The patient age must be below 5 years old",
+   "constraint_message::fr": "L’âge du patient doit être inférieur à 5 ans",
+   "constraint_message::bm": "Banabagatɔ si mankan ka caya ni san 5 ye",
+   "hint::en": "select a person from the list",
+   "hint::fr": "Sélectionner une personne dans la liste",
+   "hint::bm": "Mɔgɔ dɔ sugandi lisi kɔnɔ"
+  },
+  {
+   "type": "string",
+   "name": "name",
+   "label::en": "Name",
+   "label::fr": "Nom",
+   "label::bm": "Tɔgɔ ni jamu",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "date_of_birth",
+   "label::en": "Date of birth",
+   "label::fr": "Date de naissance",
+   "label::bm": "Bange waati",
+   "appearance": "hidden",
+   "default": 0
+  },
+  {
+   "type": "string",
+   "name": "sex",
+   "label::en": "Sex",
+   "label::fr": "Sexe",
+   "label::bm": "Cɛnimusoya",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "family_uuid",
+   "label::fr": "family_uuid",
+   "label::bm": "family_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "db:person",
+   "name": "_id",
+   "label::en": "chw_area_uuid",
+   "label::fr": "chw_area_uuid",
+   "label::bm": "chw_area_uuid",
+   "appearance": "db-object"
+  },
+  {
+   "type": "string",
+   "name": "stm_is_active",
+   "label::en": "stm_is_active",
+   "label::fr": "stm_is_active",
+   "label::bm": "NO_LABEL",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "mam_intrant",
+   "label::en": "Use plumpy as MAM intrant",
+   "label::fr": "Utiliser le plumpy sup comme intrant MAM",
+   "label::bm": "NO_LABEL",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "supervisor_area_uuid",
+   "label::fr": "supervisor_area_uuid",
+   "label::bm": "supervisor_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "health_area_uuid",
+   "label::fr": "health_area_uuid",
+   "label::bm": "health_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "site_uuid",
+   "label::fr": "site_uuid",
+   "label::bm": "site_uuid"
+  },
+  {
+   "type": "end group",
+   "name": "parent"
+  },
+  {
+   "type": "end group",
+   "name": "parent"
+  },
+  {
+   "type": "end group",
+   "name": "parent"
+  },
+  {
+   "type": "end group",
+   "name": "parent"
+  },
+  {
+   "type": "end group",
+   "name": "parent"
+  },
+  {
+   "type": "end group",
+   "name": "contact"
+  },
+  {
+   "type": "end group",
+   "name": "inputs"
+  },
+  {
+   "type": "begin group",
+   "name": "lineage",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "calculate",
+   "name": "c50_patient_uuid",
+   "label::en": "c50_patient_uuid",
+   "label::fr": "c50_patient_uuid",
+   "label::bm": "c50_patient_uuid",
+   "calculation": "../../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c50_family_uuid",
+   "label::en": "c50_family_uuid",
+   "label::fr": "c50_family_uuid",
+   "label::bm": "c50_family_uuid",
+   "calculation": "../../inputs/contact/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c40_chw_area_uuid",
+   "label::en": "c40_chw_area_uuid",
+   "label::fr": "c40_chw_area_uuid",
+   "label::bm": "c40_chw_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c30_supervisor_area_uuid",
+   "label::en": "c30_supervisor_area_uuid",
+   "label::fr": "c30_supervisor_area_uuid",
+   "label::bm": "c30_supervisor_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c20_health_area_uuid",
+   "label::en": "c20_health_area_uuid",
+   "label::fr": "c20_health_area_uuid",
+   "label::bm": "c20_health_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c10_site_uuid",
+   "label::en": "c10_site_uuid",
+   "label::fr": "c10_site_uuid",
+   "label::bm": "c10_site_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/parent/parent/_id"
+  },
+  {
+   "type": "end group",
+   "name": "lineage"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_years",
+   "label::en": "Years",
+   "label::fr": "Années",
+   "label::bm": "San",
+   "default": 0,
+   "calculation": "floor( difference-in-months( ${date_of_birth}, now() ) div 12 )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_months",
+   "label::en": "Months",
+   "label::fr": "Mois",
+   "label::bm": "Kalo",
+   "default": 0,
+   "calculation": "difference-in-months( ${date_of_birth}, now() )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_days",
+   "label::en": "Days old",
+   "label::fr": "Jours",
+   "label::bm": "Tile",
+   "calculation": "floor( decimal-date-time(now()) - decimal-date-time(${date_of_birth}) )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display",
+   "calculation": "concat(concat(${patient_age_in_years}, if(${patient_age_in_years}=1,' year and ',' years and ')),concat(${patient_age_in_months} mod 12, if((${patient_age_in_months} mod 12)=1,' month old',' months old')))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display_fr",
+   "calculation": "concat(concat(${patient_age_in_years}, if(${patient_age_in_years}=1,' an et ',' ans et ')),concat(${patient_age_in_months} mod 12, if((${patient_age_in_months} mod 12)=1,' mois',' mois')))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display_bm",
+   "calculation": "concat(  concat(    if(${patient_age_in_years} != '','San ',''),     ${patient_age_in_years}  ),   concat(   if((${patient_age_in_months} mod 12)=1,' ani kalo ',' ani kalo ') ,  ${patient_age_in_months} mod 12   ) )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_uuid",
+   "label::en": "Patient ID",
+   "label::fr": "Identifiant du patient",
+   "label::bm": "Den ka nimɔrɔ",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "calculation": "../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_name",
+   "label::en": "Patient Name",
+   "label::fr": "Nom du patient",
+   "label::bm": "Den tɔgɔ",
+   "calculation": "../inputs/contact/name"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex",
+   "label::en": "Patient Sex",
+   "label::fr": "Sexe du patient",
+   "label::bm": "Cɛnimusoya",
+   "calculation": "../inputs/contact/sex"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_en",
+   "label::en": "Patient Sex",
+   "label::fr": "Sexe du patient",
+   "label::bm": "Cɛnimusoya",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'Male', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'Female', ''))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_fr",
+   "label::en": "Patient Sex",
+   "label::fr": "Sexe du patient",
+   "label::bm": "Cɛnimusoya",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'Homme', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'Femme', ''))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_bm",
+   "label::en": "Patient Sex",
+   "label::fr": "Sexe du patient",
+   "label::bm": "Cɛnimusoya",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'Cɛ', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'Muso', ''))"
+  },
+  {
+   "type": "calculate",
+   "name": "next_visit",
+   "label::en": "Next Visit",
+   "label::fr": "Prochaine visite",
+   "label::bm": "lajɛli n'a ta don",
+   "calculation": "if(number(${days_since_admission}) < number('28'),'Follow up in 1 week',\n    if(number(${days_since_admission}) < number('84'),'Follow up in 2 weeks','')\n  )\n"
+  },
+  {
+   "type": "calculate",
+   "name": "next_visit_fr",
+   "label::en": "Next Visit Francais",
+   "label::fr": "Prochaine visite",
+   "label::bm": "lajɛli n'a ta don",
+   "calculation": "if(number(${days_since_admission}) < number('28'),'Le prochain suivi sera dans 7 jours',\n    number(${days_since_admission}) < number('84'),'Le prochain suivi sera dans 14 jours'\n)\n"
+  },
+  {
+   "type": "calculate",
+   "name": "next_visit_date",
+   "label::en": "Next Visit date",
+   "label::fr": "Date de prochaine visite",
+   "label::bm": "lajɛli n'a ta don",
+   "calculation": "if(number(${days_since_admission}) < number('28'),format-date-time(decimal-date-time(now()+7),\"%d/%m/%Y\"),    \n    format-date-time(decimal-date-time(now()+14),\"%d/%m/%Y\")\n )"
+  },
+  {
+   "type": "calculate",
+   "name": "follow_up_count",
+   "label::en": "Follow up count",
+   "label::fr": "Nombre de suivi",
+   "label::bm": "kɔlɔsili hakɛ",
+   "calculation": "../inputs/t_follow_up_count"
+  },
+  {
+   "type": "calculate",
+   "name": "follow_up_count_number",
+   "calculation": "number(${t_follow_up_count})"
+  },
+  {
+   "type": "calculate",
+   "name": "next_followup_visit",
+   "label::en": "Next Followup visit",
+   "label::fr": "Prochaine visite de suivi",
+   "label::bm": "kɔlɔsili n'a ta don ",
+   "calculation": "if(${c_selected_task_number} = '1', format-date(date(decimal-date-time(now()) + 7), \"%e/%n/%Y\"), \nif(${c_selected_task_number} = '2', format-date(date(decimal-date-time(now()) + 14), \"%e/%n/%Y\"), \nif(${c_selected_task_number} = '3',format-date(date(decimal-date-time(now()) + 21), \"%e/%n/%Y\"), \nif(${c_selected_task_number} = '4', format-date(date(decimal-date-time(now()) + 28), \"%e/%n/%Y\"), \nif(${c_selected_task_number} = '5', format-date(date(decimal-date-time(now()) + 42), \"%e/%n/%Y\"), \nif(${c_selected_task_number} = '6', format-date(date(decimal-date-time(now()) + 56), \"%e/%n/%Y\"), \nif(${c_selected_task_number} = '7', format-date(date(decimal-date-time(now()) + 70), \"%e/%n/%Y\"), \nif(${c_selected_task_number} = '8', format-date(date(decimal-date-time(now()) + 84), \"%e/%n/%Y\"), \"\"))))))))"
+  },
+  {
+   "type": "calculate",
+   "name": "follow_up_count_label_en",
+   "calculation": "concat('follow up ', ${follow_up_count_number})"
+  },
+  {
+   "type": "calculate",
+   "name": "follow_up_count_label_fr",
+   "calculation": "concat('suivi ', ${follow_up_count_number})"
+  },
+  {
+   "type": "calculate",
+   "name": "fast_breathing",
+   "label::en": "Is the respiration rate fast?",
+   "label::fr": "Est-ce que le fréquence respiratoire est rapide?",
+   "calculation": "if((coalesce(${s_ari_respiration_rate}, 0) >= 50 and ${patient_age_in_months} >= 2 and ${patient_age_in_years} < 1),'true',\n  if((coalesce(${s_ari_respiration_rate}, 0) >= 40 and ${patient_age_in_years} >=1),'true','false'))"
+  },
+  {
+   "type": "calculate",
+   "name": "fast_breathing_label_fr",
+   "calculation": "if(${fast_breathing}='true','Rapide','Normale')"
+  },
+  {
+   "type": "calculate",
+   "name": "fast_breathing_label_bm",
+   "calculation": "if(${fast_breathing}='true','A ka teli','A man teli(A kaɲi)')"
+  },
+  {
+   "type": "calculate",
+   "name": "fast_breathing_label_en",
+   "calculation": "if(${fast_breathing}='true','Fast','Normal')"
+  },
+  {
+   "type": "calculate",
+   "name": "num_yellow_strips",
+   "label::en": "Number of Yellow Shakir Strips",
+   "label::fr": "Nombre de bandes jaunes",
+   "label::bm": "Shakir ka bandi nɛrɛ sumali hakɛ",
+   "calculation": "../inputs/t_num_successive_yellow_strips"
+  },
+  {
+   "type": "calculate",
+   "name": "num_green_strips",
+   "label::en": "Number of green Shakir Strips",
+   "label::fr": "Nombre de bandes vertes",
+   "label::bm": "Shakir ka bandi nɛrɛ sumali hakɛ",
+   "calculation": "../inputs/t_num_successive_green_strips"
+  },
+  {
+   "type": "calculate",
+   "name": "num_red_strips",
+   "label::en": "Number of Red Shakir Strips",
+   "label::fr": "Nombre de bandes rouges",
+   "calculation": "../inputs/t_num_successive_red_strips"
+  },
+  {
+   "type": "calculate",
+   "name": "before_previous_child_presence",
+   "label::en": "Previous child presence confirmation(n-2)",
+   "label::fr": "Confirmation de la presence de l'enfant passée(n-2)",
+   "label::bm": "Confirmation de la presence de l'enfant passée(n-2)",
+   "calculation": "../inputs/t_before_previous_child_presence"
+  },
+  {
+   "type": "calculate",
+   "name": "previous_strip",
+   "label::en": "Color of the previous shakir strip",
+   "label::fr": "Couleur de la bande de shakir passée",
+   "calculation": "../inputs/t_previous_strip"
+  },
+  {
+   "type": "calculate",
+   "name": "num_recovered",
+   "label::en": "Number of time patient decalred recovered",
+   "label::fr": "Nombre de fois le patient déclaré guéri",
+   "label::bm": "Nombre de fois le patient déclaré guéri",
+   "calculation": "../inputs/t_num_recovered"
+  },
+  {
+   "type": "calculate",
+   "name": "child_presence",
+   "calculation": "${s_child_presence_confirmation}"
+  },
+  {
+   "type": "calculate",
+   "name": "num_child_presence_confirmation",
+   "label::en": "Number of child’s presence",
+   "label::fr": "Nombre de présence de l’enfant",
+   "calculation": "../inputs/t_num_child_presence_confirmation"
+  },
+  {
+   "type": "calculate",
+   "name": "shakir_strip_color",
+   "label::en": "Shakir strip color",
+   "label::fr": "Couleur de la bande",
+   "label::bm": "Bolokan lamini sumali ɲɛ",
+   "calculation": "${s_shakir_strip_color}"
+  },
+  {
+   "type": "calculate",
+   "name": "has_edema",
+   "label::en": "Whether the patient has edema",
+   "label::fr": "Si le patient a les oedèmes bilatéraux",
+   "calculation": "${s_malnutrition_edema}"
+  },
+  {
+   "type": "calculate",
+   "name": "num_no_edema",
+   "label::en": "Number of consecutive times without edema",
+   "label::fr": "Nombre de fois consécutives sans oedèmes",
+   "calculation": "../inputs/t_num_no_edema"
+  },
+  {
+   "type": "calculate",
+   "name": "referral_with_followup",
+   "label::en": "Refer to CSCOM and continue follow-up",
+   "label::fr": "Référer au CSCOM sans arrêt de suivi.",
+   "calculation": "if((${s_other_signs} = 'yes' \nor ${s_diarrhea_stools} = 'yes' \nor ${s_weight_loss} = 'yes' \nor ${fast_breathing} = 'true') \nand ${is_ending_followup}='false'\nand ${patient_deceased}='false'\nand ${referral_with_no_followup} = 'false' \n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "referral_with_no_followup",
+   "label::en": "Refer to CSCOM and stop follow-up",
+   "label::fr": "Référer au CSCOM avec arrêt de suivi.",
+   "calculation": "if( ${c_selected_task_number} < 8,\n        ${referral_with_no_followup_1}\n    ,\n       if ( ${referral_with_no_followup_1}='true' or ${referral_with_no_followup_2}='true' or ${patient_recovered}='false',\n        'true',\n        'false'\n        )\n)\n"
+  },
+  {
+   "type": "calculate",
+   "name": "abandon_followup",
+   "label::en": "Abandon the follow-up for this child",
+   "label::fr": "Abandonner le suivi de cet enfant.",
+   "calculation": "if(${num_child_presence_confirmation} = '2' \nand (selected(${s_child_presence_confirmation}, 'no'))\nand ${patient_deceased}='false'\n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered",
+   "label::en": "Patient has recovered",
+   "label::fr": "Guérison du patient.",
+   "calculation": "if(${c_selected_task_number} >= 3,\n    if(${c_selected_task_number} <8,\n        ${patient_recovered_1}\n        ,\n        if (${patient_recovered_1}='true' or ${patient_recovered_2}='true' or ${patient_recovered_3}='true' or ${patient_recovered_4}='true' or ${patient_recovered_5}='true' or ${patient_recovered_6}='true' or ${patient_recovered_7}='true',\n        'true',\n        'false'\n        )\n    )\n    ,\n'false'\n)"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_deceased",
+   "label::en": "Patient is deceased",
+   "label::fr": "Le patient est décédé",
+   "calculation": "if(${s_child_presence_confirmation}= 'deceased','true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_should_continue_followup",
+   "label::en": "Patientshould continue follow up",
+   "label::fr": "Le patient devrait continuer le suivi",
+   "calculation": "if(${referral_with_followup} = 'false' \nand ${referral_with_no_followup} = 'false' \nand ${abandon_followup} = 'false' \nand ${patient_recovered} = 'false'\nand ${patient_deceased}='false'\nand ${is_ending_followup}='false'\nand coalesce(${s_malnutrition_edema},'no') = 'no' \nand coalesce(${s_other_signs},'no') = 'no' \n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "referral",
+   "label::en": "Should the patient be referred?",
+   "label::fr": "Le patient doit-il être referré?",
+   "calculation": "if(${cat}= 'refer_with_followup' or ${cat} = 'refer_with_no_followup','true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "final_cat",
+   "label::en": "What is the next step for the followup?",
+   "label::fr": "Quelle est la suite à donner au suivi?",
+   "calculation": "${cat}"
+  },
+  {
+   "type": "calculate",
+   "name": "assessment_date",
+   "calculation": "${t_assessment_date}"
+  },
+  {
+   "type": "calculate",
+   "name": "days_since_admission",
+   "calculation": "floor( decimal-date-time(now()) - decimal-date-time(${t_assessment_date}) )"
+  },
+  {
+   "type": "calculate",
+   "name": "dewormer_dosage_label",
+   "calculation": "jr:choice-name(${s_given_dewormer_dosage}, '${s_given_dewormer_dosage}')"
+  },
+  {
+   "type": "calculate",
+   "name": "vitaminA_dosage_label",
+   "calculation": "jr:choice-name(${s_vitaminA_dosage}, '${s_vitaminA_dosage}')"
+  },
+  {
+   "type": "calculate",
+   "name": "iron_folic_dosage_label",
+   "calculation": "jr:choice-name(${s_iron_folic_dosage}, '${s_iron_folic_dosage}')"
+  },
+  {
+   "type": "calculate",
+   "name": "s_give_vitaminea_dosage_value_en",
+   "calculation": "if (${patient_age_in_months}>=6 and ${patient_age_in_months}<12\n,  'blue capsule, 100 000 UI', \n   if(${patient_age_in_months}>=12 and ${patient_age_in_months}<=59,'red capsule, 200 000 UI','')  \n)"
+  },
+  {
+   "type": "calculate",
+   "name": "s_give_vitaminea_dosage_value_fr",
+   "calculation": "if (${patient_age_in_months}>=6 and ${patient_age_in_months}<12\n,  'capsule bleue, 100 000 UI', \n   if(${patient_age_in_months}>=12 and ${patient_age_in_months}<=59,'capsule rouge, 200 000 UI','')  \n)"
+  },
+  {
+   "type": "calculate",
+   "name": "s_give_vitaminea_dosage_value_bm",
+   "calculation": "if (${patient_age_in_months}>=6 and ${patient_age_in_months}<12\n,  'furakisɛ bulama 1, 100 000 UI', \n   if(${patient_age_in_months}>=12 and ${patient_age_in_months}<=59,'furakisɛ bileman 1, 200 000 UI','')  \n)"
+  },
+  {
+   "type": "calculate",
+   "name": "chw_selected_computed_cat",
+   "label::en": "CHW has selected the same CAT with the app",
+   "label::fr": "L'ASC a choisi le CAT que l'application",
+   "calculation": "if( \n    (${cat}='continue_followup' and ${patient_should_continue_followup}='true') or \n    (${cat}='abandoned' and ${abandon_followup}='true') or\n    (${cat}='recovered' and ${patient_recovered}='true') or\n    (${cat}='refer_with_followup' and ${referral_with_followup}='true') or\n    (${cat}='refer_with_no_followup' and ${referral_with_no_followup}='true') or\n    (${cat} != 'continue_followup' and ${cat} != 'abandoned' and ${cat} != 'recovered' and ${cat} != 'refer_with_followup' and ${cat} != 'refer_with_no_followup' )\n ,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "show_continue_value",
+   "label::en": "Handle continue_followups CAT display",
+   "label::fr": "Contrôle l'affichage du CAT continue_followup",
+   "label::bm": "Contrôle l'affichage du CAT continue_followup",
+   "calculation": "if(${is_ending_followup} = 'false','continue_on' ,'off')"
+  },
+  {
+   "type": "calculate",
+   "name": "show_recovered_value",
+   "label::en": "Handle  recovered CAT display",
+   "label::fr": "Contrôle l'affichage du CAT recovered",
+   "label::bm": "Contrôle l'affichage du CAT recovered",
+   "calculation": "if(${c_selected_task_number} > 2,'recovered_on' ,'off')"
+  },
+  {
+   "type": "calculate",
+   "name": "show_refer_value",
+   "label::en": "Handle  refer_with_followup CAT display",
+   "label::fr": "Contrôle l'affichage du CAT refer_with_followup",
+   "label::bm": "Contrôle l'affichage du CAT refer_with_followup",
+   "calculation": "if(${is_ending_followup} = 'false','refer_on' ,'off')"
+  },
+  {
+   "type": "calculate",
+   "name": "show_abandoned_value",
+   "label::en": "Handle  abandoned CAT display",
+   "label::fr": "Contrôle l'affichage du CAT abandoned",
+   "label::bm": "Contrôle l'affichage du CAT abandoned",
+   "calculation": "if(${c_selected_task_number} >2 and ${c_selected_task_number}< 8   ,'abandoned_on' ,'off')"
+  },
+  {
+   "type": "calculate",
+   "name": "is_ending_followup",
+   "label::en": "Is this the last days followup?",
+   "label::fr": "Est-ce le dernier suivi",
+   "label::bm": "Est-ce le dernier suivi",
+   "calculation": "if(${c_selected_task_number} = 8, 'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "c_selected_task_number",
+   "label::en": "folluwup number based on selected followup",
+   "label::fr": "nombre de suivi basé sur le choix du suivi",
+   "label::bm": "nombre de suivi basé sur le choix du suivi",
+   "calculation": "number(${follow_up_count_number})\n"
+  },
+  {
+   "type": "calculate",
+   "name": "referral_with_no_followup_1",
+   "label::en": "Refer to CSCOM and stop follow-up part 1",
+   "label::fr": "Référer au CSCOM avec arrêt de suivi partie 1",
+   "label::bm": "Référer au CSCOM avec arrêt de suivi partie 1",
+   "calculation": "if(\n    ${s_malnutrition_edema} = 'yes' \n    or ${s_malnutrition_sores}  = 'yes' \n    or selected(${s_shakir_strip_color}, 'red')\n    or (${num_yellow_strips} = '2' and (selected(${s_shakir_strip_color}, 'yellow')))\n    and ${patient_recovered}='false'\n    and ${patient_deceased}='false'\n, 'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "referral_with_no_followup_2",
+   "label::en": "Refer to CSCOM and stop follow-up part 2",
+   "label::fr": "Référer au CSCOM avec arrêt de suivi partie 2",
+   "label::bm": "Référer au CSCOM avec arrêt de suivi partie 2",
+   "calculation": "if((${s_other_signs} = 'yes' \nor ${s_diarrhea_stools} = 'yes' \nor ${s_weight_loss} = 'yes' \nor ${fast_breathing} = 'true') \nand ${patient_deceased}='false'\nand ${patient_recovered}='false'\n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered_1",
+   "label::en": "Patient has recovered 1",
+   "label::fr": "Guérison du patient.1",
+   "label::bm": "Guérison du patient.1",
+   "calculation": "if( (${num_green_strips} = '2' and selected(${s_shakir_strip_color}, 'green'))\nand ${s_malnutrition_edema} = 'no' and ${s_other_signs} = 'no' \nand ${s_diarrhea_stools} = 'no' and coalesce(${s_weight_loss},'no')='no' \nand ${patient_deceased}='false'\n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered_2",
+   "label::en": "Patient has recovered 2",
+   "label::fr": "Guérison du patient.2",
+   "label::bm": "Guérison du patient.2",
+   "calculation": "if( (${previous_strip} = 'green' and selected(${s_shakir_strip_color}, 'green'))\nand ${s_malnutrition_edema} = 'no' and ${s_other_signs} = 'no' \nand ${s_diarrhea_stools} = 'no' and coalesce(${s_weight_loss},'no')='no' \nand ${patient_deceased}='false'\n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered_3",
+   "label::en": "Patient has recovered 3",
+   "label::fr": "Guérison du patient.3",
+   "label::bm": "Guérison du patient.3",
+   "calculation": "if( selected(${s_shakir_strip_color}, 'green')\nand ${s_malnutrition_edema} = 'no' and ${s_other_signs} = 'no' \nand ${s_diarrhea_stools} = 'no' and coalesce(${s_weight_loss},'no')='no' \nand ${patient_deceased}='false'\n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered_4",
+   "label::en": "Patient has recovered 4",
+   "label::fr": "Guérison du patient.4",
+   "label::bm": "Guérison du patient.4",
+   "calculation": "if( selected(${s_shakir_strip_color}, 'yellow')\nand number(${num_recovered})>1\nand ${s_malnutrition_edema} = 'no' and ${s_other_signs} = 'no' \nand ${s_diarrhea_stools} = 'no' and coalesce(${s_weight_loss},'no')='no' \nand ${patient_deceased}='false'\n,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered_5",
+   "label::en": "Patient has recovered 5",
+   "label::fr": "Guérison du patient.5",
+   "label::bm": "Guérison du patient.5",
+   "calculation": "if( selected(${s_shakir_strip_color}, 'yellow')\n    and ${previous_strip} = 'green'\n    and ${s_malnutrition_edema} = 'no' and ${s_other_signs} = 'no' \n    and ${s_diarrhea_stools} = 'no' and coalesce(${s_weight_loss},'no')='no' \n    and ${patient_deceased}='false'\n    ,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered_6",
+   "label::en": "Patient has recovered 6",
+   "label::fr": "Guérison du patient.6",
+   "label::bm": "Guérison du patient.6",
+   "calculation": "if( selected(${s_shakir_strip_color}, 'yellow')\n    and ${previous_strip} = 'yellow'\n    and number(${num_recovered})>1\n    and ${s_malnutrition_edema} = 'no' and ${s_other_signs} = 'no' \n    and ${s_diarrhea_stools} = 'no' and coalesce(${s_weight_loss},'no')='no' \n    and ${patient_deceased}='false'\n    ,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_recovered_7",
+   "label::en": "Patient has recovered 7",
+   "label::fr": "Guérison du patient.7",
+   "label::bm": "Guérison du patient.7",
+   "calculation": "if( ${before_previous_child_presence}='yes'\n    and ${s_child_presence_confirmation} = 'no' \n    and number(${num_recovered})>1\n    and ${s_malnutrition_edema} = 'no' and ${s_other_signs} = 'no' \n    and ${s_diarrhea_stools} = 'no' and coalesce(${s_weight_loss},'no')='no' \n    and ${patient_deceased}='false'\n    ,'true','false')"
+  },
+  {
+   "type": "calculate",
+   "name": "enriched_flour_dosage_label",
+   "calculation": "${s_give_enriched_flour_dosage}"
+  },
+  {
+   "type": "calculate",
+   "name": "r_followup_date",
+   "calculation": "if(${s_followup_today}='yes',format-date-time(date-time(decimal-date-time(now())),\"%Y-%m-%d\"), ${s_followup_date})"
+  },
+  {
+   "type": "calculate",
+   "name": "use_plumpy_with_mam",
+   "calculation": "if(${mam_intrant}='', 'true', if (${mam_intrant} = 'plumpy', 'true', 'false'))"
+  },
+  {
+   "type": "calculate",
+   "name": "folic_acid_srp_given_once",
+   "calculation": "../inputs/t_folic_acid_srp_given_once"
+  },
+  {
+   "type": "begin group",
+   "name": "s_registration_mode",
+   "label::en": "Follow-up date",
+   "label::fr": "Date de suivi",
+   "label::bm": "Kɔlɔsili don",
+   "appearance": "field-list"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_followup_today",
+   "label::en": "Was the patient's follow-up done today?",
+   "label::fr": "Le suivi du patient a t-elle été faite aujourd'hui?",
+   "label::bm": "Den ka kכlכsili kɛra bi wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "date",
+   "name": "s_followup_date",
+   "label::en": "Enter the patient's follow-up date",
+   "label::fr": "Entrez la date de suivi du patient",
+   "label::bm": "Ni Ayi kiimɛli don do",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_followup_today} = 'no'",
+   "constraint": "floor(decimal-date-time(.)) <= floor(decimal-date-time(now()))",
+   "constraint_message::en": "Date must be before today",
+   "constraint_message::fr": "Date doit être avant aujourd'hui",
+   "constraint_message::bm": "Don fɔlen  kan ka kɛ yani bi don cɛ"
+  },
+  {
+   "type": "end group",
+   "name": "s_registration_mode"
+  },
+  {
+   "type": "begin group",
+   "name": "s_child_presence",
+   "label::en": "Presence of the child",
+   "label::fr": "Présence de l’enfant",
+   "label::bm": "Den lasɔrɔli ",
+   "appearance": "field-list"
+  },
+  {
+   "type": "select_one c_child_presence_confirmation",
+   "name": "s_child_presence_confirmation",
+   "label::en": "Is the child present or has the child come to the CHW?",
+   "label::fr": "L’enfant est-il présent ou est-il venu chez l’ASC?",
+   "label::bm": "I ye den lasɔrɔ wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_child_receive_inputs",
+   "label::en": "Did the child receive the inputs for the week?",
+   "label::fr": "Est ce que l'enfant a reçu les intrants pour la semaine?",
+   "label::bm": "Yala den ye dɔgɔkun furaw sɔrɔ wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_child_presence_confirmation} = 'no'"
+  },
+  {
+   "type": "end group",
+   "name": "s_child_presence"
+  },
+  {
+   "type": "begin group",
+   "name": "s_assessment",
+   "label::en": "Child’s assessment",
+   "label::fr": "Evaluation de l’enfant",
+   "label::bm": "Den ka Sɛgɛsɛgɛli",
+   "appearance": "field-list",
+   "relevant": " ${s_child_presence_confirmation} = 'yes'"
+  },
+  {
+   "type": "select_one c_shakir_strip_color",
+   "name": "s_shakir_strip_color",
+   "label::en": "What is the color of shakir strip?",
+   "label::fr": "Quelle est la couleur retenue pour la bande de shakir?",
+   "label::bm": "Bolokan lamini sumali ɲɛ ?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "hint::en": "Green : if  PB  ≥ 12,5 cm - \nYellow :  if 11,5 cm≤PB<12,5 cm - \nRed: if PB<11,5 cm",
+   "hint::fr": "Vert : Si  PB  ≥ 12,5 cm - \nJaune :  Si 11,5 cm≤ PB <12,5 cm -\nRouge: Si PB<11,5 cm",
+   "hint::bm": "ɲuguji : PB  ≥ 12,5 cm - \nNɛrɛ :  11,5 cm≤ PB <12,5 cm - \nBileman: PB<11,5 cm"
+  },
+  {
+   "type": "decimal",
+   "name": "s_nutri_shakir_strip_length_green",
+   "label::en": "What is the child's gill perimeter (GP) (in cm)? ",
+   "label::fr": "Préciser la mesure du périmètre branchial (en cm)",
+   "label::bm": "Den ka bolokan lamini sumali (PB) cm?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_shakir_strip_color}='green'",
+   "constraint": ". >= 12.5 and . <= 26.5",
+   "constraint_message::en": "Please check the length and color of the corresponding shakir band. Should be >= 12.5 and <= 26.5",
+   "constraint_message::fr": "Couleur et longueur de bande de shakir non conformes. Vérifier à nouveau. ",
+   "constraint_message::bm": "Bolokan lamini suma cogo maɲɛ. Segin a sumali kan."
+  },
+  {
+   "type": "decimal",
+   "name": "s_nutri_shakir_strip_length_yellow",
+   "label::en": "What is the child's gill perimeter (GP) (in cm)? ",
+   "label::fr": "Préciser la mesure du périmètre branchial (en cm)",
+   "label::bm": "Den ka bolokan lamini sumali (PB) cm?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_shakir_strip_color}='yellow'",
+   "constraint": ". >= 11.5 and . < 12.5",
+   "constraint_message::en": "Please check the length and color of the corresponding shakir band. Should be >= 11.5 and < 12.5",
+   "constraint_message::fr": "Couleur et longueur de bande de shakir non conformes. Vérifier à nouveau. ",
+   "constraint_message::bm": "Bolokan lamini suma cogo maɲɛ. Segin a sumali kan."
+  },
+  {
+   "type": "decimal",
+   "name": "s_nutri_shakir_strip_length_red",
+   "label::en": "What is the child's gill perimeter (GP) (in cm)? ",
+   "label::fr": "Préciser la mesure du périmètre branchial (en cm)",
+   "label::bm": "Den ka bolokan lamini sumali (PB) cm?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_shakir_strip_color}='red'",
+   "constraint": ". >= 5.5 and . < 11.5",
+   "constraint_message::en": "Please check the length and color of the corresponding shakir band. Should be >= 5.5 and < 11.5",
+   "constraint_message::fr": "Couleur et longueur de bande de shakir non conformes. Vérifier à nouveau. ",
+   "constraint_message::bm": "Bolokan lamini suma cogo maɲɛ. Segin a sumali kan."
+  },
+  {
+   "type": "calculate",
+   "name": "s_nutri_shakir_strip_length",
+   "calculation": "if(coalesce(${s_nutri_shakir_strip_length_green}, 0) != '', coalesce(${s_nutri_shakir_strip_length_green}, 0) , if(coalesce(${s_nutri_shakir_strip_length_yellow}, 0) != '', coalesce(${s_nutri_shakir_strip_length_yellow}, 0), ${s_nutri_shakir_strip_length_red} ))"
+  },
+  {
+   "type": "decimal",
+   "name": "child_weight",
+   "label::en": "What is the child's weight in kg?",
+   "label::fr": "Quel est le poids de l'enfant en Kg?",
+   "label::bm": "Den girinya ye mun ye kilogaramu la?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "constraint": ". >= 1 and . <= 30",
+   "constraint_message::en": "The child's weight must be between 1 and 30 kg",
+   "constraint_message::fr": "Le poids de l'enfant doit être compris entre 1 et 30 Kg",
+   "constraint_message::bm": "Den girinya ka kan ka kɛ kilogaramu 1 ni kilo 30 cɛ"
+  },
+  {
+   "type": "end group",
+   "name": "s_assessment"
+  },
+  {
+   "type": "begin group",
+   "name": "s_treatment_given",
+   "label::en": "Treatment given",
+   "label::fr": "Traitement donné",
+   "label::bm": "kiimɛli ni Furakɛli",
+   "appearance": "field-list summary",
+   "relevant": "${s_child_presence_confirmation} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "r_enriched_flour",
+   "label::en": "Give 1 to 4 sachets of enriched flour per week to the child",
+   "label::fr": "Donner 1 à 4 sachets de farine enrichie par semaine à l'enfant\n",
+   "label::bm": "Farini mugu foroko kelen (1) walima foroko nani (4) di dɔgɔkun kɔnɔ",
+   "relevant": "${use_plumpy_with_mam}='false'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_give_enriched_flour",
+   "label::en": "Did you give enriched flour?",
+   "label::fr": "Avez-vous donné la farine enrichie?",
+   "label::bm": "Farini nafama dira a ma wa?",
+   "required": "yes",
+   "relevant": "${use_plumpy_with_mam}='false'"
+  },
+  {
+   "type": "decimal",
+   "name": "s_give_enriched_flour_dosage",
+   "label::en": "How many sachets?",
+   "label::fr": "Combien de sachets?",
+   "label::bm": "Hakɛ jumɛn?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='false' and ${s_give_enriched_flour} = 'yes' ",
+   "constraint": ". >= 1 and . <= 99",
+   "constraint_message::en": "Should be between 1 and 99",
+   "constraint_message::fr": "Doit être entre 1 et 99",
+   "constraint_message::bm": " >= 1 ani  <= 99"
+  },
+  {
+   "type": "select_one enriched_flour_not_given",
+   "name": "s_not_give_enriched_flour",
+   "label::en": "Why not?",
+   "label::fr": "Pourquoi pas?",
+   "label::bm": "Kunjumɛna a ma di?",
+   "required": "yes",
+   "relevant": "${use_plumpy_with_mam}='false' and ${s_give_enriched_flour} = 'no' "
+  },
+  {
+   "type": "text",
+   "name": "s_not_give_enriched_flour_other",
+   "label::en": "Specify other:",
+   "label::fr": "Autre (Préciser):",
+   "label::bm": "K’a pereperelatigɛ",
+   "required": "yes",
+   "relevant": "${use_plumpy_with_mam}='false' and ${s_not_give_enriched_flour} = 'other' "
+  },
+  {
+   "type": "note",
+   "name": "n_enriched_flour_shortage",
+   "label::en": "Refer patient to CSCOM for enriched flour shortage",
+   "label::fr": "Référez le patient au CSCOM pour rupture de farine enrichie\n",
+   "label::bm": "Banabagatɔ bila kata CSCOM la farini bani kɔsɔ ASC bolo",
+   "appearance": "h3 red",
+   "relevant": "${use_plumpy_with_mam}='false' and ${s_not_give_enriched_flour} = 'out_of_stock'"
+  },
+  {
+   "type": "note",
+   "name": "r_plumpy_sup_1",
+   "label::en": "Give 1 sachet per day to the child, that is 7 sachets per week.",
+   "label::fr": "Donner 1 sachet par jour à l’enfant soit 7 sachets par semaine.",
+   "label::bm": "Plumpy Sup foroko kelen (1) di den ma tile la, a bi bɛn foroko wolowula (7) ma dɔgɔkun na.",
+   "relevant": "${use_plumpy_with_mam}='true'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_give_plumpy_sup",
+   "label::en": "Did you give Plumpy Sup?",
+   "label::fr": "Avez-vous donné du Plumpy Sup?",
+   "label::bm": "Yala i ye Plumpy Sup di wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true'"
+  },
+  {
+   "type": "decimal",
+   "name": "s_given_plumpy_sup_dosage",
+   "label::en": "How many sachets?",
+   "label::fr": "Combien de sachets ?",
+   "label::bm": "Hakɛ jumɛn?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and ${s_give_plumpy_sup} = 'yes' ",
+   "constraint": ". >= 1 and . <= 99",
+   "constraint_message::en": "Should be between 1 and 99",
+   "constraint_message::fr": "Doit être entre 1 et 99",
+   "constraint_message::bm": " >= 1 ani  <= 99"
+  },
+  {
+   "type": "select_one plumpy_not_given",
+   "name": "s_not_give_plumpy_sup",
+   "label::en": "Why not?",
+   "label::fr": "Pourquoi pas ?",
+   "label::bm": "Kunjumɛna a ma di?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and ${s_give_plumpy_sup} = 'no' "
+  },
+  {
+   "type": "text",
+   "name": "s_not_give_plumpy_sup_other",
+   "label::en": "Specify other:",
+   "label::fr": "Spécifier:",
+   "label::bm": "K’a pereperelatigɛ",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and ${s_not_give_plumpy_sup} = 'other'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_give_dewormer",
+   "label::en": "Did you give a dewormer?",
+   "label::fr": "Avez-vous donné du déparasitant?",
+   "label::bm": "Yala i ye kɔnɔna tumufagalan di wa ?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and ${patient_age_in_months} >= 12 and ${c_selected_task_number} = 1"
+  },
+  {
+   "type": "select_one c_dewormer_type",
+   "name": "s_dewormer_type",
+   "label::en": "Which dosage?",
+   "label::fr": "Quelle dose?",
+   "label::bm": "Furakisɛ hakɛ joli?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${s_give_dewormer} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "n_dewormer_200g_one_tab",
+   "label::en": "Give 1 tablet of 200mg of dewormer",
+   "label::fr": "Donner 1 comprimé de 200 mg de déparasitant",
+   "label::bm": "Kɔnɔna tumufagalan di a ma furakisɛ 1 (200mg)",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${patient_age_in_months} >= 12 and ${patient_age_in_months} < 24 and ${c_selected_task_number} = 1 and ${s_dewormer_type} = '200mg'"
+  },
+  {
+   "type": "note",
+   "name": "n_dewormer_200g_two_tab",
+   "label::en": "Give 2 tablets of 200mg of dewormer",
+   "label::fr": "Donner 2 comprimés de 200 mg de déparasitant",
+   "label::bm": "Kɔnɔna tumufagalan di a ma furakisɛ 2 (200mg)",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${patient_age_in_months} >= 24 and ${patient_age_in_months} < 60  and ${c_selected_task_number} = 1 and ${s_dewormer_type} = '200mg'"
+  },
+  {
+   "type": "note",
+   "name": "n_dewormer_400g_half_tab",
+   "label::en": "Give 1/2 tablet of 400mg of dewormer",
+   "label::fr": "Donner 1/2 comprimé de 400 mg de déparasitant",
+   "label::bm": "Kɔnɔna tumufagalan di a ma furakisɛ 1/2 (400mg)",
+   "relevant": "${use_plumpy_with_mam}='true' and ${patient_age_in_months} >= 12 and ${patient_age_in_months} < 24 and ${c_selected_task_number} = 1 and ${s_dewormer_type} = '400mg'"
+  },
+  {
+   "type": "note",
+   "name": "n_dewormer_400g_one_tab",
+   "label::en": "Give 1 tablet of 400mg of dewormer",
+   "label::fr": "Donner 1 comprimé de 400 mg de déparasitant",
+   "label::bm": "Kɔnɔna tumufagalan di a ma furakisɛ 1 (400mg)",
+   "relevant": "${use_plumpy_with_mam}='true' and ${patient_age_in_months} >= 24 and ${patient_age_in_months} < 60 and ${c_selected_task_number} = 1 and ${s_dewormer_type} = '400mg'"
+  },
+  {
+   "type": "select_one c_dewormer_dosage",
+   "name": "s_given_dewormer_dosage",
+   "label::en": "How many tablets?",
+   "label::fr": "Combien de comprimés ?",
+   "label::bm": "Hakɛ jumɛn?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${s_give_dewormer} = 'yes' and ${s_dewormer_type} != ''",
+   "choice_filter": "filter1 =${s_dewormer_type}"
+  },
+  {
+   "type": "select_one medication_not_given",
+   "name": "s_not_give_dewormer",
+   "label::en": "Why not?",
+   "label::fr": "Pourquoi pas ?",
+   "label::bm": "Kunjumɛna a ma di?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${s_give_dewormer} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_not_give_dewormer_other",
+   "label::en": "Specify other:",
+   "label::fr": "Spécifier:",
+   "label::bm": "K’a pereperelatigɛ",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${s_not_give_dewormer} = 'other'"
+  },
+  {
+   "type": "note",
+   "name": "s_give_vitamina_dosage",
+   "label::en": "Give vitamin A (${s_give_vitaminea_dosage_value_en}) to the child",
+   "label::fr": "Donner la de vitamine A (${s_give_vitaminea_dosage_value_fr}) à l'enfant",
+   "label::bm": "Vitamine A (${s_give_vitaminea_dosage_value_bm}) di dɔgɔkun kɔnɔ",
+   "relevant": " ${use_plumpy_with_mam}='true' and  ${c_selected_task_number} =3"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_give_vitaminA",
+   "label::en": "Did you give vitamin A?",
+   "label::fr": "Avez-vous donné de la vitamine A?",
+   "label::bm": "Yala i ye Vitamine A  di wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and   ${c_selected_task_number} =3"
+  },
+  {
+   "type": "select_one c_vitaminA_dosage",
+   "name": "s_vitaminA_dosage",
+   "label::en": "Which one?",
+   "label::fr": "Laquelle?",
+   "label::bm": "Jumɛn?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${s_give_vitaminA} = 'yes'"
+  },
+  {
+   "type": "select_one medication_not_given",
+   "name": "s_not_give_vitaminA",
+   "label::en": "Why not?",
+   "label::fr": "Pourquoi pas ?",
+   "label::bm": "Kunjumɛna a ma di?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${s_give_vitaminA} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_not_give_vitaminA_other",
+   "label::en": "Specify other:",
+   "label::fr": "Spécifier:",
+   "label::bm": "K’a pereperelatigɛ",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${s_not_give_vitaminA} = 'other'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_give_iron_folic",
+   "label::en": "Did you give the iron + folic acid?",
+   "label::fr": "Avez-vous donné le fer + acide folique ?",
+   "label::bm": "Yala i ye Fɛri di wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": " ${c_selected_task_number}  > 1"
+  },
+  {
+   "type": "select_one medication_not_given",
+   "name": "s_not_give_iron_folic",
+   "label::en": "Why not?",
+   "label::fr": "Pourquoi pas ?",
+   "label::bm": "Kunjumɛna a ma di?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_give_iron_folic} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_not_give_iron_folic_other",
+   "label::en": "Specify other:",
+   "label::fr": "Spécifier:",
+   "label::bm": "K’a pereperelatigɛ",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_not_give_iron_folic} = 'other'"
+  },
+  {
+   "type": "select_one iron_folic_type",
+   "name": "s_iron_folic_type",
+   "label::en": "Which form?",
+   "label::fr": "Quelle forme?",
+   "label::bm": "Suguya jumɛn?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": " ${c_selected_task_number}  > 1 and ${s_give_iron_folic} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "s_give_iron_folic_srp_dosage_1",
+   "label::en": "Give 2.5 ml of iron + folic acid syrup",
+   "label::fr": "Donner 2,5 ml de fer + acide folique sirop",
+   "label::bm": "Fɛri siro 2,5 ml di den ma",
+   "appearance": "h3 red",
+   "relevant": " ${c_selected_task_number}  > 1 and \n${child_weight} <10 and \n${s_iron_folic_type}='iron_folic_acid_srp'"
+  },
+  {
+   "type": "note",
+   "name": "s_give_iron_folic_srp_dosage_2",
+   "label::en": "Give 5 ml of iron + folic acid syrup",
+   "label::fr": "Donner 5 ml de fer + acide folique sirop",
+   "label::bm": "Fɛri siro 5 ml di den ma",
+   "appearance": "h3 red",
+   "relevant": " ${c_selected_task_number}  > 1 and \n${child_weight} >=10 and \n${s_iron_folic_type}='iron_folic_acid_srp'"
+  },
+  {
+   "type": "note",
+   "name": "s_give_iron_folic_cp_dosage_1",
+   "label::en": "Give 1/2 tablet of iron + folic acid tablet 200 mg",
+   "label::fr": "Donner 1/2 comprimé de fer + acide folique comprimé 200 mg",
+   "label::bm": "Fɛri furakisɛ 1/2 di den ma",
+   "appearance": "h3 red",
+   "relevant": " ${c_selected_task_number}  > 1 and \n${child_weight} <10 and \n${s_iron_folic_type}='iron_folic_acid'"
+  },
+  {
+   "type": "note",
+   "name": "s_give_iron_folic_cp_dosage_2",
+   "label::en": "Give 1 tablet of iron + folic acid tablet 200 mg",
+   "label::fr": "Donner 1 comprimé de fer + acide folique comprimé 200 mg",
+   "label::bm": "Fɛri furakisɛ kelen (1) di den ma",
+   "appearance": "h3 red",
+   "relevant": " ${c_selected_task_number}  > 1 and \n${child_weight} >=10 and \n${s_iron_folic_type}='iron_folic_acid'"
+  },
+  {
+   "type": "select_one c_iron_folic_dosage",
+   "name": "s_iron_folic_dosage",
+   "label::en": "What quantity?",
+   "label::fr": "Quelle quantité ?",
+   "label::bm": "Hakɛ jumɛn?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_give_iron_folic} = 'yes' and ${s_iron_folic_type} != ''",
+   "choice_filter": "rescat= ${s_iron_folic_type}"
+  },
+  {
+   "type": "end group",
+   "name": "s_treatment_given"
+  },
+  {
+   "type": "begin group",
+   "name": "medical_complications",
+   "label::en": "Medical complications",
+   "label::fr": "Complications médicales",
+   "label::bm": "TAAMASIYƐN JUGUMAN ",
+   "appearance": "field-list",
+   "relevant": " ${s_child_presence_confirmation} = 'yes'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_malnutrition_edema",
+   "label::en": "Does the child have bilateral edema?",
+   "label::fr": "L'enfant a t-il des oedèmes bilatéraux?",
+   "label::bm": "Senw ni bolow fununen do wa ?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_malnutrition_sores",
+   "label::en": "Does the child have sores on the skin?",
+   "label::fr": "L'enfant a-t-il des plaies sur la peau?",
+   "label::bm": "Jeli bɛ den farikolo la wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": " ${s_malnutrition_edema}='yes' or (${s_malnutrition_edema}='no' and ${s_shakir_strip_color}='Red')"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_other_signs",
+   "label::en": "Does the child have other danger signs? ",
+   "label::fr": "L’enfant a-t-il d’autres signes de danger ? ",
+   "label::bm": "Taamasiɲɛn juguman wɛrɛ yera den la wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_diarrhea_stools",
+   "label::en": "Does the child have diarrhea?",
+   "label::fr": "L'enfant a t-il de la diarrhée?",
+   "label::bm": "Kɔnɔboli",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_malnutrition_cough",
+   "label::en": "Does the child have a cough?",
+   "label::fr": "L’enfant a-t-il de la toux ?",
+   "label::bm": "Sɔgɔsɔgɔ bɛ den na wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "end group",
+   "name": "medical_complications"
+  },
+  {
+   "type": "begin group",
+   "name": "s_respiration",
+   "label::en": "Respiration rate",
+   "label::fr": "Fréquence respiratoire",
+   "label::bm": "Ninnakili taa ka segin hakɛ sanga(miniti) kelen kɔnɔ",
+   "appearance": "field-list",
+   "relevant": " ${s_child_presence_confirmation} = 'yes' and  ${s_malnutrition_cough}='yes'"
+  },
+  {
+   "type": "note",
+   "name": "breath_timer",
+   "label::en": "**Press timer and count number of breaths for a full 60 seconds**",
+   "label::fr": "**Appuyer sur le minuteur et compter le nombre de respirations durant 60 secondes**",
+   "label::bm": "**I bolo digi sangalan kan, I kasɔrɔ ka ninnakili taa ka segin jate miniti kelen (1) kɔnɔ**",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "appearance": "countdown-timer"
+  },
+  {
+   "type": "integer",
+   "name": "s_ari_respiration_rate",
+   "label::en": "What is the respiration rate of the patient?",
+   "label::fr": "Quelle est la fréquence respiratoire de l’enfant?",
+   "label::bm": "Ninnakili taa ka segin hakɛ ye joli ye miniti kelen (1) kɔnɔ?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "constraint": ". > 0",
+   "constraint_message::en": "Should be greater than 0.",
+   "constraint_message::fr": "Doit être supérieur à 0.",
+   "constraint_message::bm": ". > 0"
+  },
+  {
+   "type": "note",
+   "name": "s_ari_resp_estimation",
+   "label::en": "<span>The respiration rate was: <b>${fast_breathing_label_en}</b></span>",
+   "label::fr": "<span>La fréquence respiratoire est: <b>${fast_breathing_label_fr}</b></span>",
+   "label::bm": "<span>Ninnakili taa ka segin hakɛ sanga(miniti) kelen kɔnɔ: <b>${fast_breathing_label_bm}</b></span>",
+   "relevant": "${s_ari_respiration_rate} != '' "
+  },
+  {
+   "type": "end group",
+   "name": "s_respiration"
+  },
+  {
+   "type": "begin group",
+   "name": "s_weight",
+   "label::en": "Weight loss",
+   "label::fr": "Perte de poids",
+   "label::bm": "Giriya dɔkɔyali",
+   "appearance": "field-list",
+   "relevant": "${s_child_presence_confirmation} = 'yes' and ${s_shakir_strip_color}!='red'  and ${s_malnutrition_edema} != 'yes'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_weight_loss",
+   "label::en": "Does the child have a notion of weight loss or lack of weight gain according to the mother?",
+   "label::fr": "L'enfant présente-t-il une notion de perte de poids ou manque de prise de poids selon la maman?",
+   "label::bm": "Den bɛ ka fasa walima den tɛga boyan denba ɲɛkɔrɔ?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye"
+  },
+  {
+   "type": "end group",
+   "name": "s_weight"
+  },
+  {
+   "type": "begin group",
+   "name": "results_page",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "field-list summary"
+  },
+  {
+   "type": "note",
+   "name": "r_summary",
+   "label::en": "Patient Summary<i class=\"fa fa-user\"></i>",
+   "label::fr": "Détail du Patient<i class=\"fa fa-user\"></i>",
+   "label::bm": "Banabagatɔ ka kunafoliyaw<i class=\"fa fa-user\"></i>",
+   "appearance": "h1 yellow"
+  },
+  {
+   "type": "note",
+   "name": "r_patient_info",
+   "label::en": "<h4 style=\"text-align:center;\">${patient_name}</h4><h5 style=\"text-align:center;\">${patient_age_display} </h5><h5 style=\"text-align:center;\">${patient_sex_en} </h5>  ",
+   "label::fr": "<h4 style=\"text-align:center;\">${patient_name}</h4><h5 style=\"text-align:center;\">${patient_age_display_fr} </h5><h5 style=\"text-align:center;\">${patient_sex_fr} </h5>  ",
+   "label::bm": "<h4 style=\"text-align:center;\">${patient_name}</h4><h5 style=\"text-align:center;\">${patient_age_display_bm} </h5><h5 style=\"text-align:center;\">${patient_sex_bm} </h5> "
+  },
+  {
+   "type": "note",
+   "name": "r_diagnosis",
+   "label::en": "Summary<i class = \"fa fa-stethoscope\"></i>",
+   "label::fr": "Résumé<i class = \"fa fa-stethoscope\"></i>",
+   "label::bm": "Waati<i class = \"fa fa-stethoscope\"></i>",
+   "appearance": "h1 blue",
+   "relevant": "${patient_deceased} = 'false'"
+  },
+  {
+   "type": "note",
+   "name": "n_shakir_red",
+   "label::en": "Shakir strip is red",
+   "label::fr": "La bande de shakir est rouge ",
+   "label::bm": "Bolokan lamini ye bilema ye",
+   "appearance": "li",
+   "relevant": "${s_shakir_strip_color} = 'red'"
+  },
+  {
+   "type": "note",
+   "name": "n_shakir_yellow",
+   "label::en": "Shakir strip is yellow",
+   "label::fr": "La bande de shakir est jaune",
+   "label::bm": "Bolokan lamini ye nɛrɛ ye",
+   "appearance": "li",
+   "relevant": "${s_shakir_strip_color} = 'yellow'"
+  },
+  {
+   "type": "note",
+   "name": "n_malnutrition_edema",
+   "label::en": "Child has bilateral edema",
+   "label::fr": "L’enfant a des oedèmes bilatéraux",
+   "label::bm": "Den senw na bolow fununen do",
+   "appearance": "li",
+   "relevant": "${s_malnutrition_edema} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "r_malnutrition_sores",
+   "label::en": "Child has sores on the skin",
+   "label::fr": "L’enfant a des plaies sur la peau",
+   "label::bm": "Jɔɔli bɛ den fari la",
+   "appearance": "li",
+   "relevant": "${s_malnutrition_sores}='yes' "
+  },
+  {
+   "type": "note",
+   "name": "n_other_signs",
+   "label::en": "Child has medical complications",
+   "label::fr": "Complications médicales",
+   "label::bm": "Bana wɛrɛw bɛ den na",
+   "appearance": "li",
+   "relevant": "${s_other_signs} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "n_diarrhea_stools",
+   "label::en": "Child has diarrhea",
+   "label::fr": "Diarhée",
+   "label::bm": "Kɔnɔboli",
+   "appearance": "li",
+   "relevant": "${s_diarrhea_stools} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "n_ari_resp_estimation",
+   "label::en": "Respiration rate is fast",
+   "label::fr": "Respiration rapide",
+   "label::bm": "Ninnakili ka teli",
+   "appearance": "li",
+   "relevant": "${fast_breathing} = 'true'"
+  },
+  {
+   "type": "note",
+   "name": "n_weight_loss",
+   "label::en": "Child has notion of weight loss according to the mother",
+   "label::fr": "Notion de perte de poids selon la maman",
+   "label::bm": "Den bɛ ka fasa a ba ɲɛkɔrɔ",
+   "appearance": "li",
+   "relevant": "${s_weight_loss} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "n_shakir_yellow_3_times",
+   "label::en": "Shakir strip is yellow 3 consecutives times",
+   "label::fr": "La bande de shakir est jaune 3 fois consécutives",
+   "label::bm": "Bolokan lamini kɛra nɛrɛ ye siɲɛn saba (3) ka tugu ɲɔgɔna",
+   "relevant": "${num_yellow_strips} = '2' and (selected(${s_shakir_strip_color}, 'yellow'))"
+  },
+  {
+   "type": "note",
+   "name": "n_abandon",
+   "label::en": "The child has been absent 3 consecutives times",
+   "label::fr": "L’enfant n’a pas été présent 3 fois consécutives.",
+   "label::bm": "Den ma lasɔrɔ kɔlɔsili saba (3) ka tugu ɲɔgɔna",
+   "relevant": "${abandon_followup} = 'true'"
+  },
+  {
+   "type": "note",
+   "name": "r_referral",
+   "label::en": "Refer to CSCOM<i class=\"fa fa-warning\"></i> ",
+   "label::fr": "Référer au  CSCOM<i class=\"fa fa-warning\"></i> ",
+   "label::bm": "Den bilala kata CSCOM la<i class=\"fa fa-warning\"></i> ",
+   "appearance": "h1 red",
+   "relevant": "${referral_with_followup} = 'true' or ${referral_with_no_followup} = 'true' "
+  },
+  {
+   "type": "note",
+   "name": "r_referral_1",
+   "label::en": "Refer to CSCOM and continue follow-up",
+   "label::fr": "Référer au CSCOM sans arrêt de suivi.",
+   "label::bm": "Den bila kata CSCOM la ka sɔrɔ i ma kɔlɔsili jɔ.",
+   "appearance": "h3 red",
+   "relevant": "${referral_with_followup} = 'true'"
+  },
+  {
+   "type": "note",
+   "name": "r_referral_2",
+   "label::en": "Refer to CSCOM and stop follow-up",
+   "label::fr": "Référer au CSCOM avec arrêt de suivi.",
+   "label::bm": "Ka bila kata CSCOM la ka kɔlɔsili jɔ.",
+   "appearance": "h3 red",
+   "relevant": "${referral_with_no_followup} = 'true' "
+  },
+  {
+   "type": "note",
+   "name": "r_referral_3",
+   "label::en": "Abandon the follow-up for this child",
+   "label::fr": "Abandonner le suivi de cet enfant.",
+   "label::bm": "Den ka furakɛli ma dafa a somɔgɔw fɛ (somɔgɔw ka ban).",
+   "appearance": "h3 red",
+   "relevant": "${abandon_followup} = 'true'"
+  },
+  {
+   "type": "note",
+   "name": "r_referral_4",
+   "label::en": "Patient is healed.",
+   "label::fr": "Guérison du patient.",
+   "label::bm": "Den kɛnɛyara",
+   "appearance": "h3 green",
+   "relevant": "${patient_recovered} = 'true'"
+  },
+  {
+   "type": "note",
+   "name": "r_referral_5",
+   "label::en": "Continue follow-up",
+   "label::fr": "Poursuivre le suivi",
+   "label::bm": "Ka tɛmɛ ni kɔlɔsili ye",
+   "appearance": "h3 red",
+   "relevant": "${patient_should_continue_followup}='true'"
+  },
+  {
+   "type": "select_one CAT",
+   "name": "cat",
+   "label::en": "What is the plan?",
+   "label::fr": "Quelle est la conduite à tenir?",
+   "label::bm": "I ka kɛta kɛra mun ye?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${patient_deceased} = 'false'",
+   "choice_filter": "rescat='all' or rescat=${show_continue_value} or rescat=${show_recovered_value}  or rescat=${show_refer_value}  or rescat=${show_abandoned_value}"
+  },
+  {
+   "type": "note",
+   "name": "why_different_cat_note",
+   "label::en": "<span style=\"color:red;\">You have chosen a different plan than the one proposed by the application</span>",
+   "label::fr": "<span style=\"color:red;\">Vous venez de choisir une conduite à tenir différente de celle proposée par l’application.</span>",
+   "label::bm": "<span style=\"color:red;\">I ye kɛta min suganti o tɛ kɛta ɲuman ye (O ni application ca fɔlen te keleyen)</span>",
+   "relevant": "${chw_selected_computed_cat} = 'false'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "why_different_cat",
+   "label::en": "Are you sure of your choice?",
+   "label::fr": "Etes vous sûr de votre choix?",
+   "label::bm": "Yala i dalen dɔ i ka jaabi la wa?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${chw_selected_computed_cat} = 'false'",
+   "constraint": "${why_different_cat} = 'yes' ",
+   "constraint_message::en": "Please choose the right plan!",
+   "constraint_message::fr": "Veuillez choisir la bonne conduite à tenir!",
+   "constraint_message::bm": "Jaabi  ɲuman suganti!"
+  },
+  {
+   "type": "text",
+   "name": "specify_why_different_cat",
+   "label::en": "Why did you choose this plan?",
+   "label::fr": "Pourquoi avez vous choisi cette conduite à tenir?",
+   "label::bm": "Kun jumɛn la i ye ni kɛta suganti?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${why_different_cat} = 'yes' "
+  },
+  {
+   "type": "note",
+   "name": "r_treatment",
+   "label::en": "Treatment<i class=\"fa fa-medkit\"></i>",
+   "label::fr": "Traitement<i class=\"fa fa-medkit\"></i>",
+   "label::bm": "Furakɛli<i class=\"fa fa-medkit\"></i>",
+   "appearance": "h1 blue",
+   "relevant": "${referral} = 'false'"
+  },
+  {
+   "type": "note",
+   "name": "r_give_plumpy_sup",
+   "label::en": "<b>Sachet of Plumpy Sup given:</b> ${s_given_plumpy_sup_dosage}  sachet(s)",
+   "label::fr": "<b>Sachet de Plumpy Sup donnée: </b>${s_given_plumpy_sup_dosage}  sachet(s)",
+   "label::bm": "Plumpy Sup hakɛ min dira dɔgɔkun kɔnɔ: </b>${s_given_plumpy_sup_dosage}",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='true' and  ${referral} = 'false' and ${s_give_plumpy_sup} = 'yes'  "
+  },
+  {
+   "type": "note",
+   "name": "r_not_give_plumpy_sup",
+   "label::en": "<b>No Plumpy Sup given</b>",
+   "label::fr": "<b>Aucun Plumpy Sup n’a été donné</b>",
+   "label::bm": "<b>Plumpy Sup ma fosi ma di den ma</b>",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='true' and ${referral} = 'false' and ${s_give_plumpy_sup} = 'no' "
+  },
+  {
+   "type": "note",
+   "name": "r_give_dewormer",
+   "label::en": "<b>Dose of dewormer given: </b/>${dewormer_dosage_label}",
+   "label::fr": "<b>Dose de déparasitant donnée: </b>${dewormer_dosage_label}",
+   "label::bm": "<b>Kɔnɔna tumufagalan di a ma: </b>${dewormer_dosage_label}",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='true' and ${referral} = 'false' and ${s_give_dewormer} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "r_not_give_dewormer",
+   "label::en": "<b>No dewormer given</b>",
+   "label::fr": "<b>Aucun déparasitant donné</b>",
+   "label::bm": "<b>Kɔnɔ tumufaganla ma di</b>",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='true' and ${referral} = 'false' and ${s_give_dewormer} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "r_give_vitaminA",
+   "label::en": "<b>Type of vitamine A given: </b>${vitaminA_dosage_label}",
+   "label::fr": "<b>Type de vitamine A donné: </b>${vitaminA_dosage_label}",
+   "label::bm": "<b>Vitamine A nasonya: </b>${vitaminA_dosage_label}",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='true' and ${referral} = 'false' and ${s_give_vitaminA} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "r_not_give_vitaminA",
+   "label::en": "<b>No vitamine A given</b>",
+   "label::fr": "<b>Aucune Vitamine A n'a été donnée</b>",
+   "label::bm": "<b>Vitamine A ma di</b>",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='true' and ${referral} = 'false' and ${s_give_vitaminA} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "r_give_enriched_flour",
+   "label::en": "<b>Sachet of enriched flour given: <b/>${enriched_flour_dosage_label} unit(s)",
+   "label::fr": "<b>Sachet de farine enrichie donnée: </b>${enriched_flour_dosage_label} unité(s)",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='false' and ${referral} = 'false' and ${s_give_enriched_flour} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "r_not_give_enriched_flour",
+   "label::en": "<b>No  enriched flour given</b>",
+   "label::fr": "<b>Pas de farine enrichie données</b>",
+   "appearance": "li",
+   "relevant": "${use_plumpy_with_mam}='false' and ${referral} = 'false' and  ${s_give_enriched_flour} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "r_give_iron_folic",
+   "label::en": "<b>Quantity of Iron + Folic given: <b/>${iron_folic_dosage_label}",
+   "label::fr": "<b>Quantité de Fer + Acide donné: </b>${iron_folic_dosage_label}",
+   "label::bm": "<b>Fer + Acide folique hakɛ dilen : </b>${iron_folic_dosage_label}",
+   "appearance": "li",
+   "relevant": "${referral} = 'false' and ${s_give_iron_folic} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "r_not_give_iron_folic",
+   "label::en": "<b>No  Iron + Folic given</b>",
+   "label::fr": "<b>Pas de Fer + Acide Folique donnés</b>",
+   "label::bm": "<b>Fer + Acide folique ma di.</b>",
+   "appearance": "li",
+   "relevant": "${referral} = 'false' and ${s_give_iron_folic} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "r_instructions",
+   "label::en": "Special Instructions<i class=\"fa fa-medkit\"></i>",
+   "label::fr": "Instructions Spéciales&nbsp;<i class=\"fa fa-medkit\"></i>",
+   "label::bm": "Kunnafoni kɛrɛnkɛrɛnlenw&nbsp;<i class=\"fa fa-medkit\"></i>",
+   "appearance": "h2 blue",
+   "relevant": "${cat} != 'continue_followup' "
+  },
+  {
+   "type": "note",
+   "name": "r_close_out_recovered",
+   "label::en": "Congratulate parents <br/> Give information on the concept of balanced food.",
+   "label::fr": "Féliciter les parents<br/>Donner des informations sur la notion d’aliment équilibré.",
+   "label::bm": "Den somɔgɔw fo.\n<br/>Kunnafoniyaw di balo dafalen nafaw ka.",
+   "relevant": "${cat} = 'recovered'"
+  },
+  {
+   "type": "note",
+   "name": "r_referral_no_followup",
+   "label::en": "Inform parents that the child needs another type of treatment for the management of their malnutrition which is available at CSCOM <br/> Submitting this form will close the follow-up of malnutrition. There will be no follow-up reminders for the child",
+   "label::fr": "Informer les parents que l’enfant a besoin d’un autre type de traitement pour la prise en charge de sa malnutrition qui est disponible au CSCOM. <br/>Soumettre ce formulaire va fermer le suivi de la malnutrition.  <br/> Il n'y aura plus de rappels de suivi pour l'enfant.",
+   "label::bm": "Ɲɛfɔli kɛ den somɔgɔw ye ko den mago be furakɛli wɛrɛ la a ka balokojuguya bana kan, n'ka ko be sɔrɔ CSCOM la   \n<br/>Ni gafe cili be na ni den ka balokojukuya kɔlɔsili jɔ, kɔlɔsili wɛrɛ te na barakɛtaw kɔnɔ ni den ka.<br/>",
+   "relevant": "${cat} = 'refer_with_no_followup'"
+  },
+  {
+   "type": "note",
+   "name": "r_referral_with_followup",
+   "label::en": "Inform the parents that the child needs another type of treatment for his malnutrition that is available at the CSCOM. <br/>Tell the parents that you will continue after the visit to the CSCOM to follow up on the child.",
+   "label::fr": "Informer les parents que l'enfant a besoin d'un autre type de traitement pour la prise en charge de sa malnutrition qui est disponible au CSCOM. <br/>Dites aux parents que vous continuerez après la viste au CSCOM de faire le suivi de l'enfant.",
+   "label::bm": "Ɲɛfɔli kɛ den somɔgɔw ye ko den mago be furakɛli wɛrɛ la a ka balokojuguya bana kan, n'ka ko be sɔrɔ CSCOM la   \n<br/>Ɲɛfɔli kɛ den somɔgɔw ye ko ni den seguin na ka bɔ CSCOM la, i be n'a ka kɔlɔsili kɛ<br/>",
+   "relevant": "${cat} = 'refer_with_followup'"
+  },
+  {
+   "type": "note",
+   "name": "r_close_out_abandoned",
+   "label::en": "Reassure the child not to be totally available before proceeding <br/> Submitting this form will close the monitoring of malnutrition. There will be no follow-up reminders for the child",
+   "label::fr": "Rassurez vous de la non disponibilité totale de l’enfant avant de procéder à cette action. <br/>Soumettre ce formulaire va fermer le suivi de la malnutrition.  <br/> Il n'y aura plus de rappels de suivi pour l'enfant.",
+   "label::bm": "A ɲɛɲini kɔsɛbɛ ni den te sɔrɔ pew pew yani ika ni bara kɛ.\n<br/>Ni gafe cili be na ni den ka balokojukuya kɔlɔsili jɔ, kɔlɔsili wɛrɛ te na barakɛtaw kɔnɔ ni den ka.<br/>",
+   "relevant": "${cat}= 'abandoned' "
+  },
+  {
+   "type": "note",
+   "name": "r_close_out_deceased",
+   "label::en": "This patient is deceased.   \nSubmitting this form will close the malnutrition follow-up.  \nThere will be no more follow-up reminders for the child.  \nThe death report form must be completed for this patient. ",
+   "label::fr": "Ce patient est décédé.  \nSoumettre ce formulaire va fermer le suivi de la malnutrition. \nIl n'y aura plus de rappels de suivi pour l'enfant. \nIl faut remplir le formulaire de rapport de décès pour ce patient. ",
+   "label::bm": "Nin banabagatɔ fatura.\nNin gafe cili bɛ den ka balokojukuya kɔlɔsili jɔ, kɔlɔsili wɛrɛ tɛ na nin den kunkan.\nFatuli sɛbɛn ci nin den tɔgɔla.",
+   "relevant": "${s_child_presence_confirmation}= 'deceased' "
+  },
+  {
+   "type": "note",
+   "name": "r_continue_followup",
+   "label::en": "Submit the form and continue the follow-up.",
+   "label::fr": "Soumettre le formulaire et continuer le suivi de l'enfant normalement.",
+   "label::bm": "Gafe ci ani tɛmɛ ni den ka kɔlɔsili tɔw ye. ",
+   "relevant": "${s_child_receive_inputs} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "r_come_back",
+   "label::en": "Please come back during the day or within 72 hours to assess the child and provide the necessary inputs. <br/>As a reminder, adherence to treatment is critical to the success of treatment. ",
+   "label::fr": "Veuillez repasser après courant la journée ou dans les 72H afin de faire l'évaluation de l’enfant et mettre à disposition les intrants nécessaires. <br/>Pour rappel, l’observance du traitement est essentielle pour le succès du traitement. ",
+   "label::bm": "A ɲininedo i fɛ i ka seguin kana bi walima lɛrɛ 72 walasa ka den ka sɛgɛli kɛ ani ka furaw di a ma.\nHakilila jiguina, fura tali kɔlɔsili nafa ka bo kɔsɛbɛ kɛnɛya sɔrɔli kan. ",
+   "relevant": "${s_child_receive_inputs} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "s_next_visit",
+   "label::en": "Follow up<i class=\"fa fa-flag\"></i>",
+   "label::fr": "Suivi<i class=\"fa fa-flag\"></i>",
+   "label::bm": "Kɔlɔsili<i class=\"fa fa-flag\"></i>",
+   "appearance": "h1 green"
+  },
+  {
+   "type": "note",
+   "name": "s_next_followup_visit",
+   "label::en": "Next follow-up will be on the ${next_visit_date}",
+   "label::fr": "Le prochain suivi sera le ${next_visit_date}",
+   "label::bm": "Kɔlɔsili nata ye ${next_visit_date}",
+   "relevant": "(${cat} = 'continue_followup' or ${cat} = 'refer_with_followup' or ${cat} = 'recovered') and ${is_ending_followup} = 'false'"
+  },
+  {
+   "type": "note",
+   "name": "s_no_next_visit",
+   "label::en": "Follow-ups are stopped for this patient.",
+   "label::fr": "Les suivis sont arrétés pour ce patient. ",
+   "label::bm": "Nin den ka kɔlɔsiliw jɔra.",
+   "relevant": "${cat} = 'refer_with_no_followup' or ${cat} = 'abandoned' or ${s_child_presence_confirmation} = 'deceased' "
+  },
+  {
+   "type": "note",
+   "name": "s_next_visit_within_3days",
+   "label::en": "The follow-up will be done within 3 days according to your availability.",
+   "label::fr": "Le suivi se fera dans un délai de 3 jours selon votre disponiblité.",
+   "label::bm": "Kɔlɔsili bɛkɛ tile saba (3) kɔnɔ",
+   "relevant": "${s_child_receive_inputs} = 'no'"
+  },
+  {
+   "type": "end group",
+   "name": "results_page"
+  },
+  {
+   "type": "calculate",
+   "name": "albendazol_200_disp",
+   "calculation": "if (${s_give_dewormer} ='yes' and ${s_dewormer_type} ='200mg', if(${s_given_dewormer_dosage}='two_tab', 2, 1), 0)"
+  },
+  {
+   "type": "calculate",
+   "name": "albendazol_400_disp",
+   "calculation": "if (${s_give_dewormer} ='yes' and ${s_dewormer_type} ='400mg',1,0)"
+  },
+  {
+   "type": "calculate",
+   "name": "plumpy_sup_disp",
+   "calculation": "coalesce(${s_given_plumpy_sup_dosage}, 0)"
+  },
+  {
+   "type": "calculate",
+   "name": "plumpy_nut_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "enriched_flour_disp",
+   "calculation": "coalesce(${s_give_enriched_flour_dosage}, 0)"
+  },
+  {
+   "type": "calculate",
+   "name": "iron_folic_acid_srp_disp",
+   "calculation": "if(${s_give_iron_folic}='yes' and ${s_iron_folic_type}='iron_folic_acid_srp' and ${folic_acid_srp_given_once} ='false' ,1,0)"
+  },
+  {
+   "type": "calculate",
+   "name": "iron_folic_acid_disp",
+   "calculation": "if(${s_give_iron_folic}='yes' and ${s_iron_folic_type}='iron_folic_acid',1,0)"
+  },
+  {
+   "type": "calculate",
+   "name": "amoxicillin_250_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "vitamin_a_blue_capsule_disp",
+   "calculation": "if (${s_vitaminA_dosage}='blue_cap',1,0)"
+  },
+  {
+   "type": "calculate",
+   "name": "vitamin_a_red_capsule_disp",
+   "calculation": "if (${s_vitaminA_dosage}='red_cap',1,0)"
+  },
+  {
+   "type": "calculate",
+   "name": "act_20120_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "malaria_rdt_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "artesunate_50_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "artesunate_100_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "artesunate_200_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "arthemeter_40_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "sp_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "zinc_20_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "ors_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "pregnancy_rdt_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "sayana_press_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "male_condom_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "female_condom_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "cycle_collar_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "depo_provera_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "postpill_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "simple_pill_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "low_dose_pill_disp",
+   "calculation": 0
+  },
+  {
+   "type": "calculate",
+   "name": "paracetamol_500_disp",
+   "calculation": 0
+  },
+  {
+   "type": "begin group",
+   "name": "prescription_summary",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "relevant": "(${albendazol_200_disp}>0 or\n${albendazol_400_disp}>0 or\n${plumpy_sup_disp}>0 or\n${plumpy_nut_disp}>0 or\n${enriched_flour_disp}>0 or\n${iron_folic_acid_srp_disp}>0 or\n${iron_folic_acid_disp}>0 or\n${amoxicillin_250_disp}>0 or\n${vitamin_a_blue_capsule_disp}>0 or\n${vitamin_a_red_capsule_disp}>0 or\n${act_20120_disp}>0 or\n${malaria_rdt_disp}>0 or\n${artesunate_50_disp}>0 or\n${sp_disp}>0 or\n${zinc_20_disp}>0 or\n${ors_disp}>0 or\n${pregnancy_rdt_disp}>0 or\n${sayana_press_disp}>0 or\n${male_condom_disp}>0 or\n${female_condom_disp}>0 or\n${cycle_collar_disp}>0 or\n${depo_provera_disp}>0 or\n${postpill_disp}>0 or\n${simple_pill_disp}>0 or\n${low_dose_pill_disp}>0 or\n${paracetamol_500_disp}>0)\nand\n${stm_is_active} = 'true'",
+   "instance::db-doc": "true"
+  },
+  {
+   "type": "calculate",
+   "name": "stock_monitoring_reported_date",
+   "calculation": "${r_followup_date}"
+  },
+  {
+   "type": "calculate",
+   "name": "place_id",
+   "calculation": "${c40_chw_area_uuid}"
+  },
+  {
+   "type": "calculate",
+   "name": "type",
+   "calculation": "\"data_record\""
+  },
+  {
+   "type": "calculate",
+   "name": "created_from",
+   "calculation": ".",
+   "instance::db-doc-ref": "/moderate_malnutrition_followup"
+  },
+  {
+   "type": "calculate",
+   "name": "created_from_name",
+   "calculation": "\"moderate_malnutrition_followup\""
+  },
+  {
+   "type": "calculate",
+   "name": "content_type",
+   "calculation": "\"xml\""
+  },
+  {
+   "type": "calculate",
+   "name": "form",
+   "calculation": "\"prescription_summary\""
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL"
+  },
+  {
+   "type": "calculate",
+   "name": "_id",
+   "calculation": "${c40_chw_area_uuid}"
+  },
+  {
+   "type": "end group",
+   "name": "contact"
+  },
+  {
+   "type": "begin group",
+   "name": "fields",
+   "label::en": "Stock uses",
+   "label::fr": "Utilisations des stocks"
+  },
+  {
+   "type": "calculate",
+   "name": "albendazol_200",
+   "calculation": "if((${albendazol_200_disp} - floor(${albendazol_200_disp}))>0, floor(${albendazol_200_disp}) +1, ${albendazol_200_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "albendazol_400",
+   "calculation": "if((${albendazol_400_disp} - floor(${albendazol_400_disp}))>0, floor(${albendazol_400_disp}) +1, ${albendazol_400_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "plumpy_sup",
+   "calculation": "if((${plumpy_sup_disp} - floor(${plumpy_sup_disp}))>0, floor(${plumpy_sup_disp}) +1, ${plumpy_sup_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "plumpy_nut",
+   "calculation": "if((${plumpy_nut_disp} - floor(${plumpy_nut_disp}))>0, floor(${plumpy_nut_disp}) +1, ${plumpy_nut_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "enriched_flour",
+   "calculation": "if((${enriched_flour_disp} - floor(${enriched_flour_disp}))>0, floor(${enriched_flour_disp}) +1, ${enriched_flour_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "iron_folic_acid_srp",
+   "calculation": "if((${iron_folic_acid_srp_disp} - floor(${iron_folic_acid_srp_disp}))>0, floor(${iron_folic_acid_srp_disp}) +1, ${iron_folic_acid_srp_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "iron_folic_acid",
+   "calculation": "if((${iron_folic_acid_disp} - floor(${iron_folic_acid_disp}))>0, floor(${iron_folic_acid_disp}) +1, ${iron_folic_acid_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "amoxicillin_250",
+   "calculation": "if((${amoxicillin_250_disp} - floor(${amoxicillin_250_disp}))>0, floor(${amoxicillin_250_disp}) +1, ${amoxicillin_250_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "vitamin_a_blue_capsule",
+   "calculation": "if((${vitamin_a_blue_capsule_disp} - floor(${vitamin_a_blue_capsule_disp}))>0, floor(${vitamin_a_blue_capsule_disp}) +1, ${vitamin_a_blue_capsule_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "vitamin_a_red_capsule",
+   "calculation": "if((${vitamin_a_red_capsule_disp} - floor(${vitamin_a_red_capsule_disp}))>0, floor(${vitamin_a_red_capsule_disp}) +1, ${vitamin_a_red_capsule_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "act_20120",
+   "calculation": "if((${act_20120_disp} - floor(${act_20120_disp}))>0, floor(${act_20120_disp}) +1, ${act_20120_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "malaria_rdt",
+   "calculation": "if((${malaria_rdt_disp} - floor(${malaria_rdt_disp}))>0, floor(${malaria_rdt_disp}) +1, ${malaria_rdt_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "artesunate_50",
+   "calculation": "if((${artesunate_50_disp} - floor(${artesunate_50_disp}))>0, floor(${artesunate_50_disp}) +1, ${artesunate_50_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "artesunate_100",
+   "calculation": "if((${artesunate_100_disp} - floor(${artesunate_100_disp}))>0, floor(${artesunate_100_disp}) +1, ${artesunate_100_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "artesunate_200",
+   "calculation": "if((${artesunate_200_disp} - floor(${artesunate_200_disp}))>0, floor(${artesunate_200_disp}) +1, ${artesunate_200_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "arthemeter_40",
+   "calculation": "if((${arthemeter_40_disp} - floor(${arthemeter_40_disp}))>0, floor(${arthemeter_40_disp}) +1, ${arthemeter_40_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "sp",
+   "calculation": "if((${sp_disp} - floor(${sp_disp}))>0, floor(${sp_disp}) +1, ${sp_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "zinc_20",
+   "calculation": "if((${zinc_20_disp} - floor(${zinc_20_disp}))>0, floor(${zinc_20_disp}) +1, ${zinc_20_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "ors",
+   "calculation": "if((${ors_disp} - floor(${ors_disp}))>0, floor(${ors_disp}) +1, ${ors_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "pregnancy_rdt",
+   "calculation": "if((${pregnancy_rdt_disp} - floor(${pregnancy_rdt_disp}))>0, floor(${pregnancy_rdt_disp}) +1, ${pregnancy_rdt_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "sayana_press",
+   "calculation": "if((${sayana_press_disp} - floor(${sayana_press_disp}))>0, floor(${sayana_press_disp}) +1, ${sayana_press_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "male_condom",
+   "calculation": "if((${male_condom_disp} - floor(${male_condom_disp}))>0, floor(${male_condom_disp}) +1, ${male_condom_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "female_condom",
+   "calculation": "if((${female_condom_disp} - floor(${female_condom_disp}))>0, floor(${female_condom_disp}) +1, ${female_condom_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "cycle_collar",
+   "calculation": "if((${cycle_collar_disp} - floor(${cycle_collar_disp}))>0, floor(${cycle_collar_disp}) +1, ${cycle_collar_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "depo_provera",
+   "calculation": "if((${depo_provera_disp} - floor(${depo_provera_disp}))>0, floor(${depo_provera_disp}) +1, ${depo_provera_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "postpill",
+   "calculation": "if((${postpill_disp} - floor(${postpill_disp}))>0, floor(${postpill_disp}) +1, ${postpill_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "simple_pill",
+   "calculation": "if((${simple_pill_disp} - floor(${simple_pill_disp}))>0, floor(${simple_pill_disp}) +1, ${simple_pill_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "low_dose_pill",
+   "calculation": "if((${low_dose_pill_disp} - floor(${low_dose_pill_disp}))>0, floor(${low_dose_pill_disp}) +1, ${low_dose_pill_disp})"
+  },
+  {
+   "type": "calculate",
+   "name": "paracetamol_500",
+   "calculation": "if((${paracetamol_500_disp} - floor(${paracetamol_500_disp}))>0, floor(${paracetamol_500_disp}) +1, ${paracetamol_500_disp})"
+  },
+  {
+   "type": "end group",
+   "name": "fields"
+  },
+  {
+   "type": "end group",
+   "name": "prescription_summary"
+  }
+ ],
+ "choices": [
+  {
+   "list_name": "yes_no",
+   "name": "yes",
+   "label::en": "Yes",
+   "label::fr": "Oui",
+   "label::bm": "Awɔ"
+  },
+  {
+   "list_name": "yes_no",
+   "name": "no",
+   "label::en": "No",
+   "label::fr": "Non",
+   "label::bm": "Ayi"
+  },
+  {
+   "list_name": "pos_neg",
+   "name": "pos",
+   "label::en": "Positive",
+   "label::fr": "Positif",
+   "label::bm": "Positif (+)"
+  },
+  {
+   "list_name": "pos_neg",
+   "name": "neg",
+   "label::en": "Negative",
+   "label::fr": "Négatif",
+   "label::bm": "Negatif (-)"
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_1",
+   "label::en": "Followup 1",
+   "label::fr": "Suivi 1",
+   "label::bm": "Kɔlɔsili kile 7na",
+   "followup": 1
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_2",
+   "label::en": "Followup 2",
+   "label::fr": "Suivi 2",
+   "label::bm": "Kɔlɔsili kile 14na",
+   "followup": 2
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_3",
+   "label::en": "Followup 3",
+   "label::fr": "Suivi 3",
+   "label::bm": "Kɔlɔsili kile 21na",
+   "followup": 3
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_4",
+   "label::en": "Followup 4",
+   "label::fr": "Suivi 4",
+   "label::bm": "Kɔlɔsili kile 28na",
+   "followup": 4
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_5",
+   "label::en": "Followup 5",
+   "label::fr": "Suivi 5",
+   "label::bm": "Kɔlɔsili kile 42na",
+   "followup": 5
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_6",
+   "label::en": "Followup 6",
+   "label::fr": "Suivi 6",
+   "label::bm": "Kɔlɔsili kile 56na",
+   "followup": 6
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_7",
+   "label::en": "Followup 7",
+   "label::fr": "Suivi 7",
+   "label::bm": "Kɔlɔsili kile 70na",
+   "followup": 7
+  },
+  {
+   "list_name": "c_followup_task_chw",
+   "name": "c_followup_task_chw_8",
+   "label::en": "Followup 8",
+   "label::fr": "Suivi 8",
+   "label::bm": "Kɔlɔsili kile 84na",
+   "followup": 8
+  },
+  {
+   "list_name": "c_child_presence_confirmation",
+   "name": "yes",
+   "label::en": "Yes",
+   "label::fr": "Oui",
+   "label::bm": "Awɔ"
+  },
+  {
+   "list_name": "c_child_presence_confirmation",
+   "name": "no",
+   "label::en": "No",
+   "label::fr": "Non",
+   "label::bm": "Ayi"
+  },
+  {
+   "list_name": "c_child_presence_confirmation",
+   "name": "deceased",
+   "label::en": "Deceased",
+   "label::fr": "Décédé",
+   "label::bm": "A Fatura"
+  },
+  {
+   "list_name": "c_shakir_strip_color",
+   "name": "green",
+   "label::en": "Green",
+   "label::fr": "Vert",
+   "label::bm": "ɲuguji"
+  },
+  {
+   "list_name": "c_shakir_strip_color",
+   "name": "yellow",
+   "label::en": "Yellow",
+   "label::fr": "Jaune",
+   "label::bm": "Nɛrɛ"
+  },
+  {
+   "list_name": "c_shakir_strip_color",
+   "name": "red",
+   "label::en": "Red",
+   "label::fr": "Rouge",
+   "label::bm": "Bilema"
+  },
+  {
+   "list_name": "normal_fast",
+   "name": "normal",
+   "label::en": "Normal",
+   "label::fr": "Normale",
+   "label::bm": "A man teli(A kaɲi)"
+  },
+  {
+   "list_name": "normal_fast",
+   "name": "fast",
+   "label::en": "Fast",
+   "label::fr": "Rapide",
+   "label::bm": "A ka teli"
+  },
+  {
+   "list_name": "c_dewormer_type",
+   "name": "200mg",
+   "label::en": "200 mg",
+   "label::fr": "200 mg",
+   "label::bm": "200 mg"
+  },
+  {
+   "list_name": "c_dewormer_type",
+   "name": "400mg",
+   "label::en": "400 mg",
+   "label::fr": "400 mg",
+   "label::bm": "400 mg"
+  },
+  {
+   "list_name": "c_dewormer_dosage",
+   "name": "half_tab",
+   "label::en": "1/2 tablet",
+   "label::fr": "1/2 comprimé",
+   "label::bm": "Furakisɛ 1/2",
+   "filter1": "400mg"
+  },
+  {
+   "list_name": "c_dewormer_dosage",
+   "name": "one_tab",
+   "label::en": "1 tablet",
+   "label::fr": "1 comprimé",
+   "label::bm": "Furakisɛ 1",
+   "filter1": "400mg"
+  },
+  {
+   "list_name": "c_dewormer_dosage",
+   "name": "one_tab",
+   "label::en": "1 tablet",
+   "label::fr": "1 comprimé",
+   "label::bm": "Furakisɛ 1",
+   "filter1": "200mg"
+  },
+  {
+   "list_name": "c_dewormer_dosage",
+   "name": "two_tab",
+   "label::en": "2 tablet",
+   "label::fr": "2 comprimés",
+   "label::bm": "Furakisɛ 2",
+   "filter1": "200mg"
+  },
+  {
+   "list_name": "c_iron_folic_dosage",
+   "name": "half_tab",
+   "label::en": "1/2 tablet",
+   "label::fr": "1/2 comprimé par semaine",
+   "label::bm": "Furakisɛ 1/2"
+  },
+  {
+   "list_name": "c_iron_folic_dosage",
+   "name": "one_tab",
+   "label::en": "1 tablet",
+   "label::fr": "1 comprimé par semaine",
+   "label::bm": "Furakisɛ 1"
+  },
+  {
+   "list_name": "c_vitaminA_dosage",
+   "name": "blue_cap",
+   "label::en": "Blue capsule",
+   "label::fr": "Capsule bleue",
+   "label::bm": "Furakisɛ bulama 1 (100 000 UI)"
+  },
+  {
+   "list_name": "c_vitaminA_dosage",
+   "name": "red_cap",
+   "label::en": "Red capsule",
+   "label::fr": "Capsule rouge",
+   "label::bm": "Furakisɛ bileman 1 (200 000 UI)"
+  },
+  {
+   "list_name": "medication_not_given",
+   "name": "out_of_stock",
+   "label::en": "Out of stock",
+   "label::fr": "Rupture de stock",
+   "label::bm": "Barakɛ minnenw bani "
+  },
+  {
+   "list_name": "medication_not_given",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Kun wɛrɛ"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "deceased",
+   "label::en": "Dead",
+   "label::fr": "Décès",
+   "label::bm": "Den fatuli"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "referred",
+   "label::en": "Referred to CSCOM",
+   "label::fr": "Référé au CSCOM",
+   "label::bm": "Ka banabagatɔ bila kata CSCOM"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "abandoned",
+   "label::en": "Abandoned",
+   "label::fr": "Abandon",
+   "label::bm": "Den ka furakɛli dafabaliya"
+  },
+  {
+   "list_name": "CAT",
+   "name": "continue_followup",
+   "label::en": "Continue follow-up",
+   "label::fr": "Poursuivre le suivi",
+   "label::bm": "Ka tɛmɛ ni kɔlɔsili ye",
+   "rescat": "continue_on"
+  },
+  {
+   "list_name": "CAT",
+   "name": "recovered",
+   "label::en": "Recovered",
+   "label::fr": "Guéri",
+   "label::bm": "Den kɛnɛyara",
+   "rescat": "recovered_on"
+  },
+  {
+   "list_name": "CAT",
+   "name": "abandoned",
+   "label::en": "Abandon",
+   "label::fr": "Abandon",
+   "label::bm": "Den ka furakɛli ma dafa a somɔgɔw fɛ (somɔgɔw ka ban)",
+   "rescat": "abandoned_on"
+  },
+  {
+   "list_name": "CAT",
+   "name": "refer_with_followup",
+   "label::en": "Refer to CSCOM and followup",
+   "label::fr": "Référer au CSCOM sans arrêt de suivi",
+   "label::bm": "Ka bila kata CSCOM la ka sɔrɔ i ma kɔlɔsili jɔ",
+   "rescat": "refer_on"
+  },
+  {
+   "list_name": "CAT",
+   "name": "refer_with_no_followup",
+   "label::en": "Refer to CSCOM and stop followup",
+   "label::fr": "Référer au CSCOM avec arrêt de Suivi",
+   "label::bm": "Ka bila kata CSCOM la ka kɔlɔsili jɔ",
+   "rescat": "all"
+  },
+  {
+   "list_name": "plumpy_not_given",
+   "name": "out_of_stock",
+   "label::en": "Out of stock",
+   "label::fr": "Rupture de stock",
+   "label::bm": "Barakɛ minnenw bani "
+  },
+  {
+   "list_name": "plumpy_not_given",
+   "name": "child_rejected_plumpy",
+   "label::en": "Child doesn't want plumpy",
+   "label::fr": "Enfant ne veut pas du plumpy",
+   "label::bm": "Den mason plumpy la"
+  },
+  {
+   "list_name": "plumpy_not_given",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Kun wɛrɛ"
+  },
+  {
+   "list_name": "enriched_flour_not_given",
+   "name": "out_of_stock",
+   "label::en": "Out of stock",
+   "label::fr": "Rupture de stock",
+   "label::bm": "Barakɛ minnenw bani "
+  },
+  {
+   "list_name": "enriched_flour_not_given",
+   "name": "child_rejected_enriched_flour",
+   "label::en": "Other",
+   "label::fr": "L'enfant ne veut pas la farine enrichie",
+   "label::bm": "Den mason"
+  },
+  {
+   "list_name": "enriched_flour_not_given",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Kun wɛrɛ"
+  },
+  {
+   "list_name": "iron_folic_type",
+   "name": "iron_folic_acid_srp",
+   "label::en": "iron + folic acid syrup",
+   "label::fr": "fer + acide folique sirop",
+   "label::bm": "Fɛri siro"
+  },
+  {
+   "list_name": "iron_folic_type",
+   "name": "iron_folic_acid",
+   "label::en": "iron + folic acid tablet 200 mg",
+   "label::fr": "fer + acide folique comprimé 200 mg",
+   "label::bm": "Fɛri furakisɛ"
+  },
+  {
+   "list_name": "c_iron_folic_dosage",
+   "name": "2_5ml",
+   "label::en": "2.5 ml iron + folic acid syrup",
+   "label::fr": "2,5 ml de Fer + acide folique sirop",
+   "label::bm": "Siro 2,5 ml",
+   "rescat": "iron_folic_acid_srp"
+  },
+  {
+   "list_name": "c_iron_folic_dosage",
+   "name": "5ml",
+   "label::en": "5 ml iron + folic acid syrup",
+   "label::fr": "5 ml de Fer + acide folique sirop",
+   "label::bm": "Siro 5 ml",
+   "rescat": "iron_folic_acid_srp"
+  },
+  {
+   "list_name": "c_iron_folic_dosage",
+   "name": "half_tab",
+   "label::en": "1 tablet iron + folic acid tablet 200 mg",
+   "label::fr": "1 comprimé de fer + acide folique comprimé 200 mg",
+   "label::bm": "Furakisɛ 1",
+   "rescat": "iron_folic_acid"
+  },
+  {
+   "list_name": "c_iron_folic_dosage",
+   "name": "one_tab",
+   "label::en": "1/2 tablet iron + folic acid tablet 200 mg",
+   "label::fr": "1/2 comprimé de fer + acide folique comprimé 200 mg",
+   "label::bm": "Furakisɛ 1/2",
+   "rescat": "iron_folic_acid"
+  }
+ ],
+ "settings": [
+  {
+   "form_title": "Suivi Malnutrition Aigue Modérée",
+   "form_id": "moderate_malnutrition_followup",
+   "version": "=NOW()",
+   "style": "pages",
+   "path": "data",
+   "allow_choice_duplicates": "yes"
+  }
+ ]
+}

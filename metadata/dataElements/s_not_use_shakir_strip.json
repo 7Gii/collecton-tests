@@ -1,0 +1,18 @@
+{
+  "id": "fec1ba4a-d9f2-47fa-9c9c-68f0081af48d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_not_use_shakir_strip",
+  "label": "Pourquoi?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "c8162ffb-1ff6-4c3a-836a-15504493f606",
+  "tags": []
+}

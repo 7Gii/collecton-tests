@@ -1,0 +1,18 @@
+{
+  "id": "1889b539-cf03-4edd-8894-45109f035964",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_dewormer_type",
+  "label": "Quelle dose?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "8d3d7a81-2803-4319-9fe2-8466d54e76e3",
+  "tags": []
+}

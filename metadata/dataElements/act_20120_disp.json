@@ -1,0 +1,18 @@
+{
+  "id": "95a82389-65fa-45b4-b7d3-eeaf94cca06c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "act_20120_disp",
+  "label": "act_20120_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

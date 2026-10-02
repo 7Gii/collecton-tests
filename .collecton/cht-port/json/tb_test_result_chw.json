@@ -1,0 +1,1340 @@
+{
+ "survey": [
+  {
+   "type": "begin group",
+   "name": "inputs",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "field-list",
+   "relevant": "./source = 'user'"
+  },
+  {
+   "type": "string",
+   "name": "source",
+   "label::en": "Source",
+   "label::fr": "Source",
+   "appearance": "hidden",
+   "default": "user"
+  },
+  {
+   "type": "string",
+   "name": "source_id",
+   "label::en": "Source ID",
+   "label::fr": "Source de l'ID",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_cscom_area",
+   "label::en": "CSCOM",
+   "label::fr": "CSCOM",
+   "label::bm": "CSCOM",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_diagnosis_en",
+   "label::en": "Diagnosis ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_diagnosis_fr",
+   "label::en": "Diagnosis ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_diagnosis_bm",
+   "label::en": "Diagnosis ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_case_category",
+   "label::en": "Is TB suspect or contact case",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_tb_assessment_date",
+   "label::en": "TB Assessment date",
+   "appearance": "hidden"
+  },
+  {
+   "type": "hidden",
+   "name": "t_muso_id",
+   "label::en": "Muso ID",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_starting_form_uuid",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "t_starting_form_name",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "Patient",
+   "label::fr": "Patient",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "db:person",
+   "name": "_id",
+   "label::en": "What is the patient name?",
+   "label::fr": "Quel est le nom du patient?",
+   "label::bm": "Banabagatɔ tɔgɔ n'a jamu",
+   "required": "yes",
+   "appearance": "db-object",
+   "hint::en": "select a person from the list",
+   "hint::fr": "Entrez les trois premières lettres du nom du patient pour le sélectionner.",
+   "hint::bm": "Mɔgɔ dɔ sugandi lisi kɔnɔ"
+  },
+  {
+   "type": "string",
+   "name": "name",
+   "label::en": "Name",
+   "label::fr": "Nom",
+   "label::bm": "Tɔgɔ ni jamu",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "date_of_birth",
+   "label::en": "Date of birth",
+   "label::fr": "Date de naissance",
+   "label::bm": "Bange don",
+   "appearance": "hidden",
+   "default": 0
+  },
+  {
+   "type": "string",
+   "name": "sex",
+   "label::en": "Sex",
+   "label::fr": "Sexe",
+   "label::bm": "Cɛnimusoya",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "phone",
+   "label::en": "Phone",
+   "label::fr": "Téléphone",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "external_id",
+   "label::en": "Muso ID",
+   "label::fr": "ID de Muso",
+   "label::bm": "Banabagatɔ ka nimɔrɔ"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "family_uuid",
+   "label::fr": "family_uuid",
+   "label::bm": "family_uuid"
+  },
+  {
+   "type": "string",
+   "name": "name",
+   "label::en": "Family",
+   "label::fr": "Famille",
+   "label::bm": "Ga",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "chw_area_uuid",
+   "label::fr": "chw_area_uuid",
+   "label::bm": "chw_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "CHW ",
+   "label::fr": "ASC",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "db:person",
+   "name": "_id",
+   "label::en": "CHW ID",
+   "label::fr": "ID ASC",
+   "appearance": "db-object"
+  },
+  {
+   "type": "string",
+   "name": "name",
+   "label::en": "CHW name",
+   "label::fr": "Nom ASC",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "phone",
+   "label::en": "CHW phone",
+   "label::fr": "Téléphone ASC",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "patient_id",
+   "label::en": "CHW Muso ID",
+   "label::fr": "ID Muso de l’ASC",
+   "appearance": "hidden"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "supervisor_area_uuid",
+   "label::fr": "supervisor_area_uuid",
+   "label::bm": "supervisor_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "health_area_uuid",
+   "label::fr": "health_area_uuid",
+   "label::bm": "health_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "site_uuid",
+   "label::fr": "site_uuid",
+   "label::bm": "site_uuid"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "lineage",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "calculate",
+   "name": "c50_patient_uuid",
+   "label::en": "c50_patient_uuid",
+   "label::fr": "c50_patient_uuid",
+   "label::bm": "c50_patient_uuid",
+   "calculation": "../../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c50_family_uuid",
+   "label::en": "c50_family_uuid",
+   "label::fr": "c50_family_uuid",
+   "label::bm": "c50_family_uuid",
+   "calculation": "../../inputs/contact/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c40_chw_area_uuid",
+   "label::en": "c40_chw_area_uuid",
+   "label::fr": "c40_chw_area_uuid",
+   "label::bm": "c40_chw_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c30_supervisor_area_uuid",
+   "label::en": "c30_supervisor_area_uuid",
+   "label::fr": "c30_supervisor_area_uuid",
+   "label::bm": "c30_supervisor_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c20_health_area_uuid",
+   "label::en": "c20_health_area_uuid",
+   "label::fr": "c20_health_area_uuid",
+   "label::bm": "c20_health_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c10_site_uuid",
+   "label::en": "c10_site_uuid",
+   "label::fr": "c10_site_uuid",
+   "label::bm": "c10_site_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/parent/parent/_id"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_years",
+   "label::en": "Years",
+   "label::fr": "Années",
+   "label::bm": "San",
+   "default": 0,
+   "calculation": "floor( difference-in-months( ${date_of_birth}, now() ) div 12 )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_months",
+   "label::en": "Months",
+   "label::fr": "Mois",
+   "label::bm": "Kalo",
+   "default": 0,
+   "calculation": "difference-in-months( ${date_of_birth}, now() )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_in_days",
+   "label::en": "Days old",
+   "label::fr": "Jours",
+   "label::bm": "Tile",
+   "calculation": "floor( decimal-date-time(now()) - decimal-date-time(${date_of_birth}) )"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display",
+   "calculation": "concat(concat(${patient_age_in_years}, if(${patient_age_in_years}=1,' year and ',' years and ')),concat(${patient_age_in_months} mod 12, if((${patient_age_in_months} mod 12)=1,' month old',' months old')))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display_fr",
+   "calculation": "concat(concat(${patient_age_in_years}, if(${patient_age_in_years}=1,' an et ',' ans et ')),concat(${patient_age_in_months} mod 12, ' mois'))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_age_display_bm",
+   "calculation": "concat(concat('San ', ${patient_age_in_years}, ' ani '), concat(' Kalo ', ${patient_age_in_months} mod 12))"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex",
+   "calculation": "../inputs/contact/sex"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_normalized",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'male', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'female', ''))",
+   "instance::tag": "hidden"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_fr",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'Homme', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'Femme', ''))",
+   "instance::tag": "hidden"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_sex_bm",
+   "calculation": "if(${patient_sex} = 'male' or ${patient_sex} = 'homme' or ${patient_sex} = 'Homme', 'Cɛ', if(${patient_sex} = 'female' or ${patient_sex} = 'femme' or ${patient_sex} = 'Femme', 'Muso', ''))",
+   "instance::tag": "hidden"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_id",
+   "calculation": "../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "muso_id",
+   "calculation": "${t_muso_id}"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_name",
+   "calculation": "../inputs/contact/name"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_phone",
+   "calculation": "../inputs/contact/phone"
+  },
+  {
+   "type": "calculate",
+   "name": "family_name",
+   "calculation": "../inputs/contact/parent/name"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_case_category",
+   "calculation": "${t_tb_case_category}"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_assessment_date",
+   "calculation": "${t_tb_assessment_date}"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_assessment_date_label",
+   "calculation": "format-date-time(date-time(decimal-date-time(${t_tb_assessment_date})),\"%d/%m/%Y\")"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result",
+   "calculation": "${s_tb_test_result}"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result_display",
+   "calculation": "if(${tb_test_result}='pos','Positive',if(${tb_test_result}='neg','Negative','No result'))"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result_display_fr",
+   "calculation": "if(${tb_test_result}='pos','Positif',if(${tb_test_result}='neg','Négatif','Pas de résultat'))"
+  },
+  {
+   "type": "calculate",
+   "name": "tb_test_result_display_bm",
+   "calculation": "if(${tb_test_result}='pos','Positif',if(${tb_test_result}='neg','Négatif','Pas de résultat'))"
+  },
+  {
+   "type": "calculate",
+   "name": "s_tb_test_result_display",
+   "calculation": "jr:choice-name(${s_tb_test_result}, '${s_tb_test_result}')"
+  },
+  {
+   "type": "calculate",
+   "name": "needs_signoff",
+   "calculation": "\"true\""
+  },
+  {
+   "type": "calculate",
+   "name": "treatment_duration_in_days",
+   "calculation": "if(${s_treatment_start_date} != '' and ${s_treatment_start_date} != '0', floor(decimal-date-time(now()) - decimal-date-time(${s_treatment_start_date})), 0)"
+  },
+  {
+   "type": "calculate",
+   "name": "cscom_area",
+   "calculation": "${t_cscom_area}"
+  },
+  {
+   "type": "calculate",
+   "name": "chw_name",
+   "calculation": "../inputs/contact/parent/parent/contact/name"
+  },
+  {
+   "type": "calculate",
+   "name": "chw_muso_id",
+   "calculation": "../inputs/contact/parent/parent/contact/patient_id"
+  },
+  {
+   "type": "calculate",
+   "name": "starting_form_uuid",
+   "calculation": "../inputs/t_starting_form_uuid"
+  },
+  {
+   "type": "calculate",
+   "name": "starting_form_name",
+   "calculation": "../inputs/t_starting_form_name"
+  },
+  {
+   "type": "begin group",
+   "name": "g_patient_details",
+   "label::en": "Patient's details",
+   "label::fr": "Informations sur le patient",
+   "label::bm": "Kunnafɔninya banabagatɔ kan",
+   "appearance": "field-list"
+  },
+  {
+   "type": "note",
+   "name": "n_patient_name",
+   "label::en": "<b>First and last name:</b> ${patient_name} ",
+   "label::fr": "<b>Prénom et Nom :</b>  ${patient_name} ",
+   "label::bm": "<b>Banabagatɔ tɔgɔ:</b>  ${patient_name} "
+  },
+  {
+   "type": "note",
+   "name": "n_patient_age",
+   "label::en": "<b>Age:</b> ${patient_age_display}",
+   "label::fr": "<b>Age : </b>  ${patient_age_display_fr}",
+   "label::bm": "<b>Banabagatɔ si: </b>  ${patient_age_display_bm}"
+  },
+  {
+   "type": "note",
+   "name": "n_patient_sex",
+   "label::en": "<b>Gender:</b> ${patient_sex}",
+   "label::fr": "<b>Sexe :</b>  ${patient_sex_fr}",
+   "label::bm": "<b>Banabagatɔ naɲɔngɔn:</b>  ${patient_sex_bm}"
+  },
+  {
+   "type": "note",
+   "name": "n_patient_phone",
+   "label::en": "<b>Phone number:</b> ${patient_phone} ",
+   "label::fr": "<b>Numéro de téléphone :</b>   ${patient_phone} ",
+   "label::bm": "<b>Telefɔni nimɔrɔ:</b>   ${patient_phone} "
+  },
+  {
+   "type": "note",
+   "name": "n_tb_diagnosis",
+   "label::en": "<b>Reference/accompanying signs:</b> ${t_tb_diagnosis_en}",
+   "label::fr": "<b>Signes de référence/accompagnement :</b>  ${t_tb_diagnosis_fr}",
+   "label::bm": "<b>Sɛgɛsɛgɛli ( tamasiyɛn jugumanw kan):</b>  ${t_tb_diagnosis_bm}"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_followup_task",
+   "label::en": "Patient Follow-up",
+   "label::fr": "Suivi du Patient",
+   "label::bm": "Banabagatɔ ka kɔlɔsili",
+   "appearance": "field-list summary"
+  },
+  {
+   "type": "select_one c_task_to_perform",
+   "name": "s_task_to_perform",
+   "label::en": "What task do you want to perform?",
+   "label::fr": "Quelle est la tâche à effectuer ?",
+   "label::bm": "Baarakɛta ye jumɛn ye ?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_have_ppe",
+   "label::en": "Do you have Personal Protective Equipment (PPE)?",
+   "label::fr": "Avez-vous un Equipement de Protection Individuel (EPI)?",
+   "label::bm": "Yala yɛrɛ tanga minɛw b'i bolo wa?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_task_to_perform} = 'follow_up'"
+  },
+  {
+   "type": "note",
+   "name": "n_epi_no_touch_note",
+   "label::en": "It is strongly recommended not to touch the patient without PPE. It is advised to perform this task without touching the patient.",
+   "label::fr": "Il est fortement recommandé sans EPI de ne pas toucher le patient. Il est conseillé d'effectuer cette tâche sans toucher le patient.",
+   "label::bm": "I ma ka maga banabagotɔ la ka sɔrɔ i m'a tanga minɛw do A laɲininen do i fɛ, i ka furakɛli kɛ ka sɔrɔ i m'a maga banabagotɔ la walima telefɔni la",
+   "appearance": "h3 red",
+   "relevant": "${s_have_ppe} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "n_epi_reminder",
+   "label::en": "Make sure to wear your PPE properly and follow protection rules.",
+   "label::fr": "Assurez-vous de bien mettre votre EPI et de respecter les règles de protection.",
+   "label::bm": "D’ala k’i ye yɛrɛ tanga minɛw don ka xq ani ka tangali fqqrqw b’a sira fq.",
+   "appearance": "h3 green",
+   "relevant": "${s_have_ppe} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "n_wash_hands",
+   "label::en": "Wash your hands before and after each operation.",
+   "label::fr": "Lavez-vous les mains avant et après chaque opération.",
+   "label::bm": "I tɛgɛ ko ka jɛ ka kon ani n’i tilala baara sugu o sugu la.",
+   "appearance": "h3 green",
+   "relevant": "${s_have_ppe} = 'yes'"
+  },
+  {
+   "type": "note",
+   "name": "n_hygiene_note",
+   "label::en": "Observe cough hygiene and disinfection of surfaces and equipment.",
+   "label::fr": "Observer l'hygiène de la toux la désinfection des surfaces et des équipements.",
+   "label::bm": "I hakili to sùgùsùgù saniya walew la, yùrùw ni baarakɛminɛw saniya la.",
+   "appearance": "h3 green",
+   "relevant": "${s_have_ppe} = 'yes'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_followup_today",
+   "label::en": "Was the follow-up done today?",
+   "label::fr": "Le suivi du patient a t-il été fait aujourd'hui ?",
+   "label::bm": "Kɔlɔsili kɛra bi wa?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "date",
+   "name": "s_followup_date",
+   "label::en": "Enter the follow-up date",
+   "label::fr": "Entrez la date de suivi du patient",
+   "label::bm": "Ni Ayi kiimɛli don do",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_followup_today} = 'no'",
+   "constraint": ".<today()",
+   "constraint_message::en": "Date cannot be in the future",
+   "constraint_message::fr": "La date ne peut pas être dans le futur",
+   "constraint_message::bm": "Don man kan ka kɛ tile nataw la"
+  },
+  {
+   "type": "select_one c_why_close_out",
+   "name": "s_why_close_out",
+   "label::en": "Why do you want to close this follow-up?",
+   "label::fr": "Pourquoi vous voulez clôre ce suivi?",
+   "label::bm": "Munn’i b’a fɛ ka kɔlɔsili in kuncɛ ?",
+   "required": "yes",
+   "required_message::en": "This field is required",
+   "required_message::fr": "Ce champ est obligatoire",
+   "required_message::bm": "Ni yɔrɔ lafali ye wajibiye",
+   "relevant": "${s_task_to_perform} = 'close_out'"
+  },
+  {
+   "type": "note",
+   "name": "n_death_note",
+   "label::en": "The patient has died. Please complete the form \"Death Report\" for this patient.",
+   "label::fr": "Le patient est décédé. Veuillez remplir le formulaire \"Rapport de Décès\" pour ce patient.",
+   "label::bm": "Banabagatɔ faatora. Faatoli sɛbɛn baara kɛ",
+   "appearance": "h3 red",
+   "relevant": "${s_why_close_out} = 'patient_died'"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_patient_result",
+   "label::en": "Patient Result",
+   "label::fr": "Résultat par le patient",
+   "label::bm": "Jabi banabagatɔ fɛ",
+   "appearance": "field-list"
+  },
+  {
+   "type": "select_one treatment_action",
+   "name": "s_treatment_action",
+   "label::en": "What was the doctor's course of action?",
+   "label::fr": "Quel a été la conduite à tenir du medecin de traitement ?",
+   "label::bm": "CDT ka kɛta kɛra mun ye?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "choice_filter": "filter1= ${tb_case_category}  or filter1= 'all'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_contact_case_received_chemoprev",
+   "label::en": "Did the contact receive chemoprevention?",
+   "label::fr": "Le cas contact a t'il reçu la chimio-prévention ?",
+   "label::bm": "A kɛrɛfɛ mɔgɔ ye chimio kɛ wa?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_treatment_action} = 'chemoprevention'"
+  },
+  {
+   "type": "select_one no_chemoprev_reason",
+   "name": "s_no_chemoprev_reason",
+   "label::en": "Why not?",
+   "label::fr": "Pourquoi ?",
+   "label::bm": "Kun jumɛn la?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_contact_case_received_chemoprev} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_no_chemoprev_reason_other",
+   "label::en": "Please specify",
+   "label::fr": "A preciser :",
+   "label::bm": "A pereperelatigɛ",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_no_chemoprev_reason} = 'other'"
+  },
+  {
+   "type": "date",
+   "name": "s_chemoprev_start_date",
+   "label::en": "Chemoprevention start date",
+   "label::fr": "Date du début de prise de la chimio-prévention",
+   "label::bm": "Chimio daminɛ don",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_contact_case_received_chemoprev} = 'yes'",
+   "constraint": "(floor(decimal-date-time(.)) <= floor(decimal-date-time(today()))) and (floor(decimal-date-time(.)) >= floor(decimal-date-time(${tb_assessment_date})))",
+   "constraint_message::en": "Date cannot be before ${tb_assessment_date_label} and after today",
+   "constraint_message::fr": "La date ne peut pas être antérieure au ${tb_assessment_date_label} ni postérieure à aujourd'hui",
+   "constraint_message::bm": "TRL[[La date ne peut pas être antérieure au ${tb_assessment_date_label} ni postérieure à aujourd'hui]]"
+  },
+  {
+   "type": "select_one tb_result",
+   "name": "s_tb_test_result",
+   "label::en": "What is the TB test result?",
+   "label::fr": "Quel est le résultat du test TB ?",
+   "label::bm": "A jabi kɛra mun ye?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_treatment_action} = 'test_tb'"
+  },
+  {
+   "type": "text",
+   "name": "s_cdt_registry_number",
+   "label::en": "Registry number at CDT",
+   "label::fr": "N° dans le registre du CDT",
+   "label::bm": "Banabagatɔ ka nimɔrɔ CDT ka sɛbɛn kɔnɔ",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_treatment_action} = 'test_tb'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_received_treatment",
+   "label::en": "Did the patient receive treatment?",
+   "label::fr": "Le patient a t'il reçu son traitement ?",
+   "label::bm": "Yala banabagatɔ ye furakɛli sɔrɔ wa?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${tb_test_result} = 'pos'"
+  },
+  {
+   "type": "select_one no_treatment_reason",
+   "name": "s_no_treatment_reason",
+   "label::en": "Why not?",
+   "label::fr": "Pourquoi ?",
+   "label::bm": "Kun jumɛn la?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_received_treatment} = 'no'"
+  },
+  {
+   "type": "text",
+   "name": "s_no_treatment_reason_other",
+   "label::en": "Please specify",
+   "label::fr": "Préciser",
+   "label::bm": "A pereperelatigɛ",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_no_treatment_reason} = 'other'"
+  },
+  {
+   "type": "date",
+   "name": "s_treatment_start_date",
+   "label::en": "Treatment start date",
+   "label::fr": "Date du début du traitement",
+   "label::bm": "Furakɛli daminɛ don",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_received_treatment} = 'yes'",
+   "constraint": "(floor(decimal-date-time(.)) <= floor(decimal-date-time(today()))) and (floor(decimal-date-time(.)) >= floor(decimal-date-time(${tb_assessment_date})))",
+   "constraint_message::en": "Date cannot be before ${tb_assessment_date_label} and after today",
+   "constraint_message::fr": "La date ne peut pas être antérieure au ${tb_assessment_date_label} ni postérieure à aujourd'hui",
+   "constraint_message::bm": "TRL[[La date ne peut pas être antérieure au ${tb_assessment_date_label} ni postérieure à aujourd'hui]]"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_tdo_observer",
+   "label::en": "Person for Direct Observation",
+   "label::fr": "Personne identifiée pour TDO",
+   "label::bm": "Mɔgɔ min sugandilla TDO kama",
+   "appearance": "field-list",
+   "relevant": "${s_treatment_action} = 'chemoprevention' or ${tb_test_result} = 'pos'"
+  },
+  {
+   "type": "note",
+   "name": "n_observer",
+   "label::en": "A person must be designated for observing daily medication intake after the first two weeks. Ask the patient to identify this person.",
+   "label::fr": "Une personne doit être désignée pour l'observation de la prise des médicaments journaliers après les 2 premières semaines. Demander au patient d'identifier cette personne.",
+   "label::bm": "Mɔgɔ dɔ kana ka yira walasa k’i janto fura talila dɔgɔkun fila kɔfɛ. A ɲini banabagatɔ f’a ka mɔgɔ dɔ yir’i la."
+  },
+  {
+   "type": "text",
+   "name": "s_observer_name",
+   "label::en": "Full name",
+   "label::fr": "Nom et Prénom",
+   "label::bm": "Tɔgɔ ni jamu",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "integer",
+   "name": "s_observer_phone",
+   "label::en": "Phone number",
+   "label::fr": "Numéro de téléphone",
+   "label::bm": "Telefɔni nimɔrɔ",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "constraint": "regex(.,'^(\\d{2}\\s?){4}$')",
+   "constraint_message::en": "Please enter a valid local number. For example: XX XX XX XX",
+   "constraint_message::fr": "Veuillez entrer un numéro local valide. Par exemple: XX XX XX XX",
+   "constraint_message::bm": "A ɲinin ne do i fɛ i ka nimɔrɔ ɲuman don. Misalila: XX XX XX XX"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_contraceptive_history",
+   "label::en": "Contraception History",
+   "label::fr": "Antécédent contraceptif",
+   "label::bm": "Kɔrɔlenw bangekɔlɔsi fɛɛrɛw kan",
+   "appearance": "field-list",
+   "relevant": "${tb_test_result} = 'pos' and ${patient_sex_normalized} = 'female' and ${patient_age_in_years} >= 10 and ${patient_age_in_years} <= 65"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_contraceptive",
+   "label::en": "Is she using contraception?",
+   "label::fr": "Est-ce qu'elle est sous contraception?",
+   "label::bm": "Yala banabagatɔ bɛ PF fɛrɛ dɔ kan wa?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ"
+  },
+  {
+   "type": "select_one contraception_method",
+   "name": "s_contraceptive_method",
+   "label::en": "Which method?",
+   "label::fr": "Quelle méthode?",
+   "label::bm": "Fɛrɛ jumɛn?",
+   "required": "yes",
+   "required_message::en": "This is required",
+   "required_message::fr": "Cela est obligatoire",
+   "required_message::bm": "O ka kan ka kɛ",
+   "relevant": "${s_contraceptive} = 'yes'"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "g_summary",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL",
+   "appearance": "field-list summary h1 yellow"
+  },
+  {
+   "type": "note",
+   "name": "n_summary_patient_icon",
+   "label::en": "Patient Summary <i class=\"\"fa fa-user\"\"></i>",
+   "label::fr": "Résumé du patient <i class=\"fa fa-user\"></i>",
+   "label::bm": "Banabagatow ka kunafoni yaw <i class=\"\"fa fa-user\"\"></i>",
+   "appearance": "h1 lime"
+  },
+  {
+   "type": "note",
+   "name": "n_summary_patient_name",
+   "label::en": "<b>First and last name:</b> ${patient_name} ",
+   "label::fr": "<b>Prénom et Nom :</b>  ${patient_name} ",
+   "label::bm": "<b>Banabagatɔ tɔgɔ:</b>  ${patient_name} ",
+   "appearance": "li"
+  },
+  {
+   "type": "note",
+   "name": "n_summary_patient_age",
+   "label::en": "<b>Age:</b> ${patient_age_display}",
+   "label::fr": "<b>Age : </b>  ${patient_age_display_fr}",
+   "label::bm": "<b>Banabagatɔ si: </b>  ${patient_age_display_bm}",
+   "appearance": "li"
+  },
+  {
+   "type": "note",
+   "name": "n_summary_patient_sex",
+   "label::en": "<b>Gender:</b> ${patient_sex}",
+   "label::fr": "<b>Sexe :</b>  ${patient_sex_fr}",
+   "label::bm": "<b>Banabagatɔ naɲɔngɔn:</b>  ${patient_sex_bm}",
+   "appearance": "li"
+  },
+  {
+   "type": "note",
+   "name": "n_summary_result",
+   "label::en": "<b>Test Result:</b> ${tb_test_result_display}",
+   "label::fr": "<b>Résultat :</b> ${tb_test_result_display_fr}",
+   "label::bm": "<b>Jabi banabagatɔ fɛ:</b> ${tb_test_result_display_fr}",
+   "appearance": "li",
+   "relevant": "${tb_test_result} != ''"
+  },
+  {
+   "type": "note",
+   "name": "n_instructions_header",
+   "label::en": "Special Instructions",
+   "label::fr": "Instructions Spéciales",
+   "label::bm": "Bilasirali kɛrɛnkɛrɛnlen",
+   "appearance": "h1 blue"
+  },
+  {
+   "type": "note",
+   "name": "n_chemoprev_instruction",
+   "label::en": "Your tuberculosis prevention treatment starts now. Take your medication regularly and speak to your health worker for any necessary follow-up.",
+   "label::fr": "Votre traitement de prévention contre la tuberculose commence maintenant. Prenez vos médicaments régulièrement et parlez à votre agent de santé pour tout suivi nécessaire.",
+   "label::bm": "I ka TB furakɛli bɛna daminɛ sisan. I ka furaw ta u ta cogola wa i ka ASC wele ni mago bɛ kɔlɔsili la.",
+   "appearance": "li",
+   "relevant": "${s_treatment_action} = 'chemoprevention'"
+  },
+  {
+   "type": "note",
+   "name": "n_negative_instruction",
+   "label::en": "Inform the patient of the negative result and ensure they understand the importance of monitoring symptoms. Encourage them to consult a doctor if symptoms persist or new ones appear. Your TB test is negative but continue to monitor your health and see me if you experience persistent symptoms.",
+   "label::fr": "Informez le patient du résultat négatif et assurez-vous qu'il comprend l'importance de surveiller les symptômes. \nEncouragez-le à consulter un médecin en cas de symptômes persistants ou nouveaux. \nVotre test de tuberculose est négatif mais continuez à surveiller votre santé et venez me voir si vous ressentez des symptômes persistants.",
+   "label::bm": "A fɔ banabagatɔ ye ko bana ma ye a la. N'ga a ɲɛfɔ a ye ka kaɲa a ka hakili to TB tamasiɲɛw la.\nA fɔ a ye ko a kata dɔgɔtɔrɔsola n'a ye tamasiɲɛ dɔw jateminɛ a yɛrɛ la.",
+   "appearance": "li",
+   "relevant": "${tb_test_result} = 'neg' "
+  },
+  {
+   "type": "note",
+   "name": "n_no_treatment_instruction",
+   "label::en": "Contact the treatment coordinator immediately to organize medication distribution and plan a home visit to ensure the patient starts treatment without delay.",
+   "label::fr": "Contactez immédiatement le chargé de traitement pour organiser la distribution des médicaments et planifiez une visite à domicile pour s'assurer que le patient commence le traitement sans délai.",
+   "label::bm": "CDT wele sisan walasa aw ka fura di banabagatɔ ma ani kata lajɛ a ka so walasa ka kɔlɔsi n'a ye furakɛli daminɛ o yɔrɔ bɛ.",
+   "appearance": "li",
+   "relevant": "${s_received_treatment} = 'no' or ${s_contact_case_received_chemoprev} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "n_refer_cscom",
+   "label::en": "Inform the patient and refer to CSCOM for treatment.",
+   "label::fr": "Informer le patient et référer le CSCOM pour le traitement.",
+   "label::bm": "Banabagatɔ ladɔnniya an’i ka bila ka taa dɔgɔtɔrɔsola furakɛli la.",
+   "appearance": "li",
+   "relevant": "${s_received_treatment} = 'no' or ${s_contact_case_received_chemoprev} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "n_contact_followup_note",
+   "label::en": "Please fill the Contact Follow-up form for all other household members of this patient.",
+   "label::fr": "Veuillez remplir le formulaire de Suivi des Personnes-Contacts de tous les autres membres du ménage de ce patient.",
+   "label::bm": "Du kɔnɔ mɔgɔw bɛɛ ka kiimɛli kɛ.",
+   "appearance": "li",
+   "relevant": "${tb_test_result} = 'pos'"
+  },
+  {
+   "type": "note",
+   "name": "n_contraception_counseling",
+   "label::en": "Provide counseling for another method: Depot implant (Jadelle) IUD. Oral contraceptives are not effective when on anti-tuberculosis treatment!",
+   "label::fr": "Faire un counseling pour autre méthode: Depot implant (Jadelle) DIU. Les contraceptifs orales ne sont pas effectives si on est sous traitement anti-tuberculeux!",
+   "label::bm": "Kumaɲɔgɔya kɛ ni banabagatɔ ye bange furancɛ janɲali fɛrɛ nunu kan: Alimɛtini | Barɔni dɔ kɛ bangekɔlɔsi fɛɛrɛ kan : pikirini, alimɛtini, mununani. Furakisɛni bɛnnen tɛ ni be ka sɔgɔsɔgɔninjɛ furakɛli kɛ !",
+   "appearance": "li",
+   "relevant": "${s_contraceptive} = 'yes' and (${s_contraceptive_method} = 'simple_pill' or ${s_contraceptive_method} = 'mini_pill')"
+  },
+  {
+   "type": "note",
+   "name": "n_refer_cscom2",
+   "label::en": "Refer to health center",
+   "label::fr": "Référer au Centre de santé",
+   "label::bm": "Ka bila kata CSCOM la",
+   "appearance": "h1 blue",
+   "relevant": "${s_received_treatment} = 'no'"
+  },
+  {
+   "type": "select_one yes_no",
+   "name": "s_accompany_refer_cscom",
+   "label::en": "Did you accompany/refer the patient to health center ?",
+   "label::fr": "Avez-vous accompagné / référé le patient au centre de santé ?",
+   "label::bm": "I dara banabagatɔ kan walima i ye cisɛbɛn dama kataa kɛnɛyaso la wa ?",
+   "relevant": "${s_received_treatment} = 'no'"
+  },
+  {
+   "type": "note",
+   "name": "n_daily_followup_note",
+   "label::en": "Daily treatment follow-up will be triggered immediately after submitting this form.",
+   "label::fr": "Suivi",
+   "label::bm": "Kɔlɔsili",
+   "appearance": "h1 yellow"
+  },
+  {
+   "type": "note",
+   "name": "n_dayly_followup_note",
+   "label::en": "Weekly treatment follow-up will be triggered immediately after submitting this form.",
+   "label::fr": "Le suivi du traitement Journalier du patient sera déclenché immédiatement après la soumission de ce formulaire.",
+   "label::bm": "Kɔlɔsili bɛ na ni sɛbɛn cilen kɔfɛ",
+   "appearance": "li",
+   "relevant": "${s_received_treatment} = 'yes' and ${treatment_duration_in_days} < 14"
+  },
+  {
+   "type": "note",
+   "name": "n_chemoprev_followup_note",
+   "label::en": "Chemoprevention follow-up will be triggered immediately after submitting this form.",
+   "label::fr": "Le suivi de la chimio-prévention sera déclenché immédiatement après la soumission de ce formulaire.",
+   "label::bm": "Banabagatɔ ka chimio kɔlɔsili bɛ na ni sisan ni sɛbɛn cilen kɔfɛ",
+   "appearance": "li",
+   "relevant": "${s_treatment_action} = 'chemoprevention'"
+  },
+  {
+   "type": "note",
+   "name": "n_weekly_followup_note",
+   "label::en": "Weekly treatment follow-up will be triggered immediately after submitting this form.",
+   "label::fr": "Le suivi du traitement hebdomadaire du patient sera déclenché immédiatement après la soumission de ce formulaire.",
+   "label::bm": "Banabagatɔ ka dɔgɔkun kɔlɔsili bɛ na ni sisan ni sɛbɛn cilen kɔfɛ",
+   "appearance": "li",
+   "relevant": "${s_received_treatment} = 'yes' and ${treatment_duration_in_days} >= 14"
+  },
+  {
+   "type": "note",
+   "name": "n_no_followup_note",
+   "label::en": "There will be no follow-up for this patient",
+   "label::fr": "Il n'y aura pas de suivi pour ce patient",
+   "label::bm": "Il n'y aura pas de suivi pour ce patient",
+   "appearance": "li",
+   "relevant": "${tb_test_result} = 'neg' or ${s_treatment_action} = 'clinical_followup'"
+  },
+  {
+   "type": "note",
+   "name": "n_closure_note",
+   "label::en": "You have chosen to close this follow-up. When you submit this form there will be no more follow-up reminders for the patient.",
+   "label::fr": "Vous avez choisi de fermer ce suivi. Lorsque vous aurez soumis ce formulaire il n'y aura plus de rappels de suivi pour le patient.",
+   "label::bm": "I ye ni kɔlɔsili jɔ. Ni ye ni sɛbɛn bila kata kɔlɔsili wɛrɛ tɛ na ni banabagatɔ tɔgɔ la. | I sonna ma ka ni kɔlɔsili in kuncɛ. Ni ye sɛbɛn in ci, banabagatɔ tɛ se ka kɔlɔsili bilen",
+   "appearance": "li",
+   "relevant": "${s_task_to_perform} = 'close_out'"
+  },
+  {
+   "type": "note",
+   "name": "n_cscom_treatment",
+   "label::en": "This follow-up will be closed. A Treatment Follow-up form will open automatically. Please complete this form. ",
+   "label::fr": "Ce suivi sera fermé. Un formulaire de Suivi Traitement va automatiquement s'ouvrir. Veuiller remplir ce formulaire.",
+   "label::bm": "Ni kɔlɔsili bena jɔ. Kɔlɔsili kura bena daminɛ. O sɛbɛn lafa.",
+   "appearance": "li",
+   "relevant": "${s_received_treatment} = 'yes'"
+  },
+  {
+   "type": "end group"
+  }
+ ],
+ "choices": [
+  {
+   "list_name": "c_task_to_perform",
+   "name": "follow_up",
+   "label::en": "Followup",
+   "label::fr": "Suivi",
+   "label::bm": "Kɔlɔsili"
+  },
+  {
+   "list_name": "c_task_to_perform",
+   "name": "close_out",
+   "label::en": "Close out",
+   "label::fr": "Clôture",
+   "label::bm": "Kɔlɔsili bani walima a jɔli ASC fɛ"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "patient_died",
+   "label::en": "Patient has died",
+   "label::fr": "Le patient est décédé",
+   "label::bm": "Banabagatɔ fatura"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "transfer",
+   "label::en": "Patient transferred",
+   "label::fr": "Transfert du patient",
+   "label::bm": "Taara fan wɛrɛ fɛ"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "refusal_of_parent",
+   "label::en": "Parents refused for various reasons",
+   "label::fr": "Refus des parents pour divers raisons",
+   "label::bm": "Somɔgɔw ka ban ka da kun caman kan"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "loss_of_sight",
+   "label::en": "Loss of sight",
+   "label::fr": "Perte de vue",
+   "label::bm": "A ma ye "
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "not_evaluated",
+   "label::en": "Not evaluated",
+   "label::fr": "Non évalué",
+   "label::bm": "A ma kiimɛ"
+  },
+  {
+   "list_name": "c_why_close_out",
+   "name": "hospital",
+   "label::en": "Hospitalized patient",
+   "label::fr": "Patient hospitalisé",
+   "label::bm": "Banabagatɔ be hopital la"
+  },
+  {
+   "list_name": "yes_no",
+   "name": "yes",
+   "label::en": "Yes",
+   "label::fr": "Oui",
+   "label::bm": "Awɔ"
+  },
+  {
+   "list_name": "yes_no",
+   "name": "no",
+   "label::en": "No",
+   "label::fr": "Non",
+   "label::bm": "Ayi"
+  },
+  {
+   "list_name": "treatment_action",
+   "name": "chemoprevention",
+   "label::en": "Chemoprevention",
+   "label::fr": "Chimio-prévention",
+   "label::bm": "Chimio",
+   "filter1": "contact"
+  },
+  {
+   "list_name": "treatment_action",
+   "name": "test_tb",
+   "label::en": "Test for TB",
+   "label::fr": "Tester pour TB",
+   "label::bm": "TB sɛgɛsɛgɛli",
+   "filter1": "all"
+  },
+  {
+   "list_name": "treatment_action",
+   "name": "clinical_followup",
+   "label::en": "Simple clinical follow-up",
+   "label::fr": "Suivi clinique simple",
+   "label::bm": "Suivi clinique simple",
+   "filter1": "suspect"
+  },
+  {
+   "list_name": "no_chemoprev_reason",
+   "name": "stock_out",
+   "label::en": "Stock out",
+   "label::fr": "Rupture",
+   "label::bm": "A tɛ ye"
+  },
+  {
+   "list_name": "no_chemoprev_reason",
+   "name": "another_appointment_made",
+   "label::en": "Another appointment was made for the contact case",
+   "label::fr": "Un autre rendez vous à été donné au cas contact",
+   "label::bm": "RDV wɛrɛ dila a ma"
+  },
+  {
+   "list_name": "no_chemoprev_reason",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Kun wɛrɛ"
+  },
+  {
+   "list_name": "tb_result",
+   "name": "pos",
+   "label::en": "Positive",
+   "label::fr": "Positif",
+   "label::bm": "Positif (+)"
+  },
+  {
+   "list_name": "tb_result",
+   "name": "neg",
+   "label::en": "Negative",
+   "label::fr": "Négatif",
+   "label::bm": "Negatif (-)"
+  },
+  {
+   "list_name": "no_treatment_reason",
+   "name": "stock_out",
+   "label::en": "Stock out",
+   "label::fr": "Rupture",
+   "label::bm": "A tɛ ye"
+  },
+  {
+   "list_name": "no_treatment_reason",
+   "name": "other",
+   "label::en": "Other",
+   "label::fr": "Autre",
+   "label::bm": "Kun wɛrɛ"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "iud",
+   "label::en": "IUD (Intrauterine Device)",
+   "label::fr": "DIU (Stérilet)",
+   "label::bm": "Mununani telimani"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "implants",
+   "label::en": "Implant",
+   "label::fr": "Implants",
+   "label::bm": "Alimɛtini"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "sterilization_f",
+   "label::en": "Female sterilization",
+   "label::fr": "Stérilisation féminine",
+   "label::bm": "Wolonugu sirili"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "simple_pill",
+   "label::en": "Simple pill",
+   "label::fr": "Pilule simple",
+   "label::bm": "Pilule sen kelen"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "mini_pill",
+   "label::en": "Low dose pill",
+   "label::fr": "Pilule minidosée",
+   "label::bm": "Pilule sen fila"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "e_iud",
+   "label::en": "Emergency IUD",
+   "label::fr": "DIU d'urgence",
+   "label::bm": "Mununani telimani"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "condom_m",
+   "label::en": "Male condom",
+   "label::fr": "Préservatif masculin",
+   "label::bm": "Cɛw ka manani"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "lam",
+   "label::en": "MAMA method",
+   "label::fr": "Méthode MAMA",
+   "label::bm": "Sinji gɛrɛgɛrɛ dili den ma fo kalo wɔrɔ 6 (MAMA)"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "condom_f",
+   "label::en": "Female condom",
+   "label::fr": "Préservatif Féminin",
+   "label::bm": "Musow ka manani"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "injectable",
+   "label::en": "Injectable",
+   "label::fr": "Injectable",
+   "label::bm": "Pikirini"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "collier",
+   "label::en": "Necklace method",
+   "label::fr": "Collier",
+   "label::bm": "Kɔnɔkisɛni"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "sayana_press",
+   "label::en": "Sayana Press",
+   "label::fr": "Sayana Press",
+   "label::bm": "Sayana Press"
+  },
+  {
+   "list_name": "contraception_method",
+   "name": "morning_pill",
+   "label::en": "Morning after pill",
+   "label::fr": "Pillule du lendemain",
+   "label::bm": "Wotoro sen"
+  }
+ ],
+ "settings": [
+  {
+   "form_title": "TB CHW Result Task",
+   "form_id": "tb_test_result_chw",
+   "version": "=TEXT(NOW(),\"yyyy/mm/dd hh:mm:ss\")",
+   "instance_name": "${patient_name}",
+   "default_language": "fr",
+   "style": "pages",
+   "allow_choice_duplicates": "yes"
+  }
+ ]
+}

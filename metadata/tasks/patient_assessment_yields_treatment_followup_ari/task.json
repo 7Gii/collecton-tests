@@ -1,0 +1,43 @@
+{
+  "id": "6fb8d5c7-86aa-4ddf-badf-2660a217f188",
+  "name": "patient_assessment_yields_treatment_followup_ari",
+  "title": "Suivi traitement",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "8219fdee-27ca-4f75-9ef0-17a0335cd184",
+  "events": [
+    {
+      "id": "+1",
+      "dueDate": "due__1",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+2",
+      "dueDate": "due__2",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+3",
+      "dueDate": "due__3",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+5",
+      "dueDate": "due__5",
+      "startDays": 1,
+      "endDays": 3
+    }
+  ],
+  "forms": [
+    "patient_assessment"
+  ],
+  "resolvedIf": "resolvedIf",
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

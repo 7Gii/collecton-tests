@@ -1,0 +1,18 @@
+{
+  "id": "1a151b15-4617-44ef-89d3-ea5eb4d7458d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_malnutrition_cough",
+  "label": "L’enfant a-t-il de la toux ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

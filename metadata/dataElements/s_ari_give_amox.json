@@ -1,0 +1,18 @@
+{
+  "id": "95b62273-cd17-43b1-b059-86594cdf93bf",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ari_give_amox",
+  "label": "Avez-vous donné de l’Amoxiciline?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "7c2707e6-cbe8-4449-a994-032973094a20",
+  "name": "incorrect-vitamin-a-dose-chw-error",
+  "title": "Dose de vitamine A donnée par l'ASC incorrecte – Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target incorrect-vitamin-a-dose-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

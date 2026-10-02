@@ -1,0 +1,18 @@
+{
+  "id": "a0cd5a89-ccaf-4738-b1ee-5b2f0dcee8a6",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_no_chemoprev_reason",
+  "label": "Pourquoi ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "e628196b-883a-4922-b289-a5b42336d52d",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ab967a42-c19c-4cda-b119-3d6d243147bd",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_missed_period",
+  "label": "La patiente présente-t-elle un retard de règles de 6 semaines ou plus ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

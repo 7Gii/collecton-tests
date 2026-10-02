@@ -1,0 +1,35 @@
+{
+  "id": "096f3406-7d1e-4b0f-afdc-19bec6ff6e62",
+  "name": "c_how_disease_progressing",
+  "label": "c_how_disease_progressing",
+  "options": [
+    {
+      "id": "e76e9de3-c26d-419a-9b39-9e50374e6cd3",
+      "name": "Aggravée",
+      "value": "aggravated",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "a5b7022d-6807-42b2-932f-d68ace51845a",
+      "name": "Pas de changement",
+      "value": "no_change",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "4d560fbd-ba01-45a5-944d-6f4785712845",
+      "name": "Améliorée",
+      "value": "improved",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "53094a0a-a85d-43e7-8c84-99aa0c6a8a81",
+      "name": "Guéri",
+      "value": "cured",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

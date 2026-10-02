@@ -1,0 +1,18 @@
+{
+  "id": "11d65237-dcd4-48dd-8723-42eec2922367",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_not_give_albendazole_other",
+  "label": "Spécifier:",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

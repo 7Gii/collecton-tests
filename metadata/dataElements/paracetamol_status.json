@@ -1,0 +1,18 @@
+{
+  "id": "42368cb1-e993-47c0-9e5f-26271a4991cf",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "paracetamol_status",
+  "label": "paracetamol_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

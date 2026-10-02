@@ -1,0 +1,18 @@
+{
+  "id": "cc710361-9d64-4631-923d-bfebb71a0f3f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "sayana_press_disp",
+  "label": "sayana_press_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

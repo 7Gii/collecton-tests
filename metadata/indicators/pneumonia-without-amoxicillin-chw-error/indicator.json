@@ -1,0 +1,15 @@
+{
+  "id": "87c14203-7640-4aa2-b2d9-7cbe354e147f",
+  "name": "pneumonia-without-amoxicillin-chw-error",
+  "title": "Pneumonie sans administration d'amoxicilline - Erreur de l'ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target pneumonia-without-amoxicillin-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

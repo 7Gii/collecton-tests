@@ -1,0 +1,18 @@
+{
+  "id": "95e3adb2-b364-4d65-b05a-f397f80a2841",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "pregnancy_rdt",
+  "label": "pregnancy_rdt",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "0f22de69-c6ad-42f5-933d-253b2422eeed",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "plumpy_nut_status",
+  "label": "plumpy_nut_status",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

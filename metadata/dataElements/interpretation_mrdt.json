@@ -1,0 +1,18 @@
+{
+  "id": "0dc9d364-d5de-4baa-bf0c-5b270a651b80",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "interpretation_mrdt",
+  "label": "Résultat du TDR de l'ASC est :",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

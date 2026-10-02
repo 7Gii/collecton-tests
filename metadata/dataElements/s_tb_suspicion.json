@@ -1,0 +1,18 @@
+{
+  "id": "8f350cd2-cc7e-47c4-aac2-02373539dfac",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_tb_suspicion",
+  "label": "Conclusion : suspicion de tuberculose?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

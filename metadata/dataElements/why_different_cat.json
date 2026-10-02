@@ -1,0 +1,18 @@
+{
+  "id": "affe74c6-2367-4e15-b62a-409a65fa4fdb",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "why_different_cat",
+  "label": "Etes vous sûr de votre choix?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

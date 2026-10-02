@@ -1,0 +1,21 @@
+{
+  "id": "bf45e946-10f3-41bd-b301-a4cc566f3998",
+  "name": "patient_assessment_over_5__CAT",
+  "label": "patient_assessment_over_5__CAT",
+  "options": [
+    {
+      "id": "48bc2ab5-a399-41bd-b044-1d9f51d9fb8c",
+      "name": "Référer au centre de santé",
+      "value": "refer",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f010752e-1aba-4604-8c23-c25993b2f97c",
+      "name": "Mettre en observation",
+      "value": "watching",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

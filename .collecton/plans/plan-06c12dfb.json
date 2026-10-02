@@ -1,0 +1,42 @@
+{
+  "id": "plan-06c12dfb",
+  "kind": "org_unit_level",
+  "description": "Champs du niveau c20_health_area (README étape 2, champs validés : Identifiant externe, Notes, Géolocalisation, is_active)",
+  "spec": {
+    "title": "Zone de Santé",
+    "fields": [
+      {
+        "label": "Identifiant externe",
+        "dataType": "string"
+      },
+      {
+        "label": "Notes",
+        "dataType": "string"
+      },
+      {
+        "label": "Géolocalisation",
+        "dataType": "geopoint"
+      },
+      {
+        "label": "is_active",
+        "dataType": "string",
+        "condition": "jamais (champ caché, valeur par défaut true)"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T23:41:19.379Z",
+  "updatedAt": "2026-10-01T23:43:45.250Z",
+  "confirmation": "\"Oui, je confirme\" (5 plans d'ajout de champs aux niveaux)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ]
+}

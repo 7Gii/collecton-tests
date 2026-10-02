@@ -1,0 +1,18 @@
+{
+  "id": "da2e54ee-f8ae-41ad-a214-85c2ebe734d6",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_tb_type",
+  "label": "Quelle est la forme de la maladie?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "87ee1a12-5bfd-4a16-95b6-7120e0dc4c86",
+  "tags": []
+}

@@ -1,0 +1,234 @@
+{
+  "id": "508085ae-a0d9-442c-944a-f19467329c9d",
+  "name": "health_area_supervisor",
+  "label": "Superviseur zone de santé",
+  "icon": "symbol-id-card",
+  "orgUnitLevelId": "e7e1078e-f74e-493a-8457-77b96b40b9d7",
+  "attributes": [
+    {
+      "key": "80d147ef-a38e-40b6-830f-c4e052a1d6b9",
+      "title": "Identification",
+      "fields": [
+        {
+          "key": "person_name",
+          "label": "Nom",
+          "dataType": "string",
+          "dataElementId": "abb51cfa-d57b-4bee-af38-4ed22e2729fd",
+          "required": true
+        },
+        {
+          "key": "person_gender",
+          "label": "Sexe",
+          "dataType": "select_one",
+          "dataElementId": "17fea262-eed0-4a51-a00b-7d98cfbac120",
+          "required": true
+        },
+        {
+          "key": "birthdate",
+          "label": "Date de naissance",
+          "dataType": "date",
+          "dataElementId": "6198a2c5-6eea-408b-a8e2-a2198cdd4dca",
+          "calculationExpression": "birthdate"
+        },
+        {
+          "key": "person_is_deceased",
+          "label": "Décédé",
+          "dataType": "boolean",
+          "dataElementId": "b62d0731-213b-4924-a067-fc6976a78b78"
+        },
+        {
+          "key": "language",
+          "label": "Langue",
+          "dataType": "select_one",
+          "dataElementId": "c5533c7d-19ec-4294-99a0-fca932de823d",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "defaultValue": "fr"
+        },
+        {
+          "key": "date_of_birth_method",
+          "label": "Date de naissance indeterminée",
+          "dataType": "select_multiple",
+          "dataElementId": "be73f897-2b37-4a4c-a3bb-89e2a56c9c9a",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "dob_calendar",
+          "label": "Age",
+          "dataType": "date",
+          "dataElementId": "48c29ccf-cce9-4efc-b84e-5513883e7ee0",
+          "required": true,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "dobIsKnown",
+          "validationExpression": "dobNotInFuture"
+        },
+        {
+          "key": "age_years",
+          "label": "Age en annees",
+          "dataType": "integer",
+          "dataElementId": "0af51d9d-f3e8-47ac-bd81-f7bddc04153e",
+          "required": true,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "dobIsApprox",
+          "validationExpression": "ageYearsInRange"
+        },
+        {
+          "key": "age_months",
+          "label": "Age en mois",
+          "dataType": "integer",
+          "dataElementId": "ca2e98c6-528c-4c40-b0a0-4187a56213c3",
+          "required": true,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "dobIsApprox",
+          "validationExpression": "ageMonthsInRange",
+          "defaultValue": "0"
+        },
+        {
+          "key": "phone",
+          "label": "Numéro mobile primaire",
+          "dataType": "string",
+          "dataElementId": "43218f5e-7467-4768-b03d-8c0d2c644423",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "validationExpression": "phoneValid"
+        },
+        {
+          "key": "alternate_phone",
+          "label": "Numéro mobile secondaire",
+          "dataType": "string",
+          "dataElementId": "ad90609b-63bd-4d92-9c18-3f839e702006",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "validationExpression": "alternatePhoneValid"
+        },
+        {
+          "key": "is_active",
+          "label": "Actif",
+          "dataType": "string",
+          "dataElementId": "04a820ab-cfe3-41ab-9957-7950a5293d9f",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "(app) => false",
+          "defaultValue": "true"
+        },
+        {
+          "key": "stm_is_active",
+          "label": "Gestion des intrants",
+          "dataType": "select_one",
+          "dataElementId": "ab9edfaa-bc91-4c74-9f38-13adf3776dd9",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "(app) => false",
+          "defaultValue": "false"
+        },
+        {
+          "key": "role",
+          "label": "Rôle",
+          "dataType": "string",
+          "dataElementId": "6b3d71ea-a3de-4261-b06c-fb70b5bc5bc2",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "(app) => false",
+          "defaultValue": "health_area_supervisor"
+        },
+        {
+          "key": "geolocation",
+          "label": "Géolocalisation",
+          "dataType": "geopoint",
+          "dataElementId": "d343e1b7-40f2-40c6-84d1-642c16e364e2",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        }
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "key": "profile",
+      "title": "Profil",
+      "fields": [
+        {
+          "key": "age",
+          "label": "Age",
+          "value": "ageLabel"
+        },
+        {
+          "key": "phone",
+          "label": "Téléphone",
+          "value": "phoneValue"
+        },
+        {
+          "key": "sex",
+          "label": "Sexe",
+          "value": "sexLabel"
+        },
+        {
+          "key": "external_id",
+          "label": "ID du Patient",
+          "value": "externalIdValue"
+        },
+        {
+          "key": "parent",
+          "label": "Appartient à",
+          "value": "parentLineage"
+        },
+        {
+          "key": "role",
+          "label": "Rôle",
+          "value": "roleLabel"
+        }
+      ]
+    },
+    {
+      "key": "death",
+      "title": "Décès",
+      "displayExpression": "isDeceased",
+      "fields": [
+        {
+          "key": "date",
+          "label": "Date de décès",
+          "value": "deathUnknown"
+        },
+        {
+          "key": "place",
+          "label": "Lieu du décès",
+          "value": "deathUnknown"
+        }
+      ]
+    }
+  ]
+}

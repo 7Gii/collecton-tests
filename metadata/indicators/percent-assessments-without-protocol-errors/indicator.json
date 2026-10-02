@@ -1,0 +1,15 @@
+{
+  "id": "51c572f6-6a06-4e8d-9a6e-1ef9ca4b4c85",
+  "name": "percent-assessments-without-protocol-errors",
+  "title": "% des évaluations sans erreur de protocole",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target percent-assessments-without-protocol-errors"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

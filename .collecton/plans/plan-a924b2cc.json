@@ -1,0 +1,26 @@
+{
+  "id": "plan-a924b2cc",
+  "kind": "task",
+  "description": "Tâche patient_assessment_over_5_yields_tb_test_result_chw (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Résultat TB",
+    "after": "patient_assessment_over_5",
+    "opens": "tb_test_result_chw",
+    "delayDays": 4,
+    "condition": "tb_referral = true, rôle chw_uhc ; J+4, fenêtre 180 jours"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.511Z",
+  "updatedAt": "2026-10-02T01:28:59.521Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Résultat TB"
+    }
+  ],
+  "generated": [
+    "task: Résultat TB"
+  ]
+}

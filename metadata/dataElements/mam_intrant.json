@@ -1,0 +1,18 @@
+{
+  "id": "b8a9a87f-9fd4-4367-9262-be38822990c4",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "mam_intrant",
+  "label": "Intrant utilisé pour la MAM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "0825f8df-35fa-4ad9-bf8b-7a79f8aa92a2",
+  "tags": []
+}

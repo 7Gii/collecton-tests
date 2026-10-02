@@ -1,0 +1,18 @@
+{
+  "id": "d9fad74e-c85b-4e0a-8712-73659fd8fe18",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_child_temperature_pre_chw",
+  "label": "Quelle est la température du patient?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

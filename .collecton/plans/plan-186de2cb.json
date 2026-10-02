@@ -1,0 +1,26 @@
+{
+  "id": "plan-186de2cb",
+  "kind": "task",
+  "description": "Tâche severe_malnutrition_followup_yields_referral_followup_under_5 (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Suivi référence (moins de 5 ans)",
+    "after": "severe_malnutrition_followup",
+    "opens": "referral_followup_under_5",
+    "delayDays": 1,
+    "condition": "référence dans le suivi MAS ; J+1, J+2, J+3"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.391Z",
+  "updatedAt": "2026-10-02T01:28:59.330Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Suivi référence (moins de 5 ans)"
+    }
+  ],
+  "generated": [
+    "task: Suivi référence (moins de 5 ans)"
+  ]
+}

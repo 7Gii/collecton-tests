@@ -1,0 +1,21 @@
+{
+  "id": "b1749540-8e86-4782-a818-08254d06c659",
+  "name": "CAT_out_of_stock",
+  "label": "CAT_out_of_stock",
+  "options": [
+    {
+      "id": "681265df-5b45-4d82-8fe5-b977e229eb84",
+      "name": "Référence",
+      "value": "refer",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "471afb7c-0b7d-4021-82f7-3f435792cd2e",
+      "name": "Poursuivre le traitement à domicile",
+      "value": "continue_treatment",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

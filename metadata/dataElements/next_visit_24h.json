@@ -1,0 +1,18 @@
+{
+  "id": "a6975d77-a83a-40fe-9605-4fd77367c43b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "next_visit_24h",
+  "label": "next_visit_24h",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

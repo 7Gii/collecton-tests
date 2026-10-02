@@ -1,0 +1,18 @@
+{
+  "id": "5ae5b6e4-fe37-4176-a50b-152c5eb00c3b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "rc_code",
+  "label": "rc_code",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

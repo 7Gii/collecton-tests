@@ -1,0 +1,97 @@
+{
+  "id": "plan-6d50f952",
+  "kind": "person_type",
+  "description": "Type de personne stock_manager (Gestionnaire de stock) (README étape 3), liste validée le 02/10/2026",
+  "spec": {
+    "title": "Gestionnaire de stock",
+    "orgUnitLevel": "c20_health_area",
+    "fields": [
+      {
+        "label": "Langue",
+        "dataType": "select_one",
+        "options": [
+          "Anglais",
+          "Français",
+          "Bambara"
+        ]
+      },
+      {
+        "label": "Date de naissance indeterminée",
+        "dataType": "select_multiple",
+        "options": [
+          "Date de naissance indeterminée"
+        ]
+      },
+      {
+        "label": "Age",
+        "dataType": "date",
+        "required": true,
+        "condition": "date connue"
+      },
+      {
+        "label": "Age en annees",
+        "dataType": "integer",
+        "required": true,
+        "condition": "date indeterminée"
+      },
+      {
+        "label": "Age en mois",
+        "dataType": "integer",
+        "required": true,
+        "condition": "date indeterminée"
+      },
+      {
+        "label": "Numéro mobile primaire",
+        "dataType": "string"
+      },
+      {
+        "label": "Numéro mobile secondaire",
+        "dataType": "string"
+      },
+      {
+        "label": "Gestion des intrants",
+        "dataType": "select_one",
+        "options": [
+          "Oui",
+          "Non"
+        ]
+      },
+      {
+        "label": "is_active",
+        "dataType": "string",
+        "condition": "caché"
+      },
+      {
+        "label": "role",
+        "dataType": "string",
+        "condition": "caché"
+      },
+      {
+        "label": "Géolocalisation",
+        "dataType": "geopoint"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T23:53:17.019Z",
+  "updatedAt": "2026-10-01T23:53:45.020Z",
+  "confirmation": "\"Oui, je valide\" (liste des 8 types de personnes et de leurs champs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "person_type",
+      "name": "Gestionnaire de stock"
+    },
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ],
+  "generated": [
+    "person_type: Gestionnaire de stock"
+  ]
+}

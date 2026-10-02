@@ -1,0 +1,18 @@
+{
+  "id": "d6f8edcf-40d3-4e01-91c3-4a7b765d546e",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "female_condom_disp",
+  "label": "female_condom_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

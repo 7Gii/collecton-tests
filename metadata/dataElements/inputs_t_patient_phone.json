@@ -1,0 +1,18 @@
+{
+  "id": "2214ab6d-b767-4800-8a5e-26fd6637018a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_patient_phone",
+  "label": "inputs_t_patient_phone",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

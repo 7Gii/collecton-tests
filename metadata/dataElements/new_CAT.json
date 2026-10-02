@@ -1,0 +1,18 @@
+{
+  "id": "852c0de5-23d7-426f-97bb-868c9c992e28",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "new_CAT",
+  "label": "Quelle est votre conduite à tenir (CAT)?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "fa861816-006b-40be-a051-672817d809fa",
+  "tags": []
+}

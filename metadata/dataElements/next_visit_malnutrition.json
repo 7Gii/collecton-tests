@@ -1,0 +1,18 @@
+{
+  "id": "47d61c5f-619f-452c-9bec-7b66904d2bfb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "next_visit_malnutrition",
+  "label": "next_visit_malnutrition",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

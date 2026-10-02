@@ -1,0 +1,28 @@
+{
+  "id": "1f0eed5d-04c4-4915-8550-1f5193953faf",
+  "name": "tb_genexpert_result",
+  "label": "tb_genexpert_result",
+  "options": [
+    {
+      "id": "9fa77765-11f6-453f-8e21-2317913d64f2",
+      "name": "MTB non détecté",
+      "value": "no",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "3714d64b-3ba6-4459-abb4-3760192d7c2e",
+      "name": "MTB détecté ; Sensible à la RIF",
+      "value": "yes_rif_sensitive",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "39d0dcf4-1b9c-474e-b725-127d540482a2",
+      "name": "MTB détecté ; Résistant à la RIF",
+      "value": "yes_not_rif_sensitive",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

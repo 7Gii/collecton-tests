@@ -1,0 +1,18 @@
+{
+  "id": "249e2767-61da-40dc-be80-91ef0b7b096e",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "needs_signoff",
+  "label": "needs_signoff",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

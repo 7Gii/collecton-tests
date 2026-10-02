@@ -1,0 +1,21 @@
+{
+  "id": "0825f8df-35fa-4ad9-bf8b-7a79f8aa92a2",
+  "name": "mam_intrants",
+  "label": "Intrant utilisé pour la MAM",
+  "options": [
+    {
+      "id": "05c6db21-cdac-4107-b8fd-83bfb51762e5",
+      "name": "Plumpy sup",
+      "value": "plumpy",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "ac1fdee6-fcd1-4117-a016-c26d3dbe5643",
+      "name": "Farine enrichie",
+      "value": "flour",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

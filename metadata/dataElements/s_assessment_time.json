@@ -1,0 +1,18 @@
+{
+  "id": "c95ff97d-125f-40e2-9e22-205ad842784d",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_assessment_time",
+  "label": "A quel moment de la journée le patient a été évalué ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "d327cd3f-219c-4d5b-9df5-f4ab1c04ccf3",
+  "tags": []
+}

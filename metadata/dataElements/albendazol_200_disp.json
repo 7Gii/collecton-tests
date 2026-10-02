@@ -1,0 +1,18 @@
+{
+  "id": "9525dd5d-6a2a-4c3d-b3da-75916b448b6b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "albendazol_200_disp",
+  "label": "albendazol_200_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

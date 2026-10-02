@@ -1,0 +1,18 @@
+{
+  "id": "50748cd4-9c48-4514-aa92-99f7aa8e5617",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_acc_danger_sign_confusion",
+  "label": "Troubles de la conscience/confusion",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "40fc8a67-1b89-4b4c-9d01-a9bb9a1f5bc1",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_iron_folic",
+  "label": "Avez-vous donné le fer + acide folique ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "86954136-3f06-4ef9-8cdf-6f6a62fa7989",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_recovered_5",
+  "label": "Guérison du patient.5",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

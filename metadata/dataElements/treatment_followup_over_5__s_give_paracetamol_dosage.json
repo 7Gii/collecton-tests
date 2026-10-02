@@ -1,0 +1,18 @@
+{
+  "id": "ff10eee6-3981-4eba-b2f7-abd43dcded5e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "treatment_followup_over_5__s_give_paracetamol_dosage",
+  "label": "Quelle est la posologie?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "e2d476b4-1f5f-4439-8549-88ce1e63e84d",
+  "tags": []
+}

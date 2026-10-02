@@ -1,0 +1,35 @@
+{
+  "id": "8230971e-319e-4296-8217-867b27beaddc",
+  "name": "tb_case_type",
+  "label": "tb_case_type",
+  "options": [
+    {
+      "id": "14d09e3b-463f-4f4b-8743-8152040fd90a",
+      "name": "Nouveau cas",
+      "value": "new_case",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "3a33ea24-88b8-4fdd-9f5b-e051d187b772",
+      "name": "Rechute",
+      "value": "relapse",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "7e48fe42-9a00-403e-ae92-b2e44b59ef52",
+      "name": "Échec",
+      "value": "failure",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "61d6b36d-560d-41c2-b5f1-2c4e6ad30d11",
+      "name": "Reprise de traitement",
+      "value": "treatment_resumption",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

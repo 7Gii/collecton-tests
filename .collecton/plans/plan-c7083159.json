@@ -1,0 +1,24 @@
+{
+  "id": "plan-c7083159",
+  "kind": "org_unit_level",
+  "description": "contruit le programme (README étape 2 : niveau c10_site, Site)",
+  "spec": {
+    "title": "Site",
+    "name": "c10_site",
+    "level": 1
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T22:56:19.839Z",
+  "updatedAt": "2026-10-01T23:12:09.532Z",
+  "confirmation": "Niveaux : \"Oui, je confirme\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "org_unit_level",
+      "name": "Site"
+    }
+  ],
+  "generated": [
+    "org_unit_level: Site"
+  ]
+}

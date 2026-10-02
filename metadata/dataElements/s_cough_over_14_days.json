@@ -1,0 +1,18 @@
+{
+  "id": "12638ef4-c246-42f2-b8c7-1583a80b4f57",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_cough_over_14_days",
+  "label": "Toux de plus de 14 jours?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

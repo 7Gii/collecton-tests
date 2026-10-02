@@ -1,0 +1,26 @@
+{
+  "id": "plan-9a952e8f",
+  "kind": "indicator",
+  "description": "Indicateur sam-no-complete-treatment-first-day-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "MAS sans complication et pas de traitement complet et correct au premier jour du traitement - Erreur ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT sam-no-complete-treatment-first-day-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.398Z",
+  "updatedAt": "2026-10-02T01:46:05.678Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "MAS sans complication et pas de traitement complet et correct au premier jour du traitement - Erreur ASC"
+    }
+  ],
+  "generated": [
+    "indicator: MAS sans complication et pas de traitement complet et correct au premier jour du traitement - Erreur ASC"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "plan-5b0e96d1",
+  "kind": "indicator",
+  "description": "Indicateur incorrect-albendazole-dose-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "Dose d'Albendazole donnée par l'ASC incorrecte - Erreur ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT incorrect-albendazole-dose-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.371Z",
+  "updatedAt": "2026-10-02T01:46:05.672Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "Dose d'Albendazole donnée par l'ASC incorrecte - Erreur ASC"
+    }
+  ],
+  "generated": [
+    "indicator: Dose d'Albendazole donnée par l'ASC incorrecte - Erreur ASC"
+  ]
+}

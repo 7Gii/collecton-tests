@@ -1,0 +1,18 @@
+{
+  "id": "3cc06796-ae4d-488d-84e4-9c2cee2e8e40",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_other_relation_type",
+  "label": "Le type de lien?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

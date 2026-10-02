@@ -1,0 +1,21 @@
+{
+  "id": "5970b0c1-f13a-4b70-a97c-a29e26ac602a",
+  "name": "cht_yes_no",
+  "label": "Oui / Non",
+  "options": [
+    {
+      "id": "bc9a6012-ff0d-472d-b655-e644e022dc04",
+      "name": "Oui",
+      "value": "true",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "52d89a7e-4188-4ee2-b84e-83a84ef897af",
+      "name": "Non",
+      "value": "false",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

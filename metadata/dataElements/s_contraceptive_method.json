@@ -1,0 +1,18 @@
+{
+  "id": "3a2bcdbd-a5bf-4f35-95b2-94c342744648",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_contraceptive_method",
+  "label": "Quelle méthode?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "4e5962e7-27cd-4431-bb04-cb75bc8afe3d",
+  "tags": []
+}

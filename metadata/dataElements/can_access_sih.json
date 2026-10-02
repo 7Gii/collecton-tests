@@ -1,0 +1,18 @@
+{
+  "id": "fd34955c-b806-44a4-ab00-951b6b9046aa",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "can_access_sih",
+  "label": "can_access_sih",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

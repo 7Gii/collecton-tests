@@ -1,0 +1,18 @@
+{
+  "id": "68f37221-a1d4-4305-9f6a-ea45f28ccbd7",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "can_patient_show_id",
+  "label": "Est-ce que le patient peut montrer la carte d'étude physique",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "5970b0c1-f13a-4b70-a97c-a29e26ac602a",
+  "tags": []
+}

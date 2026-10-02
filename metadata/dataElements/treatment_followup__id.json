@@ -1,0 +1,18 @@
+{
+  "id": "8166986b-371a-42ce-ac98-f8bab19da4cd",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treatment_followup__id",
+  "label": "_id",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

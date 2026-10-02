@@ -1,0 +1,18 @@
+{
+  "id": "9063783a-c99a-44f0-a924-e9024b9ba16b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "shakir",
+  "label": "shakir",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

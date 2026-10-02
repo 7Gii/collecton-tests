@@ -1,0 +1,18 @@
+{
+  "id": "2cc34cca-836a-436b-b8f2-ca2f95b51044",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_person_type",
+  "label": "Type de personne",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "16c315c0-1778-46f1-b1dd-1b86a32700cb",
+  "tags": []
+}

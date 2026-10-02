@@ -1,0 +1,18 @@
+{
+  "id": "3264310a-8ce1-4dc7-986f-7a05b6b69899",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_artesunate_suppository_not_give_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

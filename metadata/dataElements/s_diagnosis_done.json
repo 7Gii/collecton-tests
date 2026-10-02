@@ -1,0 +1,18 @@
+{
+  "id": "fcbc9794-7640-4d08-bb2d-385f891907a0",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_diagnosis_done",
+  "label": "Est-ce que le bilan de diagnostic de la tuberculose a été fait?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

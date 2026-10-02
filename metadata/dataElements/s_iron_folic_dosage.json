@@ -1,0 +1,18 @@
+{
+  "id": "762f13f8-e468-473e-a0e0-f823ac20dc7b",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_iron_folic_dosage",
+  "label": "Quelle quantité ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "8db1115f-ec76-4e60-bce8-c19584ab8aa0",
+  "tags": []
+}

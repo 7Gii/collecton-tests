@@ -1,0 +1,18 @@
+{
+  "id": "37377c05-c176-45e8-83f1-0632da5fb630",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "severe_malnutrition_followup__s_given_dewormer_dosage",
+  "label": "Combien de comprimés ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "00945e13-b29f-48f0-8dc6-32f68918784f",
+  "tags": []
+}

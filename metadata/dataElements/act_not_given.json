@@ -1,0 +1,18 @@
+{
+  "id": "b718b828-0aa1-4041-a8b8-c5254c499874",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "act_not_given",
+  "label": "Pourquoi pas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "tags": []
+}

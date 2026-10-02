@@ -1,0 +1,18 @@
+{
+  "id": "094507de-76b7-4838-b12b-e20fd2cfe2d4",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_nutri_color_shakir",
+  "label": "Quelle est la couleur de la bande de shakir?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "1c367321-0e69-4ac4-b5dc-001784086fe7",
+  "tags": []
+}

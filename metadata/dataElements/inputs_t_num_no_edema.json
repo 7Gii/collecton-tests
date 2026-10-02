@@ -1,0 +1,18 @@
+{
+  "id": "a3b638a8-8b6b-4285-bc8d-9bcd201a4e9b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_num_no_edema",
+  "label": "inputs_t_num_no_edema",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

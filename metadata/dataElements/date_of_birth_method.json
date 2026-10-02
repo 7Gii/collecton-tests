@@ -1,0 +1,18 @@
+{
+  "id": "be73f897-2b37-4a4c-a3bb-89e2a56c9c9a",
+  "dataType": "select_multiple",
+  "organisation": "Muso",
+  "name": "date_of_birth_method",
+  "label": "Date de naissance indeterminée",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "7001b79b-89d7-471e-8af3-1345e82573dc",
+  "tags": []
+}

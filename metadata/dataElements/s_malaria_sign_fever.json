@@ -1,0 +1,18 @@
+{
+  "id": "1ce027e3-9fda-4d3d-b31c-0f399e5bffdb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_malaria_sign_fever",
+  "label": "Fièvre",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

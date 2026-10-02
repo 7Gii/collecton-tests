@@ -1,0 +1,228 @@
+{
+ "survey": [
+  {
+   "type": "begin group",
+   "name": "inputs",
+   "label::en": "Patient",
+   "label::bm": "Banabagatɔ ",
+   "relevant": "./source = 'user'",
+   "appearance": "field-list"
+  },
+  {
+   "type": "string",
+   "name": "source",
+   "label::en": "Source",
+   "label::bm": "Sababu",
+   "appearance": "hidden",
+   "default": "user"
+  },
+  {
+   "type": "string",
+   "name": "source_id",
+   "label::en": "Source ID",
+   "label::bm": "Lakodonni sababu(ID)",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "contact",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "db:person",
+   "name": "_id",
+   "label::en": "Health center",
+   "label::bm": "Banabagatɔ tɔgɔ ?",
+   "required": "yes",
+   "appearance": "db-object",
+   "hint::en": "Select a person from list"
+  },
+  {
+   "type": "string",
+   "name": "patient_id",
+   "label::en": "Patient ID",
+   "label::bm": "Banabagatɔ ka nimɔrɔ",
+   "appearance": "hidden"
+  },
+  {
+   "type": "string",
+   "name": "name",
+   "label::en": "Name",
+   "label::bm": "Jamu",
+   "appearance": "hidden"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "supervisor_area_uuid",
+   "label::fr": "supervisor_area_uuid",
+   "label::bm": "supervisor_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "health_area_uuid",
+   "label::fr": "health_area_uuid",
+   "label::bm": "health_area_uuid"
+  },
+  {
+   "type": "begin group",
+   "name": "parent",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "string",
+   "name": "_id",
+   "label::en": "site_uuid",
+   "label::fr": "site_uuid",
+   "label::bm": "site_uuid"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "begin group",
+   "name": "lineage",
+   "label::en": "NO_LABEL",
+   "label::fr": "NO_LABEL",
+   "label::bm": "NO_LABEL"
+  },
+  {
+   "type": "hidden",
+   "name": "c50_patient_uuid",
+   "label::en": "c50_patient_uuid",
+   "label::fr": "c50_patient_uuid",
+   "label::bm": "c50_patient_uuid"
+  },
+  {
+   "type": "hidden",
+   "name": "c50_family_uuid",
+   "label::en": "c50_family_uuid",
+   "label::fr": "c50_family_uuid",
+   "label::bm": "c50_family_uuid"
+  },
+  {
+   "type": "calculate",
+   "name": "c40_chw_area_uuid",
+   "label::en": "c40_chw_area_uuid",
+   "label::fr": "c40_chw_area_uuid",
+   "label::bm": "c40_chw_area_uuid",
+   "calculation": "../../inputs/contact/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c30_supervisor_area_uuid",
+   "label::en": "c30_supervisor_area_uuid",
+   "label::fr": "c30_supervisor_area_uuid",
+   "label::bm": "c30_supervisor_area_uuid",
+   "calculation": "../../inputs/contact/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c20_health_area_uuid",
+   "label::en": "c20_health_area_uuid",
+   "label::fr": "c20_health_area_uuid",
+   "label::bm": "c20_health_area_uuid",
+   "calculation": "../../inputs/contact/parent/parent/_id"
+  },
+  {
+   "type": "calculate",
+   "name": "c10_site_uuid",
+   "label::en": "c10_site_uuid",
+   "label::fr": "c10_site_uuid",
+   "label::bm": "c10_site_uuid",
+   "calculation": "../../inputs/contact/parent/parent/parent/_id"
+  },
+  {
+   "type": "end group"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_name",
+   "label::en": "Patient Name",
+   "label::bm": "Banabagatɔ ka Jamu",
+   "calculation": "../inputs/contact/name"
+  },
+  {
+   "type": "calculate",
+   "name": "patient_id",
+   "label::en": "Patient UUID",
+   "label::bm": "Banabagatɔ ka nimɔrɔ",
+   "calculation": "../inputs/contact/_id"
+  },
+  {
+   "type": "begin group",
+   "name": "tdr_mistake",
+   "label::en": "TDR mistake",
+   "label::fr": "Erreur du TDR ",
+   "label::bm": "TDR fili ",
+   "appearance": "field-list"
+  },
+  {
+   "type": "note",
+   "name": "redo_tdr",
+   "label::en": "Your supervisor has just found a TDR error for ${patient_name} . Please immediately re-evaluate this patient.",
+   "label::fr": "Votre Superviseur vient de trouver une erreur du TDR fait pour ${patient_name}. Veuillez immédiatement refaire l'évaluation de ce patient. ",
+   "label::bm": "I ka supɛriwizɛri ye fili ye ${patient_name} ka TDR jaabi la. A ɲinninen do i fɛ i ka segin TDR sɛgɛsɛgɛli kan."
+  },
+  {
+   "type": "end group"
+  }
+ ],
+ "choices": [
+  {
+   "list_name": "yes_no",
+   "name": "yes",
+   "label::en": "Yes",
+   "label::fr": "Oui",
+   "label::bm": "Awɔ"
+  },
+  {
+   "list_name": "yes_no",
+   "name": "no",
+   "label::en": "No",
+   "label::fr": "Non",
+   "label::bm": "Ayi"
+  }
+ ],
+ "settings": [
+  {
+   "form_title": "TDR à refaire ",
+   "form_id": "redo_tdr",
+   "version": "2018-03-06 00:00:00",
+   "style": "pages",
+   "path": "data",
+   "default_language": "fr"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "6e65c1b2-4be0-4db1-8cd7-20b70a70a7e3",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "next_visit_fr",
+  "label": "Prochaine visite",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

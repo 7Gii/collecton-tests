@@ -1,0 +1,18 @@
+{
+  "id": "bc20fdd4-248e-4e80-b6e7-811c0cee5a09",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_not_give_plumpy_nut_other",
+  "label": "Autre (Préciser):",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

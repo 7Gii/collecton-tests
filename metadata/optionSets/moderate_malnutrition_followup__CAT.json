@@ -1,0 +1,57 @@
+{
+  "id": "4ac1576f-f5a6-498e-ba15-301620611841",
+  "name": "moderate_malnutrition_followup__CAT",
+  "label": "moderate_malnutrition_followup__CAT",
+  "options": [
+    {
+      "id": "7b8c48c5-2ee5-42d3-9b9d-273a9672ae64",
+      "name": "Poursuivre le suivi",
+      "value": "continue_followup",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "continue_on"
+      }
+    },
+    {
+      "id": "180cd626-b1ed-47e3-af29-7216e5dde4df",
+      "name": "Guéri",
+      "value": "recovered",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "recovered_on"
+      }
+    },
+    {
+      "id": "fbbbec0a-c58f-4931-a66b-2ef12f17fe96",
+      "name": "Abandon",
+      "value": "abandoned",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "abandoned_on"
+      }
+    },
+    {
+      "id": "3081d542-e964-4c38-8b95-5abf7a3fb07a",
+      "name": "Référer au CSCOM sans arrêt de suivi",
+      "value": "refer_with_followup",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "refer_on"
+      }
+    },
+    {
+      "id": "b82b6901-f8fb-47d7-beaf-985bb8296999",
+      "name": "Référer au CSCOM avec arrêt de Suivi",
+      "value": "refer_with_no_followup",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "all"
+      }
+    }
+  ]
+}

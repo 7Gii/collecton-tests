@@ -1,0 +1,18 @@
+{
+  "id": "bffd1d97-5e17-4976-b528-78c72de35cb4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "use_plumpy_with_mam",
+  "label": "use_plumpy_with_mam",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a2e6105f-3ad0-49e7-b170-8b756d91cd7b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "concession",
+  "label": "Concession",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

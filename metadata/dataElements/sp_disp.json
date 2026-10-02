@@ -1,0 +1,18 @@
+{
+  "id": "70dafc16-556a-4c91-8391-206db33da7a1",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "sp_disp",
+  "label": "sp_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

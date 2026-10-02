@@ -1,0 +1,18 @@
+{
+  "id": "cf885c65-ad5d-4665-9542-98abf58c7ce8",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_acc_danger_sign_chest_pain",
+  "label": "Douleurs thoraciques",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

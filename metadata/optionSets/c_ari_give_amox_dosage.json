@@ -1,0 +1,21 @@
+{
+  "id": "ffd4a9b3-7164-4ff4-a8a0-960bddc3ed7b",
+  "name": "c_ari_give_amox_dosage",
+  "label": "c_ari_give_amox_dosage",
+  "options": [
+    {
+      "id": "6dd28c7c-ab93-4aa4-b510-a5e51c9377df",
+      "name": "5 ml 2 fois par jour",
+      "value": "5_ml_amox",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "66d43e79-a81f-4b9b-8964-99f64fd41a39",
+      "name": "10 ml 2 fois par jour",
+      "value": "10_ml_amox",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "655822d3-f554-46ed-8310-4b5517e7506e",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "diff_assess_date_report_date",
+  "label": "Différence entre date réelle de prise en charge et date du jour",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

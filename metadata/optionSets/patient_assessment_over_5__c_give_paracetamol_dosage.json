@@ -1,0 +1,87 @@
+{
+  "id": "e2d476b4-1f5f-4439-8549-88ce1e63e84d",
+  "name": "patient_assessment_over_5__c_give_paracetamol_dosage",
+  "label": "patient_assessment_over_5__c_give_paracetamol_dosage",
+  "options": [
+    {
+      "id": "e562c933-5d8e-436f-b2ab-b2e45aa5b4b2",
+      "name": "1/2 comprimé 3 fois par jour",
+      "value": "demi_tab_paracetamol_3x_a_day",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "many"
+      }
+    },
+    {
+      "id": "a5fd2fa8-6a72-4305-9f7d-7802b44184ed",
+      "name": "3/4 comprimé 3 fois par jour",
+      "value": "three_quarter_tab_paracetamol_3x_a_day",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "many"
+      }
+    },
+    {
+      "id": "19a708e3-632a-4285-8a42-759b3353939e",
+      "name": "1 comprimé 3 fois par jour",
+      "value": "one_tab_paracetamol_3x_a_day",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "many"
+      }
+    },
+    {
+      "id": "02bb2846-640d-4e55-a10c-5c37f0871ce7",
+      "name": "2 comprimés 3 fois par jour",
+      "value": "two_tab_paracetamol_3x_a_day",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "many"
+      }
+    },
+    {
+      "id": "f14520e2-2686-4c6d-a38e-cad83fc8e65e",
+      "name": "1/2 comprimé",
+      "value": "demi_tab_paracetamol_once",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "once"
+      }
+    },
+    {
+      "id": "983e1f3c-7303-4498-b922-abb1b36a4b78",
+      "name": "3/4 comprimé",
+      "value": "three_quarter_tab_paracetamol_once",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "once"
+      }
+    },
+    {
+      "id": "6affc342-31c4-49e8-a969-3d0db4357691",
+      "name": "1 comprimé",
+      "value": "one_tab_paracetamol_once",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "once"
+      }
+    },
+    {
+      "id": "1eb893de-659c-4c69-a035-b2e722cbf8f0",
+      "name": "2 comprimés",
+      "value": "two_tab_paracetamol_once",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "once"
+      }
+    }
+  ]
+}

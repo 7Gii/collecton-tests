@@ -1,0 +1,18 @@
+{
+  "id": "9efe3074-30f9-4077-95d4-c8eacc83d8bf",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "show_continue_value",
+  "label": "Contrôle l'affichage du CAT continue_followup",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "49515212-8581-4c23-897a-33471add8348",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_sex",
+  "label": "Sex du patient",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "14fc8ec1-e262-4421-b851-19037b3fbca8",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_postpartum_danger_sign",
+  "label": "has_postpartum_danger_sign",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

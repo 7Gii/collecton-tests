@@ -1,0 +1,18 @@
+{
+  "id": "27e81061-ac35-49ce-b7fd-c7569dc32102",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_diarrhea_not_give_ors_other",
+  "label": "Spécifier",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

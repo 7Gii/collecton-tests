@@ -1,0 +1,18 @@
+{
+  "id": "190e5cf4-352e-4dbe-bfb7-7743300e079d",
+  "dataType": "integer",
+  "organisation": "Muso",
+  "name": "s_ari_respiration_rate",
+  "label": "Quelles est la fréquence réspiratoire de l’enfant?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "plan-af03befc",
+  "kind": "indicator",
+  "description": "Indicateur uncomplicated-malaria-without-act-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "Paludisme simple sans administration de CTA - Erreur de l'ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT uncomplicated-malaria-without-act-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.305Z",
+  "updatedAt": "2026-10-02T01:46:05.659Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "Paludisme simple sans administration de CTA - Erreur de l'ASC"
+    }
+  ],
+  "generated": [
+    "indicator: Paludisme simple sans administration de CTA - Erreur de l'ASC"
+  ]
+}

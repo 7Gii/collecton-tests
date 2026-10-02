@@ -1,0 +1,18 @@
+{
+  "id": "59303891-08e2-419d-8721-43b17c70233e",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "simple_pill",
+  "label": "simple_pill",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

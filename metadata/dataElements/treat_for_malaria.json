@@ -1,0 +1,18 @@
+{
+  "id": "1e998804-fae9-4ea1-b205-57a3aab2b030",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_for_malaria",
+  "label": "treat_for_malaria",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

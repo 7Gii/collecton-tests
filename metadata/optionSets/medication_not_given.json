@@ -1,0 +1,21 @@
+{
+  "id": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "name": "medication_not_given",
+  "label": "medication_not_given",
+  "options": [
+    {
+      "id": "f31b8d51-fa96-48c1-be26-72fed01e8795",
+      "name": "Rupture de stock",
+      "value": "out_of_stock",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "46aeb470-6081-436d-bfa1-b5009048d57d",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

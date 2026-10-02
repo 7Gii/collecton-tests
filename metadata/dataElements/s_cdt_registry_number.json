@@ -1,0 +1,18 @@
+{
+  "id": "6ed432f4-c14c-4564-b554-2909e4180c72",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_cdt_registry_number",
+  "label": "N° dans le registre du CDT",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

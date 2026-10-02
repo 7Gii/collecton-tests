@@ -1,0 +1,18 @@
+{
+  "id": "4db67358-2aeb-4a61-88e0-e82755b94e4a",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_did_place_artemether_suppository",
+  "label": "Avez-vous placé l'Arthéméter suppo?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

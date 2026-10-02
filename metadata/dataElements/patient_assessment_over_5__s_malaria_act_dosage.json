@@ -1,0 +1,18 @@
+{
+  "id": "34066f7d-230f-467a-ab70-4fb7d2ed61ec",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_assessment_over_5__s_malaria_act_dosage",
+  "label": "Quelle quantité?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "29fcdfb2-5c01-46da-b238-184f6180171a",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2d374979-103b-4a06-8a9d-4b4c5fe22c2f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_child_morning_act",
+  "label": "Est-ce que la première prise de la journée a été faite?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

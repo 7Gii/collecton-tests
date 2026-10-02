@@ -1,0 +1,47 @@
+{
+  "id": "eceaf019-e58f-4e64-a6fe-5c9503b600ba",
+  "name": "c_dewormer_dosage",
+  "label": "c_dewormer_dosage",
+  "options": [
+    {
+      "id": "f3b15d25-151e-4747-abb6-464a3865352b",
+      "name": "1/2 comprimé",
+      "value": "half_tab",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "400mg"
+      }
+    },
+    {
+      "id": "63eeb056-d0d1-45ac-b85a-f31ed8157352",
+      "name": "1 comprimé",
+      "value": "one_tab",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "400mg"
+      }
+    },
+    {
+      "id": "d865d01e-b10e-4609-8688-a9a6fc7e0f18",
+      "name": "1 comprimé",
+      "value": "one_tab",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "200mg"
+      }
+    },
+    {
+      "id": "bb86dd1b-c2a5-4d13-9cb4-7ddf160355b1",
+      "name": "2 comprimés",
+      "value": "two_tab",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "200mg"
+      }
+    }
+  ]
+}

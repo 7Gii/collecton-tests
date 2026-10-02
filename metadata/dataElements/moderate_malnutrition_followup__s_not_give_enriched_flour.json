@@ -1,0 +1,18 @@
+{
+  "id": "fe14a3c4-5fbb-465a-b680-a598e121763a",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "moderate_malnutrition_followup__s_not_give_enriched_flour",
+  "label": "Pourquoi pas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "24479c97-2971-4fdd-9448-a4378b490977",
+  "tags": []
+}

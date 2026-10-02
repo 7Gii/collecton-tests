@@ -1,0 +1,15 @@
+{
+  "id": "825bdb4c-a70c-42c1-aa1b-e73b1fc4b9e7",
+  "name": "danger-signs-without-referral-chw-error",
+  "title": "Signe(s) de danger sans référence ou accompagnement au centre de santé de premier contact - Erreur de l'ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target danger-signs-without-referral-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

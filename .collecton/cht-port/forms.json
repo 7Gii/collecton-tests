@@ -1,0 +1,55 @@
+{
+ "patient_assessment": {
+  "title": "Evaluation des enfants jusqu’à 5 ans",
+  "showForm": "const isAlive = (person) => !(person?.attributes?.person_is_deceased === true || person?.attributes?.person_is_deceased === 'true');\nconst ageInYears = (person, now) => {\n  const dob = person?.attributes?.birthdate;\n  if (!dob) return null;\n  return (now - Date.parse(dob)) / (365.25 * 86400000);\n};\n\n/**\n * CHT properties.json: a living patient under 5, for a CHW (role chw_uhc, assigned to a\n * c40_chw_area). summary.muted has no equivalent (see ECARTS_CHT_COLLECTON.md).\n */\nexport function showForm(app) {\n  const person = app.person;\n  if (!person || person.personType !== 'patient' || !isAlive(person)) return false;\n  if (app.currentUser?.role?.name !== 'chw_uhc') return false;\n  const age = ageInYears(person, app.now);\n  return age === null || age < 5;\n}"
+ },
+ "patient_assessment_over_5": {
+  "title": "Evaluation des enfants à partir de 5 ans et des adultes",
+  "showForm": "const isAlive = (person) => !(person?.attributes?.person_is_deceased === true || person?.attributes?.person_is_deceased === 'true');\nconst ageInYears = (person, now) => {\n  const dob = person?.attributes?.birthdate;\n  if (!dob) return null;\n  return (now - Date.parse(dob)) / (365.25 * 86400000);\n};\n\n/**\n * CHT properties.json: a living patient of 5 or more, for a CHW (role chw_uhc, assigned to a\n * c40_chw_area). summary.muted has no equivalent (see ECARTS_CHT_COLLECTON.md).\n */\nexport function showForm(app) {\n  const person = app.person;\n  if (!person || person.personType !== 'patient' || !isAlive(person)) return false;\n  if (app.currentUser?.role?.name !== 'chw_uhc') return false;\n  const age = ageInYears(person, app.now);\n  return age === null || age >= 5;\n}"
+ },
+ "referral_followup": {
+  "title": "Suivi Référence adulte",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ },
+ "referral_followup_under_5": {
+  "title": "Suivi référence",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ },
+ "treatment_followup": {
+  "title": "Suivi Traitement à domicile",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ },
+ "treatment_followup_over_5": {
+  "title": "Suivi Traitement à domicile adulte",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ },
+ "moderate_malnutrition_followup": {
+  "title": "Suivi Malnutrition Aigue Modéré",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}",
+  "overrides": {
+   "next_visit_fr": {
+    "calculation": "if(number(${days_since_admission}) < number('28'),'Le prochain suivi sera dans 7 jours', if(number(${days_since_admission}) < number('84'),'Le prochain suivi sera dans 14 jours',''))"
+   }
+  }
+ },
+ "severe_malnutrition_followup": {
+  "title": "Suivi MAS sans complication",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ },
+ "notification_to_chw": {
+  "title": "Alerte erreur TDR",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ },
+ "redo_tdr": {
+  "title": "TDR à refaire",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ },
+ "tb_test_result_fp": {
+  "title": "Résultat TB (Point Focal)",
+  "showForm": "const isAlive = (person) => !(person?.attributes?.person_is_deceased === true || person?.attributes?.person_is_deceased === 'true');\nconst ageInYears = (person, now) => {\n  const dob = person?.attributes?.birthdate;\n  if (!dob) return null;\n  return (now - Date.parse(dob)) / (365.25 * 86400000);\n};\n\n/** CHT properties.json: any living person, for a TB focal point. */\nexport function showForm(app) {\n  return !!app.person && isAlive(app.person) && app.currentUser?.role?.name === 'tb_focal_point';\n}"
+ },
+ "tb_test_result_chw": {
+  "title": "Résultat TB",
+  "showForm": "/** CHT properties.json: not offered in the add menu, opened by its task only. */\nexport function showForm(app) {\n  return false;\n}"
+ }
+}

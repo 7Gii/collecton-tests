@@ -1,0 +1,24 @@
+{
+  "id": "plan-fc0d212b",
+  "kind": "org_unit_level",
+  "description": "contruit le programme (README étape 2 : niveau c50_family, Famille)",
+  "spec": {
+    "title": "Famille",
+    "name": "c50_family",
+    "level": 5
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T22:56:19.959Z",
+  "updatedAt": "2026-10-01T23:12:09.594Z",
+  "confirmation": "Niveaux : \"Oui, je confirme\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "org_unit_level",
+      "name": "Famille"
+    }
+  ],
+  "generated": [
+    "org_unit_level: Famille"
+  ]
+}

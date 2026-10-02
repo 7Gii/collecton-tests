@@ -1,0 +1,18 @@
+{
+  "id": "08afc17a-30c4-4017-8eb6-97a7e8193dd8",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_task_to_perform",
+  "label": "Quelle est la tâche à effectuer?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "abffa9f7-54f9-44b7-a5a5-6e9947aeb0a6",
+  "tags": []
+}

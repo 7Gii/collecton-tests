@@ -1,0 +1,18 @@
+{
+  "id": "cd14821c-6f53-4cdc-8c05-e41dd525ecc0",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "no_tdr_done_bm",
+  "label": "no_tdr_done_bm",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

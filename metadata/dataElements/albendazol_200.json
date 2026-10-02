@@ -1,0 +1,18 @@
+{
+  "id": "9a83b871-c3fc-4e83-ad88-fa2266ec46f7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "albendazol_200",
+  "label": "albendazol_200",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

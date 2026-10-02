@@ -1,0 +1,18 @@
+{
+  "id": "f3889951-2b4e-4e62-992f-07473851cfb7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "rif_resistant_1",
+  "label": "rif_resistant_1",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

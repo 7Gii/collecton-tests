@@ -1,0 +1,18 @@
+{
+  "id": "3f1ff612-fd70-439b-96f2-f44ed287479b",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_diarrhea_give_ors",
+  "label": "Avez-vous donné du SRO?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

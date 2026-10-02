@@ -1,0 +1,32 @@
+{
+  "id": "plan-a23f1738",
+  "kind": "role",
+  "description": "Rôle stock_manager (README étape 4), validé le 02/10/2026",
+  "spec": {
+    "title": "Gestionnaire de stock",
+    "orgUnitLevel": "c20_health_area",
+    "permissions": [
+      "permission_view_tasks",
+      "permission_view_people",
+      "permission_view_reports",
+      "permission_edit_report",
+      "permission_automatic_sync",
+      "permission_manual_sync"
+    ],
+    "dataScope": "La branche de la zone de santé affectée."
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T00:03:20.639Z",
+  "updatedAt": "2026-10-02T00:03:42.200Z",
+  "confirmation": "\"Oui, je valide\" (5 rôles) ; modifier ce qui est créé : \"Oui (Recommended)\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "role",
+      "name": "Gestionnaire de stock"
+    }
+  ],
+  "generated": [
+    "role: Gestionnaire de stock"
+  ]
+}

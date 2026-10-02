@@ -1,0 +1,18 @@
+{
+  "id": "ab38af6b-b65b-4636-aed7-cab3899f4c8a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_num_measles",
+  "label": "inputs_t_num_measles",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

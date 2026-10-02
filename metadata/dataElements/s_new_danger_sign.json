@@ -1,0 +1,18 @@
+{
+  "id": "e9e03efa-4bf8-44f3-bf1c-fc0dacb9d541",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_new_danger_sign",
+  "label": "Est-ce que il y a une nouvelle symptomatique?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

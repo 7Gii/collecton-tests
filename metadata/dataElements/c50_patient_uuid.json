@@ -1,0 +1,18 @@
+{
+  "id": "a44f59cf-1222-4bca-9c1e-f5dd2d4c0ae3",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c50_patient_uuid",
+  "label": "c50_patient_uuid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

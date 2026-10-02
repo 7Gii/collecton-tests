@@ -1,0 +1,18 @@
+{
+  "id": "80eb0ef2-82fd-4e8e-95e5-6cdc4710b8dd",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "person_type",
+  "label": "Qui voulez-vous enregistrer?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "c545a89d-4c70-457c-a114-2c355380b9ea",
+  "tags": []
+}

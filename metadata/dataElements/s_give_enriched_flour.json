@@ -1,0 +1,18 @@
+{
+  "id": "d421c6a7-29fc-4539-87bd-45219c175516",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_enriched_flour",
+  "label": "Avez-vous donné la farine enrichie?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

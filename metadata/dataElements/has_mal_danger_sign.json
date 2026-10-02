@@ -1,0 +1,18 @@
+{
+  "id": "ae185b12-6536-4d78-955a-6570c849d216",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_mal_danger_sign",
+  "label": "has_mal_danger_sign",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

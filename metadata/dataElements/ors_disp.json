@@ -1,0 +1,18 @@
+{
+  "id": "d605efa3-85e7-41cd-b825-f20b1aa30ac7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "ors_disp",
+  "label": "ors_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

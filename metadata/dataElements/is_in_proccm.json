@@ -1,0 +1,18 @@
+{
+  "id": "b77ba4b5-4388-46c7-b474-7f7b64243fb0",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "is_in_proccm",
+  "label": "Zone ProCCM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "5970b0c1-f13a-4b70-a97c-a29e26ac602a",
+  "tags": []
+}

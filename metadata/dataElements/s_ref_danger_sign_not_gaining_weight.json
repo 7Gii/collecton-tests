@@ -1,0 +1,18 @@
+{
+  "id": "10b442aa-3bbf-43b7-b5b4-85cb91d9a718",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ref_danger_sign_not_gaining_weight",
+  "label": "Age de l’enfant inférieur à 6 mois sur une notion d’absence de prise de poids",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

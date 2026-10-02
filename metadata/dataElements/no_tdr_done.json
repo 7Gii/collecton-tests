@@ -1,0 +1,18 @@
+{
+  "id": "4397c8fc-8955-438a-bb1f-fec4415dca4b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "no_tdr_done",
+  "label": "Raison de non TDR",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

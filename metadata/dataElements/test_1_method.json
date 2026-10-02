@@ -1,0 +1,18 @@
+{
+  "id": "5130a0b3-1ac8-4232-a647-1814457407a3",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "test_1_method",
+  "label": "Avec quelle méthode ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "6221d53b-82e7-4e62-aa1e-d31739589485",
+  "tags": []
+}

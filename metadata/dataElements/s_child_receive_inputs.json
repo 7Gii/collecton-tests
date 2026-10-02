@@ -1,0 +1,18 @@
+{
+  "id": "79436267-e1fc-414f-8154-81db82fe0f0f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_child_receive_inputs",
+  "label": "Est ce que l'enfant a reçu les intrants pour la semaine?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

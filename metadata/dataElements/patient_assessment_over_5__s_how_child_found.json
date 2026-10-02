@@ -1,0 +1,18 @@
+{
+  "id": "020595da-98fe-48a7-bb89-f46f4f131d53",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "patient_assessment_over_5__s_how_child_found",
+  "label": "Comment le patient a été trouvé par l’ASC?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "c6bb765d-075c-43cb-beb8-690140cee4e5",
+  "tags": []
+}

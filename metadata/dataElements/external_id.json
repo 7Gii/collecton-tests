@@ -1,0 +1,18 @@
+{
+  "id": "a94a55f4-2a21-44e2-8d48-dcd94ca441f8",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "external_id",
+  "label": "Identifiant externe",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

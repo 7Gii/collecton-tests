@@ -1,0 +1,18 @@
+{
+  "id": "53c70e4b-15f8-4074-936f-82a1263405c8",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_vitaminA",
+  "label": "Avez-vous donné de la vitamine A?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "7cff8cc9-56ed-44ad-a1be-5de7f7385a0e",
+  "name": "c_nutri_give_albendazole_dosage",
+  "label": "c_nutri_give_albendazole_dosage",
+  "options": [
+    {
+      "id": "8319e2a8-22da-45b5-b023-050f2ca5bce0",
+      "name": "½ comprimé",
+      "value": "half_tab_albendazole",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "400_mg_albendazole"
+      }
+    },
+    {
+      "id": "265788f6-dc52-4b1a-b895-38a766ecb755",
+      "name": "1 comprimé",
+      "value": "1_tab_albendazole",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "all"
+      }
+    },
+    {
+      "id": "4007f688-da08-4293-b06c-e627eacac7b4",
+      "name": "2 comprimés",
+      "value": "2_tab_albendazole",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "200_mg_albendazole"
+      }
+    }
+  ]
+}

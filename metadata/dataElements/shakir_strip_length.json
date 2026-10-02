@@ -1,0 +1,18 @@
+{
+  "id": "48373289-b879-485d-b6dc-984b9bea0bdf",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "shakir_strip_length",
+  "label": "Périmètre branchial (PB)",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

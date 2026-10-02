@@ -1,0 +1,18 @@
+{
+  "id": "405d57d6-96c6-4e52-a46a-5224924e08f1",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "chw_selected_computed_cat",
+  "label": "L'ASC a choisi le CAT que l'application",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

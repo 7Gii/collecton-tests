@@ -1,0 +1,18 @@
+{
+  "id": "a338a1fb-4d98-436f-ae3b-8818245789d5",
+  "dataType": "date",
+  "organisation": "Muso",
+  "name": "s_assess_date",
+  "label": "Entrez la date d'évaluation du patient",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

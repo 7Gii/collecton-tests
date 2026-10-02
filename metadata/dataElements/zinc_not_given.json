@@ -1,0 +1,18 @@
+{
+  "id": "d2027c31-005d-4c5f-a424-a91e8c5288b3",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "zinc_not_given",
+  "label": "Pourquoi pas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "53883c16-f730-4444-8d3a-ae90c0eb7fdc",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "observe",
+  "label": "observe",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

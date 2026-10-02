@@ -1,0 +1,68 @@
+{
+  "id": "89d0deae-9d9b-4f4f-87f6-02d381e53eb5",
+  "name": "patient_assessment_yields_moderate_malnutrition_followup",
+  "title": "Suivi MAM",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "person",
+  "actionFormId": "6a99dccf-cb42-4630-89d2-48bd46143c5b",
+  "events": [
+    {
+      "id": "reported_date+7",
+      "dueDate": "due_reported_date_7",
+      "startDays": 2,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+14",
+      "dueDate": "due_reported_date_14",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+21",
+      "dueDate": "due_reported_date_21",
+      "startDays": 0,
+      "endDays": 6
+    },
+    {
+      "id": "reported_date+28",
+      "dueDate": "due_reported_date_28",
+      "startDays": 0,
+      "endDays": 13
+    },
+    {
+      "id": "reported_date+42",
+      "dueDate": "due_reported_date_42",
+      "startDays": 0,
+      "endDays": 13
+    },
+    {
+      "id": "reported_date+56",
+      "dueDate": "due_reported_date_56",
+      "startDays": 0,
+      "endDays": 13
+    },
+    {
+      "id": "reported_date+70",
+      "dueDate": "due_reported_date_70",
+      "startDays": 0,
+      "endDays": 13
+    },
+    {
+      "id": "reported_date+84",
+      "dueDate": "due_reported_date_84",
+      "startDays": 0,
+      "endDays": 14
+    }
+  ],
+  "personTypes": [
+    "patient"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 2,
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

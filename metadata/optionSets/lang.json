@@ -1,0 +1,28 @@
+{
+  "id": "4b8b4447-42e3-41a1-a0bf-ba9939b88382",
+  "name": "lang",
+  "label": "Langue",
+  "options": [
+    {
+      "id": "ff3431a9-2910-43d6-b352-bbe7f2e76ae5",
+      "name": "Anglais",
+      "value": "en",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "3495541a-f4c7-4206-bb33-be13a77922b3",
+      "name": "Français",
+      "value": "fr",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "4430abb4-2602-4a89-8da1-28648d7a601b",
+      "name": "Bambara",
+      "value": "bm",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

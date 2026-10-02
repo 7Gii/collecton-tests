@@ -1,0 +1,15 @@
+{
+  "id": "c62735c8-9248-4d1b-b87d-9dee46919619",
+  "name": "home_visits",
+  "title": "Visite à domicile",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target home_visits"
+  ],
+  "goalExpression": "",
+  "type": "number",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

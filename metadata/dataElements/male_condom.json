@@ -1,0 +1,18 @@
+{
+  "id": "6320aafd-0504-431a-94f5-2b51b589ad02",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "male_condom",
+  "label": "male_condom",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "efa6164e-0ad8-40c2-ba8b-d6955a04411d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_MAM_with_flour",
+  "label": "Traiter la Malnutrition Aigue Moderée avec la farine enrichie",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

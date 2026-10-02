@@ -1,0 +1,18 @@
+{
+  "id": "1f01fe5e-914a-465a-bca6-fec326f4762c",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_iron_folic_type",
+  "label": "Quelle forme?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "3d29998f-110f-4422-b988-253300294a01",
+  "tags": []
+}

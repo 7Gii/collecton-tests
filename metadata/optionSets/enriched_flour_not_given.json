@@ -1,0 +1,28 @@
+{
+  "id": "24479c97-2971-4fdd-9448-a4378b490977",
+  "name": "enriched_flour_not_given",
+  "label": "enriched_flour_not_given",
+  "options": [
+    {
+      "id": "0849addb-704e-4f06-82d5-18519fd1ff37",
+      "name": "Rupture de stock",
+      "value": "out_of_stock",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "441df406-1181-4428-9af5-e673575216c1",
+      "name": "L'enfant ne veut pas la farine enrichie",
+      "value": "child_rejected_enriched_flour",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "58eb0c41-5918-4f3b-a6c1-9d07e0472d20",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

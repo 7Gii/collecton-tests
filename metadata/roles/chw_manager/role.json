@@ -1,0 +1,16 @@
+{
+  "id": "14ab0b2f-b565-4176-9708-143bbef3a193",
+  "name": "chw_manager",
+  "label": "Responsable des ASCs",
+  "orgUnitLevelId": "71d1d3ac-adfd-4e3b-b7ba-c18d0610bdb3",
+  "permissions": [
+    "permission_deferred_collection",
+    "permission_view_tasks",
+    "permission_view_people",
+    "permission_view_reports",
+    "permission_view_indicators",
+    "permission_edit_report",
+    "permission_automatic_sync",
+    "permission_manual_sync"
+  ]
+}

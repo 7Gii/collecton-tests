@@ -1,0 +1,18 @@
+{
+  "id": "4cd742e9-b2d6-49c0-b777-efad1acb5c49",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "visited_contact_uuid",
+  "label": "visited_contact_uuid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

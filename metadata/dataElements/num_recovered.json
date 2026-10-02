@@ -1,0 +1,18 @@
+{
+  "id": "f07f12ac-3e3c-4c0e-bff2-0b6f5e5fa8f4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "num_recovered",
+  "label": "Nombre de fois le patient déclaré guéri",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

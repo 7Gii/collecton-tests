@@ -1,0 +1,18 @@
+{
+  "id": "8a36b53c-e39e-4a09-bbab-de1934bbb673",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "ref_danger_sign_weight_loss_en",
+  "label": "ref_danger_sign_weight_loss_en",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

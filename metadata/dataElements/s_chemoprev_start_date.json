@@ -1,0 +1,18 @@
+{
+  "id": "0d8794a6-c35f-4ad4-b32d-6fc2845d927f",
+  "dataType": "date",
+  "organisation": "Muso",
+  "name": "s_chemoprev_start_date",
+  "label": "Date du début de prise de la chimio-prévention",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1c367321-0e69-4ac4-b5dc-001784086fe7",
+  "name": "c_nutri_color_shakir",
+  "label": "c_nutri_color_shakir",
+  "options": [
+    {
+      "id": "b68488d0-5b52-4803-91ce-5f625a6f6f13",
+      "name": "Vert",
+      "value": "Green",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "dc144dd6-6ac3-4907-8683-5b6004ebafe6",
+      "name": "Jaune",
+      "value": "Yellow",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "a30f67c7-25a3-4dce-9519-d37ffa5285bc",
+      "name": "Rouge",
+      "value": "Red",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "5f9dc839-1ec0-4d53-89cf-4947e44c6d08",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_child_taking_amox",
+  "label": "L'enfant prend-t-il de l'Amoxiciline?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

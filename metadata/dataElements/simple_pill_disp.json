@@ -1,0 +1,18 @@
+{
+  "id": "d6bc953e-871d-40e3-8f56-f659384ad557",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "simple_pill_disp",
+  "label": "simple_pill_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

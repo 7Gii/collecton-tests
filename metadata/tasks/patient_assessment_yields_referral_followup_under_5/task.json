@@ -1,0 +1,38 @@
+{
+  "id": "19909502-ce72-4c21-aa38-052446072ae1",
+  "name": "patient_assessment_yields_referral_followup_under_5",
+  "title": "Suivi référence (moins de 5 ans)",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "064cdaf4-9668-46fa-a900-5541c4c79d65",
+  "events": [
+    {
+      "id": "+1",
+      "dueDate": "due__1",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+2",
+      "dueDate": "due__2",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+3",
+      "dueDate": "due__3",
+      "startDays": 0,
+      "endDays": 0
+    }
+  ],
+  "forms": [
+    "patient_assessment"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 1,
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

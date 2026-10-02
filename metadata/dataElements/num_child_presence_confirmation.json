@@ -1,0 +1,18 @@
+{
+  "id": "fe3bb8ce-8615-4c9d-b342-b988dfc82407",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "num_child_presence_confirmation",
+  "label": "Nombre de présence de l’enfant",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

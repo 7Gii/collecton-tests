@@ -1,0 +1,15 @@
+{
+  "id": "74ddd790-7a2a-40c3-965a-f10486041e6e",
+  "name": "uncomplicated-diarrhea-without-zinc-chw-error",
+  "title": "Diarrhée simple sans administration de zinc - Erreur de l'ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target uncomplicated-diarrhea-without-zinc-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

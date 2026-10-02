@@ -1,0 +1,18 @@
+{
+  "id": "bc424547-d817-4946-99ed-6d1a418c85cb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "dewormer_dosage_label",
+  "label": "dewormer_dosage_label",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

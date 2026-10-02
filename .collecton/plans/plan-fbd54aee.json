@@ -1,0 +1,26 @@
+{
+  "id": "plan-fbd54aee",
+  "kind": "task",
+  "description": "Tâche patient_assessment_yields_moderate_malnutrition_followup (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Suivi MAM",
+    "after": "patient_assessment",
+    "opens": "moderate_malnutrition_followup",
+    "delayDays": 7,
+    "condition": "dernière évaluation avec treat_MAM = true de moins de 97 jours ; J+7, 14, 21, 28, 42, 56, 70, 84"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.471Z",
+  "updatedAt": "2026-10-02T01:28:59.468Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Suivi MAM"
+    }
+  ],
+  "generated": [
+    "task: Suivi MAM"
+  ]
+}

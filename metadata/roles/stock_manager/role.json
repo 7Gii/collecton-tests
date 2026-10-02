@@ -1,0 +1,15 @@
+{
+  "id": "a98eda43-acfb-4da5-ad71-1fc4a44b5ab2",
+  "name": "stock_manager",
+  "label": "Gestionnaire de stock",
+  "orgUnitLevelId": "e7e1078e-f74e-493a-8457-77b96b40b9d7",
+  "permissions": [
+    "permission_deferred_collection",
+    "permission_view_tasks",
+    "permission_view_people",
+    "permission_view_reports",
+    "permission_edit_report",
+    "permission_automatic_sync",
+    "permission_manual_sync"
+  ]
+}

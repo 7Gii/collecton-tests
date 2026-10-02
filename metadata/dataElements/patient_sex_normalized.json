@@ -1,0 +1,18 @@
+{
+  "id": "3b0f8984-3023-4804-ad97-1d8d45282d78",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "patient_sex_normalized",
+  "label": "patient_sex_normalized",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

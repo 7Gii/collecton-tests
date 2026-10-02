@@ -1,0 +1,18 @@
+{
+  "id": "2affd06c-1253-448b-9255-df1891ea11a1",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "followup_date",
+  "label": "followup_date",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

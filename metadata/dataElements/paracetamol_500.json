@@ -1,0 +1,18 @@
+{
+  "id": "d94b5285-20d5-42f5-9588-766aaae8c10b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "paracetamol_500",
+  "label": "paracetamol_500",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

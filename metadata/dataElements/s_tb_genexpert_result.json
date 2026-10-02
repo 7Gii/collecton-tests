@@ -1,0 +1,18 @@
+{
+  "id": "69a440a0-232f-4c9f-9bd2-a262e91e0902",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_tb_genexpert_result",
+  "label": "Quel est le résultat du test GeneXpert?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "1f0eed5d-04c4-4915-8550-1f5193953faf",
+  "tags": []
+}

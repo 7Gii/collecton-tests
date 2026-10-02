@@ -1,0 +1,39 @@
+{
+  "id": "plan-de21dfd8",
+  "kind": "role",
+  "description": "Rôle chw_uhc (README étape 4), validé le 02/10/2026",
+  "spec": {
+    "title": "ASC Couverture de Santé Universelle",
+    "orgUnitLevel": "c40_chw_area",
+    "permissions": [
+      "permission_view_tasks",
+      "permission_view_people",
+      "permission_view_reports",
+      "permission_view_indicators",
+      "permission_edit_report",
+      "permission_create_chw",
+      "permission_edit_chw",
+      "permission_create_patient",
+      "permission_edit_patient",
+      "permission_create_c50_family",
+      "permission_edit_c50_family",
+      "permission_automatic_sync",
+      "permission_manual_sync"
+    ],
+    "dataScope": "La branche de la zone d'ASC affectée."
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T00:03:20.587Z",
+  "updatedAt": "2026-10-02T00:03:42.160Z",
+  "confirmation": "\"Oui, je valide\" (5 rôles) ; modifier ce qui est créé : \"Oui (Recommended)\"",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "role",
+      "name": "ASC Couverture de Santé Universelle"
+    }
+  ],
+  "generated": [
+    "role: ASC Couverture de Santé Universelle"
+  ]
+}

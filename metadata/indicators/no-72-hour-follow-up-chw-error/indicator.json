@@ -1,0 +1,15 @@
+{
+  "id": "ba033e56-aed8-4e3d-9a08-6b4eaa9d5795",
+  "name": "no-72-hour-follow-up-chw-error",
+  "title": "Pas de suivi de 72H - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target no-72-hour-follow-up-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

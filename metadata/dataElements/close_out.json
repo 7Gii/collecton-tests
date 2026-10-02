@@ -1,0 +1,18 @@
+{
+  "id": "830c92f8-b3ac-4308-aba8-7796cf7ec7b4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "close_out",
+  "label": "Clôture",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

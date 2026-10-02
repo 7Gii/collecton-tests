@@ -1,0 +1,18 @@
+{
+  "id": "5ea5e5e8-402a-4018-a6d4-d70f188b9870",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "c40_chw_area_uuid",
+  "label": "c40_chw_area_uuid",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

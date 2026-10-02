@@ -1,0 +1,18 @@
+{
+  "id": "78e41a3e-668c-4e7d-b55a-1206367a9924",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_tb_sign",
+  "label": "has_tb_sign",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

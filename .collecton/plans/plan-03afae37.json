@@ -1,0 +1,26 @@
+{
+  "id": "plan-03afae37",
+  "kind": "task",
+  "description": "Tâche patient_assessment_over_5_yields_tb_test_result_fp (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Résultat TB (Point Focal)",
+    "after": "patient_assessment_over_5",
+    "opens": "tb_test_result_fp",
+    "delayDays": 0,
+    "condition": "tb_referral = true, CSCOM du rapport = CSCOM du point focal de la zone, rôle tb_focal_point ; J+0, fenêtre 30 jours"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.491Z",
+  "updatedAt": "2026-10-02T01:28:59.504Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Résultat TB (Point Focal)"
+    }
+  ],
+  "generated": [
+    "task: Résultat TB (Point Focal)"
+  ]
+}

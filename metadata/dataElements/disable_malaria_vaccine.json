@@ -1,0 +1,18 @@
+{
+  "id": "dadc44ee-faf6-497a-90ff-06028520ba80",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "disable_malaria_vaccine",
+  "label": "Désactiver le vaccin contre le paludisme",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "5970b0c1-f13a-4b70-a97c-a29e26ac602a",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "55ea0580-c191-495b-a23c-76ecc1c13528",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_malnutrition_summary",
+  "label": "has_malnutrition_summary",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

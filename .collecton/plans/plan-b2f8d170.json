@@ -1,0 +1,26 @@
+{
+  "id": "plan-b2f8d170",
+  "kind": "task",
+  "description": "Tâche patient_assessment_over_5_yields_treatment_followup_over_5 (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Suivi traitement",
+    "after": "patient_assessment_over_5",
+    "opens": "treatment_followup_over_5",
+    "delayDays": 1,
+    "condition": "referral != true et treat_malaria = true ; J+1, J+2, J+3"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.462Z",
+  "updatedAt": "2026-10-02T01:28:59.456Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Suivi traitement"
+    }
+  ],
+  "generated": [
+    "task: Suivi traitement"
+  ]
+}

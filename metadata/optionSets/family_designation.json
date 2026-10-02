@@ -1,0 +1,70 @@
+{
+  "id": "3e01ed1c-91ca-4665-a56f-b5d640dbe680",
+  "name": "family_designation",
+  "label": "Relation avec le chef du ménage",
+  "options": [
+    {
+      "id": "06fa0fb6-80dc-433d-b394-e806eeddf0c7",
+      "name": "Epoux",
+      "value": "Epoux",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "afaee712-cb6b-4fab-9e46-e185369a7bb0",
+      "name": "Frère/Soeur",
+      "value": "Frere/Soeur",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "2a245d43-794d-43ef-945c-48409f017122",
+      "name": "Fils/Fille",
+      "value": "Fils/Fille",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "1de7cb7f-c564-43e6-9e57-89fef25e1090",
+      "name": "Petit-fils/Petite-fille",
+      "value": "Petit-fils/petite-fille",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "7212caed-b851-4be4-a28a-90f1ac9f7886",
+      "name": "Cousin/Cousine",
+      "value": "Cousin/Cousine",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "b36baab6-98a8-49b4-9d8a-4479d3eeafc9",
+      "name": "Neveu/Nièce",
+      "value": "Neuveu/Niece",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "fd80b6b8-ab6d-4736-9e00-ac08871f517e",
+      "name": "Père/Mère",
+      "value": "Pere/Mere",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "6468f90d-fb24-4b1c-9aca-f57ec43f037b",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "ce06b6b1-7fcd-409a-bc8b-83b3f7804969",
+      "name": "Aucun",
+      "value": "none",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

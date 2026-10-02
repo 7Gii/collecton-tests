@@ -1,0 +1,15 @@
+{
+  "id": "133ca736-d8e7-44a4-af97-a4a3567a679f",
+  "name": "fever-present-malaria-rdt-not-performed-chw-error",
+  "title": "Présence de fièvre (température mesurée supérieur ou égal à 37,5), TDR paludisme pas réalisé - Erreur de l'ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target fever-present-malaria-rdt-not-performed-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

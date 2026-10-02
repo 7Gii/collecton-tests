@@ -1,0 +1,18 @@
+{
+  "id": "d00b7ba6-b92d-4c01-8ff3-104c33f88718",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_no_chemoprev_reason_other",
+  "label": "A preciser :",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,134 @@
+{
+  "id": "f4772855-4e90-44cf-8165-c46b34c5df6a",
+  "name": "c30_supervisor_area",
+  "label": "Zone du Superviseur",
+  "icon": "layout-group",
+  "level": 3,
+  "attributes": [
+    {
+      "key": "cf0ce8df-7b65-4fbf-b565-fe4bdb267c79",
+      "title": "Identification",
+      "fields": [
+        {
+          "key": "ou_name",
+          "label": "Nom",
+          "dataType": "string",
+          "dataElementId": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+          "required": true
+        },
+        {
+          "key": "external_id",
+          "label": "Identifiant externe",
+          "dataType": "string",
+          "dataElementId": "a94a55f4-2a21-44e2-8d48-dcd94ca441f8",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "notes",
+          "label": "Notes",
+          "dataType": "string",
+          "dataElementId": "16560381-064d-4463-9c79-d20716ab5d4b",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "geolocation",
+          "label": "Géolocalisation",
+          "dataType": "geopoint",
+          "dataElementId": "d343e1b7-40f2-40c6-84d1-642c16e364e2",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "is_active",
+          "label": "Actif",
+          "dataType": "string",
+          "dataElementId": "04a820ab-cfe3-41ab-9957-7950a5293d9f",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "(app) => false",
+          "defaultValue": "true"
+        },
+        {
+          "key": "stm_is_active",
+          "label": "Gestion des intrants",
+          "dataType": "select_one",
+          "dataElementId": "ab9edfaa-bc91-4c74-9f38-13adf3776dd9",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "defaultValue": "false"
+        }
+      ]
+    },
+    {
+      "key": "cc46c1bb-a245-4c11-9b61-543f08dc8886",
+      "title": "Centre de santé lié",
+      "fields": [
+        {
+          "key": "s_site",
+          "label": "Site",
+          "dataType": "select_one",
+          "dataElementId": "0d35b2d6-ab8a-436c-a0c6-693f655a03fa",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "s_ha",
+          "label": "Zone de Santé",
+          "dataType": "select_one",
+          "dataElementId": "475254bc-6844-4a0d-a46a-1e044b853cb7",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "optionFilter": "(app) => app.option.properties?.site === app.currentForm?.s_site"
+        },
+        {
+          "key": "s_cscom_areas",
+          "label": "Centre de santé",
+          "dataType": "select_multiple",
+          "dataElementId": "f8c4de6e-ea94-4105-a87b-194829f25694",
+          "required": true,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "optionFilter": "(app) => app.option.properties?.ha === app.currentForm?.s_ha"
+        }
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "key": "profile",
+      "title": "Profil",
+      "fields": [
+        {
+          "key": "parent",
+          "label": "Appartient à",
+          "value": "parentLineage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "1623e129-e424-45b7-8f46-5eb744711152",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_malaria_tdr_not_done_other",
+  "label": "Specifiez autre:",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

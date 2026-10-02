@@ -1,0 +1,18 @@
+{
+  "id": "bdc27463-bad6-4da0-86bd-7f545fdbf3ab",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_malnutrition",
+  "label": "Traiter pour Malnutrition",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

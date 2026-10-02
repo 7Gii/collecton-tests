@@ -1,0 +1,18 @@
+{
+  "id": "1cb77474-d345-4693-a25b-9848ba31d8ce",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_shakir_strip_color",
+  "label": "Quelle est la couleur retenue pour la bande de shakir?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "476f01d1-f1e9-402f-a719-8c005315d32d",
+  "tags": []
+}

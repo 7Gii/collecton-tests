@@ -1,0 +1,18 @@
+{
+  "id": "1f276c02-6cf2-4485-8879-12124596f2e4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_SAM_without_complication",
+  "label": "Traiter la Malnutrition Aigue Sévère sans complication",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

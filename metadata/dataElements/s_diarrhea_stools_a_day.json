@@ -1,0 +1,18 @@
+{
+  "id": "ce49e26d-31cb-4e37-b209-5779048de6bb",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_diarrhea_stools_a_day",
+  "label": "Le nombre de selles dépasse-t-il 3 fois par jour?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

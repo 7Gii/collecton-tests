@@ -1,0 +1,18 @@
+{
+  "id": "29ce9e0f-d34d-4a12-bdee-6bfdb5e477ce",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_chw_name",
+  "label": "inputs_chw_name",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

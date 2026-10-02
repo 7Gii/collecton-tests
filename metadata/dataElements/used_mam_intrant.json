@@ -1,0 +1,18 @@
+{
+  "id": "2f972a3b-7586-4121-8667-a97e42d17db4",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "used_mam_intrant",
+  "label": "used_mam_intrant",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

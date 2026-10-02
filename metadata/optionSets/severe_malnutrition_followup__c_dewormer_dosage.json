@@ -1,0 +1,21 @@
+{
+  "id": "00945e13-b29f-48f0-8dc6-32f68918784f",
+  "name": "severe_malnutrition_followup__c_dewormer_dosage",
+  "label": "severe_malnutrition_followup__c_dewormer_dosage",
+  "options": [
+    {
+      "id": "e905315e-abfb-4486-ab97-093634ea94e2",
+      "name": "1/2 comprimé",
+      "value": "half_tab",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "8af38137-3dfd-4552-8fbf-249f2cf682cf",
+      "name": "1 comprimé",
+      "value": "one_tab",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

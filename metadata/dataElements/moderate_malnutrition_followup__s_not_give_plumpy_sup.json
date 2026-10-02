@@ -1,0 +1,18 @@
+{
+  "id": "0cdce5b6-606f-4316-ba70-6412ebfeff03",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "moderate_malnutrition_followup__s_not_give_plumpy_sup",
+  "label": "Pourquoi pas ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "468b7998-890a-4d0e-bfc8-d9d920c12582",
+  "tags": []
+}

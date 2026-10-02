@@ -1,0 +1,18 @@
+{
+  "id": "912dd1ec-3c8a-4f73-be05-1f655252d9ee",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_nutri_shakir_strip_length",
+  "label": "s_nutri_shakir_strip_length",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

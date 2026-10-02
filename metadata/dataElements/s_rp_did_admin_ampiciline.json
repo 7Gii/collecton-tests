@@ -1,0 +1,18 @@
+{
+  "id": "51b56af6-a61a-40cd-9827-492fdd5e7dd2",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_rp_did_admin_ampiciline",
+  "label": "Avez-vous administré l'Ampiciline?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

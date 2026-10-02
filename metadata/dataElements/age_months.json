@@ -1,0 +1,18 @@
+{
+  "id": "ca2e98c6-528c-4c40-b0a0-4187a56213c3",
+  "dataType": "integer",
+  "organisation": "Muso",
+  "name": "age_months",
+  "label": "Age en mois",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

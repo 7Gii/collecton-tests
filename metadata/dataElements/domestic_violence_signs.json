@@ -1,0 +1,18 @@
+{
+  "id": "5ba81863-124a-4b0a-8439-60fab84f3575",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "domestic_violence_signs",
+  "label": "Symptômes de violence conjugale",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

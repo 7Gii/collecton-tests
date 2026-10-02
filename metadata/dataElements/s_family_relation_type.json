@@ -1,0 +1,18 @@
+{
+  "id": "3f9378e7-bfbe-4e42-ad2f-1037bdc5e276",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_family_relation_type",
+  "label": "Le type de lien de parenté?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "3eab2cb2-e93b-491d-b614-c0daede551fc",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_how_child_found_other",
+  "label": "Spécifiez autre",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

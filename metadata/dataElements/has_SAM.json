@@ -1,0 +1,18 @@
+{
+  "id": "8bf30418-2d60-4639-8ce8-02f944da3ada",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "has_SAM",
+  "label": "has_SAM",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

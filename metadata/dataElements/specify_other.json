@@ -1,0 +1,18 @@
+{
+  "id": "065131e7-faf2-4015-aa67-d9fd8deecc51",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "specify_other",
+  "label": "Spécifier :",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

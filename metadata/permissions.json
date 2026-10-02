@@ -48,75 +48,243 @@
     "description": "Allows the user to perform manual synchronization."
   },
   {
-    "id": "27d19c9a-cb80-415f-88ce-43a0c194781f",
-    "name": "permission_create_pays",
-    "label": "Create Pays",
-    "description": "Allows creating a new 'Pays'."
+    "id": "15192210-7e8c-44ed-900f-fbf692da9fa5",
+    "name": "permission_deferred_collection",
+    "label": "Deferred Collection",
+    "description": "Allows the user to enter data at another date than today (app clock), marked deferred."
   },
   {
-    "id": "74ecfd24-de52-45a9-993a-efe8bd6b5476",
-    "name": "permission_edit_pays",
-    "label": "Edit Pays",
-    "description": "Allows editing an existing 'Pays'."
+    "id": "b84719b0-36a8-4cc2-98c7-92d26d5e256e",
+    "name": "permission_create_c10_site",
+    "label": "Create Site",
+    "description": "Allows creating a new 'Site'."
   },
   {
-    "id": "bb8e4b0b-230f-4001-8240-4e49d4ede2ea",
-    "name": "permission_delete_pays",
-    "label": "Delete Pays",
-    "description": "Allows deleting a 'Pays'."
+    "id": "c04e50b5-9dcc-402d-a9a2-8de6f13ee779",
+    "name": "permission_edit_c10_site",
+    "label": "Edit Site",
+    "description": "Allows editing an existing 'Site'."
   },
   {
-    "id": "9b2ec595-983e-48b5-9f86-edc7521affde",
-    "name": "permission_create_ville",
-    "label": "Create Ville",
-    "description": "Allows creating a new 'Ville'."
+    "id": "7714504e-864d-4195-ae07-aa6c70510cd8",
+    "name": "permission_delete_c10_site",
+    "label": "Delete Site",
+    "description": "Allows deleting a 'Site'."
   },
   {
-    "id": "3b54702c-0a9b-4ff6-ad9c-3063ce42eb4d",
-    "name": "permission_edit_ville",
-    "label": "Edit Ville",
-    "description": "Allows editing an existing 'Ville'."
+    "id": "118b7435-42e1-4231-b6e5-edfde3e69c95",
+    "name": "permission_create_c20_health_area",
+    "label": "Create Zone de Santé",
+    "description": "Allows creating a new 'Zone de Santé'."
   },
   {
-    "id": "90438639-c49c-418e-9ff9-33e841cf8a60",
-    "name": "permission_delete_ville",
-    "label": "Delete Ville",
-    "description": "Allows deleting a 'Ville'."
+    "id": "1febdaae-1560-49f8-85b2-f7e6b155e7a9",
+    "name": "permission_edit_c20_health_area",
+    "label": "Edit Zone de Santé",
+    "description": "Allows editing an existing 'Zone de Santé'."
   },
   {
-    "id": "1fce7c55-1efb-4276-90bc-578c93d73a9f",
-    "name": "permission_create_menage",
-    "label": "Create Ménage",
-    "description": "Allows creating a new 'Ménage'."
+    "id": "78345c1e-90e4-4739-b58f-a588bf1d97da",
+    "name": "permission_delete_c20_health_area",
+    "label": "Delete Zone de Santé",
+    "description": "Allows deleting a 'Zone de Santé'."
   },
   {
-    "id": "d75e242e-5376-40d9-98cc-2baba21b8059",
-    "name": "permission_edit_menage",
-    "label": "Edit Ménage",
-    "description": "Allows editing an existing 'Ménage'."
+    "id": "5c32bb03-648f-4d7a-b8dc-d645881d09cd",
+    "name": "permission_create_c30_supervisor_area",
+    "label": "Create Zone du Superviseur",
+    "description": "Allows creating a new 'Zone du Superviseur'."
   },
   {
-    "id": "4d8e6f60-eda9-4d97-9f4e-802d5f86188c",
-    "name": "permission_delete_menage",
-    "label": "Delete Ménage",
-    "description": "Allows deleting a 'Ménage'."
+    "id": "0f3bfab3-c2ed-428f-8cbe-e87dbc39a079",
+    "name": "permission_edit_c30_supervisor_area",
+    "label": "Edit Zone du Superviseur",
+    "description": "Allows editing an existing 'Zone du Superviseur'."
   },
   {
-    "id": "a4b51775-1ae4-4ed8-a9a1-471ffab698b5",
-    "name": "permission_create_femme",
-    "label": "Create Femme",
-    "description": "Allows creating a new 'Femme'."
+    "id": "cfae8cef-caeb-44f3-a04d-c1155291f7c9",
+    "name": "permission_delete_c30_supervisor_area",
+    "label": "Delete Zone du Superviseur",
+    "description": "Allows deleting a 'Zone du Superviseur'."
   },
   {
-    "id": "dfaab8fd-8bba-46ca-9348-e5bf3174575b",
-    "name": "permission_edit_femme",
-    "label": "Edit Femme",
-    "description": "Allows editing an existing 'Femme'."
+    "id": "c99c5750-6719-4b0e-ad5f-8170a3411410",
+    "name": "permission_create_c40_chw_area",
+    "label": "Create Zone de l'ASC",
+    "description": "Allows creating a new 'Zone de l'ASC'."
   },
   {
-    "id": "5f585f1a-5a90-4b36-bd81-fbded64f5be9",
-    "name": "permission_delete_femme",
-    "label": "Delete Femme",
-    "description": "Allows deleting a 'Femme'."
+    "id": "e4656498-80b1-44e7-bf15-5f504f537351",
+    "name": "permission_edit_c40_chw_area",
+    "label": "Edit Zone de l'ASC",
+    "description": "Allows editing an existing 'Zone de l'ASC'."
+  },
+  {
+    "id": "727da0a4-b666-4f04-9a76-bc2d56321ba1",
+    "name": "permission_delete_c40_chw_area",
+    "label": "Delete Zone de l'ASC",
+    "description": "Allows deleting a 'Zone de l'ASC'."
+  },
+  {
+    "id": "1068b054-0842-4488-a9fb-c6d2595d095d",
+    "name": "permission_create_c50_family",
+    "label": "Create Famille",
+    "description": "Allows creating a new 'Famille'."
+  },
+  {
+    "id": "604fd0e6-3a5a-48d5-a10e-f1bcf793c3c5",
+    "name": "permission_edit_c50_family",
+    "label": "Edit Famille",
+    "description": "Allows editing an existing 'Famille'."
+  },
+  {
+    "id": "355be12c-dcb1-4cd2-b22f-2ae45583adc0",
+    "name": "permission_delete_c50_family",
+    "label": "Delete Famille",
+    "description": "Allows deleting a 'Famille'."
+  },
+  {
+    "id": "a14494ec-4e6c-466b-8743-5741da88e2e5",
+    "name": "permission_create_patient",
+    "label": "Create Patient",
+    "description": "Allows creating a new 'Patient'."
+  },
+  {
+    "id": "0f8aa67d-bcc0-41b7-ab0a-d3943e0816ee",
+    "name": "permission_edit_patient",
+    "label": "Edit Patient",
+    "description": "Allows editing an existing 'Patient'."
+  },
+  {
+    "id": "60694cec-e704-4a29-89e4-03ba42ae9efd",
+    "name": "permission_delete_patient",
+    "label": "Delete Patient",
+    "description": "Allows deleting a 'Patient'."
+  },
+  {
+    "id": "4e0e61a2-a0fa-443e-8882-eeb2315fd2a1",
+    "name": "permission_create_chw",
+    "label": "Create ASC",
+    "description": "Allows creating a new 'ASC'."
+  },
+  {
+    "id": "de7fd03c-b0b5-4df1-ae00-928b64a0fc65",
+    "name": "permission_edit_chw",
+    "label": "Edit ASC",
+    "description": "Allows editing an existing 'ASC'."
+  },
+  {
+    "id": "bb595c2f-3912-45ee-b83b-958feccb4e30",
+    "name": "permission_delete_chw",
+    "label": "Delete ASC",
+    "description": "Allows deleting a 'ASC'."
+  },
+  {
+    "id": "c8c52fde-17af-497e-9ec0-77f7c7a9c3ed",
+    "name": "permission_create_chw_supervisor",
+    "label": "Create Superviseur",
+    "description": "Allows creating a new 'Superviseur'."
+  },
+  {
+    "id": "47471b2a-4a0c-4c37-97f8-8e9feffcd410",
+    "name": "permission_edit_chw_supervisor",
+    "label": "Edit Superviseur",
+    "description": "Allows editing an existing 'Superviseur'."
+  },
+  {
+    "id": "270bd719-9061-41e5-91ef-3995358c812b",
+    "name": "permission_delete_chw_supervisor",
+    "label": "Delete Superviseur",
+    "description": "Allows deleting a 'Superviseur'."
+  },
+  {
+    "id": "77ae0b05-e2a2-4b48-b6e6-8a09e917e89e",
+    "name": "permission_create_health_area_supervisor",
+    "label": "Create Superviseur zone de santé",
+    "description": "Allows creating a new 'Superviseur zone de santé'."
+  },
+  {
+    "id": "9d720e65-b85c-4566-8f07-b61e8493f126",
+    "name": "permission_edit_health_area_supervisor",
+    "label": "Edit Superviseur zone de santé",
+    "description": "Allows editing an existing 'Superviseur zone de santé'."
+  },
+  {
+    "id": "b0a92ef3-9a5d-4ddf-8744-96d874d519cf",
+    "name": "permission_delete_health_area_supervisor",
+    "label": "Delete Superviseur zone de santé",
+    "description": "Allows deleting a 'Superviseur zone de santé'."
+  },
+  {
+    "id": "fa7d9d7b-947e-4df9-9ddb-3c2dd25a7b81",
+    "name": "permission_create_tb_focal_point",
+    "label": "Create Point Focal TB",
+    "description": "Allows creating a new 'Point Focal TB'."
+  },
+  {
+    "id": "7b36ffcf-71fc-4f4b-9912-0fba628e9467",
+    "name": "permission_edit_tb_focal_point",
+    "label": "Edit Point Focal TB",
+    "description": "Allows editing an existing 'Point Focal TB'."
+  },
+  {
+    "id": "f8b8b940-0a4d-49ef-98a0-5961097a3c1f",
+    "name": "permission_delete_tb_focal_point",
+    "label": "Delete Point Focal TB",
+    "description": "Allows deleting a 'Point Focal TB'."
+  },
+  {
+    "id": "daa69bf0-d68f-469c-95b1-e5325b75f901",
+    "name": "permission_create_stock_manager",
+    "label": "Create Gestionnaire de stock",
+    "description": "Allows creating a new 'Gestionnaire de stock'."
+  },
+  {
+    "id": "445ae871-c21c-4fcc-9138-463086815c91",
+    "name": "permission_edit_stock_manager",
+    "label": "Edit Gestionnaire de stock",
+    "description": "Allows editing an existing 'Gestionnaire de stock'."
+  },
+  {
+    "id": "7b93ea55-a687-425d-b406-469ef8005074",
+    "name": "permission_delete_stock_manager",
+    "label": "Delete Gestionnaire de stock",
+    "description": "Allows deleting a 'Gestionnaire de stock'."
+  },
+  {
+    "id": "ba7165dc-cb23-489e-acc5-03330c0d0615",
+    "name": "permission_create_site_supervisor",
+    "label": "Create Superviseur de site",
+    "description": "Allows creating a new 'Superviseur de site'."
+  },
+  {
+    "id": "05d5c624-fd3f-4af7-88cf-964bab8fc473",
+    "name": "permission_edit_site_supervisor",
+    "label": "Edit Superviseur de site",
+    "description": "Allows editing an existing 'Superviseur de site'."
+  },
+  {
+    "id": "2dafd6ba-0aba-41f0-9b27-2dd3c9c7e0e0",
+    "name": "permission_delete_site_supervisor",
+    "label": "Delete Superviseur de site",
+    "description": "Allows deleting a 'Superviseur de site'."
+  },
+  {
+    "id": "be95c255-29a4-4e0f-9d84-4fc6dc6a36ba",
+    "name": "permission_create_chw_manager",
+    "label": "Create Responsable des ASC",
+    "description": "Allows creating a new 'Responsable des ASC'."
+  },
+  {
+    "id": "9b34b2bc-18fc-4559-bae4-1fc7a48932ee",
+    "name": "permission_edit_chw_manager",
+    "label": "Edit Responsable des ASC",
+    "description": "Allows editing an existing 'Responsable des ASC'."
+  },
+  {
+    "id": "899e906e-d8d4-455a-a69d-c4a40cf6bab6",
+    "name": "permission_delete_chw_manager",
+    "label": "Delete Responsable des ASC",
+    "description": "Allows deleting a 'Responsable des ASC'."
   }
 ]

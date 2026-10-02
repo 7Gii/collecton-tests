@@ -1,0 +1,15 @@
+{
+  "id": "c9436872-715d-444f-be52-9456aa76ceb7",
+  "name": "incorrect-amoxicillin-dose-chw-error",
+  "title": "Dose d'amoxicilline donnée par l'ASC incorrecte - Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target incorrect-amoxicillin-dose-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

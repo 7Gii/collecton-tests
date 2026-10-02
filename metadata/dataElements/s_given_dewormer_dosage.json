@@ -1,0 +1,18 @@
+{
+  "id": "238921d3-dc3f-4a59-924e-7927f29ad2fb",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_given_dewormer_dosage",
+  "label": "Combien de comprimés ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "eceaf019-e58f-4e64-a6fe-5c9503b600ba",
+  "tags": []
+}

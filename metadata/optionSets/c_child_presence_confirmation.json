@@ -1,0 +1,28 @@
+{
+  "id": "aa50ebae-9241-41f8-973e-5735ad6fec9f",
+  "name": "c_child_presence_confirmation",
+  "label": "c_child_presence_confirmation",
+  "options": [
+    {
+      "id": "9ad0ee43-85ba-4a9a-b1c3-60332a66c0cf",
+      "name": "Oui",
+      "value": "yes",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "b7daeb06-8c8d-456a-aeff-60ee7824e34a",
+      "name": "Non",
+      "value": "no",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "a50d5fde-6cf1-440c-aca9-fd0e0090dfba",
+      "name": "Décédé",
+      "value": "deceased",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

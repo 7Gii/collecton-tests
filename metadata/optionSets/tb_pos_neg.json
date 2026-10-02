@@ -1,0 +1,33 @@
+{
+  "id": "8b07ae32-89a5-4f76-bb76-ffae61c5e777",
+  "name": "tb_pos_neg",
+  "label": "tb_pos_neg",
+  "options": [
+    {
+      "id": "4a3c53bd-cf5f-4a14-9d3a-61eec733bf39",
+      "name": "Positif",
+      "value": "pos",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "test_methods_1": "microscopy",
+        "test_methods_2": "idr",
+        "test_methods_3": "clinical_diagnosis",
+        "test_methods_4": "other"
+      }
+    },
+    {
+      "id": "42262473-1f90-422b-9bbe-3c5311206da0",
+      "name": "Négatif",
+      "value": "neg",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "test_methods_1": "microscopy",
+        "test_methods_2": "idr",
+        "test_methods_3": "clinical_diagnosis",
+        "test_methods_4": "other"
+      }
+    }
+  ]
+}

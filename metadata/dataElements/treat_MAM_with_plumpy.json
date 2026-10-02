@@ -1,0 +1,18 @@
+{
+  "id": "91218163-13c3-4bd8-ab53-99b4695cf076",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "treat_MAM_with_plumpy",
+  "label": "Traiter la Malnutrition Aigue Moderée avec le plumpy sup",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

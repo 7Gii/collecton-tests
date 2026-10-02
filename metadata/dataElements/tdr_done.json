@@ -1,0 +1,18 @@
+{
+  "id": "0c4ddcab-06e8-4171-bf7c-ccb30f967edf",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "tdr_done",
+  "label": "TDR fait",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

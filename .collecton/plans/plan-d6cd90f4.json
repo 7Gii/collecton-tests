@@ -1,0 +1,141 @@
+{
+  "id": "plan-d6cd90f4",
+  "kind": "org_unit_level",
+  "description": "Champs du niveau c40_chw_area (README étape 2, champs validés)",
+  "spec": {
+    "title": "Zone de l'ASC",
+    "fields": [
+      {
+        "label": "Identifiant externe",
+        "dataType": "string"
+      },
+      {
+        "label": "Notes",
+        "dataType": "string"
+      },
+      {
+        "label": "Géolocalisation",
+        "dataType": "geopoint"
+      },
+      {
+        "label": "is_active",
+        "dataType": "string",
+        "condition": "jamais (champ caché, valeur par défaut true)"
+      },
+      {
+        "label": "Intrant utilisé pour la MAM",
+        "dataType": "select_one",
+        "options": [
+          "Plumpy sup",
+          "Farine enrichie"
+        ],
+        "condition": "utilisateur pm_* ou medic ; défaut plumpy"
+      },
+      {
+        "label": "Gestion des intrants",
+        "dataType": "select_one",
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "condition": "utilisateur pm_* ou medic ; défaut false"
+      },
+      {
+        "label": "Zone ProCCM",
+        "dataType": "select_one",
+        "required": true,
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "condition": "utilisateur pm_* ou medic ; défaut true"
+      },
+      {
+        "label": "Désactiver le vaccin contre le paludisme",
+        "dataType": "select_one",
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "condition": "utilisateur pm_* ou medic"
+      },
+      {
+        "label": "Site",
+        "dataType": "select_one",
+        "options": [
+          "Bankass",
+          "Yirimadio"
+        ]
+      },
+      {
+        "label": "Zone De Santé",
+        "dataType": "select_one",
+        "options": [
+          "DIMBAL",
+          "DOUNDE",
+          "KANI-ENDE",
+          "KOU-LE-SOU",
+          "TORI",
+          "YIRI-BAKORO"
+        ],
+        "condition": "options filtrées par le site choisi"
+      },
+      {
+        "label": "CSCOM",
+        "dataType": "select_one",
+        "options": [
+          "Dimbal",
+          "Dounde",
+          "Ende",
+          "Kani-Bonzon",
+          "Koulogon",
+          "Lessagou",
+          "Soubala",
+          "Tori",
+          "Bakorobabougou",
+          "Yirimadio"
+        ],
+        "condition": "options filtrées par la zone de santé choisie"
+      },
+      {
+        "label": "Aire du Sante du CSCOM",
+        "dataType": "string",
+        "required": true,
+        "condition": "calculé = CSCOM choisi"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T23:41:19.411Z",
+  "updatedAt": "2026-10-01T23:44:27.336Z",
+  "confirmation": "\"Oui, je confirme\" (5 plans d'ajout de champs aux niveaux)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ],
+  "generated": [
+    "option_set: Intrant utilisé pour la MAM",
+    "option_set: Site",
+    "option_set: Zone de Santé",
+    "option_set: CSCOM",
+    "data_element: Identifiant externe",
+    "data_element: Notes",
+    "data_element: Géolocalisation",
+    "data_element: Actif",
+    "data_element: Gestion des intrants",
+    "data_element: Site",
+    "data_element: Zone de Santé",
+    "data_element: CSCOM",
+    "data_element: Intrant utilisé pour la MAM",
+    "data_element: Zone ProCCM",
+    "data_element: Désactiver le vaccin contre le paludisme",
+    "data_element: Aire du Sante du CSCOM"
+  ]
+}

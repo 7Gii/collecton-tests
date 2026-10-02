@@ -1,0 +1,34 @@
+{
+ "en": {
+  "supervisor_area_uuid": "supervisor_area_uuid",
+  "health_area_uuid": "health_area_uuid",
+  "site_uuid": "site_uuid",
+  "c50_patient_uuid": "c50_patient_uuid",
+  "c50_family_uuid": "c50_family_uuid",
+  "c40_chw_area_uuid": "c40_chw_area_uuid",
+  "c30_supervisor_area_uuid": "c30_supervisor_area_uuid",
+  "c20_health_area_uuid": "c20_health_area_uuid",
+  "c10_site_uuid": "c10_site_uuid",
+  "Alerte erreur TDR": "Alerte erreur TDR",
+  "Avez-vous appelé l'ASC pour lui notifier l'erreur de l'interprétation du TDR paludisme pour le patient ${patient} ?": "Did you call the CHW to notify him of the error in interpreting RDT result for the patient ${patient} ?",
+  "Veuillez impérativement appeler l'ASC pour lui notifier l'erreur de l'interprétation du TDR paludisme": "It is imperative to call the CHW to notify him of the misinterpretation of the TDR Malaria",
+  "Oui": "Yes",
+  "Non": "No"
+ },
+ "bm": {
+  "supervisor_area_uuid": "supervisor_area_uuid",
+  "health_area_uuid": "health_area_uuid",
+  "site_uuid": "site_uuid",
+  "c50_patient_uuid": "c50_patient_uuid",
+  "c50_family_uuid": "c50_family_uuid",
+  "c40_chw_area_uuid": "c40_chw_area_uuid",
+  "c30_supervisor_area_uuid": "c30_supervisor_area_uuid",
+  "c20_health_area_uuid": "c20_health_area_uuid",
+  "c10_site_uuid": "c10_site_uuid",
+  "Alerte erreur TDR": "Fili TDR jaabi kan",
+  "Avez-vous appelé l'ASC pour lui notifier l'erreur de l'interprétation du TDR paludisme pour le patient ${patient} ?": "I ye ASC wele wa k'a a ka fili fɔ a ye TDR jaabi kan?",
+  "Veuillez impérativement appeler l'ASC pour lui notifier l'erreur de l'interprétation du TDR paludisme": "A ɲinnilen do i fɛ ika ASC wele jona k'a a ka fili fɔ a ye",
+  "Oui": "Awɔ",
+  "Non": "Ayi"
+ }
+}

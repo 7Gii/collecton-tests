@@ -1,0 +1,21 @@
+{
+  "id": "8d3d7a81-2803-4319-9fe2-8466d54e76e3",
+  "name": "c_dewormer_type",
+  "label": "c_dewormer_type",
+  "options": [
+    {
+      "id": "9e83737d-a85b-434b-a15b-ee11f648bf81",
+      "name": "200 mg",
+      "value": "200mg",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "223ab9ed-f42a-4a78-9dca-d19ef6f3e1d0",
+      "name": "400 mg",
+      "value": "400mg",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

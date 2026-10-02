@@ -1,0 +1,26 @@
+{
+  "id": "plan-b0b62929",
+  "kind": "task",
+  "description": "Tâche patient_assessment_over_5_yields_referral_followup (README étape 7, tasks.js)",
+  "spec": {
+    "title": "Suivi référence",
+    "after": "patient_assessment_over_5",
+    "opens": "referral_followup",
+    "delayDays": 1,
+    "condition": "referral, accompany_to_cscom ou refer_to_cscom = true ; J+1, J+2, J+3"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:20:42.331Z",
+  "updatedAt": "2026-10-02T01:28:59.245Z",
+  "confirmation": "\"Oui, je confirme\" (19 tâches)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "task",
+      "name": "Suivi référence"
+    }
+  ],
+  "generated": [
+    "task: Suivi référence"
+  ]
+}

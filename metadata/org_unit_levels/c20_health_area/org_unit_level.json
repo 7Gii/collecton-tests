@@ -1,0 +1,81 @@
+{
+  "id": "e7e1078e-f74e-493a-8457-77b96b40b9d7",
+  "name": "c20_health_area",
+  "label": "Zone de Santé",
+  "icon": "layout-group",
+  "level": 2,
+  "attributes": [
+    {
+      "key": "2b78b5d5-f69d-4496-a227-108709ea6200",
+      "title": "Identification",
+      "fields": [
+        {
+          "key": "ou_name",
+          "label": "Nom",
+          "dataType": "string",
+          "dataElementId": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+          "required": true
+        },
+        {
+          "key": "external_id",
+          "label": "Identifiant externe",
+          "dataType": "string",
+          "dataElementId": "a94a55f4-2a21-44e2-8d48-dcd94ca441f8",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "notes",
+          "label": "Notes",
+          "dataType": "string",
+          "dataElementId": "16560381-064d-4463-9c79-d20716ab5d4b",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "geolocation",
+          "label": "Géolocalisation",
+          "dataType": "geopoint",
+          "dataElementId": "d343e1b7-40f2-40c6-84d1-642c16e364e2",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "is_active",
+          "label": "Actif",
+          "dataType": "string",
+          "dataElementId": "04a820ab-cfe3-41ab-9957-7950a5293d9f",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "(app) => false",
+          "defaultValue": "true"
+        }
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "key": "profile",
+      "title": "Profil",
+      "fields": [
+        {
+          "key": "parent",
+          "label": "Appartient à",
+          "value": "parentLineage"
+        }
+      ]
+    }
+  ]
+}

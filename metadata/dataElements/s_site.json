@@ -1,0 +1,18 @@
+{
+  "id": "0d35b2d6-ab8a-436c-a0c6-693f655a03fa",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_site",
+  "label": "Site",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "db901584-c822-4e23-b1e5-3092f982b4b4",
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bfce6aba-00cb-4ca4-b8dd-7c6e1998f24a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "s_not_use_shakir_strip_other",
+  "label": "Autre (Préciser):",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

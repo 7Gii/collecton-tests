@@ -1,0 +1,18 @@
+{
+  "id": "5007fbc0-f02f-49fb-8b08-9373c891f068",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "final_cat",
+  "label": "Quelle est la suite à donner au suivi?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

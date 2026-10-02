@@ -1,0 +1,42 @@
+{
+  "id": "16c315c0-1778-46f1-b1dd-1b86a32700cb",
+  "name": "select_person_type",
+  "label": "Type de personne",
+  "options": [
+    {
+      "id": "8ab76446-6bf6-406f-81dd-2f8f5ffcda06",
+      "name": "Adulte hors-aire",
+      "value": "adult_out_of_area",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "d8748f81-38aa-4076-8801-f4f2d76c9bd9",
+      "name": "Nouveau-né",
+      "value": "pt_newborn",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f4d6fd0e-e909-4217-b0a7-3a2f45f600f4",
+      "name": "Nouveau-né hors protocole",
+      "value": "newborn_out_of_control",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f50f7866-6f1c-40e7-b787-e86949486ee3",
+      "name": "Adulte hors protocole",
+      "value": "adult_out_of_protocol",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f5886544-d563-4f86-b804-3da167ed1594",
+      "name": "Nouveau-né hors-aire",
+      "value": "newborn_out_of_area",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

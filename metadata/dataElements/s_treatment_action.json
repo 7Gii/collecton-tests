@@ -1,0 +1,18 @@
+{
+  "id": "32739110-70fd-4171-a1ba-8d1472e3fcd5",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_treatment_action",
+  "label": "Quelle est la conduite à tenir pour le patient?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "d2f0f67f-7474-4da9-ad0f-95e0860ac10e",
+  "tags": []
+}

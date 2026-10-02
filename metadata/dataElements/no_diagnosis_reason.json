@@ -1,0 +1,18 @@
+{
+  "id": "68bc700c-b445-4a15-b976-e384b7080983",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "no_diagnosis_reason",
+  "label": "no_diagnosis_reason",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

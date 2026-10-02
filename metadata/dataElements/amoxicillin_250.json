@@ -1,0 +1,18 @@
+{
+  "id": "f95c9200-4dcc-4871-a658-0d65c60d1233",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "amoxicillin_250",
+  "label": "amoxicillin_250",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

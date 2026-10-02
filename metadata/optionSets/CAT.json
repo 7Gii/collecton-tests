@@ -1,0 +1,21 @@
+{
+  "id": "fa861816-006b-40be-a051-672817d809fa",
+  "name": "CAT",
+  "label": "CAT",
+  "options": [
+    {
+      "id": "11b19f31-578b-4675-b2a0-916e60928418",
+      "name": "Référer au CSCOM",
+      "value": "refer",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "4da68d5c-3f9f-4245-803c-57c908ab99da",
+      "name": "Mettre en observation",
+      "value": "watching",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

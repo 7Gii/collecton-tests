@@ -1,0 +1,18 @@
+{
+  "id": "5b85cbef-c84d-4493-a70a-02b51da5bb8e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_plumpy_nut",
+  "label": "Avez-vous donné le Plumpy Nut?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

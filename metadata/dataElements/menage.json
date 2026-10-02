@@ -1,0 +1,18 @@
+{
+  "id": "9d2a535d-535b-4416-b9e5-9556635c9f36",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "menage",
+  "label": "Ménage",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

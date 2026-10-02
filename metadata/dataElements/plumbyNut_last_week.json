@@ -1,0 +1,18 @@
+{
+  "id": "88452aa1-2050-4464-bd8b-e484667e4f24",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "plumbyNut_last_week",
+  "label": "Quantité de Plumpy Nut donnée la semaine dernière",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

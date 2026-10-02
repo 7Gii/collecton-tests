@@ -1,0 +1,26 @@
+{
+  "id": "plan-32e78b20",
+  "kind": "indicator",
+  "description": "Indicateur no-5-day-follow-up-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "Pas de suivi de 5eme jour - Erreur ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT no-5-day-follow-up-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.446Z",
+  "updatedAt": "2026-10-02T01:46:05.688Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "Pas de suivi de 5eme jour - Erreur ASC"
+    }
+  ],
+  "generated": [
+    "indicator: Pas de suivi de 5eme jour - Erreur ASC"
+  ]
+}

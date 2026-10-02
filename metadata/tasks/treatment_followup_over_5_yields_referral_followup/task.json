@@ -1,0 +1,38 @@
+{
+  "id": "8f475c2b-87cf-482a-afcb-725e1a24c599",
+  "name": "treatment_followup_over_5_yields_referral_followup",
+  "title": "Suivi référence",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "6fd98f67-aebc-41a1-8658-a76a7c4b159d",
+  "events": [
+    {
+      "id": "+1",
+      "dueDate": "due__1",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+2",
+      "dueDate": "due__2",
+      "startDays": 0,
+      "endDays": 0
+    },
+    {
+      "id": "+3",
+      "dueDate": "due__3",
+      "startDays": 0,
+      "endDays": 0
+    }
+  ],
+  "forms": [
+    "treatment_followup_over_5"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 1,
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "475254bc-6844-4a0d-a46a-1e044b853cb7",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_ha",
+  "label": "Zone de Santé",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "191dfd04-835d-46b4-a3c8-653424615fe5",
+  "tags": []
+}

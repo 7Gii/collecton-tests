@@ -1,0 +1,18 @@
+{
+  "id": "b131f427-58b5-4893-9d20-52847faa27b7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "num_green_strips",
+  "label": "Nombre de bandes vertes",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

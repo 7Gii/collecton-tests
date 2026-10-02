@@ -1,0 +1,18 @@
+{
+  "id": "30d80232-c143-406d-9e28-494a53d6370a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "cscom_area",
+  "label": "CSCOM du point focal",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

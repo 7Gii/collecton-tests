@@ -1,0 +1,18 @@
+{
+  "id": "11b78701-576c-46e8-84a5-68dc71d33b52",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_how_disease_progressing",
+  "label": "Comment la maladie progresse-t-elle?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "096f3406-7d1e-4b0f-afdc-19bec6ff6e62",
+  "tags": []
+}

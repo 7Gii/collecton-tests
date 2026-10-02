@@ -1,0 +1,18 @@
+{
+  "id": "59eb6304-dddd-4f93-8d46-c128f2a09015",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "is_ending_followup",
+  "label": "Est-ce le dernier suivi",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

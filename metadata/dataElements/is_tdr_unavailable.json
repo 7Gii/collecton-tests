@@ -1,0 +1,18 @@
+{
+  "id": "19f863bc-80c0-439d-993c-dbd3b2cc477f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "is_tdr_unavailable",
+  "label": "is_tdr_unavailable",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

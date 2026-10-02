@@ -1,0 +1,18 @@
+{
+  "id": "3d7d3634-1e41-46ca-a4b4-534fe888005c",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "referral_followup_under_5__id",
+  "label": "_id",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

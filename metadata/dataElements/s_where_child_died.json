@@ -1,0 +1,18 @@
+{
+  "id": "3ed56ced-02d9-4f3b-8288-dfcfa91b5a11",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_where_child_died",
+  "label": "Où est-ce que le patient est décédé?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "67345eea-65b6-497d-8fc4-6198b225f0ee",
+  "tags": []
+}

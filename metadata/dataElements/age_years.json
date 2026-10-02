@@ -1,0 +1,18 @@
+{
+  "id": "0af51d9d-f3e8-47ac-bd81-f7bddc04153e",
+  "dataType": "integer",
+  "organisation": "Muso",
+  "name": "age_years",
+  "label": "Age en annees",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

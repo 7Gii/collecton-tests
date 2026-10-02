@@ -1,0 +1,18 @@
+{
+  "id": "08580ae8-993c-4011-b341-c85816b63430",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_given_plumpy_nut_dosage",
+  "label": "Combien de sachets ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

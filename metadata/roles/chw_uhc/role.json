@@ -1,0 +1,22 @@
+{
+  "id": "30768f7c-95ab-41af-9f8d-1a350d832018",
+  "name": "chw_uhc",
+  "label": "ASC Couverture de Santé Universelle",
+  "orgUnitLevelId": "2e74c501-a9b1-44a4-a6dc-97cf7f928443",
+  "permissions": [
+    "permission_deferred_collection",
+    "permission_view_tasks",
+    "permission_view_people",
+    "permission_view_reports",
+    "permission_view_indicators",
+    "permission_edit_report",
+    "permission_create_chw",
+    "permission_edit_chw",
+    "permission_create_patient",
+    "permission_edit_patient",
+    "permission_create_c50_family",
+    "permission_edit_c50_family",
+    "permission_automatic_sync",
+    "permission_manual_sync"
+  ]
+}

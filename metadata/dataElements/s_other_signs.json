@@ -1,0 +1,18 @@
+{
+  "id": "76896f21-96c2-41c1-8156-6b27387dfd21",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_other_signs",
+  "label": "L’enfant a-t-il d’autres signes de danger ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

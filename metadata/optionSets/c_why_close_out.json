@@ -1,0 +1,28 @@
+{
+  "id": "2d9dc987-52cc-40a0-9fbf-e4d2ccec7777",
+  "name": "c_why_close_out",
+  "label": "c_why_close_out",
+  "options": [
+    {
+      "id": "1a42b937-a0ee-4b48-a89e-9d189bbf7822",
+      "name": "Le patient est décédé",
+      "value": "patient_died",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "d7e91a27-ca7c-438f-9c4f-fe4cfee76cdf",
+      "name": "Refus des parents pour diverses raisons",
+      "value": "refusal_of_parent",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "8800d231-ebf2-4060-be47-44dd9091f6f0",
+      "name": "ASC non disponible",
+      "value": "chw_unavailable",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

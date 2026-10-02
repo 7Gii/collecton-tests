@@ -1,0 +1,18 @@
+{
+  "id": "cc4131fe-64ca-4cdc-9c0b-b6e2acb2e9c3",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "artesunate_50",
+  "label": "artesunate_50",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

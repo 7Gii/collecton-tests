@@ -1,0 +1,15 @@
+{
+  "id": "c9e687d7-5dfe-4679-a67c-ec6cb0e03faa",
+  "name": "incorrect-paracetamol-dose-chw-error",
+  "title": "Dose de paracétamol donnée par l'ASC incorrecte – Erreur ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target incorrect-paracetamol-dose-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

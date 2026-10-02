@@ -1,0 +1,18 @@
+{
+  "id": "eadac513-f189-42d5-b123-ad582ffeb436",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "MAM_MAS_has_diarrhea_pneumonia",
+  "label": "MAM_MAS_has_diarrhea_pneumonia",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

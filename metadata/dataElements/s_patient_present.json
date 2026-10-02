@@ -1,0 +1,18 @@
+{
+  "id": "7aa2d47b-d6f0-4e19-be49-d0a49fd7583f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_patient_present",
+  "label": "Le patient est-il présent?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

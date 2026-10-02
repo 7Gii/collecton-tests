@@ -1,0 +1,15 @@
+{
+  "id": "e7039e2b-37f4-4448-9262-cb0426291771",
+  "name": "uncomplicated-malaria-without-act-chw-error",
+  "title": "Paludisme simple sans administration de CTA - Erreur de l'ASC",
+  "icon": "indicator_icon_default",
+  "space": 2,
+  "view": "default",
+  "description": [
+    "CHT target uncomplicated-malaria-without-act-chw-error"
+  ],
+  "goalExpression": "goal",
+  "type": "percentage",
+  "displayExpression": "showIndicator",
+  "valueExpression": "value"
+}

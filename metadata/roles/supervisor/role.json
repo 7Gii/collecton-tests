@@ -1,0 +1,16 @@
+{
+  "id": "3c55cb32-f55b-42dd-809e-7edacec861f4",
+  "name": "supervisor",
+  "label": "Superviseur",
+  "orgUnitLevelId": "f4772855-4e90-44cf-8165-c46b34c5df6a",
+  "permissions": [
+    "permission_deferred_collection",
+    "permission_view_tasks",
+    "permission_view_people",
+    "permission_view_reports",
+    "permission_view_indicators",
+    "permission_edit_report",
+    "permission_automatic_sync",
+    "permission_manual_sync"
+  ]
+}

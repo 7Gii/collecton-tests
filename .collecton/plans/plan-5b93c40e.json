@@ -1,0 +1,94 @@
+{
+  "id": "plan-5b93c40e",
+  "kind": "org_unit_level",
+  "description": "Champs du niveau c30_supervisor_area (README étape 2, champs validés)",
+  "spec": {
+    "title": "Zone du Superviseur",
+    "fields": [
+      {
+        "label": "Identifiant externe",
+        "dataType": "string"
+      },
+      {
+        "label": "Notes",
+        "dataType": "string"
+      },
+      {
+        "label": "Géolocalisation",
+        "dataType": "geopoint"
+      },
+      {
+        "label": "is_active",
+        "dataType": "string",
+        "condition": "jamais (champ caché, valeur par défaut true)"
+      },
+      {
+        "label": "Gestion des intrants",
+        "dataType": "select_one",
+        "options": [
+          "Oui",
+          "Non"
+        ],
+        "condition": "utilisateur pm_* ou medic ; défaut false"
+      },
+      {
+        "label": "Site",
+        "dataType": "select_one",
+        "options": [
+          "Bankass",
+          "Yirimadio"
+        ]
+      },
+      {
+        "label": "Zone de Santé",
+        "dataType": "select_one",
+        "options": [
+          "DIMBAL",
+          "DOUNDE",
+          "KANI-ENDE",
+          "KOU-LE-SOU",
+          "TORI",
+          "YIRI-BAKORO"
+        ],
+        "condition": "options filtrées par le site choisi"
+      },
+      {
+        "label": "Centre de santé",
+        "dataType": "select_multiple",
+        "required": true,
+        "options": [
+          "Dimbal",
+          "Dounde",
+          "Ende",
+          "Kani-Bonzon",
+          "Koulogon",
+          "Lessagou",
+          "Soubala",
+          "Tori",
+          "Bakorobabougou",
+          "Yirimadio"
+        ],
+        "condition": "options filtrées par la zone de santé choisie"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T23:41:19.394Z",
+  "updatedAt": "2026-10-01T23:44:27.257Z",
+  "confirmation": "\"Oui, je confirme\" (5 plans d'ajout de champs aux niveaux)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ],
+  "generated": [
+    "option_set: Oui / Non",
+    "data_element: Centre de santé"
+  ]
+}

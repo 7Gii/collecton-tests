@@ -1,0 +1,38 @@
+{
+  "id": "plan-0618f6a8",
+  "kind": "org_unit_level",
+  "description": "Champs du niveau c50_family (README étape 2, champs validés)",
+  "spec": {
+    "title": "Famille",
+    "fields": [
+      {
+        "label": "Numéro d'identification du ménage",
+        "dataType": "string",
+        "required": true,
+        "condition": "4 chiffres"
+      },
+      {
+        "label": "Géolocalisation",
+        "dataType": "geopoint"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-01T23:41:19.427Z",
+  "updatedAt": "2026-10-01T23:44:27.351Z",
+  "confirmation": "\"Oui, je confirme\" (5 plans d'ajout de champs aux niveaux)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "data_element",
+      "name": "*"
+    },
+    {
+      "kind": "option_set",
+      "name": "*"
+    }
+  ],
+  "generated": [
+    "data_element: Numéro d'identification du ménage"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "2e74c501-a9b1-44a4-a6dc-97cf7f928443",
+  "name": "c40_chw_area",
+  "label": "Zone de l'ASC",
+  "icon": "layout-group",
+  "level": 4,
+  "attributes": [
+    {
+      "key": "b5541a3d-0c54-47aa-9604-f1bcb7d62e0c",
+      "title": "Identification",
+      "fields": [
+        {
+          "key": "ou_name",
+          "label": "Nom",
+          "dataType": "string",
+          "dataElementId": "52bff903-6135-4124-8ea0-ebafbb50d5db",
+          "required": true
+        },
+        {
+          "key": "external_id",
+          "label": "Identifiant externe",
+          "dataType": "string",
+          "dataElementId": "a94a55f4-2a21-44e2-8d48-dcd94ca441f8",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "notes",
+          "label": "Notes",
+          "dataType": "string",
+          "dataElementId": "16560381-064d-4463-9c79-d20716ab5d4b",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "geolocation",
+          "label": "Géolocalisation",
+          "dataType": "geopoint",
+          "dataElementId": "d343e1b7-40f2-40c6-84d1-642c16e364e2",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "is_active",
+          "label": "Actif",
+          "dataType": "string",
+          "dataElementId": "04a820ab-cfe3-41ab-9957-7950a5293d9f",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "displayExpression": "(app) => false",
+          "defaultValue": "true"
+        },
+        {
+          "key": "mam_intrant",
+          "label": "Intrant utilisé pour la MAM",
+          "dataType": "select_one",
+          "dataElementId": "b8a9a87f-9fd4-4367-9262-be38822990c4",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "defaultValue": "plumpy"
+        },
+        {
+          "key": "stm_is_active",
+          "label": "Gestion des intrants",
+          "dataType": "select_one",
+          "dataElementId": "ab9edfaa-bc91-4c74-9f38-13adf3776dd9",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "defaultValue": "false"
+        },
+        {
+          "key": "is_in_proccm",
+          "label": "Zone ProCCM",
+          "dataType": "select_one",
+          "dataElementId": "b77ba4b5-4388-46c7-b474-7f7b64243fb0",
+          "required": true,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "defaultValue": "true"
+        },
+        {
+          "key": "disable_malaria_vaccine",
+          "label": "Désactiver le vaccin contre le paludisme",
+          "dataType": "select_one",
+          "dataElementId": "dadc44ee-faf6-497a-90ff-06028520ba80",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        }
+      ]
+    },
+    {
+      "key": "168463b8-683b-4c91-b3d1-4952ea488cab",
+      "title": "CSCOM de la zone d’ASC",
+      "fields": [
+        {
+          "key": "s_site",
+          "label": "Site",
+          "dataType": "select_one",
+          "dataElementId": "0d35b2d6-ab8a-436c-a0c6-693f655a03fa",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid"
+        },
+        {
+          "key": "s_ha",
+          "label": "Zone De Santé",
+          "dataType": "select_one",
+          "dataElementId": "475254bc-6844-4a0d-a46a-1e044b853cb7",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "optionFilter": "(app) => app.option.properties?.site === app.currentForm?.s_site"
+        },
+        {
+          "key": "s_cscom_area",
+          "label": "CSCOM",
+          "dataType": "select_one",
+          "dataElementId": "609357ca-610c-4791-aab7-dedfb9b728d5",
+          "required": false,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "optionFilter": "(app) => app.option.properties?.ha === app.currentForm?.s_ha"
+        },
+        {
+          "key": "aire_de_sante",
+          "label": "Aire du Sante du CSCOM",
+          "dataType": "string",
+          "dataElementId": "b4b11d05-d611-4cb4-9bfa-fc69ef562e2a",
+          "required": true,
+          "placeholder": "",
+          "hint": "",
+          "requiredMessage": "This value is required",
+          "validationMessage": "The value is invalid",
+          "calculationExpression": "(app) => app.currentForm?.s_cscom_area ?? ''"
+        }
+      ]
+    }
+  ],
+  "dashboard": [
+    {
+      "key": "profile",
+      "title": "Profil",
+      "fields": [
+        {
+          "key": "cscom",
+          "label": "CSCOM",
+          "value": "aireDeSante"
+        },
+        {
+          "key": "parent",
+          "label": "Appartient à",
+          "value": "parentLineage"
+        }
+      ]
+    }
+  ]
+}

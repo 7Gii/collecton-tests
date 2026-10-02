@@ -1,0 +1,18 @@
+{
+  "id": "55a9cef2-687b-41f6-a687-a4feaea12463",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_give_vitamina_dosage",
+  "label": "Laquelle?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "a6ff9b86-778a-4dd5-b191-5e1ba30c2d4b",
+  "tags": []
+}

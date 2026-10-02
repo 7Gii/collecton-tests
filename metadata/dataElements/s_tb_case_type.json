@@ -1,0 +1,18 @@
+{
+  "id": "7b15b6d6-e4ab-4caa-bea2-bbc715ceba86",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_tb_case_type",
+  "label": "Quel type de cas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "8230971e-319e-4296-8217-867b27beaddc",
+  "tags": []
+}

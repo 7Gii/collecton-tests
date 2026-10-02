@@ -1,0 +1,18 @@
+{
+  "id": "3e9c7ff6-e27b-442b-815f-d7fa826ee235",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "days_since_admission",
+  "label": "days_since_admission",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

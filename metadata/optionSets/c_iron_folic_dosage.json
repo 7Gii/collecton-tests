@@ -1,0 +1,61 @@
+{
+  "id": "8db1115f-ec76-4e60-bce8-c19584ab8aa0",
+  "name": "c_iron_folic_dosage",
+  "label": "c_iron_folic_dosage",
+  "options": [
+    {
+      "id": "22ed3dea-b928-4e17-96c8-468af046930b",
+      "name": "1/2 comprimé par semaine",
+      "value": "half_tab",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "4f148771-1518-47e3-8a79-1c8add6a605c",
+      "name": "1 comprimé par semaine",
+      "value": "one_tab",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "b1477ef2-72f1-474b-846c-07c319cfb9d9",
+      "name": "2,5 ml de Fer + acide folique sirop",
+      "value": "2_5ml",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "iron_folic_acid_srp"
+      }
+    },
+    {
+      "id": "12e56200-40bd-4226-9032-74f5a5791f57",
+      "name": "5 ml de Fer + acide folique sirop",
+      "value": "5ml",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "iron_folic_acid_srp"
+      }
+    },
+    {
+      "id": "f719fc1d-b25b-4cac-8803-e3c3c8181815",
+      "name": "1 comprimé de fer + acide folique comprimé 200 mg",
+      "value": "half_tab",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "iron_folic_acid"
+      }
+    },
+    {
+      "id": "34d2a1da-6236-4e57-a3af-a57f8ba6d9f4",
+      "name": "1/2 comprimé de fer + acide folique comprimé 200 mg",
+      "value": "one_tab",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "rescat": "iron_folic_acid"
+      }
+    }
+  ]
+}

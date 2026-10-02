@@ -1,0 +1,18 @@
+{
+  "id": "096e7a38-080d-4f28-8629-e3cbd9bce3c0",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_child_temperature_pre_chw_retake",
+  "label": "Quelle est la température de l’enfant?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

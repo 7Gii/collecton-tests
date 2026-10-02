@@ -1,0 +1,18 @@
+{
+  "id": "e89ce510-6b17-4d86-add3-6248926e515d",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "zinc_20",
+  "label": "zinc_20",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

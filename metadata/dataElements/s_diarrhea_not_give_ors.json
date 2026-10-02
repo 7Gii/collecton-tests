@@ -1,0 +1,18 @@
+{
+  "id": "bef9dc75-3411-4b11-82ad-7a136a2d6736",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_diarrhea_not_give_ors",
+  "label": "Pourquoi pas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "tags": []
+}

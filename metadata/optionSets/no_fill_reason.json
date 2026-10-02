@@ -1,0 +1,28 @@
+{
+  "id": "5389ffa8-d077-4a4a-a4c0-b8e71d3256a1",
+  "name": "no_fill_reason",
+  "label": "no_fill_reason",
+  "options": [
+    {
+      "id": "786c520a-76b6-43bd-a875-b4b6502653d9",
+      "name": "Le patient ne s'est pas présenté",
+      "value": "no_patient",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "bcb46465-7bcb-43a8-a7d3-d3937a4c1996",
+      "name": "Le prestataire après une évaluation n’a pas confirmé de signes évocateurs de TB",
+      "value": "no_signs",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f370dd58-50f9-45f8-ad98-0fa05932c127",
+      "name": "Autre",
+      "value": "other",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

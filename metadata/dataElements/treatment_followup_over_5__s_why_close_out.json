@@ -1,0 +1,18 @@
+{
+  "id": "7cede29e-62e6-4a7b-8871-d05d5a33659f",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "treatment_followup_over_5__s_why_close_out",
+  "label": "Pourquoi voulez-vous clore ce suivi?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "be38e41b-9da2-46ff-ad3d-1da7a9bcc801",
+  "tags": []
+}

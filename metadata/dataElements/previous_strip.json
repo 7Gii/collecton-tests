@@ -1,0 +1,18 @@
+{
+  "id": "e68eb34b-c830-4b19-bfc9-c17ee2c7fcdb",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "previous_strip",
+  "label": "Couleur de la bande de shakir passée",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

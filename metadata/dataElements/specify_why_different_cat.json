@@ -1,0 +1,18 @@
+{
+  "id": "62c2c548-73b6-4d39-83ad-a3b2bc6e2bb5",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "specify_why_different_cat",
+  "label": "Pourquoi avez vous choisi cette conduite à tenir?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "133ca924-a8b3-4632-87e0-d77431ab3db8",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "drugs_not_given",
+  "label": "drugs_not_given",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

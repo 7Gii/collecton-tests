@@ -1,0 +1,47 @@
+{
+  "id": "5bd9dd4a-5b8a-487d-81d7-9216c98c46bd",
+  "name": "c_give_paracetamol_dosage",
+  "label": "c_give_paracetamol_dosage",
+  "options": [
+    {
+      "id": "1aed0e0c-2093-4c1f-b39e-ffedcb8b4ec2",
+      "name": "¼ comprimé",
+      "value": "quarter_tab_paracetamol_once",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "once"
+      }
+    },
+    {
+      "id": "1e0b9f9c-349c-448c-9df2-cda42ee66873",
+      "name": "½ comprimé",
+      "value": "half_tab_paracetamol_once",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "once"
+      }
+    },
+    {
+      "id": "58a125ee-12e0-4471-a0a5-61e83a9688f7",
+      "name": "¼ comprimé 3 fois par jour",
+      "value": "quarter_tab_paracetamol_3x_a_day",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "many"
+      }
+    },
+    {
+      "id": "8db35cb6-ecf6-4d71-8863-943d864ad663",
+      "name": "½ comprimé 3 fois par jour",
+      "value": "half_tab_paracetamol_3x_a_day",
+      "nameAudio": null,
+      "icon": null,
+      "properties": {
+        "filter1": "many"
+      }
+    }
+  ]
+}

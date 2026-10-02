@@ -1,0 +1,18 @@
+{
+  "id": "ad90609b-63bd-4d92-9c18-3f839e702006",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "alternate_phone",
+  "label": "Numéro mobile secondaire",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

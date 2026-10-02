@@ -1,0 +1,18 @@
+{
+  "id": "6dbd2c73-0e28-4f16-81ae-39a9110dfaa3",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_artemether_suppository_not_give",
+  "label": "Pourquoi pas?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "c93bdd36-a4a1-48a7-a687-568bb9f4029b",
+  "tags": []
+}

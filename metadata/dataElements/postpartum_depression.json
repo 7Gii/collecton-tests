@@ -1,0 +1,18 @@
+{
+  "id": "43f7cf9e-55d1-4c57-8b9f-bdfc7cd4c38e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "postpartum_depression",
+  "label": "Tristesse, indifférence, ou pensées de se faire du mal à soi-même ou au fœtus",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

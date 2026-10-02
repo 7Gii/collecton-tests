@@ -1,0 +1,26 @@
+{
+  "id": "plan-5ca6229d",
+  "kind": "indicator",
+  "description": "Indicateur incorrect-zinc-dose-chw-error (README étape 8, targets.js)",
+  "spec": {
+    "title": "Dose de Zinc donnée par l'ASC incorrecte - Erreur ASC",
+    "measure": "Evaluations du mois avec l erreur (target CHT incorrect-zinc-dose-chw-error) / évaluations du mois",
+    "type": "percentage",
+    "view": "default",
+    "goal": "0"
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T01:34:03.336Z",
+  "updatedAt": "2026-10-02T01:46:05.665Z",
+  "confirmation": "\"Oui, je confirme\" (22 indicateurs)",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "indicator",
+      "name": "Dose de Zinc donnée par l'ASC incorrecte - Erreur ASC"
+    }
+  ],
+  "generated": [
+    "indicator: Dose de Zinc donnée par l'ASC incorrecte - Erreur ASC"
+  ]
+}

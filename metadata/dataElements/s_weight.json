@@ -1,0 +1,18 @@
+{
+  "id": "b5bdf74c-582d-4e4b-8abe-10d8062d7873",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "s_weight",
+  "label": "Quel est le poids (kg)?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

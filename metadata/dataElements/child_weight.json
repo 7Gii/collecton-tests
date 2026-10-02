@@ -1,0 +1,18 @@
+{
+  "id": "c3057c0a-6586-4bd7-bb1a-cbfae88c6ac1",
+  "dataType": "decimal",
+  "organisation": "Muso",
+  "name": "child_weight",
+  "label": "Quel est le poids de l'enfant en Kg?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

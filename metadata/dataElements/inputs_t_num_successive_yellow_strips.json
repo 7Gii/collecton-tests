@@ -1,0 +1,18 @@
+{
+  "id": "9f39ccb7-6c08-4ac0-bcc7-26cb16805e2b",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "inputs_t_num_successive_yellow_strips",
+  "label": "inputs_t_num_successive_yellow_strips",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

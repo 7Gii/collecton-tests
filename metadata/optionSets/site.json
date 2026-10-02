@@ -1,0 +1,21 @@
+{
+  "id": "db901584-c822-4e23-b1e5-3092f982b4b4",
+  "name": "site",
+  "label": "Site",
+  "options": [
+    {
+      "id": "e9972edd-876e-41d9-86e5-c257a0bc4246",
+      "name": "Bankass",
+      "value": "Bankass",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "f4692fc7-2a28-4446-8829-fdf8ac66ada2",
+      "name": "Yirimadio",
+      "value": "Yirimadio",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

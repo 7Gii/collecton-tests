@@ -1,0 +1,18 @@
+{
+  "id": "9529f7af-123d-414f-a31c-6a16944d683f",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "plumpy_sup_disp",
+  "label": "plumpy_sup_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

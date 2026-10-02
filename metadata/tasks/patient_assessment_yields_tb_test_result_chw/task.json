@@ -1,0 +1,26 @@
+{
+  "id": "7ac1c50e-b8b9-4023-aae9-1d6fedc3289a",
+  "name": "patient_assessment_yields_tb_test_result_chw",
+  "title": "Résultat TB",
+  "icon": "task_icon_default",
+  "description": [
+    "Auto-generated task rule."
+  ],
+  "appliesTo": "report",
+  "actionFormId": "5c16ef67-f813-4300-bb16-396cde045a4c",
+  "events": [
+    {
+      "id": "event_1",
+      "dueDays": 4,
+      "startDays": 0,
+      "endDays": 180
+    }
+  ],
+  "forms": [
+    "patient_assessment"
+  ],
+  "resolvedIf": "resolvedIf",
+  "priority": 1,
+  "prefill": "prefill",
+  "appliesIf": "appliesIf"
+}

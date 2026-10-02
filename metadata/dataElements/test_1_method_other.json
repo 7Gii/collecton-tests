@@ -1,0 +1,18 @@
+{
+  "id": "00556021-0315-4644-888e-2936b34743ec",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "test_1_method_other",
+  "label": "Précisez",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

@@ -1,0 +1,18 @@
+{
+  "id": "c4a89cb8-c319-4167-8269-1ac7c801f8df",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "s_has_family_relation",
+  "label": "Lien de parenté avec le patient TB?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "tags": []
+}

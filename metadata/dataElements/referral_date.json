@@ -1,0 +1,18 @@
+{
+  "id": "c17420d6-8974-4c5b-8484-57be40bb49f7",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "referral_date",
+  "label": "referral_date",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

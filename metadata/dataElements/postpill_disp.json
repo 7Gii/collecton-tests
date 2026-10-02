@@ -1,0 +1,18 @@
+{
+  "id": "42444c2d-ebf4-4bc4-a363-62ac39db7269",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "postpill_disp",
+  "label": "postpill_disp",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}

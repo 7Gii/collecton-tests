@@ -1,0 +1,18 @@
+{
+  "id": "142c8b2e-e0c5-45cd-b2d7-7ca91ebe2f6a",
+  "dataType": "string",
+  "organisation": "Muso",
+  "name": "enriched_flour_dosage_label",
+  "label": "enriched_flour_dosage_label",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": null,
+  "tags": []
+}
