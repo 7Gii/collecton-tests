@@ -20,7 +20,7 @@ emplacement, la solution retenue et son statut : **identique**, **adapté** ou
 | Purge | 1 | `utils/purge.js`, règles 0 à 14 de CHT |
 | Traductions | fr, en, bm | EN complet ; BM : 38 textes sans bambara dans les sources (liste plus bas) |
 
-**Parité** (lignes des tableaux ci-dessous) : 42 identiques, 39 adaptées, 19 non reproductibles.
+**Parité** (lignes des tableaux ci-dessous) : 41 identiques, 38 adaptées, 21 non reproductibles.
 
 **Ajouté à Collecton pour ce portage** (lib, mobile, MCP) : champs supplémentaires des types
 (`add_attribute_field`, `update_attribute_field`), nom technique à la création (`name`), filtres
@@ -93,7 +93,7 @@ déployer (`deploy_project`, sur demande), tester sur téléphone, compléter le
 | Contact primaire (`contact`, `create_new_person`, `select_person`) | `forms/contact/cXX-create.xlsx` | Non repris : le lieu et ses personnes sont créés séparément | non reproductible |
 | Formulaires de création et d'édition distincts | `forms/contact/cXX-create.xlsx` / `cXX-edit.xlsx` | Une seule fiche par niveau (attributs) ; champs des deux formulaires réunis | adapté |
 | `geolocation` calculée depuis le GPS du téléphone | `cXX-create.xlsx` (`inputs/meta/location`) | Champ `geolocation` de type geopoint, capturé par l'utilisateur | adapté |
-| `is_active` (caché, défaut `true`) | `c20/c30/c40-create.xlsx` | Champ caché, valeur par défaut `true` (aussi sur c10, comme demandé) | identique |
+| `is_active` (caché, défaut `true`) | `c20/c30/c40-create.xlsx` | Retiré (décision du 02/10/2026) : `is_active` est une colonne réservée des enregistrements Collecton (entité supprimée) ; un lieu ou une personne existe tant qu'il n'est pas supprimé | non reproductible |
 | `stm_is_active`, `mam_intrant`, `is_in_proccm`, `disable_malaria_vaccine` visibles des comptes `pm_*` / `medic` seulement | `c30/c40-edit.xlsx` (`user_is_pm`) | Toujours affichés (décision du 02/10/2026) ; valeurs par défaut CHT conservées (`false`, `plumpy`, `true`) | adapté |
 | Cascade Site > Zone de santé > CSCOM (`choice_filter`) | `c30/c40-*.xlsx`, `person-*.xlsx` | Filtres d'options ajoutés à Collecton (`optionFilter` + `properties` des options) ; listes `site`, `ha`, `cscom_area` | identique |
 | `s_cscom_area` en choix multiple sur c30 | `c30_supervisor_area-edit.xlsx` | Clé `s_cscom_areas` (un data element porte un seul type ; c40 et le point focal TB gardent `s_cscom_area`) | adapté |
@@ -113,7 +113,7 @@ déployer (`deploy_project`, sur demande), tester sur téléphone, compléter le
 | `short_name` | contact primaire des `cXX-create.xlsx` (absent de `person-create.xlsx`) | Non repris (le contact primaire n'est pas repris) | non reproductible |
 | Formulaires de création et d'édition distincts | `person-create.xlsx` / `person-edit.xlsx` | Une seule fiche par type ; `muso_id` obligatoire (règle de l'édition) | adapté |
 | Champs `fr` seulement (`s_person_type`, `patient_enroll_id`, `can_patient_show_id`) | `person-*.xlsx` (`place_language`) | Toujours affichés (langue non exposée aux scripts) | adapté |
-| `is_active` éditable par les comptes `pm` | `person-edit.xlsx` | Champ caché, défaut `true` | adapté |
+| `is_active` (création cachée, édition par les comptes `pm`) | `person-*.xlsx` | Retiré (décision du 02/10/2026) : colonne réservée de Collecton | non reproductible |
 
 ## Rôles et permissions
 
@@ -242,3 +242,4 @@ Transcription automatique des 12 XLSX (`forms/app/*.xlsx`) : 2 155 champs, clés
 - 02/10/2026 : 19 tâches confirmées ; CSCOM du point focal = celui du « Point Focal TB » de sa zone ; priorités en fonctions (haute 1, moyenne 2) sans étiquette.
 - 02/10/2026 : 22 indicateurs confirmés.
 - 02/10/2026 : règles de purge par projet ajoutées à Collecton (`utils/purge.js`) ; `purge.js` CHT porté tel quel, durées par formulaire posées.
+- 02/10/2026 : `is_active` retiré des personnes et des lieux.

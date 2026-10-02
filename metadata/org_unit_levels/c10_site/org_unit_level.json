@@ -48,19 +48,6 @@
           "hint": "",
           "requiredMessage": "This value is required",
           "validationMessage": "The value is invalid"
-        },
-        {
-          "key": "is_active",
-          "label": "Actif",
-          "dataType": "string",
-          "dataElementId": "04a820ab-cfe3-41ab-9957-7950a5293d9f",
-          "required": false,
-          "placeholder": "",
-          "hint": "",
-          "requiredMessage": "This value is required",
-          "validationMessage": "The value is invalid",
-          "displayExpression": "(app) => false",
-          "defaultValue": "true"
         }
       ]
     }
