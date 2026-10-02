@@ -2,7 +2,7 @@
   "id": "71d1d3ac-adfd-4e3b-b7ba-c18d0610bdb3",
   "name": "c10_site",
   "label": "Site",
-  "icon": "layout-group",
+  "icon": "icon-hospital.png",
   "level": 1,
   "attributes": [
     {

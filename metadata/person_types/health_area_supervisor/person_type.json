@@ -2,7 +2,7 @@
   "id": "508085ae-a0d9-442c-944a-f19467329c9d",
   "name": "health_area_supervisor",
   "label": "Superviseur zone de santé",
-  "icon": "symbol-id-card",
+  "icon": "icon-newperson.png",
   "orgUnitLevelId": "e7e1078e-f74e-493a-8457-77b96b40b9d7",
   "attributes": [
     {

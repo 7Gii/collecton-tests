@@ -2,7 +2,7 @@
   "id": "e7e1078e-f74e-493a-8457-77b96b40b9d7",
   "name": "c20_health_area",
   "label": "Zone de Santé",
-  "icon": "layout-group",
+  "icon": "icon-branch.png",
   "level": 2,
   "attributes": [
     {

@@ -2,7 +2,7 @@
   "id": "bd7e65c3-fe5e-47d3-b835-9414d905f429",
   "name": "c50_family",
   "label": "Famille",
-  "icon": "layout-group",
+  "icon": "medic-family.svg",
   "level": 5,
   "attributes": [
     {

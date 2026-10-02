@@ -3,7 +3,7 @@
   "name": "treatment_followup_over_5",
   "title": "Suivi Traitement à domicile adulte",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "icon-treatment.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 10,

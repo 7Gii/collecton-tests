@@ -3,7 +3,7 @@
   "name": "patient_assessment_over_5",
   "title": "Evaluation des enfants à partir de 5 ans et des adultes",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "icon-child.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 30,
@@ -2849,7 +2849,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_note_malaria_6"
+          "displayExpression": "rel_note_malaria_6",
+          "image": "images/quantite-sang-collecte.png"
         }
       ]
     },
@@ -2867,7 +2868,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_note_malaria_7"
+          "displayExpression": "rel_note_malaria_7",
+          "image": "images/nombre-goutte-solvant.png"
         }
       ]
     },
@@ -2913,7 +2915,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_note_danger_signs_pos"
+          "displayExpression": "rel_note_danger_signs_pos",
+          "image": "images/positive.png"
         },
         {
           "key": "note_danger_signs_neg",
@@ -2922,7 +2925,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_note_danger_signs_neg"
+          "displayExpression": "rel_note_danger_signs_neg",
+          "image": "images/negative.png"
         },
         {
           "key": "s_malaria_tdr_result_new",

@@ -1,0 +1,91 @@
+{
+  "id": "8e18d461-2386-4aa3-8b45-9b243f941dc4",
+  "name": "paludisme",
+  "title": "Paludisme",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "COLUMN",
+  "definition": {
+    "data": [
+      {
+        "kind": "CALCULATED",
+        "id": "tdr_febrile",
+        "label": "TDR faits chez les fébriles (%)",
+        "numerator": {
+          "kind": "SUBMISSIONS",
+          "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+          "filters": [
+            {
+              "field": "symptom_fever",
+              "operator": "NOT_EMPTY"
+            },
+            {
+              "field": "tdr_done",
+              "operator": "EQ",
+              "value": "yes"
+            }
+          ]
+        },
+        "denominator": {
+          "kind": "SUBMISSIONS",
+          "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+          "filters": [
+            {
+              "field": "symptom_fever",
+              "operator": "NOT_EMPTY"
+            }
+          ]
+        },
+        "factor": 100,
+        "decimals": 1
+      },
+      {
+        "kind": "CALCULATED",
+        "id": "tdr_positivity",
+        "label": "Positivité TDR (%)",
+        "numerator": {
+          "kind": "SUBMISSIONS",
+          "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+          "filters": [
+            {
+              "field": "tdr_result",
+              "operator": "EQ",
+              "value": "positif"
+            }
+          ]
+        },
+        "denominator": {
+          "kind": "SUBMISSIONS",
+          "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+          "filters": [
+            {
+              "field": "tdr_done",
+              "operator": "EQ",
+              "value": "yes"
+            }
+          ]
+        },
+        "factor": 100,
+        "decimals": 1
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_12_MONTHS"
+    },
+    "orgUnit": {
+      "units": []
+    },
+    "layout": {
+      "columns": [
+        "dx"
+      ],
+      "rows": [
+        "pe"
+      ]
+    },
+    "display": {
+      "showValues": true
+    }
+  }
+}

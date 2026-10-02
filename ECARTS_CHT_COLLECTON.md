@@ -20,7 +20,7 @@ emplacement, la solution retenue et son statut : **identique**, **adapté** ou
 | Purge | 1 | `utils/purge.js`, règles 0 à 14 de CHT |
 | Traductions | fr, en, bm | EN complet ; BM : 38 textes sans bambara dans les sources (liste plus bas) |
 
-**Parité** (lignes des tableaux ci-dessous) : 41 identiques, 38 adaptées, 21 non reproductibles.
+**Parité** (lignes des tableaux ci-dessous) : 44 identiques, 37 adaptées, 21 non reproductibles.
 
 **Ajouté à Collecton pour ce portage** (lib, mobile, MCP) : champs supplémentaires des types
 (`add_attribute_field`, `update_attribute_field`), nom technique à la création (`name`), filtres
@@ -88,7 +88,7 @@ déployer (`deploy_project`, sur demande), tester sur téléphone, compléter le
 |---|---|---|---|
 | `c10_site` > `c20_health_area` > `c30_supervisor_area` > `c40_chw_area` > `c50_family` | `app_settings.json` `contact_types` | 5 niveaux, mêmes noms techniques, niveaux 1 à 5 | identique |
 | Types hérités `district_hospital` > `health_center` > `clinic` | `app_settings.json` `contact_types` | Non repris (hors périmètre) | non reproductible |
-| Icônes CHT des niveaux | `app_settings.json` | Icône par défaut `layout-group` | adapté |
+| Icônes CHT des niveaux et des personnes | `app_settings.json`, `resources/` | Mêmes icônes copiées dans `assets/icons` (`.collecton/cht-port/media.mjs`) | identique |
 | Nom généré du lieu (« Site de ${contact_name} »...) à partir du contact primaire créé dans le même formulaire | `forms/contact/cXX-create.xlsx` (`generated_name`, `is_name_generated`) | Nom saisi à la main (`ou_name`) : la fiche d'un lieu ne crée pas de personne | adapté |
 | Contact primaire (`contact`, `create_new_person`, `select_person`) | `forms/contact/cXX-create.xlsx` | Non repris : le lieu et ses personnes sont créés séparément | non reproductible |
 | Formulaires de création et d'édition distincts | `forms/contact/cXX-create.xlsx` / `cXX-edit.xlsx` | Une seule fiche par niveau (attributs) ; champs des deux formulaires réunis | adapté |
@@ -162,6 +162,8 @@ Transcription automatique des 12 XLSX (`forms/app/*.xlsx`) : 2 155 champs, clés
 | Entrées `t_*` passées par les tâches (`modifyContent`) | `tasks.js` | Fonction `prefill` des tâches, lue par le formulaire en `app.taskInputs` et stockée en `inputs_<nom>` | identique |
 | `note` avec `h1` / `h2` / `h3` et couleur | `appearance` | Titres colorés ajoutés à Collecton (`headingLevel`, `color`) | identique |
 | Minuteur `countdown-timer` (TDR 900 s, respiration 60 s) | `appearance`, `default` | Champ `timer` ajouté à Collecton (`timerSeconds`, bip et vibration) | identique |
+| Icônes des formulaires | `*.properties.json` `icon`, `resources/` | Mêmes icônes copiées dans `assets/icons`, `Form.icon` | identique |
+| Images des notes (TDR, résultats) | colonne `media::image`, `*-media/images` | Copiées dans `assets/images`, `FormField.image` (affichées hors-ligne) | identique |
 | Icônes Font Awesome dans les libellés | `label::fr` | Retirées | adapté |
 | Widgets `db:person` / `db:health_center` | XLSX | Non repris : la cible du formulaire est la personne | non reproductible |
 | `instance::db-doc` (`prescription_summary`) | `patient_assessment.xlsx` | Non repris (pas de second document) | non reproductible |

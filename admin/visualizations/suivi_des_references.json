@@ -1,0 +1,74 @@
+{
+  "id": "6f94a087-ed27-4bc4-a4fd-6f7b823d62a2",
+  "name": "suivi_des_references",
+  "title": "Suivi des références",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "LINE",
+  "definition": {
+    "data": [
+      {
+        "kind": "CALCULATED",
+        "id": "fu_u5",
+        "label": "Moins de 5 ans (%)",
+        "numerator": {
+          "kind": "SUBMISSIONS",
+          "formId": "94291c3c-3b78-416d-8d63-db44f5e03d0e"
+        },
+        "denominator": {
+          "kind": "SUBMISSIONS",
+          "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+          "filters": [
+            {
+              "field": "referral",
+              "operator": "EQ",
+              "value": "true"
+            }
+          ]
+        },
+        "factor": 100,
+        "decimals": 1
+      },
+      {
+        "kind": "CALCULATED",
+        "id": "fu_o5",
+        "label": "5 ans et plus (%)",
+        "numerator": {
+          "kind": "SUBMISSIONS",
+          "formId": "be8ad6b0-ad65-4ed6-9c05-d0b1c042c275"
+        },
+        "denominator": {
+          "kind": "SUBMISSIONS",
+          "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94",
+          "filters": [
+            {
+              "field": "referral",
+              "operator": "EQ",
+              "value": "true"
+            }
+          ]
+        },
+        "factor": 100,
+        "decimals": 1
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_12_MONTHS"
+    },
+    "orgUnit": {
+      "units": []
+    },
+    "layout": {
+      "columns": [
+        "dx"
+      ],
+      "rows": [
+        "pe"
+      ]
+    },
+    "display": {
+      "targetValue": 100
+    }
+  }
+}

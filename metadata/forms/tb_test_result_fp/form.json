@@ -3,7 +3,7 @@
   "name": "tb_test_result_fp",
   "title": "Résultat TB (Point Focal)",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "resultat-tb.svg",
   "className": "",
   "displayExpression": "showForm",
   "duration": 300,

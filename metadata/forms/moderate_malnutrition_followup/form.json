@@ -3,7 +3,7 @@
   "name": "moderate_malnutrition_followup",
   "title": "Suivi Malnutrition Aigue Modéré",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "icon-treatment.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 100,

@@ -19,6 +19,9 @@ sous `.collecton/`, exclu de l'archive de déploiement.
   mois simulé.
 - `purge.js` : source des règles de purge (portage de `purge.js` CHT, règles 0 à 14), installée
   en `utils/purge.js` par l'opération `set_purge_logic`.
+- `media.mjs` : icônes (formulaires, niveaux, personnes) et images des notes (`media::image`)
+  copiées dans `assets/icons` et `assets/images` et posées sur les métadonnées ; idempotent
+  (`node media.mjs <dossier CHT> <projet>`). `convert.mjs` pose aussi `image` sur les notes.
 - `one-off/` : scripts des étapes structure (champs des agents, fiches contact).
 
 ```bash

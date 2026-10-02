@@ -2,7 +2,7 @@
   "id": "fb094a55-102e-431f-8d5a-addfd7e5afad",
   "name": "chw_manager",
   "label": "Responsable des ASC",
-  "icon": "symbol-id-card",
+  "icon": "icon-newperson.png",
   "orgUnitLevelId": "71d1d3ac-adfd-4e3b-b7ba-c18d0610bdb3",
   "attributes": [
     {

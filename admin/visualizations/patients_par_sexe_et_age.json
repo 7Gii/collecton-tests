@@ -1,0 +1,45 @@
+{
+  "id": "a6275f96-888a-4c92-b208-c58ff41c3d08",
+  "name": "patients_par_sexe_et_age",
+  "title": "Patients par sexe et âge",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "STACKED_COLUMN",
+  "definition": {
+    "data": [
+      {
+        "kind": "DISTINCT_TARGETS",
+        "id": "pt_u5",
+        "label": "Moins de 5 ans",
+        "formId": "d5d95293-b731-49be-ac4d-5ebae99067df"
+      },
+      {
+        "kind": "DISTINCT_TARGETS",
+        "id": "pt_o5",
+        "label": "5 ans et plus",
+        "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94"
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "THIS_MONTH"
+    },
+    "orgUnit": {
+      "units": []
+    },
+    "person": {
+      "attribute": "person_gender"
+    },
+    "layout": {
+      "columns": [
+        "dx"
+      ],
+      "rows": [
+        "pa"
+      ]
+    },
+    "display": {
+      "showValues": true
+    }
+  }
+}

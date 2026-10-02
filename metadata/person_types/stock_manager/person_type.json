@@ -2,7 +2,7 @@
   "id": "378c5690-f49c-41a9-8173-1d2879ceea30",
   "name": "stock_manager",
   "label": "Gestionnaire de stock",
-  "icon": "symbol-id-card",
+  "icon": "icon-newperson.png",
   "orgUnitLevelId": "e7e1078e-f74e-493a-8457-77b96b40b9d7",
   "attributes": [
     {

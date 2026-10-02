@@ -3,7 +3,7 @@
   "name": "patient_assessment",
   "title": "Evaluation des enfants jusqu’à 5 ans",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "icon-infant.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 100,
@@ -2677,7 +2677,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_6_note_malaria_6"
+          "displayExpression": "rel_s_malaria_indication_6_note_malaria_6",
+          "image": "images/quantite-sang-collecte.png"
         }
       ]
     },
@@ -2695,7 +2696,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_7_note_malaria_7"
+          "displayExpression": "rel_s_malaria_indication_7_note_malaria_7",
+          "image": "images/nombre-goutte-solvant.png"
         }
       ]
     },
@@ -2741,7 +2743,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_9_note_danger_signs_pos"
+          "displayExpression": "rel_s_malaria_indication_9_note_danger_signs_pos",
+          "image": "images/positive.png"
         },
         {
           "key": "s_malaria_indication_9_note_danger_signs_neg",
@@ -2750,7 +2753,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_9_note_danger_signs_neg"
+          "displayExpression": "rel_s_malaria_indication_9_note_danger_signs_neg",
+          "image": "images/negative.png"
         },
         {
           "key": "s_acc_tdr_result_new",
@@ -3443,7 +3447,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_15_note_malaria_6"
+          "displayExpression": "rel_s_malaria_indication_15_note_malaria_6",
+          "image": "images/quantite-sang-collecte.png"
         }
       ]
     },
@@ -3461,7 +3466,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_16_note_malaria_7"
+          "displayExpression": "rel_s_malaria_indication_16_note_malaria_7",
+          "image": "images/nombre-goutte-solvant.png"
         }
       ]
     },
@@ -3507,7 +3513,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_18_note_danger_signs_pos"
+          "displayExpression": "rel_s_malaria_indication_18_note_danger_signs_pos",
+          "image": "images/positive.png"
         },
         {
           "key": "s_malaria_indication_18_note_danger_signs_neg",
@@ -3516,7 +3523,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_18_note_danger_signs_neg"
+          "displayExpression": "rel_s_malaria_indication_18_note_danger_signs_neg",
+          "image": "images/negative.png"
         },
         {
           "key": "s_malnutrition_tdr_result_new",
@@ -3821,7 +3829,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_24_note_malaria_6"
+          "displayExpression": "rel_s_malaria_indication_24_note_malaria_6",
+          "image": "images/quantite-sang-collecte.png"
         }
       ]
     },
@@ -3839,7 +3848,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_25_note_malaria_7"
+          "displayExpression": "rel_s_malaria_indication_25_note_malaria_7",
+          "image": "images/nombre-goutte-solvant.png"
         }
       ]
     },
@@ -3885,7 +3895,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_27_note_danger_signs_pos"
+          "displayExpression": "rel_s_malaria_indication_27_note_danger_signs_pos",
+          "image": "images/positive.png"
         },
         {
           "key": "s_malaria_indication_27_note_danger_signs_neg",
@@ -3894,7 +3905,8 @@
           "dataElementId": "",
           "tags": [],
           "className": "",
-          "displayExpression": "rel_s_malaria_indication_27_note_danger_signs_neg"
+          "displayExpression": "rel_s_malaria_indication_27_note_danger_signs_neg",
+          "image": "images/negative.png"
         },
         {
           "key": "s_malaria_tdr_result_new",

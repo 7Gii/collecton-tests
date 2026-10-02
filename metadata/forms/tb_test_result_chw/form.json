@@ -3,7 +3,7 @@
   "name": "tb_test_result_chw",
   "title": "Résultat TB",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "tb_test_result_chw.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 300,

@@ -1,0 +1,89 @@
+{
+  "id": "fe232973-6c47-4322-a8ca-6f68856356a4",
+  "name": "pilotage_global",
+  "title": "Pilotage global",
+  "description": "Activité, couverture, complétude, références et programmes (paludisme, malnutrition, TB).",
+  "publicAccess": "VIEW",
+  "items": [
+    {
+      "id": "item_1",
+      "kind": "VISUALIZATION",
+      "visualizationId": "5ed66b4e-76da-4712-9168-1b57ed3ed718",
+      "text": null,
+      "width": 3,
+      "height": 1
+    },
+    {
+      "id": "item_2",
+      "kind": "VISUALIZATION",
+      "visualizationId": "62781236-91a0-42f4-a160-c2fb3eae94c6",
+      "text": null,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "id": "item_3",
+      "kind": "VISUALIZATION",
+      "visualizationId": "162953be-cc0b-410b-af26-2ea2394ff788",
+      "text": null,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "id": "item_4",
+      "kind": "VISUALIZATION",
+      "visualizationId": "41bab841-f236-4bae-9e98-8a023fe47de5",
+      "text": null,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "item_5",
+      "kind": "VISUALIZATION",
+      "visualizationId": "a6275f96-888a-4c92-b208-c58ff41c3d08",
+      "text": null,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "item_6",
+      "kind": "VISUALIZATION",
+      "visualizationId": "b5502cc4-553d-47e2-bdd1-fec5a05afac9",
+      "text": null,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "item_7",
+      "kind": "VISUALIZATION",
+      "visualizationId": "6f94a087-ed27-4bc4-a4fd-6f7b823d62a2",
+      "text": null,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "item_8",
+      "kind": "VISUALIZATION",
+      "visualizationId": "8e18d461-2386-4aa3-8b45-9b243f941dc4",
+      "text": null,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "item_9",
+      "kind": "VISUALIZATION",
+      "visualizationId": "7ef199ef-4fd4-485e-970c-79b90f4defb6",
+      "text": null,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "id": "item_10",
+      "kind": "VISUALIZATION",
+      "visualizationId": "0b1714d0-1aa3-4065-a7ca-c8883440e000",
+      "text": null,
+      "width": 4,
+      "height": 1
+    }
+  ]
+}

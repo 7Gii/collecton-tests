@@ -1,0 +1,43 @@
+{
+  "id": "41bab841-f236-4bae-9e98-8a023fe47de5",
+  "name": "activite_par_zone_de_sante",
+  "title": "Activité par Zone de Santé",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "BAR",
+  "definition": {
+    "data": [
+      {
+        "kind": "SUBMISSIONS",
+        "id": "pa_u5",
+        "label": "Moins de 5 ans",
+        "formId": "d5d95293-b731-49be-ac4d-5ebae99067df"
+      },
+      {
+        "kind": "SUBMISSIONS",
+        "id": "pa_o5",
+        "label": "5 ans et plus",
+        "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94"
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_MONTH"
+    },
+    "orgUnit": {
+      "units": [],
+      "level": 2
+    },
+    "layout": {
+      "columns": [
+        "dx"
+      ],
+      "rows": [
+        "ou"
+      ]
+    },
+    "display": {
+      "showValues": true
+    }
+  }
+}

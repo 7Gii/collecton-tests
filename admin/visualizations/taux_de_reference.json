@@ -1,0 +1,74 @@
+{
+  "id": "b5502cc4-553d-47e2-bdd1-fec5a05afac9",
+  "name": "taux_de_reference",
+  "title": "Taux de référence",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "COLUMN",
+  "definition": {
+    "data": [
+      {
+        "kind": "CALCULATED",
+        "id": "ref_u5",
+        "label": "Moins de 5 ans (%)",
+        "numerator": {
+          "kind": "SUBMISSIONS",
+          "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+          "filters": [
+            {
+              "field": "referral",
+              "operator": "EQ",
+              "value": "true"
+            }
+          ]
+        },
+        "denominator": {
+          "kind": "SUBMISSIONS",
+          "formId": "d5d95293-b731-49be-ac4d-5ebae99067df"
+        },
+        "factor": 100,
+        "decimals": 1
+      },
+      {
+        "kind": "CALCULATED",
+        "id": "ref_o5",
+        "label": "5 ans et plus (%)",
+        "numerator": {
+          "kind": "SUBMISSIONS",
+          "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94",
+          "filters": [
+            {
+              "field": "referral",
+              "operator": "EQ",
+              "value": "true"
+            }
+          ]
+        },
+        "denominator": {
+          "kind": "SUBMISSIONS",
+          "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94"
+        },
+        "factor": 100,
+        "decimals": 1
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_12_MONTHS"
+    },
+    "orgUnit": {
+      "units": []
+    },
+    "layout": {
+      "columns": [
+        "dx"
+      ],
+      "rows": [
+        "pe"
+      ]
+    },
+    "display": {
+      "showValues": true
+    }
+  }
+}

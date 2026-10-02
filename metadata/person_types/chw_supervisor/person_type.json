@@ -2,7 +2,7 @@
   "id": "9444e632-e5e6-42ff-b2fa-1b2d61089bc6",
   "name": "chw_supervisor",
   "label": "Superviseur",
-  "icon": "symbol-id-card",
+  "icon": "icon-newperson.png",
   "orgUnitLevelId": "f4772855-4e90-44cf-8165-c46b34c5df6a",
   "attributes": [
     {

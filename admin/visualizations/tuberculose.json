@@ -1,0 +1,74 @@
+{
+  "id": "0b1714d0-1aa3-4065-a7ca-c8883440e000",
+  "name": "tuberculose",
+  "title": "Tuberculose",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "BAR",
+  "definition": {
+    "data": [
+      {
+        "kind": "SUBMISSIONS",
+        "id": "tb_sign_u5",
+        "label": "Suspicions <5 ans",
+        "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+        "filters": [
+          {
+            "field": "has_tb_sign",
+            "operator": "EQ",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "kind": "SUBMISSIONS",
+        "id": "tb_sign_o5",
+        "label": "Suspicions 5 ans et +",
+        "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94",
+        "filters": [
+          {
+            "field": "has_tb_sign",
+            "operator": "EQ",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "kind": "SUBMISSIONS",
+        "id": "tb_chw",
+        "label": "Résultats ASC",
+        "formId": "3dea8304-54d3-4ce2-8015-35df21379d4c"
+      },
+      {
+        "kind": "SUBMISSIONS",
+        "id": "tb_fp",
+        "label": "Résultats point focal",
+        "formId": "1fcafab6-0c30-4343-9cbc-c7a8b4aa411f"
+      },
+      {
+        "kind": "OPTION_COUNT",
+        "id": "tb_pos",
+        "label": "Positifs (point focal)",
+        "formId": "1fcafab6-0c30-4343-9cbc-c7a8b4aa411f",
+        "field": "s_tb_result",
+        "option": "pos"
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_12_MONTHS"
+    },
+    "orgUnit": {
+      "units": []
+    },
+    "layout": {
+      "columns": [],
+      "rows": [
+        "dx"
+      ]
+    },
+    "display": {
+      "showValues": true
+    }
+  }
+}

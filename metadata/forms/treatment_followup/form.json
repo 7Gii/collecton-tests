@@ -3,7 +3,7 @@
   "name": "treatment_followup",
   "title": "Suivi Traitement à domicile",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "icon-treatment.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 10,

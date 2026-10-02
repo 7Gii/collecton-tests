@@ -3,7 +3,7 @@
   "name": "notification_to_chw",
   "title": "Alerte erreur TDR",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "icon-mute.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 300,

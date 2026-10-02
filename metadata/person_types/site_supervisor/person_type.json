@@ -2,7 +2,7 @@
   "id": "74105016-936b-483d-88a2-b531b645f8c3",
   "name": "site_supervisor",
   "label": "Superviseur de site",
-  "icon": "symbol-id-card",
+  "icon": "icon-newperson.png",
   "orgUnitLevelId": "71d1d3ac-adfd-4e3b-b7ba-c18d0610bdb3",
   "attributes": [
     {

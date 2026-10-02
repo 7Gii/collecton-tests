@@ -2,7 +2,7 @@
   "id": "2e74c501-a9b1-44a4-a6dc-97cf7f928443",
   "name": "c40_chw_area",
   "label": "Zone de l'ASC",
-  "icon": "layout-group",
+  "icon": "medic-chw-area.svg",
   "level": 4,
   "attributes": [
     {

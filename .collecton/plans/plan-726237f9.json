@@ -1,0 +1,125 @@
+{
+  "id": "plan-726237f9",
+  "kind": "dashboard",
+  "description": "Les chart voulu sont ceux pour piloter les projet globalement",
+  "spec": {
+    "title": "Pilotage global",
+    "purpose": "La coordination et les superviseurs pilotent globalement le projet : activité, couverture, complétude du rapportage, références et programmes (paludisme, malnutrition, TB), par Site, Zone de Santé ou Zone de l'ASC.",
+    "visuals": [
+      {
+        "title": "Consultations par mois",
+        "what": "soumissions de patient_assessment (<5 ans) et patient_assessment_over_5 (5 ans et +), 12 derniers mois",
+        "type": "STACKED_COLUMN"
+      },
+      {
+        "title": "Patients pris en charge",
+        "what": "patients distincts consultés (<5 ans et 5 ans et +), mois en cours",
+        "type": "SINGLE_VALUE"
+      },
+      {
+        "title": "Complétude du rapportage",
+        "what": "consultations par Zone de l'ASC (niveau 4) et par mois, 6 derniers mois",
+        "type": "PIVOT_TABLE"
+      },
+      {
+        "title": "Activité par Zone de Santé",
+        "what": "consultations du mois écoulé par Zone de Santé (niveau 2)",
+        "type": "BAR"
+      },
+      {
+        "title": "Taux de référence",
+        "what": "consultations avec referral = true / consultations x 100, <5 ans et 5 ans et +, par mois",
+        "type": "COLUMN"
+      },
+      {
+        "title": "Suivi des références",
+        "what": "suivis de référence (referral_followup_under_5, referral_followup) / consultations référées x 100, par mois",
+        "type": "LINE"
+      },
+      {
+        "title": "Paludisme",
+        "what": "<5 ans : TDR faits chez les fébriles (tdr_done = yes / symptom_fever non vide) et positivité (tdr_result = positif / tdr_done = yes), par mois",
+        "type": "COLUMN"
+      },
+      {
+        "title": "Malnutrition",
+        "what": "cas MAM (treat_MAM = true) et MAS sans complication (treat_SAM_without_complication = true) chez les <5 ans, par mois",
+        "type": "STACKED_COLUMN"
+      },
+      {
+        "title": "Tuberculose",
+        "what": "suspicions (has_tb_sign = true), résultats ASC (tb_test_result_chw), résultats point focal (tb_test_result_fp) et positifs (s_tb_result = pos), 12 derniers mois",
+        "type": "BAR"
+      },
+      {
+        "title": "Patients par sexe et âge",
+        "what": "patients distincts consultés par sexe (M/F) et groupe d'âge (<5 ans, 5 ans et +), mois en cours",
+        "type": "STACKED_COLUMN"
+      }
+    ]
+  },
+  "status": "confirmed",
+  "createdAt": "2026-10-02T08:10:25.910Z",
+  "updatedAt": "2026-10-02T08:12:31.861Z",
+  "confirmation": "Oui, je confirme",
+  "defaulted": [],
+  "scope": [
+    {
+      "kind": "dashboard",
+      "name": "Pilotage global"
+    },
+    {
+      "kind": "visualization",
+      "name": "Consultations par mois"
+    },
+    {
+      "kind": "visualization",
+      "name": "Patients pris en charge"
+    },
+    {
+      "kind": "visualization",
+      "name": "Complétude du rapportage"
+    },
+    {
+      "kind": "visualization",
+      "name": "Activité par Zone de Santé"
+    },
+    {
+      "kind": "visualization",
+      "name": "Taux de référence"
+    },
+    {
+      "kind": "visualization",
+      "name": "Suivi des références"
+    },
+    {
+      "kind": "visualization",
+      "name": "Paludisme"
+    },
+    {
+      "kind": "visualization",
+      "name": "Malnutrition"
+    },
+    {
+      "kind": "visualization",
+      "name": "Tuberculose"
+    },
+    {
+      "kind": "visualization",
+      "name": "Patients par sexe et âge"
+    }
+  ],
+  "generated": [
+    "visualization: Consultations par mois",
+    "visualization: Complétude du rapportage",
+    "visualization: Activité par Zone de Santé",
+    "visualization: Taux de référence",
+    "visualization: Suivi des références",
+    "visualization: Paludisme",
+    "visualization: Malnutrition",
+    "visualization: Tuberculose",
+    "visualization: Patients par sexe et âge",
+    "visualization: Patients pris en charge",
+    "dashboard: Pilotage global"
+  ]
+}

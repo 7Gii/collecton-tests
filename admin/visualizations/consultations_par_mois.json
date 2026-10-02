@@ -1,0 +1,42 @@
+{
+  "id": "5ed66b4e-76da-4712-9168-1b57ed3ed718",
+  "name": "consultations_par_mois",
+  "title": "Consultations par mois",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "STACKED_COLUMN",
+  "definition": {
+    "data": [
+      {
+        "kind": "SUBMISSIONS",
+        "id": "pa_u5",
+        "label": "Moins de 5 ans",
+        "formId": "d5d95293-b731-49be-ac4d-5ebae99067df"
+      },
+      {
+        "kind": "SUBMISSIONS",
+        "id": "pa_o5",
+        "label": "5 ans et plus",
+        "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94"
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_12_MONTHS"
+    },
+    "orgUnit": {
+      "units": []
+    },
+    "layout": {
+      "columns": [
+        "dx"
+      ],
+      "rows": [
+        "pe"
+      ]
+    },
+    "display": {
+      "showValues": true
+    }
+  }
+}

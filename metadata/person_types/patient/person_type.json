@@ -2,7 +2,7 @@
   "id": "de06d11e-5eb3-444a-9695-428f79b5c6ae",
   "name": "patient",
   "label": "Patient",
-  "icon": "symbol-id-card",
+  "icon": "icon-newperson.png",
   "orgUnitLevelId": "bd7e65c3-fe5e-47d3-b835-9414d905f429",
   "attributes": [
     {

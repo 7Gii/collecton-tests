@@ -3,7 +3,7 @@
   "name": "referral_followup",
   "title": "Suivi Référence adulte",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "icon-treatment.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 10,

@@ -1,0 +1,56 @@
+{
+  "id": "7ef199ef-4fd4-485e-970c-79b90f4defb6",
+  "name": "malnutrition",
+  "title": "Malnutrition",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "STACKED_COLUMN",
+  "definition": {
+    "data": [
+      {
+        "kind": "SUBMISSIONS",
+        "id": "mam",
+        "label": "MAM",
+        "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+        "filters": [
+          {
+            "field": "treat_MAM",
+            "operator": "EQ",
+            "value": "true"
+          }
+        ]
+      },
+      {
+        "kind": "SUBMISSIONS",
+        "id": "sam",
+        "label": "MAS sans complication",
+        "formId": "d5d95293-b731-49be-ac4d-5ebae99067df",
+        "filters": [
+          {
+            "field": "treat_SAM_without_complication",
+            "operator": "EQ",
+            "value": "true"
+          }
+        ]
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_12_MONTHS"
+    },
+    "orgUnit": {
+      "units": []
+    },
+    "layout": {
+      "columns": [
+        "dx"
+      ],
+      "rows": [
+        "pe"
+      ]
+    },
+    "display": {
+      "showValues": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "162953be-cc0b-410b-af26-2ea2394ff788",
+  "name": "completude_du_rapportage",
+  "title": "Complétude du rapportage",
+  "description": null,
+  "publicAccess": "VIEW",
+  "type": "PIVOT_TABLE",
+  "definition": {
+    "data": [
+      {
+        "kind": "SUBMISSIONS",
+        "id": "pa_u5",
+        "label": "Moins de 5 ans",
+        "formId": "d5d95293-b731-49be-ac4d-5ebae99067df"
+      },
+      {
+        "kind": "SUBMISSIONS",
+        "id": "pa_o5",
+        "label": "5 ans et plus",
+        "formId": "3930d0b3-a5d3-4c95-8bde-28e700e48f94"
+      }
+    ],
+    "period": {
+      "type": "MONTH",
+      "relative": "LAST_6_MONTHS"
+    },
+    "orgUnit": {
+      "units": [],
+      "level": 4
+    },
+    "layout": {
+      "columns": [
+        "pe"
+      ],
+      "rows": [
+        "ou",
+        "dx"
+      ]
+    },
+    "display": {
+      "showTotals": true,
+      "hideEmpty": false
+    }
+  }
+}

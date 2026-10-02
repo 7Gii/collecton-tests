@@ -2,7 +2,7 @@
   "id": "f4772855-4e90-44cf-8165-c46b34c5df6a",
   "name": "c30_supervisor_area",
   "label": "Zone du Superviseur",
-  "icon": "layout-group",
+  "icon": "medic-district-hospital.svg",
   "level": 3,
   "attributes": [
     {

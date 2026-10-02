@@ -6,6 +6,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+/** Image of an XLSForm row (media::image column, any language): a file copied by media.mjs to assets/images. */
+const mediaImage = row => {
+  const file = row['media::image::fr'] ?? row['media::image'] ?? row['media::image::en'] ?? row['image'];
+  return file ? `images/${String(file).trim()}` : undefined;
+};
 import { parse, toJs, Unsupported } from './xpath.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -187,7 +193,9 @@ for (const it of fieldItems) {
 
   if (type === 'note' && !row.calculation) {
     const label = labelTemplate(cleanLabel(fr(row, 'label')));
-    if (!label) continue;
+    const image = mediaImage(row);
+    if (!label && !image) continue;
+    if (image) plan.image = image;
     plan.display = appearance.includes('countdown-timer') ? 'timer' : 'label';
     plan.label = label;
     const heading = appearance.find(a => /^h[123]$/.test(a));
@@ -360,7 +368,7 @@ for (const it of items) {
   if (plan.display) {
     forms.addFormField(ctx, FORM, undefined, section, {
       displayType: plan.display, key: plan.key, label: plan.label,
-      headingLevel: plan.headingLevel, color: plan.color, timerSeconds: plan.timerSeconds,
+      headingLevel: plan.headingLevel, color: plan.color, timerSeconds: plan.timerSeconds, image: plan.image,
     });
   } else {
     const de = dataElementFor(plan);

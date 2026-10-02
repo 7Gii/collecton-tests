@@ -3,7 +3,7 @@
   "name": "redo_tdr",
   "title": "TDR à refaire",
   "version": "1.0.0",
-  "icon": "form_default",
+  "icon": "danger-warning.png",
   "className": "",
   "displayExpression": "showForm",
   "duration": 30,
