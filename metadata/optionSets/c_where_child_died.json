@@ -1,38 +1,38 @@
 {
-  "id": "67345eea-65b6-497d-8fc4-6198b225f0ee",
+  "id": "f7359b0d-25f6-457e-875e-fb7c1b1286d0",
   "name": "c_where_child_died",
   "label": "c_where_child_died",
   "options": [
     {
-      "id": "b455de7e-89fe-4a0a-908c-a88d65b74e4d",
+      "id": "8f4ce58d-2088-4ab0-aa68-d4e548e03ada",
       "name": "Domicile",
       "value": "home",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "23622541-88dc-41f1-bfcf-bcd6e9d3f7eb",
+      "id": "cbfac7c6-3ff0-46bb-8d93-2aa8d635e19a",
       "name": "CSCOM",
       "value": "cscom",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "ac4416a9-b026-4daa-983d-e447a1e002ec",
+      "id": "0816779f-5ccc-472a-b3f4-a294e612fa37",
       "name": "CSREF",
       "value": "csref",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "e24db5eb-8d7a-45ea-a1d7-5621a31e319c",
+      "id": "e0472bee-ee75-46ca-84a1-c2e6ba2aecff",
       "name": "Hôpital",
       "value": "hospital",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "68c1baf7-2d44-4ec5-a929-cf1fbf0d999a",
+      "id": "f8d17a28-08de-4649-9c18-82827de7027c",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

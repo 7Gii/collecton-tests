@@ -1,5 +1,5 @@
 {
-  "id": "0fc98948-675d-4813-8015-7e0b5c63e252",
+  "id": "bebf0a8b-03ab-4149-81a2-05136438da39",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_diarrhea_stools",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

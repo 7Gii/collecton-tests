@@ -1,0 +1,21 @@
+{
+  "id": "613e6ff4-ef5a-4e33-98ec-fdd8210f31a0",
+  "name": "moderate_malnutrition_followup__c_vitaminA_dosage",
+  "label": "moderate_malnutrition_followup__c_vitaminA_dosage",
+  "options": [
+    {
+      "id": "806da19c-260a-4f0f-a6ec-3c753167bb3a",
+      "name": "Capsule bleue",
+      "value": "blue_cap",
+      "nameAudio": null,
+      "icon": null
+    },
+    {
+      "id": "7f530728-fa95-4745-bfd5-6aed0a199801",
+      "name": "Capsule rouge",
+      "value": "red_cap",
+      "nameAudio": null,
+      "icon": null
+    }
+  ]
+}

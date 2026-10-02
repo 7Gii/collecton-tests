@@ -1,17 +1,17 @@
 {
-  "id": "61a8c90a-0279-4c53-8982-176828c914bc",
+  "id": "aa16ee86-d191-4988-8bdd-fc4374330d95",
   "name": "c_diarrhea_zinc_dosage",
   "label": "c_diarrhea_zinc_dosage",
   "options": [
     {
-      "id": "628e61e4-0966-4191-90e4-4ff009da491a",
+      "id": "686cfe1c-19a3-4959-ba0d-ea8b200faf6f",
       "name": "Un demi (1/2) comprimé de 20 mg pendant 10 jours",
       "value": "c_diarrhea_zinc_dosage_2",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "875ba686-c6af-4e5e-bf11-7190ce611d06",
+      "id": "2036bc16-138c-40b9-b5f1-97dc312a3f52",
       "name": "Un (1) comprimé de 20 mg pendant 10 jours",
       "value": "c_diarrhea_zinc_dosage_3",
       "nameAudio": null,

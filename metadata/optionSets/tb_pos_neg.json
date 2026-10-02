@@ -1,10 +1,10 @@
 {
-  "id": "8b07ae32-89a5-4f76-bb76-ffae61c5e777",
+  "id": "67246c75-81c6-448a-a916-d91af9d554c4",
   "name": "tb_pos_neg",
   "label": "tb_pos_neg",
   "options": [
     {
-      "id": "4a3c53bd-cf5f-4a14-9d3a-61eec733bf39",
+      "id": "d972c76f-bf7f-4491-8cda-0a2384fd1d3d",
       "name": "Positif",
       "value": "pos",
       "nameAudio": null,
@@ -17,7 +17,7 @@
       }
     },
     {
-      "id": "42262473-1f90-422b-9bbe-3c5311206da0",
+      "id": "70758dfc-c6b8-49ec-987e-a558e4c69d27",
       "name": "Négatif",
       "value": "neg",
       "nameAudio": null,

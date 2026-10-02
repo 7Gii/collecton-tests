@@ -1,5 +1,5 @@
 {
-  "id": "ea34012b-3531-4dc6-a251-d136cb4d27a7",
+  "id": "46853afe-1e9f-4f0b-84e2-e90ff9785c29",
   "name": "patient_assessment_over_5_yields_referral_followup",
   "title": "Suivi référence",
   "icon": "task_icon_default",
@@ -7,7 +7,7 @@
     "Auto-generated task rule."
   ],
   "appliesTo": "report",
-  "actionFormId": "6fd98f67-aebc-41a1-8658-a76a7c4b159d",
+  "actionFormId": "be8ad6b0-ad65-4ed6-9c05-d0b1c042c275",
   "events": [
     {
       "id": "+1",

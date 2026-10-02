@@ -1,0 +1,18 @@
+{
+  "id": "761be53d-c6ba-46e6-b3db-af34a74a21cb",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "moderate_malnutrition_followup__s_give_vitaminA",
+  "label": "Avez-vous donné de la vitamine A?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
+  "tags": []
+}

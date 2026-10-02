@@ -1,5 +1,5 @@
 {
-  "id": "1889b539-cf03-4edd-8894-45109f035964",
+  "id": "df19a1f6-3180-4b75-8feb-9f4ec6e87d92",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_dewormer_type",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "8d3d7a81-2803-4319-9fe2-8466d54e76e3",
+  "optionSetId": "2af5e1cf-ffe4-4dfd-9b2a-74fa33dcc3f3",
   "tags": []
 }

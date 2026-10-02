@@ -1,5 +1,5 @@
 {
-  "id": "2b527675-cdf1-4a95-981f-d9d6179a0ff2",
+  "id": "2b193903-e34a-4c80-ba38-846092861f7a",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_antimalarial_suppository_not_give",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "optionSetId": "1df3ec35-f6e5-47bc-82c9-e4eaf8a723ab",
   "tags": []
 }

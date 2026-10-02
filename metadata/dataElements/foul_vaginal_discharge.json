@@ -1,5 +1,5 @@
 {
-  "id": "540557ac-3c65-4e1c-9c66-67ee8765aa2b",
+  "id": "88022b03-2cab-407c-9515-3125f4c42a0f",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "foul_vaginal_discharge",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

@@ -1,5 +1,5 @@
 {
-  "id": "d7a02120-574a-45e5-81c3-d41d85046e2a",
+  "id": "d2e371f1-e35a-4492-b0fc-8434cf8d05b4",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_vaccinated_measles",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

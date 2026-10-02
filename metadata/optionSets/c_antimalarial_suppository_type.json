@@ -1,17 +1,17 @@
 {
-  "id": "f9b25ed4-d8f8-4651-a619-c5d0a087d14f",
+  "id": "b58f1405-33be-4ec8-8d4a-19ee5204f6dd",
   "name": "c_antimalarial_suppository_type",
   "label": "c_antimalarial_suppository_type",
   "options": [
     {
-      "id": "92000260-35c2-4eb7-afe0-1d3c240a0719",
+      "id": "c389d1db-2b48-4718-bb50-77943d08f2cf",
       "name": "Artésunate suppo",
       "value": "artesunate_suppository",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "cfd17220-fc63-4eb7-bf5f-6b13b9bd7f7a",
+      "id": "70ea133e-5e89-438f-80dd-9709bcb53345",
       "name": "Arthéméter suppo",
       "value": "arthemeter_suppository",
       "nameAudio": null,

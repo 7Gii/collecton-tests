@@ -1,5 +1,5 @@
 {
-  "id": "6e29a73e-ef6f-49b1-a081-7f4601b186dc",
+  "id": "c23d94b1-abfe-49ab-8040-0ee1c669c20c",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "vaginal_discharge_odor",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

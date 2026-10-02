@@ -1,24 +1,24 @@
 {
-  "id": "476f01d1-f1e9-402f-a719-8c005315d32d",
+  "id": "e43cf101-92a5-4867-a754-a02b8c713da8",
   "name": "c_shakir_strip_color",
   "label": "c_shakir_strip_color",
   "options": [
     {
-      "id": "83a46ded-739a-4bf3-ad75-6164e3c6a5bf",
+      "id": "521aade6-1404-4978-88a4-71f44fc97d72",
       "name": "Vert",
       "value": "green",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "84b740b4-4b5d-4d82-b6be-739ef6f51ae0",
+      "id": "296355ef-31b4-476b-a8f9-2c71a37c998f",
       "name": "Jaune",
       "value": "yellow",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "d620392a-e322-4c92-a78e-8987aac8b933",
+      "id": "805eb509-56e8-44d5-a0ef-b84c51dac368",
       "name": "Rouge",
       "value": "red",
       "nameAudio": null,

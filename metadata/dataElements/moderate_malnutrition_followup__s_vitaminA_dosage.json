@@ -1,0 +1,18 @@
+{
+  "id": "26376014-319c-40bb-ba65-31b95cfd42c6",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "moderate_malnutrition_followup__s_vitaminA_dosage",
+  "label": "Laquelle?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "613e6ff4-ef5a-4e33-98ec-fdd8210f31a0",
+  "tags": []
+}

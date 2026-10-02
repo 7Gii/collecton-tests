@@ -1,5 +1,5 @@
 {
-  "id": "89d0deae-9d9b-4f4f-87f6-02d381e53eb5",
+  "id": "9900dacd-9c4e-4e67-9351-80f1f3d0d366",
   "name": "patient_assessment_yields_moderate_malnutrition_followup",
   "title": "Suivi MAM",
   "icon": "task_icon_default",
@@ -7,7 +7,7 @@
     "Auto-generated task rule."
   ],
   "appliesTo": "person",
-  "actionFormId": "6a99dccf-cb42-4630-89d2-48bd46143c5b",
+  "actionFormId": "9f71d90e-9cc9-4eb7-aacf-edca8cecbaa0",
   "events": [
     {
       "id": "reported_date+7",

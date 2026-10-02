@@ -1,5 +1,5 @@
 {
-  "id": "b70b4a1c-3e6e-49db-9677-99e7c2971351",
+  "id": "39f535b1-583a-4bb1-bd2a-a9943c6bd7e1",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_artesunate_suppository_not_give",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "c93bdd36-a4a1-48a7-a687-568bb9f4029b",
+  "optionSetId": "f0f97a16-131a-4ba1-9a99-d3ed084c3532",
   "tags": []
 }

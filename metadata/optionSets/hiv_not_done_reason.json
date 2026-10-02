@@ -1,31 +1,31 @@
 {
-  "id": "f06f01df-05b8-4717-abd7-3aa61fea9186",
+  "id": "2d8eb423-931b-4293-8260-ab9bce95a19b",
   "name": "hiv_not_done_reason",
   "label": "hiv_not_done_reason",
   "options": [
     {
-      "id": "d99eb468-10e1-4b60-a4cd-24cc571e2865",
+      "id": "480b6fd8-9466-4da1-817a-3d7b97c6a291",
       "name": "Refus",
       "value": "refusal",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "ba0ced57-4f9c-476c-8e66-21f03c0b78e2",
+      "id": "e32d9da6-8b14-4eff-98fe-f59d1fcc3d47",
       "name": "Non demandé au centre",
       "value": "not_requested",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "d56395b2-6934-4a97-bab0-736f961ca2a4",
+      "id": "253451d9-a7ba-4c6f-9e28-3040fa2386e5",
       "name": "Le patient ne s'est pas rendu au Centre de santé",
       "value": "no_cscom",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "fafa6860-e627-4a12-aa8c-458c7adff87b",
+      "id": "2b0031aa-6309-4ba0-807a-e6b8bfbdb8d8",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

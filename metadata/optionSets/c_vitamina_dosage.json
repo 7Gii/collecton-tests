@@ -1,19 +1,19 @@
 {
-  "id": "01e97488-7a63-4b2c-920d-a2ad5a15c427",
-  "name": "c_vitaminA_dosage",
-  "label": "c_vitaminA_dosage",
+  "id": "3bf39e9a-adcd-4db6-9527-83f2a7a4359b",
+  "name": "c_vitamina_dosage",
+  "label": "c_vitamina_dosage",
   "options": [
     {
-      "id": "7df480cc-6008-49be-b879-3a7e2822fb49",
-      "name": "Capsule bleue",
-      "value": "blue_cap",
+      "id": "015039d7-5bc9-4438-8daf-b8ee09166ad1",
+      "name": "1 capsule de 100 000 UI (1 capsule bleu)",
+      "value": "one_of_100000_ui_blue",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "86001097-dafd-4f4e-9b55-bc1a0d1c6714",
-      "name": "Capsule rouge",
-      "value": "red_cap",
+      "id": "8687b199-f9af-4ed2-b323-9c7888163b2d",
+      "name": "1 capsule de 200 000 UI (1 capsule rouge)",
+      "value": "one_of_200000_ui_red",
       "nameAudio": null,
       "icon": null
     }

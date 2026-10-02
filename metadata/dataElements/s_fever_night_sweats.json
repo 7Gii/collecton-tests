@@ -1,5 +1,5 @@
 {
-  "id": "2a3d0c32-ee44-404a-83d5-e14dcb0813cd",
+  "id": "dd7ebc18-8dd4-4db7-9d22-a2095cb91ccc",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_fever_night_sweats",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

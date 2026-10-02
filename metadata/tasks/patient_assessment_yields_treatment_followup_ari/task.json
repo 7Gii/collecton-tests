@@ -1,5 +1,5 @@
 {
-  "id": "6fb8d5c7-86aa-4ddf-badf-2660a217f188",
+  "id": "244b6667-1396-414b-a7db-67029643c40b",
   "name": "patient_assessment_yields_treatment_followup_ari",
   "title": "Suivi traitement",
   "icon": "task_icon_default",
@@ -7,7 +7,7 @@
     "Auto-generated task rule."
   ],
   "appliesTo": "report",
-  "actionFormId": "8219fdee-27ca-4f75-9ef0-17a0335cd184",
+  "actionFormId": "fe588cd6-2c78-4760-b586-6c4d95c15728",
   "events": [
     {
       "id": "+1",

@@ -1,5 +1,5 @@
 {
-  "id": "213ccc13-68d1-4467-b6aa-88b9d5798de0",
+  "id": "0f8bd147-d103-407e-9523-a1ac9c4d067f",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_ref_danger_sign_diarrhea_more_than_14_days",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

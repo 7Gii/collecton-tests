@@ -1,31 +1,31 @@
 {
-  "id": "c6bb765d-075c-43cb-beb8-690140cee4e5",
+  "id": "d5dea73d-a970-40e3-9bf4-1e8713295ef7",
   "name": "patient_assessment_over_5__c_how_child_found",
   "label": "patient_assessment_over_5__c_how_child_found",
   "options": [
     {
-      "id": "851218ad-f028-468c-b7a9-741858afe9d3",
+      "id": "2f445d5e-1ebc-453f-8baf-1aa0f4c30fe4",
       "name": "Au cours d’une Visite à Domicile",
       "value": "home_visit",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "1edf1fbb-afeb-4449-b6ac-e1b43763c7d3",
+      "id": "da54d8f7-ee66-42ef-b1d8-78159c330401",
       "name": "Patient venu chez l'ASC",
       "value": "at_chw_house",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "fbe24c59-3bf0-429e-bd89-efca6a46b347",
+      "id": "b1b45334-86ef-43b5-85e9-8a4fa7c4c25f",
       "name": "Patient accompagné par un parent ou un membre de la communauté",
       "value": "informed_by_family",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "a3b76c34-5899-414c-bd59-ea91c8a5a15b",
+      "id": "84a49d62-ca7d-477f-96a4-368722cf88f3",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

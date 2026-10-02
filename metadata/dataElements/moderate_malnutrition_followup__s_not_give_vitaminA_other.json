@@ -1,9 +1,9 @@
 {
-  "id": "d39283d1-a511-43b0-b60c-5113f819e10c",
-  "dataType": "select_one",
+  "id": "8d01de33-e126-4f47-9b8a-a977c9e90902",
+  "dataType": "string",
   "organisation": "Muso",
-  "name": "patient_assessment__s_give_vitamina_dosage",
-  "label": "Laquelle?",
+  "name": "moderate_malnutrition_followup__s_not_give_vitaminA_other",
+  "label": "Spécifier:",
   "icon": "symbol-string",
   "description": "",
   "placeholder": "",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "482e83e1-aae1-4a10-89f0-b45dfefdce1b",
+  "optionSetId": null,
   "tags": []
 }

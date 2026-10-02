@@ -1,5 +1,5 @@
 {
-  "id": "bbc2005e-b2a7-4e4a-a7ec-fc9419c1dc19",
+  "id": "91c69311-705f-4ec6-a686-fc2be0bdd12a",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_contact_is_hiv_positive",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

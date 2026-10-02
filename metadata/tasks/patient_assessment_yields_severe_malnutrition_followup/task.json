@@ -1,5 +1,5 @@
 {
-  "id": "b49256cd-60fe-4fb2-9344-686e482c3669",
+  "id": "96e25a68-038c-4d74-b6aa-c61bd6c6e996",
   "name": "patient_assessment_yields_severe_malnutrition_followup",
   "title": "Suivi MAS Sans Complication",
   "icon": "task_icon_default",
@@ -7,7 +7,7 @@
     "Auto-generated task rule."
   ],
   "appliesTo": "person",
-  "actionFormId": "ef9599d8-95dc-49b2-bb42-33e26eca0fef",
+  "actionFormId": "4d2a6019-2ab7-40bc-99db-f361a7faa8ca",
   "events": [
     {
       "id": "reported_date+7",

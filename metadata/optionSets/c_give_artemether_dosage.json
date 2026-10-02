@@ -1,17 +1,17 @@
 {
-  "id": "3b95389e-e149-4ef4-9729-e378bb466950",
+  "id": "c42c113f-7482-4f6c-8b5b-8c07ddef9f72",
   "name": "c_give_artemether_dosage",
   "label": "c_give_artemether_dosage",
   "options": [
     {
-      "id": "111e8aa7-8ad2-4c2f-b87f-4e53a188d584",
+      "id": "32b1b8f1-eb4d-45dc-aaa5-1d0461d2b612",
       "name": "1 suppositoire de 40 mg",
       "value": "1_artemether_40mg",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "3c61d7f4-7633-41e2-a252-1b8caf46e604",
+      "id": "ed110492-0379-4457-9f60-315873183929",
       "name": "2 suppositoires de 40 mg",
       "value": "2_artemether_40mg",
       "nameAudio": null,

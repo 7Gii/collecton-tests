@@ -1,38 +1,38 @@
 {
-  "id": "924f3492-0c9a-4bbd-9db8-286390ad190a",
+  "id": "5586fef6-882c-40a3-810b-0938d9771add",
   "name": "hiv_not_requested_reason",
   "label": "hiv_not_requested_reason",
   "options": [
     {
-      "id": "a067e967-f1d1-44a4-9fb6-ba9182cd23d9",
+      "id": "640dd0a9-3d99-4005-82e5-191898abd672",
       "name": "Le Patient est déjà connu séropositif",
       "value": "hiv_known",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "7c9b0436-ff10-4bc3-be3e-1ac48bfba578",
+      "id": "34c842dc-877d-497f-a67e-cdb50dc03766",
       "name": "Impossible de faire le test au centre de santé",
       "value": "unable",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "24d87f24-8e5c-4adf-a1f2-39fdabc781ad",
+      "id": "1bdd1d48-450f-4070-8dca-540b9b51d65e",
       "name": "Refus du patient pour faire le test",
       "value": "refusal",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "b5895690-74ce-41c6-bb0b-64c9c1c04f1e",
+      "id": "e2bb8282-fea4-4866-a9f6-503f04ebd1fc",
       "name": "Rupture de réactif",
       "value": "breakage",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "e60727ec-4095-4fa7-99ed-cf24174509c8",
+      "id": "58840ced-aa09-4599-9772-d7c88bd95d90",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

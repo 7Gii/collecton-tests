@@ -1,5 +1,5 @@
 {
-  "id": "9200a8c2-d927-47e9-b9f7-1e7233cc503e",
+  "id": "0d81a41f-b508-478a-b5fd-2e2a9e6a1703",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_artemether_suppository_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "3b95389e-e149-4ef4-9729-e378bb466950",
+  "optionSetId": "c42c113f-7482-4f6c-8b5b-8c07ddef9f72",
   "tags": []
 }

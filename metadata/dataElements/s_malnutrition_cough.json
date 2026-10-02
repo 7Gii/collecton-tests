@@ -1,5 +1,5 @@
 {
-  "id": "1a151b15-4617-44ef-89d3-ea5eb4d7458d",
+  "id": "44b7a07a-21b5-448f-ba5c-8b67a3844247",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_malnutrition_cough",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

@@ -20,7 +20,7 @@ emplacement, la solution retenue et son statut : **identique**, **adapté** ou
 | Purge | 1 | `utils/purge.js`, règles 0 à 14 de CHT |
 | Traductions | fr, en, bm | EN complet ; BM : 38 textes sans bambara dans les sources (liste plus bas) |
 
-**Parité** (lignes des tableaux ci-dessous) : 42 identiques, 38 adaptées, 19 non reproductibles.
+**Parité** (lignes des tableaux ci-dessous) : 42 identiques, 39 adaptées, 19 non reproductibles.
 
 **Ajouté à Collecton pour ce portage** (lib, mobile, MCP) : champs supplémentaires des types
 (`add_attribute_field`, `update_attribute_field`), nom technique à la création (`name`), filtres
@@ -155,6 +155,7 @@ Transcription automatique des 12 XLSX (`forms/app/*.xlsx`) : 2 155 champs, clés
 | Valeur d'un champ saisi puis masqué (effacée en ODK) | XLSForm | La valeur reste dans le rapport | adapté |
 | Groupes imbriqués | `begin group` | Groupe de 1er niveau = page (mode wizard) ; groupes imbriqués aplatis, leur condition reportée sur leurs champs, leur libellé en titre de niveau 3 | adapté |
 | Noms en double dans un formulaire (64) | XLSX | Clé préfixée par le groupe parent (`<groupe>_<nom>`) | adapté |
+| Noms qui ne diffèrent que par la casse (`c_vitaminA_dosage` / `c_vitamina_dosage`, `CAT` / `cat`...) | XLSX | Clé de champ inchangée ; le data element ou la liste prend un nom préfixé par le formulaire (`<formulaire>__<nom>`), un nom étant un nom de fichier | adapté |
 | Groupe `inputs` (contact, lignée, ASC, utilisateur) | XLSX | Lu à l'exécution : `app.person`, `app.lineage` (ajouté à Collecton), ASC de la zone via `app.personsAt` (ajouté), `app.currentUser` ; non stocké dans le rapport | adapté |
 | `inputs/user/language` | XLSX | Toujours `fr` (langue non exposée aux scripts) | adapté |
 | `inputs/user/is_in_sih` | XLSX | Toujours `false` | adapté |

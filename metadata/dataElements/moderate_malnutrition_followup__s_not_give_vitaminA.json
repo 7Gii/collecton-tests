@@ -1,0 +1,18 @@
+{
+  "id": "0057899c-867b-4563-9fd2-a777d886b7d8",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "moderate_malnutrition_followup__s_not_give_vitaminA",
+  "label": "Pourquoi pas ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "1df3ec35-f6e5-47bc-82c9-e4eaf8a723ab",
+  "tags": []
+}

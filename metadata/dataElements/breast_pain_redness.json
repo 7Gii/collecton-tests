@@ -1,5 +1,5 @@
 {
-  "id": "661d5f0a-c211-410e-93be-6a4b5fa83bdb",
+  "id": "240247e6-c6bd-49b6-8cd4-a288b9dff71d",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "breast_pain_redness",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

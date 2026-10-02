@@ -22,7 +22,18 @@ for (const lang of ['en', 'bm']) {
     if (entry?.[lang]) found[text] = entry[lang];
     else missing.push(text);
   }
+  // Texts without a source translation: technical keys of hidden fields and Collecton
+  // permission labels keep their text; manual-en.json holds the few EN texts written by hand.
+  const manual = lang === 'en' ? JSON.parse(fs.readFileSync(new URL('./manual-en.json', import.meta.url), 'utf8')) : {};
+  const keepAsIs = (t) => /^[A-Za-z0-9_]+$/.test(t)
+    || /^(Allows|Create|Edit|Delete|View) |^(Automatic|Manual) Sync$|^Deferred Collection$|^(The value is invalid|This value is required|Organisation Unit Name|Organization unit|Person)$/.test(t);
+  for (const text of [...missing]) {
+    if (keepAsIs(text)) found[text] = text;
+    else if (manual[text]) found[text] = manual[text];
+    else continue;
+    missing.splice(missing.indexOf(text), 1);
+  }
   if (Object.keys(found).length) tr.setTranslations(ctx, lang, found);
   fs.writeFileSync(new URL(`./out/untranslated-${lang}.json`, import.meta.url), JSON.stringify(missing, null, 1));
-  console.log(`${lang}: ${untranslated.length} untranslated, ${Object.keys(found).length} translated from the sources, ${missing.length} left`);
+  console.log(`${lang}: ${untranslated.length} untranslated, ${Object.keys(found).length} translated, ${missing.length} left`);
 }

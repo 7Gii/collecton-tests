@@ -1,5 +1,5 @@
 {
-  "id": "27b33e36-1c01-4ca0-aefb-682406503a8e",
+  "id": "50d3ffe0-5a37-4d33-954c-f5502cb55fe2",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_malaria_act_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "4d0bcfa2-c3a7-41c2-a66d-2ae55e833984",
+  "optionSetId": "23b59cb5-ad6a-48a5-b9fd-83cc48ed7406",
   "tags": []
 }

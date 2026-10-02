@@ -1,5 +1,5 @@
 {
-  "id": "f6e3f3cb-6d0c-4070-9283-3fd614fbf89b",
+  "id": "0896ba45-06f5-4c40-95ba-6d55533d1e2b",
   "name": "patient_assessment_yields_tb_test_result_fp",
   "title": "Résultat TB (Point Focal)",
   "icon": "task_icon_default",
@@ -7,7 +7,7 @@
     "Auto-generated task rule."
   ],
   "appliesTo": "report",
-  "actionFormId": "f94f8ba7-ce2c-4594-b605-df9b0c28b9af",
+  "actionFormId": "1fcafab6-0c30-4343-9cbc-c7a8b4aa411f",
   "events": [
     {
       "id": "event_1",

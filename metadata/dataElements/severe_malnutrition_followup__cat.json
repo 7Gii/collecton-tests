@@ -1,0 +1,18 @@
+{
+  "id": "cc028510-9f26-4fce-a5af-554516dd4b63",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "severe_malnutrition_followup__cat",
+  "label": "Quelle est la conduite à tenir?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "f4048766-b468-44c2-b93b-ce081c117ee0",
+  "tags": []
+}

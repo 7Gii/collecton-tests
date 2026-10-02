@@ -1,5 +1,5 @@
 {
-  "id": "a6eb9cbc-b050-471f-94bb-8bdd6ec88bd3",
+  "id": "7c9f9c11-5ae7-4cb9-a172-e917dce5d434",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_ari_give_amox_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "ffd4a9b3-7164-4ff4-a8a0-960bddc3ed7b",
+  "optionSetId": "a369d95c-52d4-4213-8123-a7d0224cc90f",
   "tags": []
 }

@@ -1,5 +1,5 @@
 {
-  "id": "b3f9b9e2-05c8-448f-ad7c-e686441af2d3",
+  "id": "9f425cde-b423-45c3-808c-ccfd8e5f3378",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_malaria_tdr_done",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

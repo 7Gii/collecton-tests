@@ -1,5 +1,5 @@
 {
-  "id": "bdaa8ee7-6c4b-4814-9526-266f2f6d717e",
+  "id": "2f8e0229-7109-47cc-b2a0-9a2387233d22",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_acc_danger_sign_cough_more_than_14_days",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

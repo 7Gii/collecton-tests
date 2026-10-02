@@ -1,5 +1,5 @@
 {
-  "id": "a8c5baab-56e5-4fca-a3c3-30a59a10cfad",
+  "id": "887391fb-7380-41cf-8a69-fa058668a496",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_malaria_fever_within_24_48",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

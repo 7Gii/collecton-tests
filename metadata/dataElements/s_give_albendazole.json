@@ -1,5 +1,5 @@
 {
-  "id": "fc068f7f-51df-4e4a-b20c-38a3a8957602",
+  "id": "07e6c5aa-9f22-4487-8977-0fc6a96300a0",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_give_albendazole",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

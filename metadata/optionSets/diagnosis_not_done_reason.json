@@ -1,31 +1,31 @@
 {
-  "id": "07d74d01-7daf-468f-808a-63b1c67da7e8",
+  "id": "8bee7d13-2889-4636-a828-44b8ca66ea41",
   "name": "diagnosis_not_done_reason",
   "label": "diagnosis_not_done_reason",
   "options": [
     {
-      "id": "5c6c72a6-7811-4bce-b208-85814bc0dfb2",
+      "id": "5b6b2b3d-5665-4654-bad5-b0e7afa69b73",
       "name": "Rupture d'Intrant",
       "value": "breakage",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "410a2b36-5cb9-44f7-897a-514601fff88f",
+      "id": "c470665d-622f-449c-869e-de65697106b5",
       "name": "Non demandé au Centre",
       "value": "not_requested",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "a4985a4a-f739-4a8a-827f-fdbe44209403",
+      "id": "6e465062-291c-40fd-8d3a-383633671137",
       "name": "Refus",
       "value": "refusal",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "1b2df574-42a9-48f9-8a82-44cde7741d86",
+      "id": "57c0ef7a-d4f6-4231-b457-84ce4a4e32c8",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

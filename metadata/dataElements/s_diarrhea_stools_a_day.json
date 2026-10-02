@@ -1,5 +1,5 @@
 {
-  "id": "ce49e26d-31cb-4e37-b209-5779048de6bb",
+  "id": "52506ace-ebb0-4495-aaff-d1e0ad6c9c58",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_diarrhea_stools_a_day",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

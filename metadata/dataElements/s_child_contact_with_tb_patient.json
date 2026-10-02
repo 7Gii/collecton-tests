@@ -1,5 +1,5 @@
 {
-  "id": "34267fb8-7702-4482-bddc-b2eccba8604a",
+  "id": "0cec32a2-1066-4872-8aea-ee5fdb8ca847",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_child_contact_with_tb_patient",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

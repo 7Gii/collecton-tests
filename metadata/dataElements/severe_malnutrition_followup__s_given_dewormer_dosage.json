@@ -1,5 +1,5 @@
 {
-  "id": "37377c05-c176-45e8-83f1-0632da5fb630",
+  "id": "13b3d5bd-a9e7-441f-8e7b-fe961b49ecf8",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "severe_malnutrition_followup__s_given_dewormer_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "00945e13-b29f-48f0-8dc6-32f68918784f",
+  "optionSetId": "328f8d6e-2184-4ad7-8f92-1670e4ee9d6b",
   "tags": []
 }

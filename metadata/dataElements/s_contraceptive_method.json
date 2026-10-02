@@ -1,5 +1,5 @@
 {
-  "id": "3a2bcdbd-a5bf-4f35-95b2-94c342744648",
+  "id": "2124bc50-a986-41f5-8724-a505cbcbcd93",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_contraceptive_method",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "4e5962e7-27cd-4431-bb04-cb75bc8afe3d",
+  "optionSetId": "daab09ec-65e4-4a1e-9704-32802e861a16",
   "tags": []
 }

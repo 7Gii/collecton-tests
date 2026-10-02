@@ -1,17 +1,17 @@
 {
-  "id": "62df199e-41d6-49fb-bd29-a60b04aeb31e",
+  "id": "8d1c2d65-07bf-465f-9709-7b21a3eb864c",
   "name": "c_nutri_give_albendazole_type",
   "label": "c_nutri_give_albendazole_type",
   "options": [
     {
-      "id": "f5640680-a168-42e2-8d56-1fad881b026a",
+      "id": "92d816bd-77cc-4a8f-9474-d4d17a9108c0",
       "name": "Albendazole 200 mg",
       "value": "200_mg_albendazole",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "81855e1d-b1f5-4a8c-9f31-5191d6604eca",
+      "id": "699d13fb-f169-4bdc-b60f-b9c8c0e789b2",
       "name": "Albendazole 400 mg",
       "value": "400_mg_albendazole",
       "nameAudio": null,

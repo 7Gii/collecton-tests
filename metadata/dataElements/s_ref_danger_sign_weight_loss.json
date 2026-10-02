@@ -1,5 +1,5 @@
 {
-  "id": "8e54b7f5-2e1d-4d30-be03-1b3a345607e4",
+  "id": "77c98832-5c41-4085-b8a4-737b5cfa8fc2",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_ref_danger_sign_weight_loss",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

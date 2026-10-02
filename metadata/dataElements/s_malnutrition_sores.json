@@ -1,5 +1,5 @@
 {
-  "id": "a4b162e1-2176-4215-962f-d15d464bfaa7",
+  "id": "7c04ebb4-228a-4f71-8f8c-837cd3b10f70",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_malnutrition_sores",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

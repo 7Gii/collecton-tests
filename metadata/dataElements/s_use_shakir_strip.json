@@ -1,5 +1,5 @@
 {
-  "id": "12dffbe2-81bf-489d-aa92-bef4806b51e1",
+  "id": "52f5ab7a-e2e1-450e-8b29-37d904262302",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_use_shakir_strip",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

@@ -1,10 +1,10 @@
 {
-  "id": "5bd9dd4a-5b8a-487d-81d7-9216c98c46bd",
+  "id": "88415c0e-c71b-4417-b94a-67888c962a4d",
   "name": "c_give_paracetamol_dosage",
   "label": "c_give_paracetamol_dosage",
   "options": [
     {
-      "id": "1aed0e0c-2093-4c1f-b39e-ffedcb8b4ec2",
+      "id": "8225a02d-bb53-4a36-89eb-46ecce39f61e",
       "name": "¼ comprimé",
       "value": "quarter_tab_paracetamol_once",
       "nameAudio": null,
@@ -14,7 +14,7 @@
       }
     },
     {
-      "id": "1e0b9f9c-349c-448c-9df2-cda42ee66873",
+      "id": "7d836b8a-1151-4baa-bd2d-6c9663dc8c76",
       "name": "½ comprimé",
       "value": "half_tab_paracetamol_once",
       "nameAudio": null,
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "58a125ee-12e0-4471-a0a5-61e83a9688f7",
+      "id": "eb4b6a48-0c9f-4c1f-ad1d-858a471a01f0",
       "name": "¼ comprimé 3 fois par jour",
       "value": "quarter_tab_paracetamol_3x_a_day",
       "nameAudio": null,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "id": "8db35cb6-ecf6-4d71-8863-943d864ad663",
+      "id": "59d1274b-229c-4c08-b15b-31ec72be225d",
       "name": "½ comprimé 3 fois par jour",
       "value": "half_tab_paracetamol_3x_a_day",
       "nameAudio": null,

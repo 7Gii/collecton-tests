@@ -1,5 +1,5 @@
 {
-  "id": "79436267-e1fc-414f-8154-81db82fe0f0f",
+  "id": "9c6b6265-ba65-4d48-a7f3-a0082aa40995",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_child_receive_inputs",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

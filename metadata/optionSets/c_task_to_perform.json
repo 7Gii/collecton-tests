@@ -1,17 +1,17 @@
 {
-  "id": "abffa9f7-54f9-44b7-a5a5-6e9947aeb0a6",
+  "id": "eb41fec6-819f-49f5-91bc-e022899a5f69",
   "name": "c_task_to_perform",
   "label": "c_task_to_perform",
   "options": [
     {
-      "id": "7c6df7fa-6f41-45a1-ae9a-0e04140d91a0",
+      "id": "d4acc871-6f40-43aa-8cdd-5c3e0498f9b9",
       "name": "Suivi",
       "value": "follow_up",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "a372aebc-e2df-4214-8c1c-d5ee85839112",
+      "id": "040fe4fd-0673-4e21-a8a4-1359c43389e3",
       "name": "Clôture",
       "value": "close_out",
       "nameAudio": null,

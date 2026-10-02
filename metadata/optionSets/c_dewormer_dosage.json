@@ -1,10 +1,10 @@
 {
-  "id": "eceaf019-e58f-4e64-a6fe-5c9503b600ba",
+  "id": "9e585b09-f16e-47a2-8294-dad3867f595a",
   "name": "c_dewormer_dosage",
   "label": "c_dewormer_dosage",
   "options": [
     {
-      "id": "f3b15d25-151e-4747-abb6-464a3865352b",
+      "id": "ce5c5ea6-5a15-4605-8e0f-a7894f70ac45",
       "name": "1/2 comprimé",
       "value": "half_tab",
       "nameAudio": null,
@@ -14,7 +14,7 @@
       }
     },
     {
-      "id": "63eeb056-d0d1-45ac-b85a-f31ed8157352",
+      "id": "9cb13902-b811-4cf7-a305-237d1c91147b",
       "name": "1 comprimé",
       "value": "one_tab",
       "nameAudio": null,
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "d865d01e-b10e-4609-8688-a9a6fc7e0f18",
+      "id": "902e47e5-73b8-40a6-ad0c-6078eb6de15d",
       "name": "1 comprimé",
       "value": "one_tab",
       "nameAudio": null,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "id": "bb86dd1b-c2a5-4d13-9cb4-7ddf160355b1",
+      "id": "b1793b86-2b32-4b80-bcc8-e2ed36cf924c",
       "name": "2 comprimés",
       "value": "two_tab",
       "nameAudio": null,

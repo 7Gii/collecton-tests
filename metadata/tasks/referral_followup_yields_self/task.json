@@ -1,5 +1,5 @@
 {
-  "id": "11505f80-6259-4c83-ae79-64d62c9f2147",
+  "id": "57afaec7-8799-4a48-ae3e-69e27730661b",
   "name": "referral_followup_yields_self",
   "title": "Suivi référence",
   "icon": "task_icon_default",
@@ -7,7 +7,7 @@
     "Auto-generated task rule."
   ],
   "appliesTo": "report",
-  "actionFormId": "6fd98f67-aebc-41a1-8658-a76a7c4b159d",
+  "actionFormId": "be8ad6b0-ad65-4ed6-9c05-d0b1c042c275",
   "events": [
     {
       "id": "+1",

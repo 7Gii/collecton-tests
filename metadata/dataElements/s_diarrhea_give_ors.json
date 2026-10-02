@@ -1,5 +1,5 @@
 {
-  "id": "3f1ff612-fd70-439b-96f2-f44ed287479b",
+  "id": "792e5706-6e26-4efb-8988-7dbc757f6ace",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_diarrhea_give_ors",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

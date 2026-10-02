@@ -1,10 +1,10 @@
 {
-  "id": "7e8c8af0-46f6-4d6e-b7a0-b54e058542bc",
+  "id": "58d61eb1-38b8-4b86-b602-a8852b9189a8",
   "name": "tb_test_result_chw__treatment_action",
   "label": "tb_test_result_chw__treatment_action",
   "options": [
     {
-      "id": "7f26d43c-746b-4f81-97e4-bd1131c1c8c3",
+      "id": "7657d869-39cb-4f27-b000-6ce72d0bf553",
       "name": "Chimio-prévention",
       "value": "chemoprevention",
       "nameAudio": null,
@@ -14,7 +14,7 @@
       }
     },
     {
-      "id": "6c56684c-01cb-465c-b36d-8a2c98143e5e",
+      "id": "12d7f0cb-524c-436a-aa7f-8aa3b1d1a90e",
       "name": "Tester pour TB",
       "value": "test_tb",
       "nameAudio": null,
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "9aff6921-43a7-4da3-a9c9-23014683aa87",
+      "id": "9342f92a-c0c0-41e7-a425-39e2e0146bb3",
       "name": "Suivi clinique simple",
       "value": "clinical_followup",
       "nameAudio": null,

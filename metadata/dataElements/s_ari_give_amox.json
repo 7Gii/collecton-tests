@@ -1,5 +1,5 @@
 {
-  "id": "95b62273-cd17-43b1-b059-86594cdf93bf",
+  "id": "4a7e5ff6-97e1-446f-be35-bbcb55a93072",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_ari_give_amox",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

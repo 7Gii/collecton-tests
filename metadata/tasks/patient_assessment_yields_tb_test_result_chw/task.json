@@ -1,5 +1,5 @@
 {
-  "id": "7ac1c50e-b8b9-4023-aae9-1d6fedc3289a",
+  "id": "f458ebe7-3cce-4009-bdff-914fcdb6cc40",
   "name": "patient_assessment_yields_tb_test_result_chw",
   "title": "Résultat TB",
   "icon": "task_icon_default",
@@ -7,7 +7,7 @@
     "Auto-generated task rule."
   ],
   "appliesTo": "report",
-  "actionFormId": "5c16ef67-f813-4300-bb16-396cde045a4c",
+  "actionFormId": "3dea8304-54d3-4ce2-8015-35df21379d4c",
   "events": [
     {
       "id": "event_1",

@@ -1,5 +1,5 @@
 {
-  "id": "c89d0f34-8116-40f2-9354-a11ed0a2f324",
+  "id": "dbbb5031-04f1-4c69-a096-0fdd2d295cb9",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "CAT_out_of_stock",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b1749540-8e86-4782-a818-08254d06c659",
+  "optionSetId": "a985e1dd-0984-4c97-9c43-46124c8f78cc",
   "tags": []
 }

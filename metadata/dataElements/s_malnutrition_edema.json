@@ -1,5 +1,5 @@
 {
-  "id": "c46733cb-e99f-4b35-8852-1abc5369d234",
+  "id": "802c7f00-67a5-4399-90f7-59b1cef4fdf0",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_malnutrition_edema",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

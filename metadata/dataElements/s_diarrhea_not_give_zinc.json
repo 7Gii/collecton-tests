@@ -1,5 +1,5 @@
 {
-  "id": "c484738f-23ab-45db-a27d-20d3ad51d7a6",
+  "id": "14f7df57-8fcd-4eac-aabc-3757e74a27e1",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_diarrhea_not_give_zinc",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "optionSetId": "1df3ec35-f6e5-47bc-82c9-e4eaf8a723ab",
   "tags": []
 }

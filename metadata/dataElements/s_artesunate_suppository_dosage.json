@@ -1,5 +1,5 @@
 {
-  "id": "a88bedd0-8846-4eea-8992-862a681cf154",
+  "id": "40eb8419-4256-47ca-956f-d2f8e33bd7e8",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_artesunate_suppository_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "59adf237-dfd6-48a3-b9a2-b06f9306966f",
+  "optionSetId": "b26d6d92-aa9d-45c8-b736-6bcc911765b9",
   "tags": []
 }

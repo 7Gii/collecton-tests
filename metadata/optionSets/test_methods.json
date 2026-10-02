@@ -1,31 +1,31 @@
 {
-  "id": "6221d53b-82e7-4e62-aa1e-d31739589485",
+  "id": "fcf784bd-015f-458f-ad7a-089deb224a92",
   "name": "test_methods",
   "label": "test_methods",
   "options": [
     {
-      "id": "cd563db7-9322-4bab-8d74-4c756520e700",
+      "id": "8080209d-7c29-4976-bb93-5fc02be46844",
       "name": "Microscopie",
       "value": "microscopy",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "53b49741-f67c-412b-a04e-24a4a6fb89d6",
+      "id": "2a267ed2-5887-4571-9f04-2097ac8a7183",
       "name": "GeneXpert",
       "value": "genexpert",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "574767ff-4fcb-4538-8023-ea1288858eb8",
+      "id": "a7660c9b-f121-4d82-9d5e-f40adf2f9d00",
       "name": "Cliniquement diagnostiquées",
       "value": "clinical_diagnosis",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "1b3bf74d-00a6-4af1-9417-ff5b7bb327d7",
+      "id": "a22c69d2-ba5f-43a2-b851-13eca10675a8",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

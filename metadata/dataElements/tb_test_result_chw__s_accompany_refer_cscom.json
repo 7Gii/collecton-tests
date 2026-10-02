@@ -1,0 +1,18 @@
+{
+  "id": "e8d2ba23-23a2-4aa0-8e54-bc6394c1710e",
+  "dataType": "select_one",
+  "organisation": "Muso",
+  "name": "tb_test_result_chw__s_accompany_refer_cscom",
+  "label": "Avez-vous accompagné / référé le patient au centre de santé ?",
+  "icon": "symbol-string",
+  "description": "",
+  "placeholder": "",
+  "hint": "",
+  "requiredMessage": "This value is required",
+  "validationMessage": "The value is invalid",
+  "defaultValue": "(app) => ''",
+  "calculationExpression": null,
+  "isConfidential": false,
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
+  "tags": []
+}

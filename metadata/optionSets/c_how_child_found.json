@@ -1,31 +1,31 @@
 {
-  "id": "2e8335b5-c396-47e7-972b-b705eac054c7",
+  "id": "1244b787-8c4f-4078-bd61-66dadef186b5",
   "name": "c_how_child_found",
   "label": "c_how_child_found",
   "options": [
     {
-      "id": "c4ccacbc-4013-4fc8-99d7-40bba3061693",
+      "id": "724a102a-d96f-4ca0-8ed2-9635670e3b9e",
       "name": "Au cours d’une Visite à Domicile",
       "value": "home_visit",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "abb3d15c-23a5-451c-8f94-4f1ebca81a01",
+      "id": "175c5048-fb94-492c-a50d-4374e537efa5",
       "name": "Enfant accompagné par ses parents chez l’ASC",
       "value": "accompanied_by_parents",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "f91d5505-1dd1-489c-a004-aaede5fd6aee",
+      "id": "af97fff9-fb55-48a2-b024-c450385a5bd5",
       "name": "Enfant et ses parents accompagnés chez l’ASC par un autre membre de la communauté",
       "value": "accompanied_by_community_member",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "09235dc9-8a7c-4a7a-b91d-f0ae5304002e",
+      "id": "e2e391f6-d765-416c-bdf9-62388b2caf11",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

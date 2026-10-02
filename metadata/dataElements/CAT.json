@@ -1,9 +1,9 @@
 {
-  "id": "3c5c8d9b-7df3-460d-ba9e-04b26abbb515",
+  "id": "454ae42a-df7b-4afa-a921-112fe1dfb5a7",
   "dataType": "select_one",
   "organisation": "Muso",
-  "name": "cat",
-  "label": "Quelle est la conduite à tenir?",
+  "name": "CAT",
+  "label": "Quel est votre CAT?",
   "icon": "symbol-string",
   "description": "",
   "placeholder": "",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "4ac1576f-f5a6-498e-ba15-301620611841",
+  "optionSetId": "1fde63d2-e29c-42ee-84d7-579eee10cfcf",
   "tags": []
 }

@@ -1,17 +1,17 @@
 {
-  "id": "fb6fd36a-e744-4023-af02-c89f80c6bf19",
+  "id": "be488596-707e-414d-8f7d-780ef5773566",
   "name": "no_treatment_reason",
   "label": "no_treatment_reason",
   "options": [
     {
-      "id": "0a6ef1bd-09f1-4037-8f80-34dcb1bda3bc",
+      "id": "f246d498-09c2-4403-8ed9-0812ae3342a3",
       "name": "Rupture",
       "value": "stock_out",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "e450a4ab-66c2-45e1-b9b5-4e55e8a4dc05",
+      "id": "ae22f390-8da9-4777-8b80-f0e029fbd704",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

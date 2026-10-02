@@ -1,5 +1,5 @@
 {
-  "id": "05e92dff-3e28-419c-83f5-6da0ef723ee0",
+  "id": "173f5ae6-feec-4a50-adf9-74a3ea0da9ac",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_inh_contraindication",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

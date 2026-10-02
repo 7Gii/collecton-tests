@@ -1,5 +1,5 @@
 {
-  "id": "c33d3e86-433f-4667-8dec-6d310e570fc8",
+  "id": "f052c536-181e-4a07-8d99-85372ce8d443",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_diagnosis_requested",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

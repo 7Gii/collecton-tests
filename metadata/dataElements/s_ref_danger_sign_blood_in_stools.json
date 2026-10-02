@@ -1,5 +1,5 @@
 {
-  "id": "e5bbbcc1-8ce0-4a60-b3bb-15dde0ceb559",
+  "id": "679d31e7-1c59-4e9b-b7c6-d6b5b632286c",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_ref_danger_sign_blood_in_stools",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

@@ -1,5 +1,5 @@
 {
-  "id": "0aa36782-dd8d-4253-b1f7-485c3f1eaef9",
+  "id": "fddceb4d-dc6a-4f36-9381-fa31aa83a9e8",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_given_albendazole_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "7cff8cc9-56ed-44ad-a1be-5de7f7385a0e",
+  "optionSetId": "8b61f32b-922e-47a0-962c-d54cfa3d2de9",
   "tags": []
 }

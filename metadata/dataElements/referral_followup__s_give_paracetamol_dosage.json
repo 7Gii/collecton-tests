@@ -1,5 +1,5 @@
 {
-  "id": "5e7fcaae-782a-4df8-a401-5b5baf7954c4",
+  "id": "25c058a1-0788-4f1d-a7c4-924bf413259c",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "referral_followup__s_give_paracetamol_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "e2d476b4-1f5f-4439-8549-88ce1e63e84d",
+  "optionSetId": "d54c30e9-6ddb-4543-8736-b1e5f67144db",
   "tags": []
 }

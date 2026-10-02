@@ -1,5 +1,5 @@
 {
-  "id": "f8b0c7e0-00db-45eb-a287-3817b1f37b5d",
+  "id": "d49b6cd8-4358-480d-addf-5ac1e74827ea",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_hiv_test_requested",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

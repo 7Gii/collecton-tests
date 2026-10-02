@@ -1,24 +1,24 @@
 {
-  "id": "468b7998-890a-4d0e-bfc8-d9d920c12582",
+  "id": "7251868f-3d2c-4c45-a36c-22c3931daebf",
   "name": "plumpy_not_given",
   "label": "plumpy_not_given",
   "options": [
     {
-      "id": "bee34d27-0003-4046-9329-ffc3dc8fe4dd",
+      "id": "26be804d-0727-464e-8a9d-b66be342db6a",
       "name": "Rupture de stock",
       "value": "out_of_stock",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "c4c5fa08-15c1-420e-a029-dafd239207df",
+      "id": "98efbbb3-36ba-4255-b7e5-294bbbc9652a",
       "name": "Enfant ne veut pas du plumpy",
       "value": "child_rejected_plumpy",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "4337c2ed-2ff6-4625-94bf-14fed7258abc",
+      "id": "a6d011da-1661-4aa7-a7c3-59f5bba95ba0",
       "name": "Autre",
       "value": "other",
       "nameAudio": null,

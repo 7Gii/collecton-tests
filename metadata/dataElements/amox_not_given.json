@@ -1,5 +1,5 @@
 {
-  "id": "262c4d23-e15d-439d-a324-b3e7e78560a6",
+  "id": "4aa1c765-5801-49bd-9bfc-bfdff6c25ad5",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "amox_not_given",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "2fc014fa-a3d6-4f68-84d0-ffd6e579dfa0",
+  "optionSetId": "1df3ec35-f6e5-47bc-82c9-e4eaf8a723ab",
   "tags": []
 }

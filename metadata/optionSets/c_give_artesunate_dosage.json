@@ -1,10 +1,10 @@
 {
-  "id": "59adf237-dfd6-48a3-b9a2-b06f9306966f",
+  "id": "b26d6d92-aa9d-45c8-b736-6bcc911765b9",
   "name": "c_give_artesunate_dosage",
   "label": "c_give_artesunate_dosage",
   "options": [
     {
-      "id": "0aa9745a-510c-4895-ada9-4d51303c2ab8",
+      "id": "ce09fad8-53c7-479e-9cdb-3b55b7d8e0e6",
       "name": "1 suppositoire de 50 mg",
       "value": "1_artesunate_50mg",
       "nameAudio": null,
@@ -14,7 +14,7 @@
       }
     },
     {
-      "id": "c1a2bb86-5718-480b-83cf-ee8f255445f9",
+      "id": "a381cb22-9b4b-4014-85c7-3d018f7c7535",
       "name": "2 suppositoires de 50 mg",
       "value": "2_artesunate_50mg",
       "nameAudio": null,
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "b67f5e84-2823-498e-9003-ea1f11822b56",
+      "id": "77e895e0-5909-4c24-9c3b-2e74d2764758",
       "name": "4 suppositoires de 50 mg",
       "value": "4_artesunate_50mg",
       "nameAudio": null,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "id": "35bebe6b-74e2-4571-8a56-b2af82736ca8",
+      "id": "eb3180a9-e538-4490-9d78-2c570be8306e",
       "name": "1 suppositoire de 100 mg",
       "value": "1_artesunate_100mg",
       "nameAudio": null,
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "1bdeeba6-fb6e-4232-ac43-8fd7e64d79b1",
+      "id": "fa0febab-631c-4c1f-828e-f5ed0bf097cb",
       "name": "2 suppositoires de 100 mg",
       "value": "2_artesunate_100mg",
       "nameAudio": null,
@@ -54,7 +54,7 @@
       }
     },
     {
-      "id": "2fbbbee3-3dd3-4c54-8e93-b5495d0159d2",
+      "id": "1e456c13-59e1-4edc-9aee-40a016ca1f76",
       "name": "4 suppositoires de 100 mg",
       "value": "4_artesunate_100mg",
       "nameAudio": null,
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "2f81fb57-9678-4cfa-a73c-649358518412",
+      "id": "7cee67c9-ffee-4345-b4c9-014561eb7cdf",
       "name": "1 suppositoire de 200 mg",
       "value": "1_artesunate_200mg",
       "nameAudio": null,
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "385914c2-bd22-47e4-b725-3145d336d913",
+      "id": "a3323f58-3e2e-4f5a-8c2b-f1266b555e7f",
       "name": "2 suppositoires de 200 mg",
       "value": "2_artesunate_200mg",
       "nameAudio": null,
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "59d36248-e4ee-4286-8b96-f8dc81c87dc0",
+      "id": "9fc077d7-2ee2-40b4-8365-7b018c6007e6",
       "name": "4 suppositoires de 200 mg",
       "value": "4_artesunate_200mg",
       "nameAudio": null,

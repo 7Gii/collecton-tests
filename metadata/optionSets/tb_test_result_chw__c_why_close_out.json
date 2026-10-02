@@ -1,45 +1,45 @@
 {
-  "id": "72e1a99c-505b-480c-b691-6bf974071a82",
+  "id": "b704cd98-bb61-40cd-845b-e534acd4affa",
   "name": "tb_test_result_chw__c_why_close_out",
   "label": "tb_test_result_chw__c_why_close_out",
   "options": [
     {
-      "id": "cf6045aa-99dc-4295-850f-1f7821618332",
+      "id": "11a91f9b-6e6f-4a76-a293-ae26eb8218e6",
       "name": "Le patient est décédé",
       "value": "patient_died",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "c5519e91-f3c6-4029-af35-3b8a287322d4",
+      "id": "9bdab6ca-3fc5-4407-8d40-7785a41f7b1d",
       "name": "Transfert du patient",
       "value": "transfer",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "bb04c04e-0c70-4bf2-ae41-759ac3939ad3",
+      "id": "128cbac4-e1df-47af-91b1-d351430d3f48",
       "name": "Refus des parents pour divers raisons",
       "value": "refusal_of_parent",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "9ec17376-139d-4f69-a92b-1476cf6b1187",
+      "id": "c12dd7ca-9aca-491a-9509-418c69861f30",
       "name": "Perte de vue",
       "value": "loss_of_sight",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "3f95115e-c936-4c6f-bdc3-163c4aa66ac6",
+      "id": "3cf4962d-8e2a-4900-8e58-d247fe330fd0",
       "name": "Non évalué",
       "value": "not_evaluated",
       "nameAudio": null,
       "icon": null
     },
     {
-      "id": "0b801a9e-e903-423b-b0cb-06ce6f9328c8",
+      "id": "8e1c6b73-f963-44a6-9962-3b27c7d1c1bf",
       "name": "Patient hospitalisé",
       "value": "hospital",
       "nameAudio": null,

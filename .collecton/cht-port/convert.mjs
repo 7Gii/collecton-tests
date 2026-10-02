@@ -279,8 +279,11 @@ const optionSetFor = (list) => {
   const shape = (opts) => opts.map(o => ({ name: o.name, value: o.value, properties: o.properties ?? null }));
   const existing = listCollection(ctx, 'optionSets').find(os => sameOptions(shape(os.options ?? []), shape(options)));
   if (existing) return existing.name;
+  // Names are file names: a name taken, even with another case (c_vitaminA / c_vitamina), is scoped.
+  const taken = (n) => listCollection(ctx, 'optionSets').some(os => String(os.name).toLowerCase() === n.toLowerCase());
   let name = list;
-  if (listCollection(ctx, 'optionSets').some(os => os.name === name)) name = `${FORM}__${list}`;
+  if (taken(name)) name = `${FORM}__${list}`;
+  if (taken(name)) throw new Error(`Option set name ${name} is already taken`);
   authorize('option_set', name);
   forms.createOptionSet(ctx, name, options, name);
   return name;
@@ -292,11 +295,14 @@ const dataElementFor = (plan) => {
   const fits = (de) => de.dataType === plan.dataType && (de.optionSetId ?? null) === optionSetId;
   // A data element name starts with a letter or a digit; the field key keeps the XLSForm name.
   const base = /^[A-Za-z0-9]/.test(plan.row.name) ? plan.row.name : `${FORM}__${plan.row.name.replace(/^[^A-Za-z0-9]+/, '')}`;
-  const own = all.find(de => de.name === base);
-  if (own && fits(own)) return own.name;
+  // Names are file names: compare without case (CAT / cat would share a file).
+  const sameName = (a, b) => String(a).toLowerCase() === String(b).toLowerCase();
+  const own = all.find(de => sameName(de.name, base));
+  if (own && own.name === base && fits(own)) return own.name;
   const name = own ? `${FORM}__${base}` : base;
-  const again = all.find(de => de.name === name);
-  if (again && fits(again)) return again.name;
+  const again = all.find(de => sameName(de.name, name));
+  if (again && again.name === name && fits(again)) return again.name;
+  if (again) throw new Error(`Data element name ${name} is already taken`);
   authorize('data_element', plan.label);
   const { dataElement } = forms.createDataElement(ctx, { label: plan.label, name, dataType: plan.dataType, optionSetName: optionSet ?? undefined });
   // The template fills placeholder, hint and description: the mobile app would show them.

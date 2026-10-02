@@ -1,10 +1,10 @@
 {
-  "id": "4ac1576f-f5a6-498e-ba15-301620611841",
+  "id": "f4048766-b468-44c2-b93b-ce081c117ee0",
   "name": "moderate_malnutrition_followup__CAT",
   "label": "moderate_malnutrition_followup__CAT",
   "options": [
     {
-      "id": "7b8c48c5-2ee5-42d3-9b9d-273a9672ae64",
+      "id": "4a2fee05-1fb8-4087-ae8e-2f3aa567e97e",
       "name": "Poursuivre le suivi",
       "value": "continue_followup",
       "nameAudio": null,
@@ -14,7 +14,7 @@
       }
     },
     {
-      "id": "180cd626-b1ed-47e3-af29-7216e5dde4df",
+      "id": "95700bc3-8971-45a4-918d-9a051004ed49",
       "name": "Guéri",
       "value": "recovered",
       "nameAudio": null,
@@ -24,7 +24,7 @@
       }
     },
     {
-      "id": "fbbbec0a-c58f-4931-a66b-2ef12f17fe96",
+      "id": "b64c4c26-4a93-43c7-894b-367762993b2b",
       "name": "Abandon",
       "value": "abandoned",
       "nameAudio": null,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "id": "3081d542-e964-4c38-8b95-5abf7a3fb07a",
+      "id": "58316abd-2a18-45e2-8fb3-8fe8b86e37c5",
       "name": "Référer au CSCOM sans arrêt de suivi",
       "value": "refer_with_followup",
       "nameAudio": null,
@@ -44,7 +44,7 @@
       }
     },
     {
-      "id": "b82b6901-f8fb-47d7-beaf-985bb8296999",
+      "id": "e48fe23f-f585-48cb-875b-d323a1a26d8b",
       "name": "Référer au CSCOM avec arrêt de Suivi",
       "value": "refer_with_no_followup",
       "nameAudio": null,

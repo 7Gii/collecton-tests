@@ -1,5 +1,5 @@
 {
-  "id": "cf855b9b-e719-4527-b9d8-b0cac687d0a3",
+  "id": "486a66fa-c24b-4d35-824b-194706076f19",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_malnutrition_tdr_result_new",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "f1ddc863-43c4-49dd-8fd9-c9b582b3c456",
+  "optionSetId": "cd9c9e2b-3a41-45d7-bca9-fa4ae12f263c",
   "tags": []
 }

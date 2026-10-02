@@ -1,5 +1,5 @@
 {
-  "id": "1545551a-821e-45a0-bd70-7d72124e85ff",
+  "id": "ecbcdba6-80da-4c84-8cff-126a547b0eb4",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_followup_today",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

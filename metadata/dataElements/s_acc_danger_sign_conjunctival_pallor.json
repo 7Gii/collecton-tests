@@ -1,5 +1,5 @@
 {
-  "id": "43c6d072-6427-4dca-ab03-ce1ba9eb8642",
+  "id": "df22988e-3a2e-47e9-88aa-f9225e8fe041",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_acc_danger_sign_conjunctival_pallor",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

@@ -1,5 +1,5 @@
 {
-  "id": "d92dde8d-25dc-4cb1-b630-91c0f90cbace",
+  "id": "672d69c8-78e2-4325-9850-e819a4492cca",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "severe_abdominal_pain",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }

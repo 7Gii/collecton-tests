@@ -1,5 +1,5 @@
 {
-  "id": "535be5bd-5bcd-4953-99c1-db1b52a8213c",
+  "id": "6cb94b1b-d452-494e-8dd6-03cbb863cd5b",
   "dataType": "select_one",
   "organisation": "Muso",
   "name": "s_diarrhea_zinc_dosage",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "61a8c90a-0279-4c53-8982-176828c914bc",
+  "optionSetId": "aa16ee86-d191-4988-8bdd-fc4374330d95",
   "tags": []
 }

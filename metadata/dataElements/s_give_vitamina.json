@@ -1,8 +1,8 @@
 {
-  "id": "53c70e4b-15f8-4074-936f-82a1263405c8",
+  "id": "ed26598c-c90c-48a6-8b4f-d564ae3ead4b",
   "dataType": "select_one",
   "organisation": "Muso",
-  "name": "s_give_vitaminA",
+  "name": "s_give_vitamina",
   "label": "Avez-vous donné de la vitamine A?",
   "icon": "symbol-string",
   "description": "",
@@ -13,6 +13,6 @@
   "defaultValue": "(app) => ''",
   "calculationExpression": null,
   "isConfidential": false,
-  "optionSetId": "b21e4756-cc86-4d84-8502-bd6f5b98465c",
+  "optionSetId": "1845352b-11c1-438f-8e0f-197618cb9abb",
   "tags": []
 }
